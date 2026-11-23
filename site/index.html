@@ -261,7 +261,7 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
     <p class="tl-sub">Click a column to rank by it; click again to flip. Arrows show movement in merged-PR rank since yesterday (UTC), shown while every project is counted.</p>
     <div class="tl-controls">
       <input class="tl-input" id="tl-find" type="search" placeholder="Find a name" aria-label="Find a name">
-      <label class="tl-check"><input type="checkbox" id="tl-maint"> Include maintainers</label>
+      <label class="tl-check"><input type="checkbox" id="tl-maint" checked> Include maintainers</label>
       <span class="tl-count" data-draw="board_count"></span>
     </div>
     <div class="tl-table-wrap">
@@ -737,7 +737,7 @@ dash.calc('areas_view', {
 
   // 04 Rankings.
   const textCols = {name: 1, first_day: 1, main_area: 1};
-  window.__tl = window.__tl || {sort: 'prs_merged', dir: 'desc', find: '', maint: false};
+  window.__tl = window.__tl || {sort: 'prs_merged', dir: 'desc', find: '', maint: true};
   const st = window.__tl;
   document.querySelectorAll('#tl-board th[data-col]').forEach((th) => {
     const b = th.querySelector('button');
@@ -754,6 +754,7 @@ dash.calc('areas_view', {
     });
   });
   document.querySelectorAll('#tl-find').forEach((s) => s.addEventListener('input', () => { st.find = s.value.trim().toLowerCase(); dash.draw('board_rows'); dash.draw('board_count'); }));
+  document.querySelectorAll('#tl-maint').forEach((s) => { s.checked = st.maint; }); // browsers can restore an old state on reload
   document.querySelectorAll('#tl-maint').forEach((s) => s.addEventListener('change', () => { st.maint = s.checked; dash.draw('board_rows'); dash.draw('board_count'); }));
 
   function view(data) {
