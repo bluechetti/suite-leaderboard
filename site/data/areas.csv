@@ -1,15 +1,15 @@
 area,commits,people,leader,leader_commits,leader_share,second,second_commits
-Geometry kernel (SolidCore),4380,196,bherbruck,990,23,brett19,706
-CamCraft,3563,21,NeoTech,1622,46,mkinney,1595
-Docs and planning,3337,245,bherbruck,1126,34,brett19,323
+Geometry kernel (SolidCore),4383,196,bherbruck,990,23,brett19,709
+CamCraft,3570,22,NeoTech,1625,46,mkinney,1597
+Docs and planning,3338,245,bherbruck,1126,34,brett19,324
 User interface and viewport,3216,315,bherbruck,497,15,semmelrinde,272
 Modeling engine and document,2882,258,bherbruck,450,16,jyviko,221
 Tests and tooling,1925,152,bherbruck,727,38,brett19,211
-cadmpeg,1696,22,raykholo,531,31,pcurve,423
-PCBCraft,1261,15,travle1,651,52,Warmbird,467
-FieldCraft,1170,17,jyviko,972,83,bluecmd,138
+cadmpeg,1698,21,pcurve,711,42,raykholo,532
+PCBCraft,1266,15,travle1,651,51,Warmbird,472
+FieldCraft,1176,17,jyviko,978,83,bluecmd,138
 MCP / CLI / plugins,809,153,bherbruck,184,23,jyviko,76
-Dutchman,706,7,raykholo,688,97,zorbathut,7
+Dutchman,706,6,raykholo,688,97,zorbathut,7
 File import and export,395,79,bherbruck,70,18,jyviko,54
 Desktop and web apps,311,89,bherbruck,96,31,raykholo,24
 Sketch and constraints,270,69,bherbruck,45,17,raykholo,17

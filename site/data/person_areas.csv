@@ -9,7 +9,7 @@ id,product,area,commits
 1,SolidCraft,Desktop and web apps,24
 1,SolidCraft,File import and export,22
 1,SolidCraft,Sketch and constraints,17
-1,cadmpeg,cadmpeg,531
+1,cadmpeg,cadmpeg,532
 2,CamCraft,CamCraft,26
 2,FieldCraft,FieldCraft,3
 2,Other,Website and other repos,60
@@ -23,9 +23,9 @@ id,product,area,commits
 2,SolidCraft,Desktop and web apps,96
 2,SolidCraft,File import and export,70
 2,SolidCraft,Sketch and constraints,45
-3,CamCraft,CamCraft,1595
-4,SolidCraft,Geometry kernel (SolidCore),706
-4,SolidCraft,Docs and planning,323
+3,CamCraft,CamCraft,1597
+4,SolidCraft,Geometry kernel (SolidCore),709
+4,SolidCraft,Docs and planning,324
 4,SolidCraft,Tests and tooling,211
 4,SolidCraft,Modeling engine and document,11
 4,SolidCraft,User interface and viewport,9
@@ -33,19 +33,19 @@ id,product,area,commits
 4,SolidCraft,File import and export,6
 4,SolidCraft,Sketch and constraints,2
 4,SolidCraft,Desktop and web apps,2
-5,CamCraft,CamCraft,1622
-6,FieldCraft,FieldCraft,972
-6,Other,Website and other repos,4
-6,SolidCraft,Geometry kernel (SolidCore),668
-6,SolidCraft,Modeling engine and document,221
-6,SolidCraft,Docs and planning,193
-6,SolidCraft,Tests and tooling,167
-6,SolidCraft,User interface and viewport,130
-6,SolidCraft,MCP / CLI / plugins,76
-6,SolidCraft,File import and export,54
-6,SolidCraft,Desktop and web apps,20
-6,SolidCraft,Sketch and constraints,13
-7,cadmpeg,cadmpeg,423
+5,cadmpeg,cadmpeg,711
+6,CamCraft,CamCraft,1625
+7,FieldCraft,FieldCraft,978
+7,Other,Website and other repos,4
+7,SolidCraft,Geometry kernel (SolidCore),668
+7,SolidCraft,Modeling engine and document,221
+7,SolidCraft,Docs and planning,193
+7,SolidCraft,Tests and tooling,167
+7,SolidCraft,User interface and viewport,130
+7,SolidCraft,MCP / CLI / plugins,76
+7,SolidCraft,File import and export,54
+7,SolidCraft,Desktop and web apps,20
+7,SolidCraft,Sketch and constraints,13
 8,FieldCraft,FieldCraft,16
 8,SolidCraft,User interface and viewport,272
 8,SolidCraft,Modeling engine and document,83
@@ -146,383 +146,383 @@ id,product,area,commits
 20,SolidCraft,MCP / CLI / plugins,4
 20,SolidCraft,Desktop and web apps,3
 20,SolidCraft,Sketch and constraints,1
-21,cadmpeg,cadmpeg,288
-22,SolidCraft,User interface and viewport,73
-22,SolidCraft,Modeling engine and document,42
-22,SolidCraft,Docs and planning,22
-22,SolidCraft,MCP / CLI / plugins,17
-22,SolidCraft,Geometry kernel (SolidCore),14
-22,SolidCraft,Sketch and constraints,10
-22,SolidCraft,Tests and tooling,8
-22,SolidCraft,Desktop and web apps,6
-22,SolidCraft,File import and export,6
-23,SolidCraft,Modeling engine and document,73
-23,SolidCraft,User interface and viewport,37
-23,SolidCraft,Geometry kernel (SolidCore),10
-23,SolidCraft,Docs and planning,3
-23,SolidCraft,Desktop and web apps,2
-23,SolidCraft,MCP / CLI / plugins,1
+21,SolidCraft,User interface and viewport,73
+21,SolidCraft,Modeling engine and document,42
+21,SolidCraft,Docs and planning,22
+21,SolidCraft,MCP / CLI / plugins,17
+21,SolidCraft,Geometry kernel (SolidCore),14
+21,SolidCraft,Sketch and constraints,10
+21,SolidCraft,Tests and tooling,8
+21,SolidCraft,Desktop and web apps,6
+21,SolidCraft,File import and export,6
+22,SolidCraft,Modeling engine and document,73
+22,SolidCraft,User interface and viewport,37
+22,SolidCraft,Geometry kernel (SolidCore),10
+22,SolidCraft,Docs and planning,3
+22,SolidCraft,Desktop and web apps,2
+22,SolidCraft,MCP / CLI / plugins,1
+22,SolidCraft,File import and export,1
+22,SolidCraft,Tests and tooling,1
+23,SolidCraft,Docs and planning,51
+23,SolidCraft,Geometry kernel (SolidCore),50
+23,SolidCraft,Tests and tooling,48
+23,SolidCraft,User interface and viewport,23
+23,SolidCraft,Modeling engine and document,18
+23,SolidCraft,MCP / CLI / plugins,8
+23,SolidCraft,Sketch and constraints,7
 23,SolidCraft,File import and export,1
-23,SolidCraft,Tests and tooling,1
-24,SolidCraft,Docs and planning,51
-24,SolidCraft,Geometry kernel (SolidCore),50
-24,SolidCraft,Tests and tooling,48
-24,SolidCraft,User interface and viewport,23
-24,SolidCraft,Modeling engine and document,18
+23,SolidCraft,Desktop and web apps,1
+23,cadmpeg,cadmpeg,2
+24,SolidCraft,Modeling engine and document,50
+24,SolidCraft,User interface and viewport,37
+24,SolidCraft,Docs and planning,12
 24,SolidCraft,MCP / CLI / plugins,8
-24,SolidCraft,Sketch and constraints,7
-24,SolidCraft,File import and export,1
-24,SolidCraft,Desktop and web apps,1
-24,cadmpeg,cadmpeg,2
-25,SolidCraft,Modeling engine and document,50
-25,SolidCraft,User interface and viewport,37
-25,SolidCraft,Docs and planning,12
-25,SolidCraft,MCP / CLI / plugins,8
-25,SolidCraft,Sketch and constraints,8
-25,SolidCraft,File import and export,6
-25,SolidCraft,Desktop and web apps,5
-25,SolidCraft,Tests and tooling,5
-25,SolidCraft,Geometry kernel (SolidCore),3
-26,SolidCraft,User interface and viewport,60
-26,SolidCraft,Modeling engine and document,36
-26,SolidCraft,Docs and planning,13
-26,SolidCraft,MCP / CLI / plugins,11
-26,SolidCraft,Tests and tooling,6
-26,SolidCraft,Geometry kernel (SolidCore),5
-26,SolidCraft,Desktop and web apps,4
-26,SolidCraft,Sketch and constraints,2
-26,SolidCraft,File import and export,1
-27,SolidCraft,Geometry kernel (SolidCore),88
-27,SolidCraft,Docs and planning,86
-27,SolidCraft,Tests and tooling,5
-27,SolidCraft,Modeling engine and document,1
-27,SolidCraft,User interface and viewport,1
-28,SolidCraft,Geometry kernel (SolidCore),67
-28,SolidCraft,Docs and planning,41
-28,SolidCraft,Tests and tooling,14
-28,SolidCraft,User interface and viewport,12
-28,SolidCraft,Modeling engine and document,11
-28,SolidCraft,MCP / CLI / plugins,4
-29,SolidCraft,Modeling engine and document,44
-29,SolidCraft,User interface and viewport,37
-29,SolidCraft,MCP / CLI / plugins,35
-29,SolidCraft,Docs and planning,27
-29,SolidCraft,Geometry kernel (SolidCore),18
-29,SolidCraft,Tests and tooling,13
-29,SolidCraft,Desktop and web apps,7
-29,SolidCraft,File import and export,6
-29,SolidCraft,Sketch and constraints,4
-30,Other,Website and other repos,71
-30,SolidCraft,Docs and planning,78
-30,SolidCraft,User interface and viewport,56
-30,SolidCraft,Modeling engine and document,35
-30,SolidCraft,Tests and tooling,28
-30,SolidCraft,Geometry kernel (SolidCore),26
-30,SolidCraft,File import and export,19
-30,SolidCraft,MCP / CLI / plugins,14
-30,SolidCraft,Desktop and web apps,4
-30,SolidCraft,Sketch and constraints,2
-31,SolidCraft,Geometry kernel (SolidCore),59
-31,SolidCraft,Docs and planning,41
-31,SolidCraft,Modeling engine and document,13
-31,SolidCraft,User interface and viewport,13
-31,SolidCraft,Tests and tooling,8
-31,SolidCraft,MCP / CLI / plugins,3
-31,SolidCraft,Sketch and constraints,1
-32,PCBCraft,PCBCraft,467
+24,SolidCraft,Sketch and constraints,8
+24,SolidCraft,File import and export,6
+24,SolidCraft,Desktop and web apps,5
+24,SolidCraft,Tests and tooling,5
+24,SolidCraft,Geometry kernel (SolidCore),3
+25,SolidCraft,User interface and viewport,60
+25,SolidCraft,Modeling engine and document,36
+25,SolidCraft,Docs and planning,13
+25,SolidCraft,MCP / CLI / plugins,11
+25,SolidCraft,Tests and tooling,6
+25,SolidCraft,Geometry kernel (SolidCore),5
+25,SolidCraft,Desktop and web apps,4
+25,SolidCraft,Sketch and constraints,2
+25,SolidCraft,File import and export,1
+26,SolidCraft,Geometry kernel (SolidCore),88
+26,SolidCraft,Docs and planning,86
+26,SolidCraft,Tests and tooling,5
+26,SolidCraft,Modeling engine and document,1
+26,SolidCraft,User interface and viewport,1
+27,SolidCraft,Geometry kernel (SolidCore),67
+27,SolidCraft,Docs and planning,41
+27,SolidCraft,Tests and tooling,14
+27,SolidCraft,User interface and viewport,12
+27,SolidCraft,Modeling engine and document,11
+27,SolidCraft,MCP / CLI / plugins,4
+28,SolidCraft,Modeling engine and document,44
+28,SolidCraft,User interface and viewport,37
+28,SolidCraft,MCP / CLI / plugins,35
+28,SolidCraft,Docs and planning,27
+28,SolidCraft,Geometry kernel (SolidCore),18
+28,SolidCraft,Tests and tooling,13
+28,SolidCraft,Desktop and web apps,7
+28,SolidCraft,File import and export,6
+28,SolidCraft,Sketch and constraints,4
+29,Other,Website and other repos,71
+29,SolidCraft,Docs and planning,78
+29,SolidCraft,User interface and viewport,56
+29,SolidCraft,Modeling engine and document,35
+29,SolidCraft,Tests and tooling,28
+29,SolidCraft,Geometry kernel (SolidCore),26
+29,SolidCraft,File import and export,19
+29,SolidCraft,MCP / CLI / plugins,14
+29,SolidCraft,Desktop and web apps,4
+29,SolidCraft,Sketch and constraints,2
+30,SolidCraft,Geometry kernel (SolidCore),59
+30,SolidCraft,Docs and planning,41
+30,SolidCraft,Modeling engine and document,13
+30,SolidCraft,User interface and viewport,13
+30,SolidCraft,Tests and tooling,8
+30,SolidCraft,MCP / CLI / plugins,3
+30,SolidCraft,Sketch and constraints,1
+31,PCBCraft,PCBCraft,472
+31,SolidCraft,Desktop and web apps,1
+31,SolidCraft,User interface and viewport,1
+32,SolidCraft,Modeling engine and document,31
+32,SolidCraft,User interface and viewport,29
+32,SolidCraft,File import and export,10
+32,SolidCraft,Docs and planning,7
+32,SolidCraft,Geometry kernel (SolidCore),7
+32,SolidCraft,Sketch and constraints,5
+32,SolidCraft,Tests and tooling,4
 32,SolidCraft,Desktop and web apps,1
-32,SolidCraft,User interface and viewport,1
-33,SolidCraft,Modeling engine and document,31
-33,SolidCraft,User interface and viewport,29
-33,SolidCraft,File import and export,10
-33,SolidCraft,Docs and planning,7
-33,SolidCraft,Geometry kernel (SolidCore),7
-33,SolidCraft,Sketch and constraints,5
-33,SolidCraft,Tests and tooling,4
+32,SolidCraft,MCP / CLI / plugins,1
+33,SolidCraft,User interface and viewport,36
+33,SolidCraft,Modeling engine and document,24
+33,SolidCraft,Geometry kernel (SolidCore),15
+33,SolidCraft,Docs and planning,12
+33,SolidCraft,Sketch and constraints,12
+33,SolidCraft,Tests and tooling,2
 33,SolidCraft,Desktop and web apps,1
-33,SolidCraft,MCP / CLI / plugins,1
-34,SolidCraft,User interface and viewport,36
-34,SolidCraft,Modeling engine and document,24
-34,SolidCraft,Geometry kernel (SolidCore),15
-34,SolidCraft,Docs and planning,12
-34,SolidCraft,Sketch and constraints,12
-34,SolidCraft,Tests and tooling,2
-34,SolidCraft,Desktop and web apps,1
-35,Dutchman,Dutchman,7
-35,SolidCraft,User interface and viewport,4
-35,SolidCraft,Geometry kernel (SolidCore),3
-35,SolidCraft,Modeling engine and document,2
-35,SolidCraft,Docs and planning,1
-35,cadmpeg,cadmpeg,49
-36,SolidCraft,User interface and viewport,40
-36,SolidCraft,Modeling engine and document,28
-36,SolidCraft,Geometry kernel (SolidCore),10
-36,SolidCraft,Tests and tooling,7
-36,SolidCraft,Docs and planning,6
+34,Dutchman,Dutchman,7
+34,SolidCraft,User interface and viewport,4
+34,SolidCraft,Geometry kernel (SolidCore),3
+34,SolidCraft,Modeling engine and document,2
+34,SolidCraft,Docs and planning,1
+34,cadmpeg,cadmpeg,50
+35,SolidCraft,User interface and viewport,40
+35,SolidCraft,Modeling engine and document,28
+35,SolidCraft,Geometry kernel (SolidCore),10
+35,SolidCraft,Tests and tooling,7
+35,SolidCraft,Docs and planning,6
+35,SolidCraft,Sketch and constraints,4
+35,SolidCraft,Desktop and web apps,2
+36,SolidCraft,User interface and viewport,41
+36,SolidCraft,Modeling engine and document,27
+36,SolidCraft,MCP / CLI / plugins,6
+36,SolidCraft,Tests and tooling,5
 36,SolidCraft,Sketch and constraints,4
+36,SolidCraft,Docs and planning,4
 36,SolidCraft,Desktop and web apps,2
-37,SolidCraft,User interface and viewport,41
-37,SolidCraft,Modeling engine and document,27
-37,SolidCraft,MCP / CLI / plugins,6
-37,SolidCraft,Tests and tooling,5
-37,SolidCraft,Sketch and constraints,4
-37,SolidCraft,Docs and planning,4
-37,SolidCraft,Desktop and web apps,2
-37,SolidCraft,Geometry kernel (SolidCore),1
-38,SolidCraft,User interface and viewport,25
-38,SolidCraft,Modeling engine and document,22
-38,SolidCraft,Docs and planning,6
-38,SolidCraft,Geometry kernel (SolidCore),6
-38,SolidCraft,Tests and tooling,3
-38,SolidCraft,Sketch and constraints,2
-38,SolidCraft,MCP / CLI / plugins,2
-38,SolidCraft,File import and export,1
-39,SolidCraft,Modeling engine and document,40
-39,SolidCraft,User interface and viewport,8
-39,SolidCraft,Docs and planning,3
-39,SolidCraft,MCP / CLI / plugins,1
-40,SolidCraft,User interface and viewport,47
-40,SolidCraft,MCP / CLI / plugins,2
-40,SolidCraft,Tests and tooling,1
-40,SolidCraft,Docs and planning,1
-41,SolidCraft,Geometry kernel (SolidCore),23
-41,SolidCraft,Modeling engine and document,11
-41,SolidCraft,User interface and viewport,11
-41,SolidCraft,Desktop and web apps,2
-41,SolidCraft,Docs and planning,2
-41,SolidCraft,Tests and tooling,2
-42,SolidCraft,Modeling engine and document,43
-42,SolidCraft,Docs and planning,7
-42,SolidCraft,MCP / CLI / plugins,7
-42,SolidCraft,Geometry kernel (SolidCore),4
-42,SolidCraft,User interface and viewport,3
-42,SolidCraft,Tests and tooling,3
-42,SolidCraft,Desktop and web apps,1
-43,SolidCraft,Geometry kernel (SolidCore),41
-43,SolidCraft,Docs and planning,19
-43,SolidCraft,Tests and tooling,6
-43,SolidCraft,File import and export,2
-44,SolidCraft,User interface and viewport,29
-44,SolidCraft,Modeling engine and document,22
-44,SolidCraft,Docs and planning,10
-44,SolidCraft,MCP / CLI / plugins,3
-44,SolidCraft,Tests and tooling,3
-44,SolidCraft,Sketch and constraints,2
-44,SolidCraft,Geometry kernel (SolidCore),1
-45,SolidCraft,User interface and viewport,34
-45,SolidCraft,Modeling engine and document,14
-45,SolidCraft,Geometry kernel (SolidCore),8
-45,SolidCraft,Docs and planning,5
-45,SolidCraft,MCP / CLI / plugins,2
+36,SolidCraft,Geometry kernel (SolidCore),1
+37,SolidCraft,User interface and viewport,25
+37,SolidCraft,Modeling engine and document,22
+37,SolidCraft,Docs and planning,6
+37,SolidCraft,Geometry kernel (SolidCore),6
+37,SolidCraft,Tests and tooling,3
+37,SolidCraft,Sketch and constraints,2
+37,SolidCraft,MCP / CLI / plugins,2
+37,SolidCraft,File import and export,1
+38,SolidCraft,Modeling engine and document,40
+38,SolidCraft,User interface and viewport,8
+38,SolidCraft,Docs and planning,3
+38,SolidCraft,MCP / CLI / plugins,1
+39,SolidCraft,User interface and viewport,47
+39,SolidCraft,MCP / CLI / plugins,2
+39,SolidCraft,Docs and planning,1
+39,SolidCraft,Tests and tooling,1
+40,SolidCraft,Geometry kernel (SolidCore),23
+40,SolidCraft,Modeling engine and document,11
+40,SolidCraft,User interface and viewport,11
+40,SolidCraft,Desktop and web apps,2
+40,SolidCraft,Docs and planning,2
+40,SolidCraft,Tests and tooling,2
+41,SolidCraft,Modeling engine and document,43
+41,SolidCraft,Docs and planning,7
+41,SolidCraft,MCP / CLI / plugins,7
+41,SolidCraft,Geometry kernel (SolidCore),4
+41,SolidCraft,User interface and viewport,3
+41,SolidCraft,Tests and tooling,3
+41,SolidCraft,Desktop and web apps,1
+42,SolidCraft,Geometry kernel (SolidCore),41
+42,SolidCraft,Docs and planning,19
+42,SolidCraft,Tests and tooling,6
+42,SolidCraft,File import and export,2
+43,SolidCraft,User interface and viewport,29
+43,SolidCraft,Modeling engine and document,22
+43,SolidCraft,Docs and planning,10
+43,SolidCraft,MCP / CLI / plugins,3
+43,SolidCraft,Tests and tooling,3
+43,SolidCraft,Sketch and constraints,2
+43,SolidCraft,Geometry kernel (SolidCore),1
+44,SolidCraft,User interface and viewport,34
+44,SolidCraft,Modeling engine and document,14
+44,SolidCraft,Geometry kernel (SolidCore),8
+44,SolidCraft,Docs and planning,5
+44,SolidCraft,MCP / CLI / plugins,2
+44,SolidCraft,File import and export,1
+44,SolidCraft,Desktop and web apps,1
+45,SolidCraft,Geometry kernel (SolidCore),34
+45,SolidCraft,Docs and planning,21
+45,SolidCraft,Tests and tooling,9
+45,SolidCraft,User interface and viewport,6
+45,SolidCraft,Modeling engine and document,5
+45,SolidCraft,MCP / CLI / plugins,1
 45,SolidCraft,File import and export,1
-45,SolidCraft,Desktop and web apps,1
-46,SolidCraft,Geometry kernel (SolidCore),34
-46,SolidCraft,Docs and planning,21
-46,SolidCraft,Tests and tooling,9
-46,SolidCraft,User interface and viewport,6
-46,SolidCraft,Modeling engine and document,5
-46,SolidCraft,MCP / CLI / plugins,1
-46,SolidCraft,File import and export,1
-47,SolidCraft,Modeling engine and document,31
-47,SolidCraft,User interface and viewport,19
-47,SolidCraft,MCP / CLI / plugins,8
-47,SolidCraft,Docs and planning,7
-47,SolidCraft,Geometry kernel (SolidCore),6
-47,SolidCraft,Desktop and web apps,1
-48,SolidCraft,Docs and planning,65
-48,SolidCraft,Geometry kernel (SolidCore),55
-48,SolidCraft,Tests and tooling,47
-48,SolidCraft,User interface and viewport,16
-48,SolidCraft,MCP / CLI / plugins,14
-48,SolidCraft,Modeling engine and document,11
-48,SolidCraft,Desktop and web apps,4
-48,SolidCraft,Sketch and constraints,1
-49,SolidCraft,User interface and viewport,33
-49,SolidCraft,Modeling engine and document,14
-49,SolidCraft,Docs and planning,7
-49,SolidCraft,MCP / CLI / plugins,5
-49,SolidCraft,Sketch and constraints,2
-49,SolidCraft,Tests and tooling,1
-49,SolidCraft,Desktop and web apps,1
-50,cadmpeg,cadmpeg,38
-51,SolidCraft,User interface and viewport,18
-51,SolidCraft,Modeling engine and document,15
-51,SolidCraft,Docs and planning,9
-51,SolidCraft,MCP / CLI / plugins,5
+46,SolidCraft,Modeling engine and document,31
+46,SolidCraft,User interface and viewport,19
+46,SolidCraft,MCP / CLI / plugins,8
+46,SolidCraft,Docs and planning,7
+46,SolidCraft,Geometry kernel (SolidCore),6
+46,SolidCraft,Desktop and web apps,1
+47,SolidCraft,Docs and planning,65
+47,SolidCraft,Geometry kernel (SolidCore),55
+47,SolidCraft,Tests and tooling,47
+47,SolidCraft,User interface and viewport,16
+47,SolidCraft,MCP / CLI / plugins,14
+47,SolidCraft,Modeling engine and document,11
+47,SolidCraft,Desktop and web apps,4
+47,SolidCraft,Sketch and constraints,1
+48,SolidCraft,User interface and viewport,33
+48,SolidCraft,Modeling engine and document,14
+48,SolidCraft,Docs and planning,7
+48,SolidCraft,MCP / CLI / plugins,5
+48,SolidCraft,Sketch and constraints,2
+48,SolidCraft,Tests and tooling,1
+48,SolidCraft,Desktop and web apps,1
+49,cadmpeg,cadmpeg,38
+50,SolidCraft,User interface and viewport,18
+50,SolidCraft,Modeling engine and document,15
+50,SolidCraft,Docs and planning,9
+50,SolidCraft,MCP / CLI / plugins,5
+50,SolidCraft,Tests and tooling,2
+50,SolidCraft,Geometry kernel (SolidCore),2
+50,SolidCraft,Sketch and constraints,1
+51,SolidCraft,Modeling engine and document,16
+51,SolidCraft,User interface and viewport,12
+51,SolidCraft,Geometry kernel (SolidCore),5
+51,SolidCraft,File import and export,2
 51,SolidCraft,Tests and tooling,2
-51,SolidCraft,Geometry kernel (SolidCore),2
-51,SolidCraft,Sketch and constraints,1
-52,SolidCraft,Modeling engine and document,16
-52,SolidCraft,User interface and viewport,12
-52,SolidCraft,Geometry kernel (SolidCore),5
-52,SolidCraft,File import and export,2
-52,SolidCraft,Tests and tooling,2
-52,SolidCraft,Sketch and constraints,2
-53,FieldCraft,FieldCraft,138
-53,SolidCraft,Docs and planning,32
-53,SolidCraft,Geometry kernel (SolidCore),29
-53,SolidCraft,Tests and tooling,23
-53,SolidCraft,User interface and viewport,6
-53,SolidCraft,Modeling engine and document,2
-53,SolidCraft,Desktop and web apps,1
+51,SolidCraft,Sketch and constraints,2
+52,FieldCraft,FieldCraft,138
+52,SolidCraft,Docs and planning,32
+52,SolidCraft,Geometry kernel (SolidCore),29
+52,SolidCraft,Tests and tooling,23
+52,SolidCraft,User interface and viewport,6
+52,SolidCraft,Modeling engine and document,2
+52,SolidCraft,Desktop and web apps,1
+52,SolidCraft,File import and export,1
+53,SolidCraft,User interface and viewport,24
+53,SolidCraft,Modeling engine and document,16
+53,SolidCraft,Docs and planning,12
+53,SolidCraft,Tests and tooling,6
+53,SolidCraft,Geometry kernel (SolidCore),5
+53,SolidCraft,Desktop and web apps,4
+53,SolidCraft,MCP / CLI / plugins,4
 53,SolidCraft,File import and export,1
-54,SolidCraft,User interface and viewport,24
-54,SolidCraft,Modeling engine and document,16
-54,SolidCraft,Docs and planning,12
-54,SolidCraft,Tests and tooling,6
-54,SolidCraft,Geometry kernel (SolidCore),5
-54,SolidCraft,Desktop and web apps,4
-54,SolidCraft,MCP / CLI / plugins,4
-54,SolidCraft,File import and export,1
-55,SolidCraft,Geometry kernel (SolidCore),26
-55,SolidCraft,Docs and planning,20
-55,SolidCraft,Tests and tooling,18
-55,SolidCraft,Modeling engine and document,7
-55,SolidCraft,User interface and viewport,6
-55,SolidCraft,MCP / CLI / plugins,1
-56,SolidCraft,User interface and viewport,17
-56,SolidCraft,Modeling engine and document,12
-56,SolidCraft,MCP / CLI / plugins,3
-56,SolidCraft,File import and export,3
-56,SolidCraft,Sketch and constraints,2
-56,SolidCraft,Docs and planning,2
-56,SolidCraft,Desktop and web apps,1
-57,SolidCraft,Geometry kernel (SolidCore),12
-57,SolidCraft,Docs and planning,12
-57,SolidCraft,Tests and tooling,9
-57,SolidCraft,User interface and viewport,6
-57,SolidCraft,Sketch and constraints,3
+54,SolidCraft,Geometry kernel (SolidCore),26
+54,SolidCraft,Docs and planning,20
+54,SolidCraft,Tests and tooling,18
+54,SolidCraft,Modeling engine and document,7
+54,SolidCraft,User interface and viewport,6
+54,SolidCraft,MCP / CLI / plugins,1
+55,SolidCraft,User interface and viewport,17
+55,SolidCraft,Modeling engine and document,12
+55,SolidCraft,MCP / CLI / plugins,3
+55,SolidCraft,File import and export,3
+55,SolidCraft,Sketch and constraints,2
+55,SolidCraft,Docs and planning,2
+55,SolidCraft,Desktop and web apps,1
+56,SolidCraft,Geometry kernel (SolidCore),12
+56,SolidCraft,Docs and planning,12
+56,SolidCraft,Tests and tooling,9
+56,SolidCraft,User interface and viewport,6
+56,SolidCraft,Sketch and constraints,3
+56,SolidCraft,MCP / CLI / plugins,1
+56,SolidCraft,Modeling engine and document,1
+57,SolidCraft,Docs and planning,28
 57,SolidCraft,MCP / CLI / plugins,1
-57,SolidCraft,Modeling engine and document,1
-58,SolidCraft,Docs and planning,28
-58,SolidCraft,MCP / CLI / plugins,1
-59,cadmpeg,cadmpeg,28
-60,SolidCraft,Geometry kernel (SolidCore),18
-60,SolidCraft,Modeling engine and document,10
-60,SolidCraft,Tests and tooling,2
-61,SolidCraft,User interface and viewport,18
+58,cadmpeg,cadmpeg,28
+59,SolidCraft,Geometry kernel (SolidCore),18
+59,SolidCraft,Modeling engine and document,10
+59,SolidCraft,Tests and tooling,2
+60,SolidCraft,User interface and viewport,18
+60,SolidCraft,Modeling engine and document,11
+60,SolidCraft,Docs and planning,8
+60,SolidCraft,MCP / CLI / plugins,6
+60,SolidCraft,Sketch and constraints,4
+60,SolidCraft,Geometry kernel (SolidCore),1
+61,FieldCraft,FieldCraft,1
 61,SolidCraft,Modeling engine and document,11
-61,SolidCraft,Docs and planning,8
-61,SolidCraft,MCP / CLI / plugins,6
-61,SolidCraft,Sketch and constraints,4
-61,SolidCraft,Geometry kernel (SolidCore),1
-62,FieldCraft,FieldCraft,1
-62,SolidCraft,Modeling engine and document,11
-62,SolidCraft,User interface and viewport,10
-62,SolidCraft,Geometry kernel (SolidCore),9
-62,SolidCraft,Tests and tooling,6
-62,SolidCraft,Docs and planning,5
-62,SolidCraft,Sketch and constraints,3
-62,SolidCraft,MCP / CLI / plugins,2
-62,SolidCraft,Desktop and web apps,1
-62,SolidCraft,File import and export,1
-63,SolidCraft,Tests and tooling,25
-63,SolidCraft,Modeling engine and document,20
-63,SolidCraft,Geometry kernel (SolidCore),5
-63,SolidCraft,Docs and planning,1
-64,CamCraft,CamCraft,54
+61,SolidCraft,User interface and viewport,10
+61,SolidCraft,Geometry kernel (SolidCore),9
+61,SolidCraft,Tests and tooling,6
+61,SolidCraft,Docs and planning,5
+61,SolidCraft,Sketch and constraints,3
+61,SolidCraft,MCP / CLI / plugins,2
+61,SolidCraft,Desktop and web apps,1
+61,SolidCraft,File import and export,1
+62,SolidCraft,Tests and tooling,25
+62,SolidCraft,Modeling engine and document,20
+62,SolidCraft,Geometry kernel (SolidCore),5
+62,SolidCraft,Docs and planning,1
+63,CamCraft,CamCraft,54
+64,SolidCraft,User interface and viewport,23
+64,SolidCraft,Modeling engine and document,8
+64,SolidCraft,Docs and planning,4
+64,SolidCraft,MCP / CLI / plugins,3
+64,SolidCraft,Sketch and constraints,2
+64,SolidCraft,Desktop and web apps,1
+64,SolidCraft,File import and export,1
 65,SolidCraft,User interface and viewport,23
-65,SolidCraft,Modeling engine and document,8
-65,SolidCraft,Docs and planning,4
-65,SolidCraft,MCP / CLI / plugins,3
-65,SolidCraft,Sketch and constraints,2
-65,SolidCraft,Desktop and web apps,1
-65,SolidCraft,File import and export,1
-66,SolidCraft,User interface and viewport,23
-66,SolidCraft,Docs and planning,2
-67,CamCraft,CamCraft,63
-67,SolidCraft,Modeling engine and document,1
-67,SolidCraft,User interface and viewport,1
-68,SolidCraft,Geometry kernel (SolidCore),23
-68,SolidCraft,Tests and tooling,17
-68,SolidCraft,Docs and planning,14
-69,SolidCraft,User interface and viewport,19
-69,SolidCraft,Modeling engine and document,13
+65,SolidCraft,Docs and planning,2
+66,CamCraft,CamCraft,63
+66,SolidCraft,Modeling engine and document,1
+66,SolidCraft,User interface and viewport,1
+67,SolidCraft,Geometry kernel (SolidCore),23
+67,SolidCraft,Tests and tooling,17
+67,SolidCraft,Docs and planning,14
+68,SolidCraft,User interface and viewport,19
+68,SolidCraft,Modeling engine and document,13
+68,SolidCraft,Docs and planning,6
+68,SolidCraft,MCP / CLI / plugins,2
+68,SolidCraft,Sketch and constraints,2
+68,SolidCraft,File import and export,1
+69,SolidCraft,User interface and viewport,17
 69,SolidCraft,Docs and planning,6
-69,SolidCraft,MCP / CLI / plugins,2
+69,SolidCraft,Modeling engine and document,5
 69,SolidCraft,Sketch and constraints,2
-69,SolidCraft,File import and export,1
-70,SolidCraft,User interface and viewport,17
-70,SolidCraft,Docs and planning,6
-70,SolidCraft,Modeling engine and document,5
-70,SolidCraft,Sketch and constraints,2
+69,SolidCraft,MCP / CLI / plugins,2
+70,SolidCraft,User interface and viewport,10
+70,SolidCraft,Modeling engine and document,7
+70,SolidCraft,Tests and tooling,6
+70,SolidCraft,Docs and planning,5
 70,SolidCraft,MCP / CLI / plugins,2
-71,SolidCraft,User interface and viewport,10
-71,SolidCraft,Modeling engine and document,7
-71,SolidCraft,Tests and tooling,6
-71,SolidCraft,Docs and planning,5
-71,SolidCraft,MCP / CLI / plugins,2
-71,SolidCraft,Desktop and web apps,2
-71,SolidCraft,Geometry kernel (SolidCore),2
-72,Dutchman,Dutchman,1
+70,SolidCraft,Desktop and web apps,2
+70,SolidCraft,Geometry kernel (SolidCore),2
+71,Dutchman,Dutchman,1
+71,SolidCraft,MCP / CLI / plugins,1
+71,SolidCraft,Modeling engine and document,1
+71,SolidCraft,Geometry kernel (SolidCore),1
+71,cadmpeg,cadmpeg,18
+72,SolidCraft,User interface and viewport,18
+72,SolidCraft,Modeling engine and document,6
+72,SolidCraft,Desktop and web apps,4
+72,SolidCraft,Docs and planning,2
+72,SolidCraft,Tests and tooling,2
 72,SolidCraft,MCP / CLI / plugins,1
-72,SolidCraft,Modeling engine and document,1
-72,SolidCraft,Geometry kernel (SolidCore),1
-72,cadmpeg,cadmpeg,18
-73,SolidCraft,User interface and viewport,18
-73,SolidCraft,Modeling engine and document,6
-73,SolidCraft,Desktop and web apps,4
-73,SolidCraft,Docs and planning,2
-73,SolidCraft,Tests and tooling,2
-73,SolidCraft,MCP / CLI / plugins,1
-73,SolidCraft,Sketch and constraints,1
-74,SolidCraft,Geometry kernel (SolidCore),12
-74,SolidCraft,Modeling engine and document,8
-74,SolidCraft,MCP / CLI / plugins,4
-74,SolidCraft,User interface and viewport,3
-74,SolidCraft,File import and export,1
-75,SolidCraft,Geometry kernel (SolidCore),20
-76,SolidCraft,User interface and viewport,19
-76,SolidCraft,Desktop and web apps,1
-76,SolidCraft,MCP / CLI / plugins,1
-76,SolidCraft,Docs and planning,1
-77,SolidCraft,Modeling engine and document,31
-77,SolidCraft,Geometry kernel (SolidCore),17
-77,SolidCraft,Docs and planning,13
-77,SolidCraft,User interface and viewport,13
-77,SolidCraft,MCP / CLI / plugins,8
-77,SolidCraft,Tests and tooling,7
-77,SolidCraft,Sketch and constraints,3
-77,SolidCraft,File import and export,2
-77,SolidCraft,Desktop and web apps,2
-78,SolidCraft,User interface and viewport,18
-78,SolidCraft,Docs and planning,12
-78,SolidCraft,Modeling engine and document,10
-79,SolidCraft,Modeling engine and document,9
-79,SolidCraft,User interface and viewport,8
-79,SolidCraft,Docs and planning,8
-79,SolidCraft,MCP / CLI / plugins,7
-79,SolidCraft,Tests and tooling,7
-79,SolidCraft,Geometry kernel (SolidCore),5
-79,SolidCraft,File import and export,3
-79,SolidCraft,Sketch and constraints,2
-80,SolidCraft,Docs and planning,9
-80,SolidCraft,User interface and viewport,7
-80,SolidCraft,Geometry kernel (SolidCore),7
-80,SolidCraft,Tests and tooling,4
-80,SolidCraft,Modeling engine and document,3
-80,SolidCraft,MCP / CLI / plugins,2
+72,SolidCraft,Sketch and constraints,1
+73,SolidCraft,Geometry kernel (SolidCore),12
+73,SolidCraft,Modeling engine and document,8
+73,SolidCraft,MCP / CLI / plugins,4
+73,SolidCraft,User interface and viewport,3
+73,SolidCraft,File import and export,1
+74,SolidCraft,Geometry kernel (SolidCore),20
+75,SolidCraft,User interface and viewport,19
+75,SolidCraft,Desktop and web apps,1
+75,SolidCraft,MCP / CLI / plugins,1
+75,SolidCraft,Docs and planning,1
+76,SolidCraft,Modeling engine and document,31
+76,SolidCraft,Geometry kernel (SolidCore),17
+76,SolidCraft,User interface and viewport,13
+76,SolidCraft,Docs and planning,13
+76,SolidCraft,MCP / CLI / plugins,8
+76,SolidCraft,Tests and tooling,7
+76,SolidCraft,Sketch and constraints,3
+76,SolidCraft,File import and export,2
+76,SolidCraft,Desktop and web apps,2
+77,SolidCraft,User interface and viewport,18
+77,SolidCraft,Docs and planning,12
+77,SolidCraft,Modeling engine and document,10
+78,SolidCraft,Modeling engine and document,9
+78,SolidCraft,User interface and viewport,8
+78,SolidCraft,Docs and planning,8
+78,SolidCraft,MCP / CLI / plugins,7
+78,SolidCraft,Tests and tooling,7
+78,SolidCraft,Geometry kernel (SolidCore),5
+78,SolidCraft,File import and export,3
+78,SolidCraft,Sketch and constraints,2
+79,SolidCraft,Docs and planning,9
+79,SolidCraft,User interface and viewport,7
+79,SolidCraft,Geometry kernel (SolidCore),7
+79,SolidCraft,Tests and tooling,4
+79,SolidCraft,Modeling engine and document,3
+79,SolidCraft,MCP / CLI / plugins,2
+80,SolidCraft,Modeling engine and document,8
+80,SolidCraft,User interface and viewport,8
+80,SolidCraft,Docs and planning,3
+80,SolidCraft,Geometry kernel (SolidCore),2
+80,SolidCraft,Tests and tooling,1
+80,SolidCraft,MCP / CLI / plugins,1
+81,SolidCraft,User interface and viewport,14
 81,SolidCraft,Modeling engine and document,8
-81,SolidCraft,User interface and viewport,8
-81,SolidCraft,Docs and planning,3
-81,SolidCraft,Geometry kernel (SolidCore),2
-81,SolidCraft,Tests and tooling,1
-81,SolidCraft,MCP / CLI / plugins,1
-82,SolidCraft,User interface and viewport,14
-82,SolidCraft,Modeling engine and document,8
-82,SolidCraft,MCP / CLI / plugins,2
-82,SolidCraft,Docs and planning,2
-83,SolidCraft,Geometry kernel (SolidCore),14
-83,SolidCraft,Docs and planning,8
-83,SolidCraft,Modeling engine and document,5
-83,SolidCraft,Tests and tooling,5
-83,SolidCraft,Desktop and web apps,1
-83,SolidCraft,User interface and viewport,1
-84,SolidCraft,Modeling engine and document,13
-84,SolidCraft,Geometry kernel (SolidCore),8
-84,SolidCraft,Docs and planning,4
-84,SolidCraft,User interface and viewport,3
-84,SolidCraft,Sketch and constraints,2
+81,SolidCraft,MCP / CLI / plugins,2
+81,SolidCraft,Docs and planning,2
+82,SolidCraft,Geometry kernel (SolidCore),14
+82,SolidCraft,Docs and planning,8
+82,SolidCraft,Modeling engine and document,5
+82,SolidCraft,Tests and tooling,5
+82,SolidCraft,Desktop and web apps,1
+82,SolidCraft,User interface and viewport,1
+83,SolidCraft,Modeling engine and document,13
+83,SolidCraft,Geometry kernel (SolidCore),8
+83,SolidCraft,Docs and planning,4
+83,SolidCraft,User interface and viewport,3
+83,SolidCraft,Sketch and constraints,2
+84,CamCraft,CamCraft,41
 85,CamCraft,CamCraft,14
 85,SolidCraft,User interface and viewport,3
 86,SolidCraft,Geometry kernel (SolidCore),16
@@ -533,219 +533,220 @@ id,product,area,commits
 87,SolidCraft,MCP / CLI / plugins,2
 87,SolidCraft,Tests and tooling,2
 87,SolidCraft,Desktop and web apps,1
-88,CamCraft,CamCraft,39
-89,SolidCraft,File import and export,10
-89,SolidCraft,Geometry kernel (SolidCore),4
-89,SolidCraft,Tests and tooling,3
-90,SolidCraft,Docs and planning,14
-90,SolidCraft,User interface and viewport,14
-90,SolidCraft,MCP / CLI / plugins,13
-90,SolidCraft,Tests and tooling,1
-91,SolidCraft,User interface and viewport,11
-91,SolidCraft,Modeling engine and document,6
-91,SolidCraft,Geometry kernel (SolidCore),1
-91,SolidCraft,File import and export,1
-91,SolidCraft,Docs and planning,1
+88,SolidCraft,File import and export,10
+88,SolidCraft,Geometry kernel (SolidCore),4
+88,SolidCraft,Tests and tooling,3
+89,SolidCraft,User interface and viewport,14
+89,SolidCraft,Docs and planning,14
+89,SolidCraft,MCP / CLI / plugins,13
+89,SolidCraft,Tests and tooling,1
+90,SolidCraft,User interface and viewport,11
+90,SolidCraft,Modeling engine and document,6
+90,SolidCraft,Geometry kernel (SolidCore),1
+90,SolidCraft,File import and export,1
+90,SolidCraft,Docs and planning,1
+90,SolidCraft,MCP / CLI / plugins,1
+91,SolidCraft,Geometry kernel (SolidCore),5
+91,SolidCraft,User interface and viewport,4
+91,SolidCraft,Modeling engine and document,3
+91,SolidCraft,Tests and tooling,1
 91,SolidCraft,MCP / CLI / plugins,1
-92,SolidCraft,Geometry kernel (SolidCore),5
-92,SolidCraft,User interface and viewport,4
-92,SolidCraft,Modeling engine and document,3
-92,SolidCraft,Tests and tooling,1
-92,SolidCraft,MCP / CLI / plugins,1
-92,SolidCraft,Sketch and constraints,1
-93,SolidCraft,Geometry kernel (SolidCore),15
-93,SolidCraft,Docs and planning,14
-93,SolidCraft,Tests and tooling,9
-94,SolidCraft,Geometry kernel (SolidCore),9
-94,SolidCraft,Modeling engine and document,5
-94,SolidCraft,Docs and planning,3
-94,SolidCraft,Sketch and constraints,1
-94,SolidCraft,File import and export,1
-94,SolidCraft,MCP / CLI / plugins,1
-94,SolidCraft,User interface and viewport,1
-95,SolidCraft,User interface and viewport,8
-95,SolidCraft,Geometry kernel (SolidCore),4
-95,SolidCraft,Docs and planning,4
+91,SolidCraft,Sketch and constraints,1
+92,SolidCraft,Geometry kernel (SolidCore),15
+92,SolidCraft,Docs and planning,14
+92,SolidCraft,Tests and tooling,9
+93,SolidCraft,Geometry kernel (SolidCore),9
+93,SolidCraft,Modeling engine and document,5
+93,SolidCraft,Docs and planning,3
+93,SolidCraft,Sketch and constraints,1
+93,SolidCraft,File import and export,1
+93,SolidCraft,MCP / CLI / plugins,1
+93,SolidCraft,User interface and viewport,1
+94,SolidCraft,User interface and viewport,8
+94,SolidCraft,Geometry kernel (SolidCore),4
+94,SolidCraft,Docs and planning,4
+94,SolidCraft,Modeling engine and document,3
+94,SolidCraft,MCP / CLI / plugins,2
+95,SolidCraft,Docs and planning,5
+95,SolidCraft,Tests and tooling,5
+95,SolidCraft,User interface and viewport,4
 95,SolidCraft,Modeling engine and document,3
-95,SolidCraft,MCP / CLI / plugins,2
-96,SolidCraft,Docs and planning,5
-96,SolidCraft,Tests and tooling,5
-96,SolidCraft,User interface and viewport,4
-96,SolidCraft,Modeling engine and document,3
-96,SolidCraft,MCP / CLI / plugins,3
-97,SolidCraft,Geometry kernel (SolidCore),9
-97,SolidCraft,Modeling engine and document,8
+95,SolidCraft,MCP / CLI / plugins,3
+96,SolidCraft,Geometry kernel (SolidCore),9
+96,SolidCraft,Modeling engine and document,8
+96,SolidCraft,Docs and planning,4
+96,SolidCraft,Tests and tooling,3
+96,SolidCraft,Sketch and constraints,1
+96,SolidCraft,User interface and viewport,1
+97,SolidCraft,User interface and viewport,7
+97,SolidCraft,Geometry kernel (SolidCore),6
 97,SolidCraft,Docs and planning,4
-97,SolidCraft,Tests and tooling,3
-97,SolidCraft,Sketch and constraints,1
-97,SolidCraft,User interface and viewport,1
-98,SolidCraft,User interface and viewport,7
-98,SolidCraft,Geometry kernel (SolidCore),6
-98,SolidCraft,Docs and planning,4
-98,SolidCraft,MCP / CLI / plugins,3
-98,SolidCraft,Tests and tooling,1
-98,SolidCraft,Modeling engine and document,1
-99,SolidCraft,Geometry kernel (SolidCore),11
-99,SolidCraft,Modeling engine and document,8
-99,SolidCraft,Tests and tooling,6
-99,SolidCraft,User interface and viewport,1
-99,SolidCraft,Docs and planning,1
-100,SolidCraft,Modeling engine and document,6
-100,SolidCraft,User interface and viewport,6
-100,SolidCraft,Geometry kernel (SolidCore),5
+97,SolidCraft,MCP / CLI / plugins,3
+97,SolidCraft,Tests and tooling,1
+97,SolidCraft,Modeling engine and document,1
+98,SolidCraft,Geometry kernel (SolidCore),11
+98,SolidCraft,Modeling engine and document,8
+98,SolidCraft,Tests and tooling,6
+98,SolidCraft,User interface and viewport,1
+98,SolidCraft,Docs and planning,1
+99,SolidCraft,Modeling engine and document,6
+99,SolidCraft,User interface and viewport,6
+99,SolidCraft,Geometry kernel (SolidCore),5
+99,SolidCraft,Docs and planning,2
+99,SolidCraft,MCP / CLI / plugins,1
+99,SolidCraft,Desktop and web apps,1
+100,SolidCraft,User interface and viewport,8
+100,SolidCraft,Modeling engine and document,7
 100,SolidCraft,Docs and planning,2
-100,SolidCraft,MCP / CLI / plugins,1
 100,SolidCraft,Desktop and web apps,1
-101,SolidCraft,User interface and viewport,8
-101,SolidCraft,Modeling engine and document,7
-101,SolidCraft,Docs and planning,2
+100,SolidCraft,MCP / CLI / plugins,1
+101,SolidCraft,User interface and viewport,5
+101,SolidCraft,Geometry kernel (SolidCore),4
+101,SolidCraft,Tests and tooling,2
+101,SolidCraft,Sketch and constraints,1
 101,SolidCraft,Desktop and web apps,1
 101,SolidCraft,MCP / CLI / plugins,1
-102,SolidCraft,User interface and viewport,5
-102,SolidCraft,Geometry kernel (SolidCore),4
+102,SolidCraft,User interface and viewport,10
+102,SolidCraft,Modeling engine and document,3
+102,SolidCraft,Geometry kernel (SolidCore),2
 102,SolidCraft,Tests and tooling,2
-102,SolidCraft,Sketch and constraints,1
+102,SolidCraft,Docs and planning,1
 102,SolidCraft,Desktop and web apps,1
-102,SolidCraft,MCP / CLI / plugins,1
-103,SolidCraft,User interface and viewport,10
-103,SolidCraft,Modeling engine and document,3
-103,SolidCraft,Geometry kernel (SolidCore),2
-103,SolidCraft,Tests and tooling,2
-103,SolidCraft,Docs and planning,1
-103,SolidCraft,Desktop and web apps,1
-104,CamCraft,CamCraft,14
-104,SolidCraft,User interface and viewport,2
-105,SolidCraft,Modeling engine and document,8
-105,SolidCraft,Geometry kernel (SolidCore),7
-105,SolidCraft,Tests and tooling,3
-105,SolidCraft,MCP / CLI / plugins,1
-106,SolidCraft,Geometry kernel (SolidCore),11
+103,CamCraft,CamCraft,14
+103,SolidCraft,User interface and viewport,2
+104,SolidCraft,Modeling engine and document,8
+104,SolidCraft,Geometry kernel (SolidCore),7
+104,SolidCraft,Tests and tooling,3
+104,SolidCraft,MCP / CLI / plugins,1
+105,SolidCraft,Geometry kernel (SolidCore),11
+105,SolidCraft,Docs and planning,2
+105,SolidCraft,Tests and tooling,1
+106,SolidCraft,Modeling engine and document,9
+106,SolidCraft,Geometry kernel (SolidCore),6
 106,SolidCraft,Docs and planning,2
+106,SolidCraft,User interface and viewport,2
 106,SolidCraft,Tests and tooling,1
-107,SolidCraft,Modeling engine and document,9
-107,SolidCraft,Geometry kernel (SolidCore),6
-107,SolidCraft,User interface and viewport,2
-107,SolidCraft,Docs and planning,2
-107,SolidCraft,Tests and tooling,1
-108,PCBCraft,PCBCraft,15
-109,SolidCraft,Tests and tooling,14
-109,SolidCraft,Geometry kernel (SolidCore),13
-109,SolidCraft,Docs and planning,13
-110,SolidCraft,Tests and tooling,5
-110,SolidCraft,User interface and viewport,5
-110,SolidCraft,Desktop and web apps,2
+107,PCBCraft,PCBCraft,15
+108,SolidCraft,Tests and tooling,14
+108,SolidCraft,Docs and planning,13
+108,SolidCraft,Geometry kernel (SolidCore),13
+109,SolidCraft,User interface and viewport,5
+109,SolidCraft,Tests and tooling,5
+109,SolidCraft,Desktop and web apps,2
+109,SolidCraft,Docs and planning,2
+109,SolidCraft,MCP / CLI / plugins,1
+109,SolidCraft,Modeling engine and document,1
+110,SolidCraft,Modeling engine and document,7
+110,SolidCraft,User interface and viewport,4
+110,SolidCraft,Geometry kernel (SolidCore),3
 110,SolidCraft,Docs and planning,2
-110,SolidCraft,MCP / CLI / plugins,1
-110,SolidCraft,Modeling engine and document,1
+110,SolidCraft,Tests and tooling,2
+111,SolidCraft,User interface and viewport,8
 111,SolidCraft,Modeling engine and document,7
-111,SolidCraft,User interface and viewport,4
-111,SolidCraft,Geometry kernel (SolidCore),3
-111,SolidCraft,Tests and tooling,2
-111,SolidCraft,Docs and planning,2
+111,SolidCraft,Docs and planning,4
+111,SolidCraft,MCP / CLI / plugins,1
 112,SolidCraft,User interface and viewport,8
-112,SolidCraft,Modeling engine and document,7
-112,SolidCraft,Docs and planning,4
-112,SolidCraft,MCP / CLI / plugins,1
-113,SolidCraft,User interface and viewport,8
+112,SolidCraft,Modeling engine and document,3
+112,SolidCraft,Geometry kernel (SolidCore),1
+113,FieldCraft,FieldCraft,1
 113,SolidCraft,Modeling engine and document,3
-113,SolidCraft,Geometry kernel (SolidCore),1
-114,FieldCraft,FieldCraft,1
-114,SolidCraft,Modeling engine and document,3
-114,SolidCraft,Sketch and constraints,2
-114,SolidCraft,Tests and tooling,2
-114,SolidCraft,MCP / CLI / plugins,2
-114,SolidCraft,User interface and viewport,2
-114,SolidCraft,Docs and planning,2
-115,SolidCraft,MCP / CLI / plugins,9
-115,SolidCraft,User interface and viewport,9
-115,SolidCraft,Docs and planning,4
-115,SolidCraft,Desktop and web apps,1
-116,CamCraft,CamCraft,33
-117,CamCraft,CamCraft,32
-118,SolidCraft,User interface and viewport,9
-118,SolidCraft,MCP / CLI / plugins,1
-118,SolidCraft,Docs and planning,1
-119,SolidCraft,User interface and viewport,6
-119,SolidCraft,Modeling engine and document,5
-119,SolidCraft,Docs and planning,3
-119,SolidCraft,Desktop and web apps,1
-120,cadmpeg,cadmpeg,10
-121,SolidCraft,Modeling engine and document,5
-121,SolidCraft,MCP / CLI / plugins,3
-121,SolidCraft,File import and export,2
-121,SolidCraft,User interface and viewport,2
-121,SolidCraft,Tests and tooling,1
+113,SolidCraft,Sketch and constraints,2
+113,SolidCraft,Tests and tooling,2
+113,SolidCraft,MCP / CLI / plugins,2
+113,SolidCraft,User interface and viewport,2
+113,SolidCraft,Docs and planning,2
+114,SolidCraft,MCP / CLI / plugins,9
+114,SolidCraft,User interface and viewport,9
+114,SolidCraft,Docs and planning,4
+114,SolidCraft,Desktop and web apps,1
+115,CamCraft,CamCraft,33
+116,CamCraft,CamCraft,32
+117,SolidCraft,User interface and viewport,9
+117,SolidCraft,MCP / CLI / plugins,1
+117,SolidCraft,Docs and planning,1
+118,SolidCraft,User interface and viewport,6
+118,SolidCraft,Modeling engine and document,5
+118,SolidCraft,Docs and planning,3
+118,SolidCraft,Desktop and web apps,1
+119,cadmpeg,cadmpeg,10
+120,SolidCraft,Modeling engine and document,5
+120,SolidCraft,MCP / CLI / plugins,3
+120,SolidCraft,File import and export,2
+120,SolidCraft,User interface and viewport,2
+120,SolidCraft,Tests and tooling,1
+120,SolidCraft,Geometry kernel (SolidCore),1
+120,SolidCraft,Docs and planning,1
+121,SolidCraft,User interface and viewport,10
+121,SolidCraft,Modeling engine and document,2
 121,SolidCraft,Geometry kernel (SolidCore),1
-121,SolidCraft,Docs and planning,1
-122,SolidCraft,User interface and viewport,10
-122,SolidCraft,Modeling engine and document,2
-122,SolidCraft,Geometry kernel (SolidCore),1
-122,SolidCraft,File import and export,1
-122,SolidCraft,Sketch and constraints,1
+121,SolidCraft,File import and export,1
+121,SolidCraft,Sketch and constraints,1
+123,SolidCraft,Tests and tooling,9
+123,SolidCraft,Modeling engine and document,9
+123,SolidCraft,User interface and viewport,8
+123,SolidCraft,Docs and planning,4
+123,SolidCraft,MCP / CLI / plugins,2
+124,SolidCraft,Docs and planning,17
+124,SolidCraft,Geometry kernel (SolidCore),14
 124,SolidCraft,Tests and tooling,9
-124,SolidCraft,Modeling engine and document,9
-124,SolidCraft,User interface and viewport,8
-124,SolidCraft,Docs and planning,4
-124,SolidCraft,MCP / CLI / plugins,2
-125,SolidCraft,Docs and planning,17
-125,SolidCraft,Geometry kernel (SolidCore),14
-125,SolidCraft,Tests and tooling,9
-125,SolidCraft,Modeling engine and document,1
-126,CamCraft,CamCraft,16
-126,SolidCraft,Geometry kernel (SolidCore),1
-127,SolidCraft,Geometry kernel (SolidCore),9
-127,SolidCraft,Tests and tooling,6
-127,SolidCraft,Modeling engine and document,5
-127,SolidCraft,Docs and planning,4
-128,SolidCraft,Modeling engine and document,9
-129,SolidCraft,User interface and viewport,8
-129,SolidCraft,Docs and planning,4
+124,SolidCraft,Modeling engine and document,1
+125,CamCraft,CamCraft,16
+125,SolidCraft,Geometry kernel (SolidCore),1
+126,SolidCraft,Geometry kernel (SolidCore),9
+126,SolidCraft,Tests and tooling,6
+126,SolidCraft,Modeling engine and document,5
+126,SolidCraft,Docs and planning,4
+127,SolidCraft,Modeling engine and document,9
+128,SolidCraft,User interface and viewport,8
+128,SolidCraft,Docs and planning,4
+128,SolidCraft,Modeling engine and document,3
+128,SolidCraft,MCP / CLI / plugins,2
+128,SolidCraft,File import and export,1
+128,SolidCraft,Tests and tooling,1
+129,SolidCraft,User interface and viewport,5
 129,SolidCraft,Modeling engine and document,3
-129,SolidCraft,MCP / CLI / plugins,2
-129,SolidCraft,Tests and tooling,1
 129,SolidCraft,File import and export,1
-130,SolidCraft,User interface and viewport,5
+129,SolidCraft,Sketch and constraints,1
+129,SolidCraft,Tests and tooling,1
+129,SolidCraft,Docs and planning,1
+130,SolidCraft,User interface and viewport,7
 130,SolidCraft,Modeling engine and document,3
-130,SolidCraft,File import and export,1
-130,SolidCraft,Sketch and constraints,1
-130,SolidCraft,Tests and tooling,1
-130,SolidCraft,Docs and planning,1
 131,SolidCraft,User interface and viewport,7
-131,SolidCraft,Modeling engine and document,3
-132,SolidCraft,User interface and viewport,7
-132,SolidCraft,Modeling engine and document,4
-132,SolidCraft,Docs and planning,2
+131,SolidCraft,Modeling engine and document,4
+131,SolidCraft,Docs and planning,2
+131,SolidCraft,Geometry kernel (SolidCore),2
+132,SolidCraft,User interface and viewport,6
 132,SolidCraft,Geometry kernel (SolidCore),2
-133,SolidCraft,User interface and viewport,6
-133,SolidCraft,Geometry kernel (SolidCore),2
-133,SolidCraft,Modeling engine and document,1
-133,SolidCraft,Tests and tooling,1
-134,SolidCraft,User interface and viewport,9
-134,SolidCraft,Docs and planning,4
-134,SolidCraft,Modeling engine and document,4
-134,SolidCraft,MCP / CLI / plugins,2
-134,SolidCraft,File import and export,1
-135,SolidCraft,Geometry kernel (SolidCore),9
-135,SolidCraft,Docs and planning,8
+132,SolidCraft,Modeling engine and document,1
+132,SolidCraft,Tests and tooling,1
+133,SolidCraft,User interface and viewport,9
+133,SolidCraft,Docs and planning,4
+133,SolidCraft,Modeling engine and document,4
+133,SolidCraft,MCP / CLI / plugins,2
+133,SolidCraft,File import and export,1
+134,SolidCraft,Geometry kernel (SolidCore),9
+134,SolidCraft,Docs and planning,8
+134,SolidCraft,Tests and tooling,4
+135,SolidCraft,User interface and viewport,6
+135,SolidCraft,Docs and planning,6
 135,SolidCraft,Tests and tooling,4
-136,SolidCraft,User interface and viewport,6
-136,SolidCraft,Docs and planning,6
-136,SolidCraft,Tests and tooling,4
-136,SolidCraft,MCP / CLI / plugins,3
-136,SolidCraft,Desktop and web apps,2
-137,SolidCraft,Geometry kernel (SolidCore),4
-137,SolidCraft,User interface and viewport,2
-137,SolidCraft,Sketch and constraints,1
-137,SolidCraft,Modeling engine and document,1
+135,SolidCraft,MCP / CLI / plugins,3
+135,SolidCraft,Desktop and web apps,2
+136,SolidCraft,Geometry kernel (SolidCore),4
+136,SolidCraft,User interface and viewport,2
+136,SolidCraft,Sketch and constraints,1
+136,SolidCraft,Modeling engine and document,1
+137,Dutchman,Dutchman,5
+137,cadmpeg,cadmpeg,3
 138,SolidCraft,Modeling engine and document,5
 138,SolidCraft,User interface and viewport,3
 138,SolidCraft,MCP / CLI / plugins,2
-138,SolidCraft,Sketch and constraints,1
 138,SolidCraft,Docs and planning,1
+138,SolidCraft,Sketch and constraints,1
 139,SolidCraft,Modeling engine and document,5
 139,SolidCraft,Geometry kernel (SolidCore),2
-139,SolidCraft,Docs and planning,2
 139,SolidCraft,User interface and viewport,2
+139,SolidCraft,Docs and planning,2
 139,SolidCraft,File import and export,1
 140,SolidCraft,Docs and planning,5
 140,SolidCraft,Desktop and web apps,3
@@ -766,13 +767,13 @@ id,product,area,commits
 144,SolidCraft,Geometry kernel (SolidCore),4
 144,SolidCraft,Modeling engine and document,3
 144,SolidCraft,Docs and planning,3
-144,SolidCraft,User interface and viewport,2
 144,SolidCraft,MCP / CLI / plugins,2
+144,SolidCraft,User interface and viewport,2
 144,SolidCraft,File import and export,1
 145,CamCraft,CamCraft,6
 145,SolidCraft,User interface and viewport,2
-145,SolidCraft,Docs and planning,1
 145,SolidCraft,Modeling engine and document,1
+145,SolidCraft,Docs and planning,1
 146,SolidCraft,File import and export,4
 146,SolidCraft,MCP / CLI / plugins,3
 146,SolidCraft,Modeling engine and document,2
@@ -825,8 +826,8 @@ id,product,area,commits
 158,SolidCraft,Docs and planning,4
 158,SolidCraft,MCP / CLI / plugins,2
 158,SolidCraft,Desktop and web apps,1
-158,SolidCraft,Tests and tooling,1
 158,SolidCraft,User interface and viewport,1
+158,SolidCraft,Tests and tooling,1
 159,SolidCraft,User interface and viewport,4
 159,SolidCraft,Modeling engine and document,4
 159,SolidCraft,Docs and planning,2
@@ -851,8 +852,8 @@ id,product,area,commits
 166,SolidCraft,Modeling engine and document,1
 167,SolidCraft,Modeling engine and document,2
 167,SolidCraft,User interface and viewport,2
-167,SolidCraft,Tests and tooling,1
 167,SolidCraft,MCP / CLI / plugins,1
+167,SolidCraft,Tests and tooling,1
 167,SolidCraft,Geometry kernel (SolidCore),1
 168,SolidCraft,MCP / CLI / plugins,3
 168,SolidCraft,Modeling engine and document,3
@@ -865,44 +866,44 @@ id,product,area,commits
 169,SolidCraft,Modeling engine and document,4
 169,SolidCraft,Docs and planning,3
 169,SolidCraft,Geometry kernel (SolidCore),2
-169,SolidCraft,MCP / CLI / plugins,1
 169,SolidCraft,Tests and tooling,1
+169,SolidCraft,MCP / CLI / plugins,1
 170,SolidCraft,User interface and viewport,5
 170,SolidCraft,Modeling engine and document,1
-171,SolidCraft,Docs and planning,4
 171,SolidCraft,Modeling engine and document,4
-171,SolidCraft,User interface and viewport,3
+171,SolidCraft,Docs and planning,4
 171,SolidCraft,File import and export,3
+171,SolidCraft,User interface and viewport,3
 171,SolidCraft,MCP / CLI / plugins,1
 171,SolidCraft,Tests and tooling,1
 171,SolidCraft,Geometry kernel (SolidCore),1
 172,SolidCraft,User interface and viewport,4
 172,SolidCraft,Modeling engine and document,3
 172,SolidCraft,Docs and planning,2
+172,SolidCraft,File import and export,1
 172,SolidCraft,Sketch and constraints,1
 172,SolidCraft,MCP / CLI / plugins,1
-172,SolidCraft,File import and export,1
 172,SolidCraft,Geometry kernel (SolidCore),1
 173,SolidCraft,Geometry kernel (SolidCore),5
 174,SolidCraft,Modeling engine and document,5
 174,SolidCraft,Geometry kernel (SolidCore),4
-174,SolidCraft,User interface and viewport,3
 174,SolidCraft,Docs and planning,3
+174,SolidCraft,User interface and viewport,3
 174,SolidCraft,Sketch and constraints,2
 174,SolidCraft,File import and export,1
 175,SolidCraft,User interface and viewport,3
-175,SolidCraft,Tests and tooling,2
 175,SolidCraft,MCP / CLI / plugins,2
+175,SolidCraft,Tests and tooling,2
 175,SolidCraft,Desktop and web apps,1
 175,SolidCraft,File import and export,1
 175,SolidCraft,Modeling engine and document,1
 175,SolidCraft,Geometry kernel (SolidCore),1
 176,SolidCraft,Modeling engine and document,5
 176,SolidCraft,Geometry kernel (SolidCore),3
-176,SolidCraft,User interface and viewport,3
 176,SolidCraft,File import and export,3
-176,SolidCraft,MCP / CLI / plugins,2
+176,SolidCraft,User interface and viewport,3
 176,SolidCraft,Docs and planning,2
+176,SolidCraft,MCP / CLI / plugins,2
 176,SolidCraft,Tests and tooling,2
 176,SolidCraft,Desktop and web apps,1
 177,SolidCraft,User interface and viewport,3
@@ -911,8 +912,8 @@ id,product,area,commits
 178,PCBCraft,PCBCraft,12
 178,SolidCraft,User interface and viewport,1
 178,SolidCraft,Geometry kernel (SolidCore),1
-179,SolidCraft,Tests and tooling,5
 179,SolidCraft,Geometry kernel (SolidCore),5
+179,SolidCraft,Tests and tooling,5
 179,SolidCraft,Docs and planning,4
 180,SolidCraft,User interface and viewport,2
 180,SolidCraft,Modeling engine and document,2
@@ -928,716 +929,714 @@ id,product,area,commits
 184,SolidCraft,Geometry kernel (SolidCore),2
 185,SolidCraft,Modeling engine and document,3
 185,SolidCraft,MCP / CLI / plugins,2
-185,SolidCraft,Docs and planning,2
 185,SolidCraft,User interface and viewport,2
-186,Dutchman,Dutchman,4
-187,Dutchman,Dutchman,1
-187,cadmpeg,cadmpeg,3
-188,SolidCraft,Modeling engine and document,4
-188,SolidCraft,MCP / CLI / plugins,1
-188,SolidCraft,Geometry kernel (SolidCore),1
-188,SolidCraft,User interface and viewport,1
-189,SolidCraft,Modeling engine and document,3
-189,SolidCraft,User interface and viewport,2
-189,SolidCraft,Geometry kernel (SolidCore),1
-189,SolidCraft,Tests and tooling,1
-189,SolidCraft,Sketch and constraints,1
-190,SolidCraft,Geometry kernel (SolidCore),4
-190,SolidCraft,Modeling engine and document,3
-190,SolidCraft,User interface and viewport,2
-190,SolidCraft,Docs and planning,2
-190,SolidCraft,Sketch and constraints,1
-191,SolidCraft,Modeling engine and document,4
+185,SolidCraft,Docs and planning,2
+186,SolidCraft,Modeling engine and document,4
+186,SolidCraft,Geometry kernel (SolidCore),1
+186,SolidCraft,MCP / CLI / plugins,1
+186,SolidCraft,User interface and viewport,1
+187,SolidCraft,Modeling engine and document,3
+187,SolidCraft,User interface and viewport,2
+187,SolidCraft,Geometry kernel (SolidCore),1
+187,SolidCraft,Tests and tooling,1
+187,SolidCraft,Sketch and constraints,1
+188,SolidCraft,Geometry kernel (SolidCore),4
+188,SolidCraft,Modeling engine and document,3
+188,SolidCraft,Docs and planning,2
+188,SolidCraft,User interface and viewport,2
+188,SolidCraft,Sketch and constraints,1
+189,SolidCraft,Modeling engine and document,4
+189,SolidCraft,User interface and viewport,1
+190,SolidCraft,User interface and viewport,3
+190,SolidCraft,Modeling engine and document,2
+191,SolidCraft,Modeling engine and document,3
 191,SolidCraft,User interface and viewport,1
-192,SolidCraft,User interface and viewport,3
-192,SolidCraft,Modeling engine and document,2
-193,SolidCraft,Modeling engine and document,3
+191,SolidCraft,Desktop and web apps,1
+192,SolidCraft,Geometry kernel (SolidCore),2
+192,SolidCraft,Modeling engine and document,1
+192,SolidCraft,Sketch and constraints,1
+192,SolidCraft,User interface and viewport,1
+193,SolidCraft,Tests and tooling,3
+193,SolidCraft,Geometry kernel (SolidCore),2
+193,SolidCraft,Docs and planning,2
+193,SolidCraft,MCP / CLI / plugins,1
 193,SolidCraft,User interface and viewport,1
-193,SolidCraft,Desktop and web apps,1
 194,SolidCraft,Geometry kernel (SolidCore),2
-194,SolidCraft,Modeling engine and document,1
-194,SolidCraft,Sketch and constraints,1
+194,SolidCraft,Modeling engine and document,2
+194,SolidCraft,MCP / CLI / plugins,1
+194,SolidCraft,File import and export,1
 194,SolidCraft,User interface and viewport,1
 195,SolidCraft,Tests and tooling,3
-195,SolidCraft,Geometry kernel (SolidCore),2
+195,SolidCraft,User interface and viewport,2
 195,SolidCraft,Docs and planning,2
-195,SolidCraft,MCP / CLI / plugins,1
-195,SolidCraft,User interface and viewport,1
-196,SolidCraft,Geometry kernel (SolidCore),2
-196,SolidCraft,Modeling engine and document,2
-196,SolidCraft,MCP / CLI / plugins,1
-196,SolidCraft,User interface and viewport,1
-196,SolidCraft,File import and export,1
-197,SolidCraft,Tests and tooling,3
-197,SolidCraft,Docs and planning,2
-197,SolidCraft,User interface and viewport,2
-197,SolidCraft,Desktop and web apps,1
-197,SolidCraft,Geometry kernel (SolidCore),1
+195,SolidCraft,Desktop and web apps,1
+195,SolidCraft,Geometry kernel (SolidCore),1
+195,SolidCraft,Modeling engine and document,1
+196,cadmpeg,cadmpeg,4
+197,SolidCraft,User interface and viewport,4
 197,SolidCraft,Modeling engine and document,1
-198,cadmpeg,cadmpeg,4
-199,SolidCraft,User interface and viewport,4
+198,SolidCraft,Geometry kernel (SolidCore),4
+198,SolidCraft,Docs and planning,4
+198,SolidCraft,Tests and tooling,2
+199,SolidCraft,Geometry kernel (SolidCore),3
+199,SolidCraft,Docs and planning,2
 199,SolidCraft,Modeling engine and document,1
-200,SolidCraft,Geometry kernel (SolidCore),4
-200,SolidCraft,Docs and planning,4
-200,SolidCraft,Tests and tooling,2
-201,SolidCraft,Geometry kernel (SolidCore),3
-201,SolidCraft,Docs and planning,2
-201,SolidCraft,Modeling engine and document,1
-201,SolidCraft,Tests and tooling,1
-202,SolidCraft,User interface and viewport,3
-202,SolidCraft,Tests and tooling,1
-202,SolidCraft,Geometry kernel (SolidCore),1
-203,SolidCraft,Modeling engine and document,4
-203,SolidCraft,User interface and viewport,3
-203,SolidCraft,Desktop and web apps,1
-203,SolidCraft,File import and export,1
+199,SolidCraft,Tests and tooling,1
+200,SolidCraft,User interface and viewport,3
+200,SolidCraft,Geometry kernel (SolidCore),1
+200,SolidCraft,Tests and tooling,1
+201,SolidCraft,Modeling engine and document,4
+201,SolidCraft,User interface and viewport,3
+201,SolidCraft,Desktop and web apps,1
+201,SolidCraft,File import and export,1
+202,SolidCraft,User interface and viewport,4
+202,SolidCraft,Docs and planning,2
+202,SolidCraft,MCP / CLI / plugins,1
+203,FieldCraft,FieldCraft,4
 204,SolidCraft,User interface and viewport,4
 204,SolidCraft,Docs and planning,2
-204,SolidCraft,MCP / CLI / plugins,1
-205,FieldCraft,FieldCraft,4
-206,SolidCraft,User interface and viewport,4
-206,SolidCraft,Docs and planning,2
-206,SolidCraft,Modeling engine and document,1
-206,SolidCraft,Geometry kernel (SolidCore),1
-207,SolidCraft,Tests and tooling,6
-207,SolidCraft,Docs and planning,1
-207,SolidCraft,Desktop and web apps,1
-208,PCBCraft,PCBCraft,5
+204,SolidCraft,Modeling engine and document,1
+204,SolidCraft,Geometry kernel (SolidCore),1
+205,SolidCraft,Tests and tooling,6
+205,SolidCraft,Docs and planning,1
+205,SolidCraft,Desktop and web apps,1
+206,PCBCraft,PCBCraft,5
+206,SolidCraft,User interface and viewport,1
+207,PCBCraft,PCBCraft,5
+207,SolidCraft,MCP / CLI / plugins,1
+207,SolidCraft,User interface and viewport,1
+208,SolidCraft,Geometry kernel (SolidCore),3
+208,SolidCraft,Tests and tooling,2
+208,SolidCraft,Docs and planning,2
 208,SolidCraft,User interface and viewport,1
-209,PCBCraft,PCBCraft,5
-209,SolidCraft,MCP / CLI / plugins,1
-209,SolidCraft,User interface and viewport,1
-210,SolidCraft,Geometry kernel (SolidCore),3
-210,SolidCraft,Tests and tooling,2
-210,SolidCraft,Docs and planning,2
-210,SolidCraft,User interface and viewport,1
-210,SolidCraft,Modeling engine and document,1
+208,SolidCraft,Modeling engine and document,1
+209,SolidCraft,Modeling engine and document,2
+209,SolidCraft,Geometry kernel (SolidCore),2
+209,SolidCraft,Tests and tooling,2
+210,SolidCraft,User interface and viewport,3
+210,SolidCraft,MCP / CLI / plugins,2
+210,SolidCraft,Docs and planning,1
+211,SolidCraft,User interface and viewport,3
 211,SolidCraft,Modeling engine and document,2
-211,SolidCraft,Tests and tooling,2
-211,SolidCraft,Geometry kernel (SolidCore),2
-212,SolidCraft,User interface and viewport,3
-212,SolidCraft,MCP / CLI / plugins,2
+211,SolidCraft,Desktop and web apps,1
+212,SolidCraft,Modeling engine and document,2
 212,SolidCraft,Docs and planning,1
+212,SolidCraft,User interface and viewport,1
 213,SolidCraft,User interface and viewport,3
-213,SolidCraft,Modeling engine and document,2
-213,SolidCraft,Desktop and web apps,1
-214,SolidCraft,Modeling engine and document,2
-214,SolidCraft,Docs and planning,1
-214,SolidCraft,User interface and viewport,1
-215,SolidCraft,User interface and viewport,3
-215,SolidCraft,Modeling engine and document,1
-216,SolidCraft,User interface and viewport,3
-216,SolidCraft,Docs and planning,3
-216,SolidCraft,Desktop and web apps,1
-216,SolidCraft,MCP / CLI / plugins,1
-216,SolidCraft,Geometry kernel (SolidCore),1
-216,SolidCraft,Tests and tooling,1
-216,SolidCraft,File import and export,1
-216,SolidCraft,Modeling engine and document,1
-217,SolidCraft,Geometry kernel (SolidCore),3
-217,SolidCraft,Docs and planning,3
-218,SolidCraft,Modeling engine and document,2
+213,SolidCraft,Modeling engine and document,1
+214,SolidCraft,Docs and planning,3
+214,SolidCraft,User interface and viewport,3
+214,SolidCraft,Desktop and web apps,1
+214,SolidCraft,Tests and tooling,1
+214,SolidCraft,Geometry kernel (SolidCore),1
+214,SolidCraft,MCP / CLI / plugins,1
+214,SolidCraft,File import and export,1
+214,SolidCraft,Modeling engine and document,1
+215,SolidCraft,Geometry kernel (SolidCore),3
+215,SolidCraft,Docs and planning,3
+216,SolidCraft,Modeling engine and document,2
+216,SolidCraft,Sketch and constraints,1
+216,SolidCraft,User interface and viewport,1
+217,SolidCraft,Modeling engine and document,2
+217,SolidCraft,MCP / CLI / plugins,1
+217,SolidCraft,Geometry kernel (SolidCore),1
+218,SolidCraft,User interface and viewport,2
 218,SolidCraft,Sketch and constraints,1
-218,SolidCraft,User interface and viewport,1
-219,SolidCraft,Modeling engine and document,2
-219,SolidCraft,MCP / CLI / plugins,1
-219,SolidCraft,Geometry kernel (SolidCore),1
-220,SolidCraft,User interface and viewport,2
-220,SolidCraft,Sketch and constraints,1
-220,SolidCraft,Modeling engine and document,1
-221,SolidCraft,Geometry kernel (SolidCore),3
-222,CamCraft,CamCraft,3
+218,SolidCraft,Modeling engine and document,1
+219,SolidCraft,Geometry kernel (SolidCore),3
+220,CamCraft,CamCraft,3
+221,SolidCraft,User interface and viewport,3
+221,SolidCraft,Docs and planning,2
+221,SolidCraft,MCP / CLI / plugins,1
+221,SolidCraft,Modeling engine and document,1
+222,SolidCraft,MCP / CLI / plugins,2
+222,SolidCraft,Desktop and web apps,1
+222,SolidCraft,Tests and tooling,1
+222,SolidCraft,Docs and planning,1
 223,SolidCraft,User interface and viewport,3
-223,SolidCraft,Docs and planning,2
-223,SolidCraft,MCP / CLI / plugins,1
-223,SolidCraft,Modeling engine and document,1
-224,SolidCraft,MCP / CLI / plugins,2
-224,SolidCraft,Tests and tooling,1
-224,SolidCraft,Desktop and web apps,1
+223,SolidCraft,Modeling engine and document,3
+223,SolidCraft,Geometry kernel (SolidCore),2
+224,SolidCraft,User interface and viewport,3
 224,SolidCraft,Docs and planning,1
-225,SolidCraft,User interface and viewport,3
-225,SolidCraft,Modeling engine and document,3
-225,SolidCraft,Geometry kernel (SolidCore),2
+225,SolidCraft,Desktop and web apps,2
+225,SolidCraft,Tests and tooling,2
+225,SolidCraft,Docs and planning,2
+225,SolidCraft,Modeling engine and document,1
+225,SolidCraft,User interface and viewport,1
 226,SolidCraft,User interface and viewport,3
+226,SolidCraft,MCP / CLI / plugins,1
 226,SolidCraft,Docs and planning,1
-227,SolidCraft,Tests and tooling,2
-227,SolidCraft,Desktop and web apps,2
-227,SolidCraft,Docs and planning,2
-227,SolidCraft,Modeling engine and document,1
-227,SolidCraft,User interface and viewport,1
+227,SolidCraft,User interface and viewport,2
+227,SolidCraft,File import and export,1
 228,SolidCraft,User interface and viewport,3
-228,SolidCraft,MCP / CLI / plugins,1
-228,SolidCraft,Docs and planning,1
-229,SolidCraft,User interface and viewport,2
-229,SolidCraft,File import and export,1
-230,SolidCraft,User interface and viewport,3
-230,SolidCraft,Docs and planning,2
-230,SolidCraft,Modeling engine and document,2
-230,SolidCraft,File import and export,1
-230,SolidCraft,Geometry kernel (SolidCore),1
-230,SolidCraft,Tests and tooling,1
-230,SolidCraft,Sketch and constraints,1
-231,SolidCraft,Tests and tooling,2
-231,SolidCraft,Geometry kernel (SolidCore),2
-231,SolidCraft,User interface and viewport,1
-232,SolidCraft,Docs and planning,3
-233,SolidCraft,User interface and viewport,3
+228,SolidCraft,Modeling engine and document,2
+228,SolidCraft,Docs and planning,2
+228,SolidCraft,File import and export,1
+228,SolidCraft,Tests and tooling,1
+228,SolidCraft,Geometry kernel (SolidCore),1
+228,SolidCraft,Sketch and constraints,1
+229,SolidCraft,Geometry kernel (SolidCore),2
+229,SolidCraft,Tests and tooling,2
+229,SolidCraft,User interface and viewport,1
+230,SolidCraft,Docs and planning,3
+231,SolidCraft,Modeling engine and document,3
+231,SolidCraft,Docs and planning,3
+231,SolidCraft,File import and export,3
+231,SolidCraft,User interface and viewport,3
+231,SolidCraft,Geometry kernel (SolidCore),1
+231,SolidCraft,MCP / CLI / plugins,1
+231,SolidCraft,Tests and tooling,1
+232,SolidCraft,Modeling engine and document,2
+232,SolidCraft,User interface and viewport,2
 233,SolidCraft,Docs and planning,3
-233,SolidCraft,File import and export,3
-233,SolidCraft,Modeling engine and document,3
-233,SolidCraft,MCP / CLI / plugins,1
-233,SolidCraft,Geometry kernel (SolidCore),1
-233,SolidCraft,Tests and tooling,1
-234,SolidCraft,Modeling engine and document,2
-234,SolidCraft,User interface and viewport,2
-235,SolidCraft,Docs and planning,3
-235,SolidCraft,Tests and tooling,2
-235,SolidCraft,User interface and viewport,2
-235,SolidCraft,Desktop and web apps,1
-236,SolidCraft,Desktop and web apps,2
-236,SolidCraft,User interface and viewport,1
-237,SolidCraft,Modeling engine and document,2
-237,SolidCraft,MCP / CLI / plugins,1
+233,SolidCraft,Tests and tooling,2
+233,SolidCraft,User interface and viewport,2
+233,SolidCraft,Desktop and web apps,1
+234,SolidCraft,Desktop and web apps,2
+234,SolidCraft,User interface and viewport,1
+235,SolidCraft,Modeling engine and document,2
+235,SolidCraft,Geometry kernel (SolidCore),1
+235,SolidCraft,MCP / CLI / plugins,1
+235,SolidCraft,Docs and planning,1
+235,SolidCraft,User interface and viewport,1
+236,SolidCraft,User interface and viewport,3
+236,SolidCraft,Modeling engine and document,2
+236,SolidCraft,Sketch and constraints,1
+236,SolidCraft,Docs and planning,1
+237,SolidCraft,User interface and viewport,3
+237,SolidCraft,Docs and planning,3
+237,SolidCraft,Modeling engine and document,1
+237,SolidCraft,File import and export,1
 237,SolidCraft,Geometry kernel (SolidCore),1
-237,SolidCraft,Docs and planning,1
-237,SolidCraft,User interface and viewport,1
-238,SolidCraft,User interface and viewport,3
-238,SolidCraft,Modeling engine and document,2
-238,SolidCraft,Sketch and constraints,1
-238,SolidCraft,Docs and planning,1
-239,SolidCraft,Docs and planning,3
+237,SolidCraft,MCP / CLI / plugins,1
+238,SolidCraft,Modeling engine and document,3
+238,SolidCraft,User interface and viewport,2
+238,SolidCraft,Docs and planning,2
+238,SolidCraft,Geometry kernel (SolidCore),1
 239,SolidCraft,User interface and viewport,3
-239,SolidCraft,MCP / CLI / plugins,1
-239,SolidCraft,File import and export,1
-239,SolidCraft,Geometry kernel (SolidCore),1
-239,SolidCraft,Modeling engine and document,1
-240,SolidCraft,Modeling engine and document,3
-240,SolidCraft,User interface and viewport,2
-240,SolidCraft,Docs and planning,2
-240,SolidCraft,Geometry kernel (SolidCore),1
-241,SolidCraft,User interface and viewport,3
-241,SolidCraft,Docs and planning,1
-242,Dutchman,Dutchman,2
+239,SolidCraft,Docs and planning,1
+240,Dutchman,Dutchman,2
+240,SolidCraft,User interface and viewport,1
+241,SolidCraft,MCP / CLI / plugins,3
+241,SolidCraft,User interface and viewport,2
+241,SolidCraft,Geometry kernel (SolidCore),1
+241,SolidCraft,Modeling engine and document,1
+242,SolidCraft,Modeling engine and document,2
 242,SolidCraft,User interface and viewport,1
-243,SolidCraft,MCP / CLI / plugins,3
-243,SolidCraft,User interface and viewport,2
-243,SolidCraft,Geometry kernel (SolidCore),1
-243,SolidCraft,Modeling engine and document,1
-244,SolidCraft,Modeling engine and document,2
+242,SolidCraft,Geometry kernel (SolidCore),1
+242,SolidCraft,File import and export,1
+242,SolidCraft,Sketch and constraints,1
+243,SolidCraft,Modeling engine and document,3
+243,SolidCraft,User interface and viewport,3
+244,SolidCraft,Tests and tooling,1
+244,SolidCraft,Desktop and web apps,1
+244,SolidCraft,Docs and planning,1
+244,SolidCraft,MCP / CLI / plugins,1
 244,SolidCraft,User interface and viewport,1
-244,SolidCraft,Geometry kernel (SolidCore),1
-244,SolidCraft,File import and export,1
-244,SolidCraft,Sketch and constraints,1
-245,SolidCraft,Modeling engine and document,3
-245,SolidCraft,User interface and viewport,3
-246,CamCraft,CamCraft,5
-247,SolidCraft,Tests and tooling,1
-247,SolidCraft,Desktop and web apps,1
-247,SolidCraft,Docs and planning,1
-247,SolidCraft,MCP / CLI / plugins,1
-247,SolidCraft,User interface and viewport,1
-248,SolidCraft,Docs and planning,2
+245,CamCraft,CamCraft,4
+246,SolidCraft,Docs and planning,2
+246,SolidCraft,Geometry kernel (SolidCore),2
+246,SolidCraft,Tests and tooling,1
+247,SolidCraft,User interface and viewport,3
+247,SolidCraft,Docs and planning,2
+247,SolidCraft,Desktop and web apps,2
+247,SolidCraft,Modeling engine and document,1
+247,SolidCraft,Geometry kernel (SolidCore),1
 248,SolidCraft,Geometry kernel (SolidCore),2
-248,SolidCraft,Tests and tooling,1
-249,SolidCraft,User interface and viewport,3
-249,SolidCraft,Docs and planning,2
-249,SolidCraft,Desktop and web apps,2
-249,SolidCraft,Geometry kernel (SolidCore),1
-249,SolidCraft,Modeling engine and document,1
-250,SolidCraft,Geometry kernel (SolidCore),2
-250,SolidCraft,Docs and planning,1
-251,SolidCraft,Geometry kernel (SolidCore),2
-252,SolidCraft,Modeling engine and document,2
-253,SolidCraft,Modeling engine and document,2
-254,PCBCraft,PCBCraft,2
+248,SolidCraft,Docs and planning,1
+249,SolidCraft,Geometry kernel (SolidCore),2
+250,SolidCraft,Modeling engine and document,2
+251,SolidCraft,Modeling engine and document,2
+252,PCBCraft,PCBCraft,2
+253,SolidCraft,User interface and viewport,2
+254,cadmpeg,cadmpeg,2
 255,SolidCraft,User interface and viewport,2
 256,SolidCraft,User interface and viewport,2
-257,SolidCraft,Docs and planning,2
-257,SolidCraft,User interface and viewport,2
+256,SolidCraft,Docs and planning,2
+256,SolidCraft,MCP / CLI / plugins,1
+256,SolidCraft,Modeling engine and document,1
+257,SolidCraft,User interface and viewport,1
 257,SolidCraft,Modeling engine and document,1
-257,SolidCraft,MCP / CLI / plugins,1
-258,SolidCraft,User interface and viewport,1
-258,SolidCraft,Modeling engine and document,1
-259,SolidCraft,Geometry kernel (SolidCore),2
-260,SolidCraft,Geometry kernel (SolidCore),1
+258,SolidCraft,Geometry kernel (SolidCore),2
+259,SolidCraft,Geometry kernel (SolidCore),1
+259,SolidCraft,Modeling engine and document,1
 260,SolidCraft,Modeling engine and document,1
-261,SolidCraft,Modeling engine and document,1
-261,SolidCraft,Geometry kernel (SolidCore),1
-262,SolidCraft,User interface and viewport,2
-262,SolidCraft,MCP / CLI / plugins,1
-262,SolidCraft,Docs and planning,1
-263,cadmpeg,cadmpeg,2
-264,SolidCraft,User interface and viewport,1
+260,SolidCraft,Geometry kernel (SolidCore),1
+261,SolidCraft,User interface and viewport,2
+261,SolidCraft,MCP / CLI / plugins,1
+261,SolidCraft,Docs and planning,1
+262,cadmpeg,cadmpeg,2
+263,SolidCraft,User interface and viewport,1
+263,SolidCraft,Modeling engine and document,1
+263,SolidCraft,Docs and planning,1
+263,SolidCraft,File import and export,1
+263,SolidCraft,Geometry kernel (SolidCore),1
+263,SolidCraft,MCP / CLI / plugins,1
+264,SolidCraft,User interface and viewport,2
+264,SolidCraft,Docs and planning,2
 264,SolidCraft,MCP / CLI / plugins,1
-264,SolidCraft,Docs and planning,1
-264,SolidCraft,File import and export,1
-264,SolidCraft,Geometry kernel (SolidCore),1
 264,SolidCraft,Modeling engine and document,1
-265,SolidCraft,Docs and planning,2
-265,SolidCraft,User interface and viewport,2
-265,SolidCraft,MCP / CLI / plugins,1
+265,SolidCraft,Geometry kernel (SolidCore),2
 265,SolidCraft,Modeling engine and document,1
-266,SolidCraft,Geometry kernel (SolidCore),2
-266,SolidCraft,User interface and viewport,1
-266,SolidCraft,File import and export,1
+265,SolidCraft,Docs and planning,1
+265,SolidCraft,File import and export,1
+265,SolidCraft,Tests and tooling,1
+265,SolidCraft,User interface and viewport,1
+266,SolidCraft,User interface and viewport,2
 266,SolidCraft,Docs and planning,1
-266,SolidCraft,Modeling engine and document,1
-266,SolidCraft,Tests and tooling,1
-267,SolidCraft,User interface and viewport,2
-267,SolidCraft,Docs and planning,1
+267,SolidCraft,Geometry kernel (SolidCore),1
+267,SolidCraft,User interface and viewport,1
+267,SolidCraft,Modeling engine and document,1
+268,SolidCraft,Modeling engine and document,2
 268,SolidCraft,Geometry kernel (SolidCore),1
-268,SolidCraft,User interface and viewport,1
-268,SolidCraft,Modeling engine and document,1
-269,cadmpeg,cadmpeg,2
-270,SolidCraft,Modeling engine and document,2
+269,SolidCraft,Modeling engine and document,1
+269,SolidCraft,User interface and viewport,1
+270,SolidCraft,User interface and viewport,2
+270,SolidCraft,Modeling engine and document,1
+270,SolidCraft,Docs and planning,1
+270,SolidCraft,Tests and tooling,1
 270,SolidCraft,Geometry kernel (SolidCore),1
-271,SolidCraft,Modeling engine and document,1
-271,SolidCraft,User interface and viewport,1
-272,SolidCraft,User interface and viewport,2
+271,SolidCraft,Geometry kernel (SolidCore),2
+272,SolidCraft,Modeling engine and document,2
+272,SolidCraft,File import and export,1
 272,SolidCraft,Docs and planning,1
-272,SolidCraft,Geometry kernel (SolidCore),1
-272,SolidCraft,Modeling engine and document,1
-272,SolidCraft,Tests and tooling,1
-273,SolidCraft,Geometry kernel (SolidCore),2
-274,SolidCraft,Modeling engine and document,2
-274,SolidCraft,Docs and planning,1
+272,SolidCraft,MCP / CLI / plugins,1
+273,SolidCraft,MCP / CLI / plugins,2
+273,SolidCraft,User interface and viewport,2
+273,SolidCraft,Docs and planning,1
 274,SolidCraft,File import and export,1
+274,SolidCraft,Modeling engine and document,1
 274,SolidCraft,MCP / CLI / plugins,1
 275,SolidCraft,MCP / CLI / plugins,2
-275,SolidCraft,User interface and viewport,2
-275,SolidCraft,Docs and planning,1
-276,SolidCraft,File import and export,1
-276,SolidCraft,Modeling engine and document,1
-276,SolidCraft,MCP / CLI / plugins,1
+275,SolidCraft,File import and export,2
+275,SolidCraft,Modeling engine and document,2
+275,SolidCraft,Docs and planning,2
+275,SolidCraft,User interface and viewport,1
+276,SolidCraft,MCP / CLI / plugins,2
+277,SolidCraft,User interface and viewport,2
 277,SolidCraft,Docs and planning,2
-277,SolidCraft,MCP / CLI / plugins,2
-277,SolidCraft,File import and export,2
-277,SolidCraft,Modeling engine and document,2
-277,SolidCraft,User interface and viewport,1
-278,SolidCraft,MCP / CLI / plugins,2
-279,SolidCraft,Docs and planning,2
+277,SolidCraft,Geometry kernel (SolidCore),1
+277,SolidCraft,Modeling engine and document,1
+278,SolidCraft,Modeling engine and document,2
+278,SolidCraft,MCP / CLI / plugins,1
+278,SolidCraft,User interface and viewport,1
 279,SolidCraft,User interface and viewport,2
-279,SolidCraft,Modeling engine and document,1
-279,SolidCraft,Geometry kernel (SolidCore),1
-280,SolidCraft,Modeling engine and document,2
-280,SolidCraft,MCP / CLI / plugins,1
-280,SolidCraft,User interface and viewport,1
-281,SolidCraft,User interface and viewport,2
-281,SolidCraft,Docs and planning,2
-281,SolidCraft,Modeling engine and document,2
-281,SolidCraft,Sketch and constraints,1
-281,SolidCraft,MCP / CLI / plugins,1
+279,SolidCraft,Modeling engine and document,2
+279,SolidCraft,Docs and planning,2
+279,SolidCraft,Sketch and constraints,1
+279,SolidCraft,MCP / CLI / plugins,1
+280,SolidCraft,User interface and viewport,2
+281,SolidCraft,File import and export,1
+281,SolidCraft,Modeling engine and document,1
 282,SolidCraft,User interface and viewport,2
-283,SolidCraft,File import and export,1
-283,SolidCraft,Modeling engine and document,1
-284,SolidCraft,User interface and viewport,2
-284,SolidCraft,Desktop and web apps,1
+282,SolidCraft,Desktop and web apps,1
+283,SolidCraft,User interface and viewport,2
+283,SolidCraft,Tests and tooling,1
+283,SolidCraft,MCP / CLI / plugins,1
+283,SolidCraft,Docs and planning,1
+284,SolidCraft,Geometry kernel (SolidCore),1
+284,SolidCraft,Docs and planning,1
+284,SolidCraft,Modeling engine and document,1
+285,SolidCraft,Geometry kernel (SolidCore),2
+285,SolidCraft,Modeling engine and document,2
 285,SolidCraft,User interface and viewport,2
-285,SolidCraft,Tests and tooling,1
-285,SolidCraft,MCP / CLI / plugins,1
-285,SolidCraft,Docs and planning,1
-286,SolidCraft,Geometry kernel (SolidCore),1
-286,SolidCraft,Docs and planning,1
-286,SolidCraft,Modeling engine and document,1
-287,SolidCraft,Docs and planning,2
-287,SolidCraft,Geometry kernel (SolidCore),2
-287,SolidCraft,Modeling engine and document,2
+285,SolidCraft,Docs and planning,2
+286,SolidCraft,User interface and viewport,2
 287,SolidCraft,User interface and viewport,2
-288,SolidCraft,User interface and viewport,2
+287,SolidCraft,MCP / CLI / plugins,1
+287,SolidCraft,Docs and planning,1
+288,SolidCraft,Modeling engine and document,2
+288,SolidCraft,Geometry kernel (SolidCore),1
+288,SolidCraft,Tests and tooling,1
+289,SolidCraft,Modeling engine and document,2
 289,SolidCraft,User interface and viewport,2
 289,SolidCraft,MCP / CLI / plugins,1
 289,SolidCraft,Docs and planning,1
-290,SolidCraft,Modeling engine and document,2
-290,SolidCraft,Tests and tooling,1
-290,SolidCraft,Geometry kernel (SolidCore),1
-291,SolidCraft,Modeling engine and document,2
-291,SolidCraft,User interface and viewport,2
-291,SolidCraft,MCP / CLI / plugins,1
+290,SolidCraft,Modeling engine and document,1
+290,SolidCraft,User interface and viewport,1
+291,SolidCraft,Modeling engine and document,1
 291,SolidCraft,Docs and planning,1
-292,SolidCraft,Modeling engine and document,1
+291,SolidCraft,Desktop and web apps,1
+291,SolidCraft,User interface and viewport,1
+292,SolidCraft,Modeling engine and document,2
+292,SolidCraft,Tests and tooling,1
 292,SolidCraft,User interface and viewport,1
-293,SolidCraft,Docs and planning,1
+293,SolidCraft,MCP / CLI / plugins,1
 293,SolidCraft,Modeling engine and document,1
-293,SolidCraft,Desktop and web apps,1
-293,SolidCraft,User interface and viewport,1
-294,SolidCraft,Modeling engine and document,2
-294,SolidCraft,Tests and tooling,1
 294,SolidCraft,User interface and viewport,1
-295,SolidCraft,MCP / CLI / plugins,1
-295,SolidCraft,Modeling engine and document,1
+294,SolidCraft,Modeling engine and document,1
+295,SolidCraft,Sketch and constraints,1
+295,SolidCraft,Desktop and web apps,1
+295,SolidCraft,User interface and viewport,1
+295,SolidCraft,Docs and planning,1
+296,SolidCraft,Docs and planning,2
+296,SolidCraft,MCP / CLI / plugins,1
 296,SolidCraft,User interface and viewport,1
-296,SolidCraft,Modeling engine and document,1
-297,SolidCraft,Sketch and constraints,1
-297,SolidCraft,Desktop and web apps,1
-297,SolidCraft,Docs and planning,1
+297,SolidCraft,Geometry kernel (SolidCore),2
+297,SolidCraft,Modeling engine and document,1
 297,SolidCraft,User interface and viewport,1
-298,SolidCraft,Docs and planning,2
-298,SolidCraft,MCP / CLI / plugins,1
-298,SolidCraft,User interface and viewport,1
-299,SolidCraft,Geometry kernel (SolidCore),2
+297,SolidCraft,Tests and tooling,1
+298,SolidCraft,User interface and viewport,2
 299,SolidCraft,Modeling engine and document,1
+299,SolidCraft,MCP / CLI / plugins,1
 299,SolidCraft,User interface and viewport,1
-299,SolidCraft,Tests and tooling,1
-300,SolidCraft,User interface and viewport,2
-301,SolidCraft,Modeling engine and document,1
-301,SolidCraft,MCP / CLI / plugins,1
-301,SolidCraft,User interface and viewport,1
+300,SolidCraft,Modeling engine and document,1
+300,SolidCraft,MCP / CLI / plugins,1
+301,SolidCraft,User interface and viewport,2
+301,SolidCraft,Tests and tooling,1
+301,SolidCraft,Docs and planning,1
+302,SolidCraft,Geometry kernel (SolidCore),1
+302,SolidCraft,Sketch and constraints,1
 302,SolidCraft,Modeling engine and document,1
-302,SolidCraft,MCP / CLI / plugins,1
 303,SolidCraft,User interface and viewport,2
+303,SolidCraft,Modeling engine and document,1
 303,SolidCraft,Tests and tooling,1
-303,SolidCraft,Docs and planning,1
-304,SolidCraft,Geometry kernel (SolidCore),1
-304,SolidCraft,Sketch and constraints,1
-304,SolidCraft,Modeling engine and document,1
-305,SolidCraft,User interface and viewport,2
-305,SolidCraft,Modeling engine and document,1
-305,SolidCraft,Tests and tooling,1
-306,SolidCraft,User interface and viewport,2
-307,PCBCraft,PCBCraft,1
-308,PCBCraft,PCBCraft,11
-309,PCBCraft,PCBCraft,5
-310,SolidCraft,Geometry kernel (SolidCore),4
-310,SolidCraft,Tests and tooling,2
-310,SolidCraft,Docs and planning,2
-311,SolidCraft,User interface and viewport,2
-311,SolidCraft,Docs and planning,1
-312,CamCraft,CamCraft,3
-313,CamCraft,CamCraft,3
-314,CamCraft,CamCraft,2
-315,CamCraft,CamCraft,2
-316,SolidCraft,MCP / CLI / plugins,1
-316,SolidCraft,Docs and planning,1
+304,SolidCraft,User interface and viewport,2
+305,PCBCraft,PCBCraft,1
+306,PCBCraft,PCBCraft,11
+307,PCBCraft,PCBCraft,5
+308,SolidCraft,Geometry kernel (SolidCore),4
+308,SolidCraft,Docs and planning,2
+308,SolidCraft,Tests and tooling,2
+309,SolidCraft,User interface and viewport,2
+309,SolidCraft,Docs and planning,1
+310,CamCraft,CamCraft,3
+311,CamCraft,CamCraft,3
+312,CamCraft,CamCraft,2
+313,CamCraft,CamCraft,2
+314,SolidCraft,MCP / CLI / plugins,1
+314,SolidCraft,User interface and viewport,1
+314,SolidCraft,Docs and planning,1
+315,SolidCraft,Desktop and web apps,1
+315,SolidCraft,User interface and viewport,1
 316,SolidCraft,User interface and viewport,1
 317,SolidCraft,Desktop and web apps,1
+317,SolidCraft,Modeling engine and document,1
+317,SolidCraft,Docs and planning,1
+317,SolidCraft,Tests and tooling,1
+317,SolidCraft,MCP / CLI / plugins,1
 317,SolidCraft,User interface and viewport,1
+318,SolidCraft,Desktop and web apps,1
+318,SolidCraft,Modeling engine and document,1
+318,SolidCraft,Docs and planning,1
+318,SolidCraft,File import and export,1
+318,SolidCraft,Tests and tooling,1
+318,SolidCraft,Geometry kernel (SolidCore),1
 318,SolidCraft,User interface and viewport,1
-319,SolidCraft,Desktop and web apps,1
 319,SolidCraft,User interface and viewport,1
-319,SolidCraft,MCP / CLI / plugins,1
-319,SolidCraft,Docs and planning,1
-319,SolidCraft,Modeling engine and document,1
-319,SolidCraft,Tests and tooling,1
-320,SolidCraft,Desktop and web apps,1
-320,SolidCraft,User interface and viewport,1
-320,SolidCraft,File import and export,1
-320,SolidCraft,Docs and planning,1
-320,SolidCraft,Geometry kernel (SolidCore),1
 320,SolidCraft,Modeling engine and document,1
-320,SolidCraft,Tests and tooling,1
+321,SolidCraft,MCP / CLI / plugins,1
 321,SolidCraft,User interface and viewport,1
-322,SolidCraft,Modeling engine and document,1
-323,SolidCraft,MCP / CLI / plugins,1
+322,SolidCraft,MCP / CLI / plugins,1
+322,SolidCraft,User interface and viewport,1
 323,SolidCraft,User interface and viewport,1
-324,SolidCraft,MCP / CLI / plugins,1
-324,SolidCraft,User interface and viewport,1
+323,SolidCraft,Modeling engine and document,1
+323,SolidCraft,Docs and planning,1
+324,SolidCraft,Tests and tooling,1
+324,SolidCraft,Docs and planning,1
 325,SolidCraft,User interface and viewport,1
-325,SolidCraft,Docs and planning,1
-325,SolidCraft,Modeling engine and document,1
-326,SolidCraft,Tests and tooling,1
-326,SolidCraft,Docs and planning,1
+326,SolidCraft,Geometry kernel (SolidCore),1
 327,SolidCraft,User interface and viewport,1
-328,SolidCraft,Geometry kernel (SolidCore),1
+328,SolidCraft,Tests and tooling,1
+328,SolidCraft,Docs and planning,1
+329,SolidCraft,MCP / CLI / plugins,1
+329,SolidCraft,Modeling engine and document,1
 329,SolidCraft,User interface and viewport,1
+329,SolidCraft,Docs and planning,1
+330,SolidCraft,Geometry kernel (SolidCore),1
 330,SolidCraft,Tests and tooling,1
-330,SolidCraft,Docs and planning,1
-331,cadmpeg,cadmpeg,1
-332,SolidCraft,Docs and planning,1
-332,SolidCraft,MCP / CLI / plugins,1
-332,SolidCraft,Modeling engine and document,1
-332,SolidCraft,User interface and viewport,1
-333,SolidCraft,Tests and tooling,1
-333,SolidCraft,Geometry kernel (SolidCore),1
+331,SolidCraft,User interface and viewport,1
+332,SolidCraft,Sketch and constraints,1
+333,SolidCraft,Sketch and constraints,1
+333,SolidCraft,Modeling engine and document,1
 334,SolidCraft,User interface and viewport,1
-335,SolidCraft,Sketch and constraints,1
-336,SolidCraft,Sketch and constraints,1
-336,SolidCraft,Modeling engine and document,1
-337,SolidCraft,User interface and viewport,1
-338,SolidCraft,Docs and planning,1
-338,SolidCraft,Modeling engine and document,1
-338,SolidCraft,User interface and viewport,1
-339,SolidCraft,User interface and viewport,1
-340,cadmpeg,cadmpeg,1
+335,SolidCraft,Modeling engine and document,1
+335,SolidCraft,User interface and viewport,1
+335,SolidCraft,Docs and planning,1
+336,SolidCraft,User interface and viewport,1
+337,cadmpeg,cadmpeg,1
+338,SolidCraft,Geometry kernel (SolidCore),1
+339,SolidCraft,Geometry kernel (SolidCore),1
+339,SolidCraft,Modeling engine and document,1
+339,SolidCraft,Tests and tooling,1
+340,SolidCraft,User interface and viewport,1
+340,SolidCraft,Docs and planning,1
 341,SolidCraft,Geometry kernel (SolidCore),1
-342,SolidCraft,Tests and tooling,1
-342,SolidCraft,Geometry kernel (SolidCore),1
 342,SolidCraft,Modeling engine and document,1
+343,SolidCraft,Tests and tooling,1
 343,SolidCraft,Docs and planning,1
-343,SolidCraft,User interface and viewport,1
-344,SolidCraft,Geometry kernel (SolidCore),1
+344,SolidCraft,MCP / CLI / plugins,1
+344,SolidCraft,User interface and viewport,1
+344,SolidCraft,Docs and planning,1
 345,SolidCraft,Modeling engine and document,1
-346,SolidCraft,Tests and tooling,1
+346,SolidCraft,User interface and viewport,1
 346,SolidCraft,Docs and planning,1
-347,SolidCraft,MCP / CLI / plugins,1
-347,SolidCraft,Docs and planning,1
-347,SolidCraft,User interface and viewport,1
+347,cadmpeg,cadmpeg,1
+348,SolidCraft,Geometry kernel (SolidCore),1
 348,SolidCraft,Modeling engine and document,1
+349,SolidCraft,Geometry kernel (SolidCore),1
+349,SolidCraft,Modeling engine and document,1
 349,SolidCraft,Docs and planning,1
-349,SolidCraft,User interface and viewport,1
-350,cadmpeg,cadmpeg,1
-351,SolidCraft,Geometry kernel (SolidCore),1
-351,SolidCraft,Modeling engine and document,1
+350,FieldCraft,FieldCraft,1
+351,SolidCraft,User interface and viewport,1
 352,SolidCraft,Geometry kernel (SolidCore),1
-352,SolidCraft,Docs and planning,1
 352,SolidCraft,Modeling engine and document,1
-353,FieldCraft,FieldCraft,1
+353,SolidCraft,Geometry kernel (SolidCore),1
 354,SolidCraft,User interface and viewport,1
-355,SolidCraft,Geometry kernel (SolidCore),1
-355,SolidCraft,Modeling engine and document,1
-356,SolidCraft,Geometry kernel (SolidCore),1
+355,SolidCraft,User interface and viewport,1
+356,SolidCraft,User interface and viewport,1
+356,SolidCraft,Docs and planning,1
 357,SolidCraft,User interface and viewport,1
+357,SolidCraft,Docs and planning,1
 358,SolidCraft,User interface and viewport,1
-359,SolidCraft,Docs and planning,1
-359,SolidCraft,User interface and viewport,1
-360,SolidCraft,Docs and planning,1
+358,SolidCraft,Modeling engine and document,1
+359,cadmpeg,cadmpeg,1
 360,SolidCraft,User interface and viewport,1
 361,SolidCraft,User interface and viewport,1
 361,SolidCraft,Modeling engine and document,1
-362,SolidCraft,User interface and viewport,1
-363,SolidCraft,User interface and viewport,1
-363,SolidCraft,Docs and planning,1
-363,SolidCraft,Modeling engine and document,1
-364,SolidCraft,Tests and tooling,1
-365,SolidCraft,Geometry kernel (SolidCore),1
+361,SolidCraft,Docs and planning,1
+362,SolidCraft,Tests and tooling,1
+363,SolidCraft,Geometry kernel (SolidCore),1
+364,SolidCraft,User interface and viewport,1
+365,SolidCraft,Modeling engine and document,1
+365,SolidCraft,User interface and viewport,1
+365,SolidCraft,Tests and tooling,1
+366,SolidCraft,Modeling engine and document,1
 366,SolidCraft,User interface and viewport,1
-367,SolidCraft,Tests and tooling,1
-367,SolidCraft,Modeling engine and document,1
 367,SolidCraft,User interface and viewport,1
-368,SolidCraft,Modeling engine and document,1
 368,SolidCraft,User interface and viewport,1
+368,SolidCraft,Modeling engine and document,1
+368,SolidCraft,Docs and planning,1
 369,SolidCraft,User interface and viewport,1
+370,SolidCraft,MCP / CLI / plugins,1
 370,SolidCraft,User interface and viewport,1
-370,SolidCraft,Docs and planning,1
-370,SolidCraft,Modeling engine and document,1
-371,SolidCraft,User interface and viewport,1
-372,SolidCraft,MCP / CLI / plugins,1
+371,SolidCraft,Modeling engine and document,1
 372,SolidCraft,User interface and viewport,1
+373,SolidCraft,User interface and viewport,1
 373,SolidCraft,Modeling engine and document,1
 374,SolidCraft,User interface and viewport,1
-375,SolidCraft,User interface and viewport,1
-375,SolidCraft,Modeling engine and document,1
-376,SolidCraft,User interface and viewport,1
-377,SolidCraft,Tests and tooling,1
-377,SolidCraft,Geometry kernel (SolidCore),1
-378,SolidCraft,Geometry kernel (SolidCore),1
+375,SolidCraft,Geometry kernel (SolidCore),1
+375,SolidCraft,Tests and tooling,1
+376,SolidCraft,Geometry kernel (SolidCore),1
+377,SolidCraft,User interface and viewport,1
+378,SolidCraft,Tests and tooling,1
+378,SolidCraft,Modeling engine and document,1
+378,SolidCraft,Docs and planning,1
 379,SolidCraft,User interface and viewport,1
-380,SolidCraft,Tests and tooling,1
+380,SolidCraft,Desktop and web apps,1
 380,SolidCraft,Docs and planning,1
-380,SolidCraft,Modeling engine and document,1
+381,SolidCraft,MCP / CLI / plugins,1
 381,SolidCraft,User interface and viewport,1
-382,SolidCraft,Desktop and web apps,1
+382,SolidCraft,Modeling engine and document,1
+382,SolidCraft,User interface and viewport,1
 382,SolidCraft,Docs and planning,1
-383,SolidCraft,MCP / CLI / plugins,1
+383,SolidCraft,Modeling engine and document,1
 383,SolidCraft,User interface and viewport,1
-384,SolidCraft,Docs and planning,1
-384,SolidCraft,Modeling engine and document,1
-384,SolidCraft,User interface and viewport,1
-385,SolidCraft,Modeling engine and document,1
-385,SolidCraft,User interface and viewport,1
-386,SolidCraft,Geometry kernel (SolidCore),1
+384,SolidCraft,Geometry kernel (SolidCore),1
+385,SolidCraft,Docs and planning,1
+386,SolidCraft,User interface and viewport,1
 387,SolidCraft,Docs and planning,1
-388,SolidCraft,User interface and viewport,1
+388,SolidCraft,Modeling engine and document,1
+388,SolidCraft,Docs and planning,1
+389,SolidCraft,MCP / CLI / plugins,1
+389,SolidCraft,User interface and viewport,1
 389,SolidCraft,Docs and planning,1
-390,SolidCraft,Docs and planning,1
-390,SolidCraft,Modeling engine and document,1
-391,SolidCraft,MCP / CLI / plugins,1
-391,SolidCraft,Docs and planning,1
+390,SolidCraft,MCP / CLI / plugins,1
+390,SolidCraft,User interface and viewport,1
+390,SolidCraft,Tests and tooling,1
 391,SolidCraft,User interface and viewport,1
-392,SolidCraft,Tests and tooling,1
-392,SolidCraft,MCP / CLI / plugins,1
-392,SolidCraft,User interface and viewport,1
-393,SolidCraft,Geometry kernel (SolidCore),1
+391,SolidCraft,Geometry kernel (SolidCore),1
+392,SolidCraft,Geometry kernel (SolidCore),1
+393,SolidCraft,MCP / CLI / plugins,1
+393,SolidCraft,Modeling engine and document,1
 393,SolidCraft,User interface and viewport,1
-394,SolidCraft,Geometry kernel (SolidCore),1
-395,SolidCraft,Modeling engine and document,1
+393,SolidCraft,Docs and planning,1
+394,SolidCraft,User interface and viewport,1
+394,SolidCraft,Docs and planning,1
+395,SolidCraft,Desktop and web apps,1
 395,SolidCraft,MCP / CLI / plugins,1
-395,SolidCraft,Docs and planning,1
 395,SolidCraft,User interface and viewport,1
-396,SolidCraft,Docs and planning,1
-396,SolidCraft,User interface and viewport,1
-397,SolidCraft,MCP / CLI / plugins,1
-397,SolidCraft,Desktop and web apps,1
-397,SolidCraft,Docs and planning,1
+395,SolidCraft,Docs and planning,1
+396,SolidCraft,Modeling engine and document,1
 397,SolidCraft,User interface and viewport,1
+397,SolidCraft,Modeling engine and document,1
+398,SolidCraft,User interface and viewport,1
 398,SolidCraft,Modeling engine and document,1
 399,SolidCraft,User interface and viewport,1
-399,SolidCraft,Modeling engine and document,1
+399,SolidCraft,Docs and planning,1
 400,SolidCraft,User interface and viewport,1
-400,SolidCraft,Modeling engine and document,1
+401,SolidCraft,Geometry kernel (SolidCore),1
+401,SolidCraft,Modeling engine and document,1
 401,SolidCraft,Docs and planning,1
-401,SolidCraft,User interface and viewport,1
 402,SolidCraft,User interface and viewport,1
-403,SolidCraft,Geometry kernel (SolidCore),1
-403,SolidCraft,Docs and planning,1
+402,SolidCraft,Modeling engine and document,1
+403,SolidCraft,User interface and viewport,1
 403,SolidCraft,Modeling engine and document,1
-404,SolidCraft,User interface and viewport,1
+403,SolidCraft,Docs and planning,1
+404,SolidCraft,Geometry kernel (SolidCore),1
+404,SolidCraft,Sketch and constraints,1
 404,SolidCraft,Modeling engine and document,1
-405,SolidCraft,User interface and viewport,1
-405,SolidCraft,Docs and planning,1
+404,SolidCraft,Tests and tooling,1
+405,SolidCraft,File import and export,1
 405,SolidCraft,Modeling engine and document,1
-406,SolidCraft,Tests and tooling,1
-406,SolidCraft,Sketch and constraints,1
+405,SolidCraft,Tests and tooling,1
 406,SolidCraft,Geometry kernel (SolidCore),1
 406,SolidCraft,Modeling engine and document,1
-407,SolidCraft,Tests and tooling,1
-407,SolidCraft,File import and export,1
+406,SolidCraft,Tests and tooling,1
 407,SolidCraft,Modeling engine and document,1
-408,SolidCraft,Tests and tooling,1
-408,SolidCraft,Geometry kernel (SolidCore),1
-408,SolidCraft,Modeling engine and document,1
-409,SolidCraft,Docs and planning,1
-409,SolidCraft,Modeling engine and document,1
+407,SolidCraft,User interface and viewport,1
+407,SolidCraft,Docs and planning,1
+408,SolidCraft,Docs and planning,1
 409,SolidCraft,User interface and viewport,1
-410,SolidCraft,Docs and planning,1
+410,SolidCraft,MCP / CLI / plugins,1
+410,SolidCraft,User interface and viewport,1
 411,SolidCraft,User interface and viewport,1
-412,SolidCraft,MCP / CLI / plugins,1
-412,SolidCraft,User interface and viewport,1
-413,SolidCraft,Docs and planning,1
+411,SolidCraft,Docs and planning,1
+412,SolidCraft,Geometry kernel (SolidCore),1
+412,SolidCraft,Tests and tooling,1
 413,SolidCraft,User interface and viewport,1
-414,SolidCraft,Tests and tooling,1
-414,SolidCraft,Geometry kernel (SolidCore),1
+414,SolidCraft,Modeling engine and document,1
 415,SolidCraft,User interface and viewport,1
-416,SolidCraft,Modeling engine and document,1
-417,SolidCraft,Docs and planning,1
+415,SolidCraft,Docs and planning,1
+416,SolidCraft,User interface and viewport,1
 417,SolidCraft,User interface and viewport,1
-418,SolidCraft,User interface and viewport,1
+418,SolidCraft,Modeling engine and document,1
 419,SolidCraft,User interface and viewport,1
-420,SolidCraft,Modeling engine and document,1
+420,SolidCraft,Geometry kernel (SolidCore),1
 421,SolidCraft,User interface and viewport,1
-422,SolidCraft,Geometry kernel (SolidCore),1
-423,SolidCraft,User interface and viewport,1
-424,SolidCraft,Tests and tooling,1
-424,SolidCraft,Desktop and web apps,1
-425,SolidCraft,Tests and tooling,1
-425,SolidCraft,Desktop and web apps,1
-425,SolidCraft,Docs and planning,1
-426,SolidCraft,Geometry kernel (SolidCore),1
-427,SolidCraft,Geometry kernel (SolidCore),1
-428,SolidCraft,MCP / CLI / plugins,1
-428,SolidCraft,Docs and planning,1
+422,SolidCraft,Desktop and web apps,1
+422,SolidCraft,Tests and tooling,1
+423,SolidCraft,Desktop and web apps,1
+423,SolidCraft,Tests and tooling,1
+423,SolidCraft,Docs and planning,1
+424,SolidCraft,Geometry kernel (SolidCore),1
+425,SolidCraft,Geometry kernel (SolidCore),1
+426,SolidCraft,MCP / CLI / plugins,1
+426,SolidCraft,User interface and viewport,1
+426,SolidCraft,Docs and planning,1
+427,SolidCraft,Modeling engine and document,1
+428,SolidCraft,File import and export,1
 428,SolidCraft,User interface and viewport,1
-429,SolidCraft,Modeling engine and document,1
+428,SolidCraft,Modeling engine and document,1
+429,SolidCraft,Geometry kernel (SolidCore),1
 430,SolidCraft,User interface and viewport,1
-430,SolidCraft,File import and export,1
-430,SolidCraft,Modeling engine and document,1
-431,cadmpeg,cadmpeg,1
-432,SolidCraft,Geometry kernel (SolidCore),1
-433,SolidCraft,User interface and viewport,1
-434,SolidCraft,Docs and planning,1
+431,SolidCraft,Docs and planning,1
+432,SolidCraft,User interface and viewport,1
+433,SolidCraft,Docs and planning,1
+433,SolidCraft,Tests and tooling,1
+434,cadmpeg,cadmpeg,1
+435,SolidCraft,Modeling engine and document,1
+435,SolidCraft,Docs and planning,1
+435,SolidCraft,Geometry kernel (SolidCore),1
+435,SolidCraft,MCP / CLI / plugins,1
 435,SolidCraft,User interface and viewport,1
+436,SolidCraft,User interface and viewport,1
 436,SolidCraft,Tests and tooling,1
-436,SolidCraft,Docs and planning,1
-437,SolidCraft,User interface and viewport,1
-437,SolidCraft,MCP / CLI / plugins,1
-437,SolidCraft,Docs and planning,1
-437,SolidCraft,Geometry kernel (SolidCore),1
-437,SolidCraft,Modeling engine and document,1
-438,SolidCraft,Tests and tooling,1
-438,SolidCraft,User interface and viewport,1
+437,SolidCraft,Tests and tooling,1
+438,SolidCraft,MCP / CLI / plugins,1
+439,SolidCraft,Desktop and web apps,1
+439,SolidCraft,Modeling engine and document,1
+439,SolidCraft,Docs and planning,1
+439,SolidCraft,File import and export,1
 439,SolidCraft,Tests and tooling,1
-440,SolidCraft,MCP / CLI / plugins,1
-441,SolidCraft,Desktop and web apps,1
+439,SolidCraft,Geometry kernel (SolidCore),1
+439,SolidCraft,MCP / CLI / plugins,1
+439,SolidCraft,User interface and viewport,1
+440,SolidCraft,File import and export,1
+440,SolidCraft,Geometry kernel (SolidCore),1
+440,SolidCraft,Tests and tooling,1
 441,SolidCraft,User interface and viewport,1
-441,SolidCraft,MCP / CLI / plugins,1
 441,SolidCraft,Docs and planning,1
-441,SolidCraft,File import and export,1
-441,SolidCraft,Geometry kernel (SolidCore),1
-441,SolidCraft,Modeling engine and document,1
-441,SolidCraft,Tests and tooling,1
-442,SolidCraft,Tests and tooling,1
-442,SolidCraft,Geometry kernel (SolidCore),1
-442,SolidCraft,File import and export,1
+442,cadmpeg,cadmpeg,1
 443,SolidCraft,Docs and planning,1
-443,SolidCraft,User interface and viewport,1
-444,cadmpeg,cadmpeg,1
-445,SolidCraft,Tests and tooling,1
+443,SolidCraft,Tests and tooling,1
+444,SolidCraft,User interface and viewport,1
+445,SolidCraft,Geometry kernel (SolidCore),1
+445,SolidCraft,Modeling engine and document,1
 445,SolidCraft,Docs and planning,1
+446,SolidCraft,Modeling engine and document,1
 446,SolidCraft,User interface and viewport,1
-447,SolidCraft,Geometry kernel (SolidCore),1
-447,SolidCraft,Docs and planning,1
-447,SolidCraft,Modeling engine and document,1
-448,SolidCraft,Docs and planning,1
-448,SolidCraft,Modeling engine and document,1
+446,SolidCraft,Docs and planning,1
+447,SolidCraft,User interface and viewport,1
 448,SolidCraft,User interface and viewport,1
+448,SolidCraft,Docs and planning,1
+449,SolidCraft,MCP / CLI / plugins,1
+449,SolidCraft,Modeling engine and document,1
 449,SolidCraft,User interface and viewport,1
-450,SolidCraft,Docs and planning,1
-450,SolidCraft,User interface and viewport,1
-451,SolidCraft,Modeling engine and document,1
-451,SolidCraft,MCP / CLI / plugins,1
+449,SolidCraft,Docs and planning,1
+450,SolidCraft,File import and export,1
+450,SolidCraft,Modeling engine and document,1
 451,SolidCraft,Docs and planning,1
-451,SolidCraft,User interface and viewport,1
-452,SolidCraft,File import and export,1
-452,SolidCraft,Modeling engine and document,1
+452,SolidCraft,Geometry kernel (SolidCore),1
+453,SolidCraft,Desktop and web apps,1
 453,SolidCraft,Docs and planning,1
-454,SolidCraft,Geometry kernel (SolidCore),1
-455,SolidCraft,Desktop and web apps,1
-455,SolidCraft,Docs and planning,1
+454,SolidCraft,User interface and viewport,1
+454,SolidCraft,Modeling engine and document,1
+455,SolidCraft,User interface and viewport,1
 456,SolidCraft,User interface and viewport,1
-456,SolidCraft,Modeling engine and document,1
 457,SolidCraft,User interface and viewport,1
+458,SolidCraft,Desktop and web apps,1
+458,SolidCraft,MCP / CLI / plugins,1
 458,SolidCraft,User interface and viewport,1
+458,SolidCraft,Docs and planning,1
 459,SolidCraft,User interface and viewport,1
-460,SolidCraft,MCP / CLI / plugins,1
-460,SolidCraft,Desktop and web apps,1
-460,SolidCraft,Docs and planning,1
-460,SolidCraft,User interface and viewport,1
-461,SolidCraft,User interface and viewport,1
+460,SolidCraft,Geometry kernel (SolidCore),1
+461,cadmpeg,cadmpeg,1
 462,SolidCraft,Geometry kernel (SolidCore),1
-463,cadmpeg,cadmpeg,1
-464,SolidCraft,Geometry kernel (SolidCore),1
-464,SolidCraft,Modeling engine and document,1
-465,SolidCraft,Desktop and web apps,1
+462,SolidCraft,Modeling engine and document,1
+463,SolidCraft,Desktop and web apps,1
+464,SolidCraft,Docs and planning,1
+465,SolidCraft,User interface and viewport,1
+466,SolidCraft,User interface and viewport,1
 466,SolidCraft,Docs and planning,1
-467,SolidCraft,User interface and viewport,1
-468,SolidCraft,Docs and planning,1
+467,SolidCraft,Modeling engine and document,1
+468,SolidCraft,MCP / CLI / plugins,1
 468,SolidCraft,User interface and viewport,1
-469,SolidCraft,Modeling engine and document,1
-470,SolidCraft,MCP / CLI / plugins,1
-470,SolidCraft,Docs and planning,1
+468,SolidCraft,Docs and planning,1
+469,SolidCraft,User interface and viewport,1
+470,SolidCraft,Modeling engine and document,1
 470,SolidCraft,User interface and viewport,1
-471,SolidCraft,User interface and viewport,1
-472,SolidCraft,Modeling engine and document,1
+470,SolidCraft,Docs and planning,1
+471,SolidCraft,Geometry kernel (SolidCore),1
+472,SolidCraft,Tests and tooling,1
+472,SolidCraft,Geometry kernel (SolidCore),1
 472,SolidCraft,Docs and planning,1
-472,SolidCraft,User interface and viewport,1
 473,SolidCraft,Geometry kernel (SolidCore),1
-474,SolidCraft,Tests and tooling,1
 474,SolidCraft,Geometry kernel (SolidCore),1
-474,SolidCraft,Docs and planning,1
 475,SolidCraft,Geometry kernel (SolidCore),1
-476,SolidCraft,Geometry kernel (SolidCore),1
-477,SolidCraft,Geometry kernel (SolidCore),1
-478,SolidCraft,Modeling engine and document,1
+476,SolidCraft,Modeling engine and document,1
+476,SolidCraft,User interface and viewport,1
+477,SolidCraft,Modeling engine and document,1
+477,SolidCraft,Docs and planning,1
+477,SolidCraft,File import and export,1
+477,SolidCraft,MCP / CLI / plugins,1
+477,SolidCraft,User interface and viewport,1
 478,SolidCraft,User interface and viewport,1
+478,SolidCraft,Docs and planning,1
 479,SolidCraft,User interface and viewport,1
-479,SolidCraft,MCP / CLI / plugins,1
-479,SolidCraft,File import and export,1
 479,SolidCraft,Docs and planning,1
-479,SolidCraft,Modeling engine and document,1
-480,SolidCraft,Docs and planning,1
 480,SolidCraft,User interface and viewport,1
-481,SolidCraft,Docs and planning,1
-481,SolidCraft,User interface and viewport,1
-482,SolidCraft,User interface and viewport,1
-483,SolidCraft,Modeling engine and document,1
-485,FieldCraft,FieldCraft,7
-486,FieldCraft,FieldCraft,5
-487,FieldCraft,FieldCraft,4
-488,FieldCraft,FieldCraft,3
-489,FieldCraft,FieldCraft,3
-490,SolidCraft,Geometry kernel (SolidCore),2
-490,SolidCraft,Docs and planning,2
-491,FieldCraft,FieldCraft,2
-492,SolidCraft,Tests and tooling,1
-492,SolidCraft,Geometry kernel (SolidCore),1
-492,SolidCraft,Docs and planning,1
+481,SolidCraft,Modeling engine and document,1
+483,FieldCraft,FieldCraft,7
+484,FieldCraft,FieldCraft,5
+485,FieldCraft,FieldCraft,4
+486,FieldCraft,FieldCraft,3
+487,FieldCraft,FieldCraft,3
+488,SolidCraft,Geometry kernel (SolidCore),2
+488,SolidCraft,Docs and planning,2
+489,FieldCraft,FieldCraft,2
+490,SolidCraft,Docs and planning,1
+490,SolidCraft,Geometry kernel (SolidCore),1
+490,SolidCraft,Tests and tooling,1
+491,SolidCraft,Docs and planning,1
+491,SolidCraft,Geometry kernel (SolidCore),1
+491,SolidCraft,Tests and tooling,1
+492,FieldCraft,FieldCraft,1
 493,SolidCraft,Tests and tooling,1
-493,SolidCraft,Geometry kernel (SolidCore),1
-493,SolidCraft,Docs and planning,1
 494,FieldCraft,FieldCraft,1
 495,SolidCraft,Tests and tooling,1
-496,FieldCraft,FieldCraft,1
-497,SolidCraft,Tests and tooling,1
-497,SolidCraft,Docs and planning,1
-498,SolidCraft,Tests and tooling,1
-498,SolidCraft,Desktop and web apps,1
-498,SolidCraft,Docs and planning,1
+495,SolidCraft,Docs and planning,1
+496,SolidCraft,Desktop and web apps,1
+496,SolidCraft,Tests and tooling,1
+496,SolidCraft,Docs and planning,1
+497,CamCraft,CamCraft,1

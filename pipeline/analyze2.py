@@ -393,8 +393,10 @@ if os.path.exists('gh_counts_by_repo.csv'):
 with open('gh_counts_by_product.csv', 'w', newline='') as f:
     w = csv.writer(f, lineterminator='\n')
     w.writerow(['login', 'product', 'issues_opened', 'issues_commented', 'prs_reviewed'])
+    on_board = {r['login'].lower() for r in rows if r['login']}
     for (login, prod), v in sorted(by_product.items(), key=lambda x: (x[0][0].lower(), x[0][1])):
-        w.writerow([login, prod] + v)
+        if login.lower() in on_board:  # people with no commits or PRs aren't on the board
+            w.writerow([login, prod] + v)
 
 json.dump({'generated_at': CUTOFF.strftime('%Y-%m-%dT%H:%M:%SZ'), 'previous_from': prev_from if prev else '', 'people': len(rows),
            'prs_merged': sum(r['prs_merged'] for r in rows), 'commits': sum(r['commits'] for r in rows),
