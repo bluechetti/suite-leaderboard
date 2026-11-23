@@ -1,0 +1,481 @@
+name,login,identity,maintainer,prs_merged,prs_7d,commits,solidcraft_prs,fieldcraft_prs,pcbcraft_prs,camcraft_prs,kernel_commits,products,product_list,prs_naming_issue,landed_for_others,active_days,longest_streak,best_day,best_day_date,best_week,best_week_id,first_day,last_day,main_area,main_area_share,files_touched,rank,prev_rank,rank_change
+bherbruck,bherbruck,GitHub account,yes,1323,181,2469,1272,0,2,16,990,4,CamCraft / FieldCraft / Other / PCBCraft / SolidCraft,304,1696,48,48,361,2026-10-12,830,2026-W42,2026-10-07,2026-11-23,Geometry kernel (SolidCore),23,21878,,,
+mkinney,mkinney,GitHub account,no,869,351,1595,0,0,0,869,0,1,CamCraft,0,36,16,16,303,2026-11-12,933,2026-W46,2026-11-07,2026-11-22,CamCraft,100,13298,1,1,0
+brett19,brett19,GitHub account,no,673,123,788,673,0,0,0,706,1,SolidCraft,272,0,32,17,83,2026-10-31,344,2026-W44,2026-10-19,2026-11-23,Geometry kernel (SolidCore),55,10452,2,2,0
+NeoTech,NeoTech,GitHub account,yes,538,200,1620,0,0,0,538,0,1,CamCraft,1,711,43,43,183,2026-11-07,452,2026-W45,2026-10-11,2026-11-22,CamCraft,100,12399,,,
+jyviko,jyviko,GitHub account,yes,516,24,1837,271,245,0,0,668,2,FieldCraft / Other / SolidCraft,71,362,41,41,213,2026-10-15,673,2026-W42,2026-10-11,2026-11-20,FieldCraft,39,28845,,,
+raykholo,raykholo,GitHub account,no,431,156,433,431,0,0,0,160,1,SolidCraft,188,0,29,13,51,2026-11-14,158,2026-W47,2026-10-20,2026-11-23,Modeling engine and document,23,2546,3,3,0
+semmelrinde,semmelrinde,GitHub account,no,357,0,367,351,6,0,0,1,2,FieldCraft / SolidCraft,119,0,15,13,86,2026-10-28,273,2026-W44,2026-10-13,2026-11-09,User interface and viewport,66,723,4,4,0
+MarkusReichart,MarkusReichart,GitHub account,no,238,86,240,238,0,0,0,193,1,SolidCraft,178,0,25,23,17,2026-11-19,88,2026-W47,2026-10-28,2026-11-22,Geometry kernel (SolidCore),67,1422,5,5,0
+CamWight,CamWight,GitHub account,no,206,47,206,206,0,0,0,64,1,SolidCraft,183,0,36,27,16,2026-11-17,62,2026-W45,2026-10-14,2026-11-22,Modeling engine and document,36,2009,6,6,0
+altvnk,altvnk,GitHub account,no,200,17,212,200,0,0,0,176,1,SolidCraft,34,0,23,12,60,2026-10-25,95,2026-W43,2026-10-17,2026-11-21,Geometry kernel (SolidCore),50,952,7,7,0
+cfaulkingham,cfaulkingham,GitHub account,no,191,34,191,191,0,0,0,19,1,SolidCraft,174,0,28,15,27,2026-11-16,64,2026-W44,2026-10-15,2026-11-22,User interface and viewport,38,755,8,8,0
+travle1,travle1,GitHub account,no,189,17,651,0,0,189,0,0,1,PCBCraft,0,137,19,19,88,2026-11-06,318,2026-W46,2026-11-05,2026-11-23,PCBCraft,100,7171,9,9,0
+tdamsma,tdamsma,GitHub account,no,147,0,163,147,0,0,0,138,1,SolidCraft,52,0,15,9,31,2026-10-22,93,2026-W43,2026-10-20,2026-11-09,Geometry kernel (SolidCore),48,1711,10,10,0
+dudedagger42,dudedagger42,GitHub account,no,146,27,153,145,1,0,0,33,2,FieldCraft / SolidCraft,103,0,23,10,28,2026-11-09,76,2026-W46,2026-10-21,2026-11-23,Modeling engine and document,40,523,11,11,0
+Nathan-Dane,Nathan-Dane,GitHub account,no,140,36,155,140,0,0,0,12,1,SolidCraft,75,0,32,12,18,2026-10-20,42,2026-W44,2026-10-12,2026-11-22,User interface and viewport,40,4312,12,12,0
+NOWN-DEV,NOWN-DEV,GitHub account,no,137,6,137,137,0,0,0,35,1,SolidCraft,24,0,24,10,23,2026-10-13,73,2026-W42,2026-10-12,2026-11-22,Modeling engine and document,44,741,13,13,0
+austin62jake,austin62jake,GitHub account,no,134,10,140,100,0,15,19,7,3,CamCraft / PCBCraft / SolidCraft,89,0,16,7,30,2026-11-08,82,2026-W45,2026-10-28,2026-11-20,Modeling engine and document,42,636,14,14,0
+oursland,oursland,GitHub account,no,127,74,132,127,0,0,0,48,1,SolidCraft,21,0,25,13,21,2026-11-18,74,2026-W47,2026-10-15,2026-11-22,User interface and viewport,26,1773,15,15,0
+PaddleStroke,PaddleStroke,GitHub account,no,105,12,105,105,0,0,0,14,1,SolidCraft,100,0,17,8,20,2026-11-07,38,2026-W45,2026-10-28,2026-11-21,User interface and viewport,37,559,16,16,0
+0rdnungsamt,0rdnungsamt,GitHub account,no,102,41,102,102,0,0,0,10,1,SolidCraft,71,0,15,15,17,2026-11-14,55,2026-W46,2026-11-08,2026-11-22,Modeling engine and document,57,371,17,17,0
+Karl-VonRichter,Karl-VonRichter,GitHub account,no,94,4,103,94,0,0,0,50,1,SolidCraft,63,0,23,8,31,2026-11-01,35,2026-W44,2026-10-13,2026-11-22,Geometry kernel (SolidCore),24,1337,18,18,0
+vdirienzo,vdirienzo,GitHub account,no,94,28,94,94,0,0,0,3,1,SolidCraft,79,0,26,12,12,2026-11-19,28,2026-W47,2026-10-23,2026-11-22,Modeling engine and document,37,394,18,18,0
+DuBearte,DuBearte,GitHub account,no,93,0,93,93,0,0,0,5,1,SolidCraft,76,0,20,7,19,2026-10-16,48,2026-W42,2026-10-15,2026-11-11,User interface and viewport,43,335,20,20,0
+outlookhazy,outlookhazy,GitHub account,no,92,0,94,92,0,0,0,88,1,SolidCraft,9,0,10,3,46,2026-11-01,57,2026-W44,2026-10-23,2026-11-08,Geometry kernel (SolidCore),49,635,21,21,0
+ablasik,ablasik,GitHub account,no,88,7,89,88,0,0,0,67,1,SolidCraft,35,0,18,12,18,2026-10-26,37,2026-W44,2026-10-25,2026-11-17,Geometry kernel (SolidCore),45,381,22,22,0
+SychPL,SychPL,GitHub account,no,88,1,86,88,0,0,0,18,1,SolidCraft,58,0,20,6,13,2026-10-16,47,2026-W42,2026-10-13,2026-11-16,Modeling engine and document,23,533,22,22,0
+0xlillith,0xlillith,GitHub account,no,82,2,166,80,0,0,0,26,1,Other / SolidCraft,10,4,22,6,36,2026-10-25,60,2026-W42,2026-10-10,2026-11-16,Website and other repos,21,111867,24,24,0
+khanahmad4527,khanahmad4527,GitHub account,no,79,2,84,79,0,0,0,59,1,SolidCraft,57,0,19,8,17,2026-10-31,37,2026-W44,2026-10-25,2026-11-22,Geometry kernel (SolidCore),43,406,25,25,0
+kaltenbrunnermarkus,kaltenbrunnermarkus,GitHub account,no,68,0,71,68,0,0,0,7,1,SolidCraft,24,0,12,9,29,2026-11-01,40,2026-W44,2026-10-20,2026-11-09,Modeling engine and document,33,227,26,26,0
+plexi32,plexi32,GitHub account,no,68,11,68,68,0,0,0,15,1,SolidCraft,39,0,30,12,7,2026-11-12,24,2026-W46,2026-10-19,2026-11-22,User interface and viewport,35,376,26,26,0
+Warmbird,Warmbird,GitHub account,no,65,65,462,2,0,63,0,0,2,PCBCraft / SolidCraft,0,0,7,7,119,2026-11-16,462,2026-W47,2026-11-16,2026-11-22,PCBCraft,100,2111,28,28,0
+phanoob,phanoob,GitHub account,no,60,3,60,60,0,0,0,10,1,SolidCraft,39,0,19,5,8,2026-10-21,21,2026-W43,2026-10-13,2026-11-20,User interface and viewport,41,282,29,29,0
+dahakbuilds,dahakbuilds,GitHub account,no,59,0,59,59,0,0,0,1,1,SolidCraft,59,0,14,9,17,2026-10-31,39,2026-W44,2026-10-20,2026-11-15,User interface and viewport,46,321,30,30,0
+rlartot,rlartot,GitHub account,no,52,13,52,52,0,0,0,6,1,SolidCraft,41,0,19,8,7,2026-10-19,25,2026-W43,2026-10-14,2026-11-22,User interface and viewport,37,171,31,31,0
+LouisBunt,LouisBunt,GitHub account,no,48,0,48,48,0,0,0,0,1,SolidCraft,48,0,9,8,15,2026-11-07,34,2026-W45,2026-10-31,2026-11-11,Modeling engine and document,77,249,32,32,0
+A-AL-ANAZI,A-AL-ANAZI,GitHub account,no,47,7,47,47,0,0,0,0,1,SolidCraft,2,0,23,8,8,2026-10-31,25,2026-W44,2026-10-25,2026-11-22,User interface and viewport,92,88,33,33,0
+ancientastronauttheorist,ancientastronauttheorist,GitHub account,no,45,22,45,45,0,0,0,23,1,SolidCraft,23,0,14,9,8,2026-11-10,22,2026-W46,2026-11-08,2026-11-23,Geometry kernel (SolidCore),45,174,34,34,0
+jonaswre,jonaswre,GitHub account,no,43,0,46,43,0,0,0,4,1,SolidCraft,40,0,3,3,24,2026-10-13,46,2026-W42,2026-10-12,2026-10-14,Modeling engine and document,63,153,35,35,0
+aapolipponen,aapolipponen,GitHub account,no,43,9,43,43,0,0,0,41,1,SolidCraft,27,0,10,5,17,2026-10-31,17,2026-W45,2026-10-31,2026-11-21,Geometry kernel (SolidCore),60,248,35,35,0
+HiroKenEz,HiroKenEz,GitHub account,no,43,1,43,43,0,0,0,1,1,SolidCraft,38,0,22,8,8,2026-10-26,17,2026-W44,2026-10-13,2026-11-21,User interface and viewport,41,251,35,35,0
+N3MI-DG,N3MI-DG,GitHub account,no,42,4,43,42,0,0,0,8,1,SolidCraft,33,0,22,10,5,2026-11-14,15,2026-W44,2026-10-10,2026-11-22,User interface and viewport,52,253,38,38,0
+ChrisNourse,ChrisNourse,GitHub account,no,40,7,49,40,0,0,0,34,1,SolidCraft,26,0,25,10,5,2026-10-31,13,2026-W45,2026-10-19,2026-11-22,Geometry kernel (SolidCore),44,273,39,39,0
+SS-EN,SS-EN,GitHub account,no,40,0,40,40,0,0,0,6,1,SolidCraft,16,0,13,6,6,2026-11-10,20,2026-W43,2026-10-19,2026-11-11,Modeling engine and document,43,292,39,39,0
+froglemonade2,froglemonade2,GitHub account,no,38,0,84,38,0,0,0,55,1,SolidCraft,18,0,21,10,20,2026-10-14,51,2026-W42,2026-10-12,2026-11-05,Geometry kernel (SolidCore),26,1362,41,41,0
+dannyow,dannyow,GitHub account,no,38,5,38,38,0,0,0,0,1,SolidCraft,26,0,17,3,8,2026-11-04,14,2026-W45,2026-10-21,2026-11-21,User interface and viewport,52,359,41,41,0
+Ehuntabi,Ehuntabi,GitHub account,no,35,20,35,35,0,0,0,2,1,SolidCraft,26,0,12,11,5,2026-11-19,20,2026-W47,2026-11-10,2026-11-22,User interface and viewport,35,121,43,43,0
+ashxddaga,ashxddaga,GitHub account,no,34,26,34,34,0,0,0,5,1,SolidCraft,29,0,13,5,7,2026-11-22,26,2026-W47,2026-10-31,2026-11-23,Modeling engine and document,41,80,44,44,0
+bluecmd,bluecmd,GitHub account,no,32,0,180,27,5,0,0,29,2,FieldCraft / SolidCraft,13,0,20,7,25,2026-10-20,59,2026-W43,2026-10-16,2026-11-13,FieldCraft,59,1568,45,45,0
+crono2250,crono2250,GitHub account,no,31,4,32,31,0,0,0,5,1,SolidCraft,2,0,21,4,4,2026-10-16,9,2026-W42,2026-10-11,2026-11-22,User interface and viewport,33,260,46,46,0
+fkirill,fkirill,GitHub account,no,30,0,35,30,0,0,0,26,1,SolidCraft,26,0,9,4,8,2026-10-23,22,2026-W43,2026-10-17,2026-11-12,Geometry kernel (SolidCore),33,241,47,47,0
+thocsmith,thocsmith,GitHub account,no,30,5,30,30,0,0,0,0,1,SolidCraft,30,0,16,9,5,2026-11-05,13,2026-W46,2026-10-31,2026-11-22,User interface and viewport,42,97,47,47,0
+flyboy-byte,flyboy-byte,GitHub account,no,29,0,30,29,0,0,0,12,1,SolidCraft,29,0,11,5,6,2026-10-26,17,2026-W44,2026-10-19,2026-11-08,Geometry kernel (SolidCore),27,67,49,49,0
+1993eg1,1993eg1,GitHub account,no,29,4,29,29,0,0,0,0,1,SolidCraft,0,0,5,1,12,2026-11-14,21,2026-W46,2026-11-08,2026-11-22,MCP / CLI / plugins,3,30,49,49,0
+theironchef,theironchef,GitHub account,no,28,24,28,28,0,0,0,18,1,SolidCraft,21,0,12,9,8,2026-11-22,23,2026-W47,2026-11-08,2026-11-23,Geometry kernel (SolidCore),60,109,51,51,0
+kaievns,kaievns,GitHub account,no,27,2,27,27,0,0,0,1,1,SolidCraft,11,0,15,5,4,2026-10-25,9,2026-W43,2026-10-23,2026-11-18,User interface and viewport,38,198,52,52,0
+jijinbei,jijinbei,GitHub account,no,26,1,28,26,0,0,0,9,2,FieldCraft / SolidCraft,7,0,13,8,6,2026-10-14,20,2026-W42,2026-10-13,2026-11-20,Modeling engine and document,22,1169,53,53,0
+yuri-schmaltz,yuri-schmaltz,GitHub account,no,26,0,26,26,0,0,0,5,1,SolidCraft,0,0,4,3,13,2026-11-12,25,2026-W46,2026-11-12,2026-11-16,Modeling engine and document,39,60,53,53,0
+vilts,vilts,GitHub account,no,25,14,54,0,0,0,25,0,1,CamCraft,0,0,9,6,15,2026-11-12,35,2026-W46,2026-11-10,2026-11-21,CamCraft,100,441,55,55,0
+wdunn001,wdunn001,GitHub account,no,24,0,24,24,0,0,0,0,1,SolidCraft,2,0,4,1,21,2026-10-13,22,2026-W42,2026-10-13,2026-10-23,User interface and viewport,55,196,56,56,0
+carlymx,carlymx,GitHub account,no,23,6,23,23,0,0,0,0,1,SolidCraft,0,0,15,3,4,2026-11-22,8,2026-W47,2026-10-18,2026-11-22,User interface and viewport,92,33,57,57,0
+FlamingFireCoding,FlamingFireCoding,GitHub account,no,22,10,64,1,0,0,21,0,2,CamCraft / SolidCraft,1,0,12,7,14,2026-11-11,33,2026-W46,2026-11-09,2026-11-22,CamCraft,97,328,58,58,0
+fdalmaso,fdalmaso,GitHub account,no,22,1,23,22,0,0,0,23,1,SolidCraft,12,0,10,4,10,2026-10-24,12,2026-W43,2026-10-24,2026-11-16,Geometry kernel (SolidCore),43,351,58,58,0
+leValdemar19,leValdemar19,GitHub account,no,22,1,22,22,0,0,0,0,1,SolidCraft,21,0,14,4,4,2026-11-04,7,2026-W45,2026-10-19,2026-11-22,User interface and viewport,44,140,58,58,0
+rugbymauri,rugbymauri,GitHub account,no,22,1,22,22,0,0,0,0,1,SolidCraft,22,0,8,2,6,2026-10-31,9,2026-W44,2026-10-30,2026-11-22,User interface and viewport,53,84,58,58,0
+yhamil04,yhamil04,GitHub account,no,22,0,22,22,0,0,0,2,1,SolidCraft,21,0,9,5,6,2026-10-26,13,2026-W44,2026-10-25,2026-11-10,User interface and viewport,29,78,58,58,0
+SilentWolf75,SilentWolf75,GitHub account,no,21,0,21,21,0,0,0,0,1,SolidCraft,20,0,9,5,7,2026-10-30,15,2026-W44,2026-10-29,2026-11-12,User interface and viewport,53,75,63,63,0
+j-a-b-r-o-n-i,j-a-b-r-o-n-i,GitHub account,no,20,20,20,20,0,0,0,12,1,SolidCraft,19,0,5,5,9,2026-11-19,20,2026-W47,2026-11-16,2026-11-20,Geometry kernel (SolidCore),43,142,64,64,0
+Rempelino,Rempelino,GitHub account,no,20,8,20,20,0,0,0,20,1,SolidCraft,2,0,11,9,6,2026-11-13,12,2026-W46,2026-11-10,2026-11-22,Geometry kernel (SolidCore),100,183,64,64,0
+BrunIF,BrunIF,GitHub account,no,19,6,19,19,0,0,0,0,1,SolidCraft,2,0,17,5,2,2026-11-18,6,2026-W47,2026-10-15,2026-11-20,User interface and viewport,86,30,66,66,0
+CypherNaught-0x,CypherNaught-0x,GitHub account,no,18,0,43,18,0,0,0,17,1,SolidCraft,0,0,4,2,30,2026-10-10,41,2026-W41,2026-10-10,2026-10-19,Modeling engine and document,32,302,67,67,0
+amolinari-autotex,amolinari-autotex,GitHub account,no,18,0,18,18,0,0,0,0,1,SolidCraft,12,0,9,5,6,2026-10-19,12,2026-W43,2026-10-18,2026-10-28,User interface and viewport,45,166,67,67,0
+lasselian,lasselian,GitHub account,no,18,0,18,18,0,0,0,5,1,SolidCraft,9,0,5,4,8,2026-10-14,18,2026-W42,2026-10-13,2026-10-18,Modeling engine and document,18,154,67,67,0
+momysnow,momysnow,GitHub account,no,18,0,18,18,0,0,0,7,1,SolidCraft,17,0,9,7,5,2026-10-29,12,2026-W44,2026-10-23,2026-11-02,User interface and viewport,22,67,67,67,0
+P-tite-tete,P-tite-tete,GitHub account,no,18,1,18,18,0,0,0,2,1,SolidCraft,5,0,14,7,2,2026-11-04,9,2026-W44,2026-10-27,2026-11-21,Modeling engine and document,35,72,67,67,0
+sascha2101,sascha2101,GitHub account,no,18,0,18,18,0,0,0,0,1,SolidCraft,18,0,8,4,5,2026-10-27,14,2026-W44,2026-10-25,2026-11-09,User interface and viewport,54,59,67,67,0
+erlis,erlis,GitHub account,no,17,3,18,17,0,0,0,14,1,SolidCraft,8,0,10,5,4,2026-10-24,13,2026-W43,2026-10-20,2026-11-22,Geometry kernel (SolidCore),41,105,73,73,0
+KazW,KazW,GitHub account,no,17,5,17,17,0,0,0,8,1,SolidCraft,7,0,8,4,4,2026-11-15,10,2026-W46,2026-11-10,2026-11-22,Modeling engine and document,43,184,73,73,0
+sn3ro,sn3ro,GitHub account,no,16,15,17,3,0,0,13,0,2,CamCraft / SolidCraft,3,0,5,4,7,2026-11-18,16,2026-W47,2026-11-14,2026-11-21,CamCraft,82,74,75,75,0
+jkkicks,jkkicks,GitHub account,no,16,16,16,16,0,0,0,16,1,SolidCraft,2,0,6,4,4,2026-11-17,16,2026-W47,2026-11-16,2026-11-22,Geometry kernel (SolidCore),100,57,75,75,0
+takuto-NA,takuto-NA,GitHub account,no,16,4,16,16,0,0,0,0,1,SolidCraft,13,0,8,3,3,2026-11-19,8,2026-W43,2026-10-19,2026-11-22,Modeling engine and document,33,141,75,75,0
+qsmits,qsmits,GitHub account,no,15,15,39,0,0,0,15,0,1,CamCraft,0,0,3,3,23,2026-11-21,39,2026-W47,2026-11-20,2026-11-22,CamCraft,100,265,78,78,0
+Lars-,Lars-,GitHub account,no,15,0,15,15,0,0,0,0,1,SolidCraft,15,0,6,4,6,2026-10-27,13,2026-W44,2026-10-26,2026-11-10,User interface and viewport,33,170,78,78,0
+sylvesterkaczmarek,sylvesterkaczmarek,GitHub account,no,15,15,15,15,0,0,0,1,1,SolidCraft,15,0,2,2,10,2026-11-18,15,2026-W47,2026-11-17,2026-11-18,User interface and viewport,52,48,78,78,0
+Werner1303,Werner1303,GitHub account,no,15,6,14,15,0,0,0,5,1,SolidCraft,9,0,7,3,3,2026-11-16,8,2026-W46,2026-11-09,2026-11-22,Geometry kernel (SolidCore),33,25,78,78,0
+embed-3d,embed-3d,GitHub account,no,14,0,16,14,0,0,0,15,1,SolidCraft,3,0,4,4,6,2026-10-23,14,2026-W43,2026-10-23,2026-10-26,Geometry kernel (SolidCore),39,186,82,82,0
+acbrazzl,acbrazzl,GitHub account,no,14,6,14,14,0,0,0,9,1,SolidCraft,10,0,7,2,5,2026-11-18,6,2026-W47,2026-10-18,2026-11-19,Geometry kernel (SolidCore),43,81,82,82,0
+AlexMitchellMus,AlexMitchellMus,GitHub account,no,14,1,14,14,0,0,0,3,1,SolidCraft,0,0,7,3,3,2026-10-27,8,2026-W44,2026-10-25,2026-11-22,File import and export,62,39,82,82,0
+PapaEcho13,PapaEcho13,GitHub account,no,14,1,14,14,0,0,0,4,1,SolidCraft,8,0,9,5,5,2026-11-02,7,2026-W45,2026-10-29,2026-11-17,User interface and viewport,38,94,82,82,0
+Vittuu,Vittuu,GitHub account,no,14,0,14,14,0,0,0,0,1,SolidCraft,10,0,7,3,4,2026-10-27,8,2026-W44,2026-10-18,2026-10-27,User interface and viewport,20,45,82,82,0
+Mqrius,Mqrius,GitHub account,no,13,0,16,13,0,0,0,9,1,SolidCraft,1,0,4,3,9,2026-10-13,15,2026-W42,2026-10-12,2026-10-21,Geometry kernel (SolidCore),35,143,87,87,0
+danieldimitrov86,danieldimitrov86,GitHub account,no,13,0,13,13,0,0,0,6,1,SolidCraft,6,0,7,3,5,2026-11-13,6,2026-W46,2026-10-27,2026-11-13,User interface and viewport,32,77,87,87,0
+Ian-cmd-ops,Ian-cmd-ops,GitHub account,no,13,0,13,13,0,0,0,11,1,SolidCraft,0,0,3,3,10,2026-10-16,13,2026-W42,2026-10-16,2026-10-18,Geometry kernel (SolidCore),41,48,87,87,0
+JesperWe,JesperWe,GitHub account,no,13,3,13,13,0,0,0,5,1,SolidCraft,7,0,9,3,3,2026-10-26,4,2026-W44,2026-10-25,2026-11-21,Modeling engine and document,29,105,87,87,0
+mfaugiana,mfaugiana,GitHub account,no,13,3,13,13,0,0,0,0,1,SolidCraft,8,0,10,4,3,2026-11-09,8,2026-W46,2026-11-07,2026-11-22,User interface and viewport,42,47,87,87,0
+sethml,sethml,GitHub account,no,13,12,13,13,0,0,0,4,1,SolidCraft,6,0,6,4,5,2026-11-20,12,2026-W47,2026-11-09,2026-11-22,User interface and viewport,36,50,87,87,0
+tbreckle,tbreckle,GitHub account,no,13,0,13,13,0,0,0,2,1,SolidCraft,3,0,3,2,6,2026-10-12,11,2026-W42,2026-10-11,2026-10-14,User interface and viewport,53,67,87,87,0
+ahmetv10,ahmetv10,GitHub account,no,12,1,16,2,0,0,10,0,2,CamCraft / SolidCraft,2,0,6,2,8,2026-11-14,14,2026-W46,2026-10-23,2026-11-15,CamCraft,88,67,94,94,0
+erkexzcx,erkexzcx,GitHub account,no,12,0,12,12,0,0,0,7,1,SolidCraft,11,0,4,3,5,2026-10-16,11,2026-W42,2026-10-14,2026-10-19,Modeling engine and document,42,41,94,94,0
+meros,meros,GitHub account,no,12,0,12,12,0,0,0,11,1,SolidCraft,1,0,2,1,11,2026-10-25,11,2026-W43,2026-10-25,2026-11-10,Geometry kernel (SolidCore),79,53,94,94,0
+unusuallyhandsome,unusuallyhandsome,GitHub account,no,12,3,12,12,0,0,0,6,1,SolidCraft,2,0,4,2,5,2026-11-13,9,2026-W46,2026-11-12,2026-11-22,Modeling engine and document,45,61,94,94,0
+Seyamalam,Seyamalam,GitHub account,no,11,9,15,0,0,11,0,0,1,PCBCraft,0,0,6,6,5,2026-11-18,13,2026-W47,2026-11-15,2026-11-20,PCBCraft,100,64,98,98,0
+damgru,damgru,GitHub account,no,11,0,14,11,0,0,0,13,1,SolidCraft,0,0,5,3,5,2026-10-16,11,2026-W42,2026-10-15,2026-10-22,Geometry kernel (SolidCore),32,371,98,98,0
+FinnDaCaptain,FinnDaCaptain,GitHub account,no,11,1,11,11,0,0,0,0,1,SolidCraft,3,0,4,2,7,2026-11-13,10,2026-W46,2026-11-10,2026-11-16,User interface and viewport,31,46,98,98,0
+Loohi,Loohi,GitHub account,no,11,0,11,11,0,0,0,3,1,SolidCraft,9,0,7,3,4,2026-11-08,5,2026-W45,2026-10-18,2026-11-08,Modeling engine and document,39,64,98,98,0
+Sebastion,Sebastion,GitHub account,no,11,1,11,11,0,0,0,0,1,SolidCraft,8,0,8,2,3,2026-11-12,6,2026-W46,2026-10-27,2026-11-21,User interface and viewport,40,108,98,98,0
+thodoristsagko,thodoristsagko,GitHub account,no,11,0,11,11,0,0,0,1,1,SolidCraft,8,0,7,2,3,2026-10-14,5,2026-W42,2026-10-14,2026-11-01,User interface and viewport,67,31,98,98,0
+thomschlie,thomschlie,GitHub account,no,11,4,11,10,1,0,0,0,2,FieldCraft / SolidCraft,10,0,7,4,3,2026-10-26,4,2026-W47,2026-10-26,2026-11-22,Modeling engine and document,21,44,98,98,0
+Rec0iL,Rec0iL,GitHub account,no,11,0,10,11,0,0,0,0,1,SolidCraft,6,0,6,2,3,2026-10-16,6,2026-W42,2026-10-15,2026-11-10,User interface and viewport,39,75,98,98,0
+linuxguy123,linuxguy123,GitHub account,no,10,0,33,0,0,0,10,0,1,CamCraft,0,0,3,3,24,2026-11-07,32,2026-W45,2026-11-07,2026-11-09,CamCraft,100,155,106,106,0
+seelesturm,seelesturm,GitHub account,no,10,0,32,0,0,0,10,0,1,CamCraft,0,0,4,3,15,2026-11-08,18,2026-W45,2026-11-07,2026-11-12,CamCraft,100,115,106,106,0
+badgerisda,badgerisda,GitHub account,no,10,0,10,10,0,0,0,0,1,SolidCraft,10,0,5,3,3,2026-10-31,10,2026-W44,2026-10-26,2026-10-31,User interface and viewport,82,12,106,106,0
+JoKa3D,JoKa3D,GitHub account,no,10,0,10,10,0,0,0,0,1,SolidCraft,10,0,7,3,3,2026-10-25,4,2026-W44,2026-10-25,2026-11-06,User interface and viewport,40,72,106,106,0
+TRget88,TRget88,GitHub account,no,10,10,10,10,0,0,0,1,1,SolidCraft,2,0,2,1,8,2026-11-22,10,2026-W47,2026-11-20,2026-11-22,Modeling engine and document,33,29,106,106,0
+umutacil,umutacil,GitHub account,no,10,4,10,10,0,0,0,1,1,SolidCraft,5,0,6,3,4,2026-11-16,5,2026-W47,2026-11-10,2026-11-21,User interface and viewport,67,55,106,106,0
+tbrasselle,tbrasselle,GitHub account,no,10,0,0,0,0,0,10,0,1,CamCraft,0,0,0,0,0,,0,,,,,0,0,106,106,0
+MateuszSychXpl,MateuszSychXpl,GitHub account,no,9,0,19,9,0,0,0,0,1,SolidCraft,8,0,4,2,11,2026-10-16,11,2026-W42,2026-10-16,2026-11-03,Modeling engine and document,28,63,113,113,0
+denelson1-dot,denelson1-dot,GitHub account,no,9,0,18,9,0,0,0,14,1,SolidCraft,6,0,5,4,6,2026-10-21,16,2026-W43,2026-10-18,2026-10-24,Geometry kernel (SolidCore),34,147,113,113,0
+JSwetz,JSwetz,GitHub account,no,9,2,17,1,0,0,8,1,2,CamCraft / SolidCraft,1,0,4,3,7,2026-11-20,10,2026-W46,2026-11-09,2026-11-20,CamCraft,94,103,113,113,0
+H1D,H1D,GitHub account,no,9,0,11,9,0,0,0,9,1,SolidCraft,5,0,9,4,2,2026-10-20,6,2026-W43,2026-10-18,2026-11-06,Geometry kernel (SolidCore),38,65,113,113,0
+56steve,56steve,GitHub account,no,9,3,9,9,0,0,0,0,1,SolidCraft,1,0,9,3,1,2026-11-18,3,2026-W47,2026-10-23,2026-11-18,Modeling engine and document,100,12,113,113,0
+chrishamm,chrishamm,GitHub account,no,9,1,9,9,0,0,0,0,1,SolidCraft,7,0,8,2,2,2026-11-10,3,2026-W46,2026-10-23,2026-11-21,User interface and viewport,42,84,113,113,0
+iHateStupidPeople,iHateStupidPeople,GitHub account,no,9,8,9,9,0,0,0,0,1,SolidCraft,6,0,4,2,3,2026-11-18,8,2026-W47,2026-11-02,2026-11-20,User interface and viewport,42,29,113,113,0
+jeromehzl,jeromehzl,GitHub account,no,9,0,9,9,0,0,0,0,1,SolidCraft,9,0,3,2,4,2026-10-30,8,2026-W44,2026-10-29,2026-11-02,User interface and viewport,70,29,113,113,0
+pablopeza,pablopeza,GitHub account,no,9,0,9,9,0,0,0,2,1,SolidCraft,2,0,4,3,4,2026-10-12,9,2026-W42,2026-10-12,2026-10-17,User interface and viewport,47,42,113,113,0
+steffenl1,steffenl1,GitHub account,no,9,4,9,9,0,0,0,2,1,SolidCraft,9,0,6,5,3,2026-11-16,5,2026-W46,2026-11-12,2026-11-19,User interface and viewport,60,35,113,113,0
+tr1pp4,tr1pp4,GitHub account,no,9,0,9,9,0,0,0,0,1,SolidCraft,8,0,5,4,3,2026-10-29,8,2026-W44,2026-10-26,2026-11-10,User interface and viewport,45,84,113,113,0
+zorak1103,zorak1103,GitHub account,no,9,0,9,9,0,0,0,9,1,SolidCraft,1,0,5,3,4,2026-10-24,7,2026-W43,2026-10-23,2026-11-06,Geometry kernel (SolidCore),43,64,113,113,0
+acebear17,acebear17,GitHub account,no,8,7,8,8,0,0,0,0,1,SolidCraft,6,0,4,2,4,2026-11-22,7,2026-W47,2026-11-01,2026-11-22,User interface and viewport,29,55,125,125,0
+cloker53,cloker53,GitHub account,no,8,4,8,8,0,0,0,4,1,SolidCraft,7,0,6,3,2,2026-11-18,4,2026-W47,2026-11-10,2026-11-18,Geometry kernel (SolidCore),50,44,125,125,0
+rbousigues88,rbousigues88,GitHub account,no,8,1,8,8,0,0,0,0,1,SolidCraft,6,0,6,2,3,2026-10-25,4,2026-W43,2026-10-24,2026-11-19,Modeling engine and document,42,34,125,125,0
+shadaytree,shadaytree,GitHub account,no,8,7,8,8,0,0,0,2,1,SolidCraft,7,0,5,3,2,2026-11-20,8,2026-W47,2026-11-16,2026-11-21,Modeling engine and document,42,40,125,125,0
+Tyler-Chiriboga,Tyler-Chiriboga,GitHub account,no,8,0,8,8,0,0,0,0,1,SolidCraft,6,0,6,3,2,2026-10-23,6,2026-W43,2026-10-18,2026-11-04,Desktop and web apps,23,18,125,125,0
+Xnaff,Xnaff,GitHub account,no,7,5,38,0,0,7,0,0,1,PCBCraft,0,0,8,7,15,2026-11-18,31,2026-W47,2026-11-12,2026-11-20,PCBCraft,100,165,130,130,0
+ivisaf,ivisaf,GitHub account,no,7,2,12,3,0,2,2,0,3,CamCraft / PCBCraft / SolidCraft,1,0,7,3,4,2026-11-10,6,2026-W46,2026-10-23,2026-11-22,CamCraft,40,59,130,130,0
+h0witzer,h0witzer,GitHub account,no,7,3,8,7,0,0,0,4,1,SolidCraft,2,0,7,2,2,2026-10-23,3,2026-W47,2026-10-23,2026-11-22,Geometry kernel (SolidCore),18,337,130,130,0
+mechatronics-studio,mechatronics-studio,GitHub account,no,7,7,8,2,0,0,5,0,2,CamCraft / SolidCraft,0,0,4,2,4,2026-11-19,7,2026-W47,2026-11-18,2026-11-23,CamCraft,60,70,130,130,0
+bnoa,bnoa,GitHub account,no,7,7,7,7,0,0,0,0,1,SolidCraft,0,0,3,3,4,2026-11-20,7,2026-W47,2026-11-20,2026-11-22,File import and export,44,20,130,130,0
+leon-vv,leon-vv,GitHub account,no,7,2,7,7,0,0,0,3,1,SolidCraft,3,0,4,1,4,2026-11-14,5,2026-W46,2026-11-10,2026-11-19,Modeling engine and document,56,21,130,130,0
+nomadsgalaxy,nomadsgalaxy,GitHub account,no,7,0,7,7,0,0,0,0,1,SolidCraft,4,0,6,1,2,2026-10-19,4,2026-W43,2026-10-17,2026-10-29,User interface and viewport,33,194,130,130,0
+rmorgans,rmorgans,GitHub account,no,7,1,7,7,0,0,0,2,1,SolidCraft,6,0,4,2,4,2026-10-30,5,2026-W44,2026-10-29,2026-11-18,Modeling engine and document,29,38,130,130,0
+zorbathut,zorbathut,GitHub account,no,7,5,7,7,0,0,0,3,1,SolidCraft,3,0,5,2,2,2026-11-21,5,2026-W47,2026-10-31,2026-11-21,User interface and viewport,40,27,130,130,0
+infield,infield,GitHub account,no,6,2,8,3,0,0,3,1,2,CamCraft / SolidCraft,3,0,5,3,3,2026-11-12,8,2026-W46,2026-11-10,2026-11-15,CamCraft,45,92,139,139,0
+adnsv,adnsv,GitHub account,no,6,6,6,6,0,0,0,0,1,SolidCraft,0,0,3,3,3,2026-11-22,5,2026-W47,2026-11-21,2026-11-23,File import and export,55,20,139,139,0
+bendavis,bendavis,GitHub account,no,6,3,6,6,0,0,0,3,1,SolidCraft,5,0,6,2,1,2026-11-19,3,2026-W47,2026-11-10,2026-11-19,User interface and viewport,33,38,139,139,0
+BryanCrotaz,BryanCrotaz,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,6,0,3,3,4,2026-11-10,6,2026-W46,2026-11-10,2026-11-12,Modeling engine and document,62,37,139,139,0
+fugazister,fugazister,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,6,0,4,3,2,2026-10-24,5,2026-W43,2026-10-18,2026-10-24,User interface and viewport,38,68,139,139,0
+gvocale,gvocale,GitHub account,no,6,0,6,6,0,0,0,5,1,SolidCraft,1,0,3,3,4,2026-10-14,6,2026-W42,2026-10-14,2026-10-16,Modeling engine and document,46,28,139,139,0
+Hainlein4711,Hainlein4711,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,4,0,6,2,1,2026-11-14,3,2026-W46,2026-10-27,2026-11-14,User interface and viewport,57,26,139,139,0
+Make-o-Rama,Make-o-Rama,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,3,0,4,2,3,2026-10-24,4,2026-W43,2026-10-24,2026-11-05,Modeling engine and document,50,25,139,139,0
+mknutso-2,mknutso-2,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,5,0,6,3,1,2026-10-30,3,2026-W44,2026-10-20,2026-10-30,Modeling engine and document,36,80,139,139,0
+mrbjmy,mrbjmy,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,4,0,4,2,2,2026-10-21,5,2026-W43,2026-10-17,2026-10-23,User interface and viewport,36,17,139,139,0
+Vvynot,Vvynot,GitHub account,no,6,0,6,6,0,0,0,0,1,SolidCraft,6,0,2,2,5,2026-11-02,5,2026-W45,2026-11-01,2026-11-02,User interface and viewport,100,15,139,139,0
+PixelSoftwareStudios,PixelSoftwareStudios,GitHub account,no,5,0,27,5,0,0,0,2,1,Other / SolidCraft,1,0,5,2,10,2026-10-16,23,2026-W42,2026-10-15,2026-10-21,Website and other repos,67,468,150,150,0
+Amdixer,Amdixer,GitHub account,no,5,2,15,0,0,5,0,0,1,PCBCraft,0,1,2,2,13,2026-11-15,15,2026-W46,2026-11-14,2026-11-15,PCBCraft,100,201,150,150,0
+ian691,ian691,GitHub account,no,5,0,7,5,0,0,0,7,1,SolidCraft,0,0,4,2,2,2026-10-26,3,2026-W43,2026-10-17,2026-10-26,Geometry kernel (SolidCore),54,21,150,150,0
+Alauan,Alauan,GitHub account,no,5,1,5,5,0,0,0,1,1,SolidCraft,5,0,3,2,2,2026-11-13,4,2026-W46,2026-11-12,2026-11-22,User interface and viewport,43,30,150,150,0
+cyryllo,cyryllo,GitHub account,no,5,1,5,5,0,0,0,0,1,SolidCraft,0,0,5,1,1,2026-11-22,1,2026-W47,2026-10-18,2026-11-22,User interface and viewport,83,12,150,150,0
+dennisklappe,dennisklappe,GitHub account,no,5,0,5,5,0,0,0,0,1,SolidCraft,1,0,2,2,4,2026-10-24,5,2026-W43,2026-10-24,2026-10-25,User interface and viewport,50,13,150,150,0
+Dylan-ISE,Dylan-ISE,GitHub account,no,5,2,5,5,0,0,0,1,1,SolidCraft,4,0,4,2,2,2026-11-14,3,2026-W46,2026-11-14,2026-11-20,Modeling engine and document,29,19,150,150,0
+EmDecay,EmDecay,GitHub account,no,5,0,5,5,0,0,0,1,1,SolidCraft,0,0,1,1,5,2026-10-11,5,2026-W41,2026-10-11,2026-10-11,Modeling engine and document,25,32,150,150,0
+glitchau,glitchau,GitHub account,no,5,0,5,5,0,0,0,2,1,SolidCraft,5,0,4,3,2,2026-11-10,5,2026-W46,2026-11-10,2026-11-14,User interface and viewport,31,74,150,150,0
+javl,javl,GitHub account,no,5,0,5,5,0,0,0,0,1,SolidCraft,1,0,3,1,3,2026-10-28,3,2026-W44,2026-10-14,2026-10-28,User interface and viewport,83,9,150,150,0
+kakuteki,kakuteki,GitHub account,no,5,5,5,5,0,0,0,1,1,SolidCraft,4,0,3,1,3,2026-11-19,5,2026-W47,2026-11-17,2026-11-22,Modeling engine and document,24,41,150,150,0
+kravens,kravens,GitHub account,no,5,0,5,5,0,0,0,1,1,SolidCraft,3,0,3,1,3,2026-10-13,3,2026-W42,2026-10-13,2026-11-08,User interface and viewport,31,42,150,150,0
+liorknafo,liorknafo,GitHub account,no,5,1,5,5,0,0,0,5,1,SolidCraft,5,0,3,1,3,2026-11-14,4,2026-W46,2026-11-12,2026-11-19,Geometry kernel (SolidCore),100,28,150,150,0
+midasdf,midasdf,GitHub account,no,5,0,5,5,0,0,0,4,1,SolidCraft,0,0,3,3,3,2026-10-16,5,2026-W42,2026-10-14,2026-10-16,Modeling engine and document,28,106,150,150,0
+onembyte,onembyte,GitHub account,no,5,0,5,5,0,0,0,1,1,SolidCraft,0,0,2,2,3,2026-10-17,5,2026-W42,2026-10-17,2026-10-18,User interface and viewport,27,38,150,150,0
+rudalabs,rudalabs,GitHub account,no,5,5,5,5,0,0,0,3,1,SolidCraft,3,0,3,2,3,2026-11-19,5,2026-W47,2026-11-18,2026-11-21,Modeling engine and document,24,63,150,150,0
+TomasDJo,TomasDJo,GitHub account,no,5,5,5,5,0,0,0,0,1,SolidCraft,3,0,3,1,3,2026-11-22,5,2026-W47,2026-11-18,2026-11-22,User interface and viewport,50,16,150,150,0
+DAmesberger,DAmesberger,GitHub account,no,4,3,14,2,0,2,0,1,2,PCBCraft / SolidCraft,1,0,5,3,4,2026-11-20,13,2026-W47,2026-11-10,2026-11-21,PCBCraft,86,69,167,167,0
+Pluto-XI,Pluto-XI,GitHub account,no,4,0,5,4,0,0,0,5,1,SolidCraft,0,0,3,2,2,2026-10-17,5,2026-W42,2026-10-14,2026-10-18,Geometry kernel (SolidCore),36,154,167,167,0
+alfonsotames,alfonsotames,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,4,0,3,1,2,2026-11-13,2,2026-W46,2026-11-02,2026-11-13,User interface and viewport,40,20,167,167,0
+Benny1496,Benny1496,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,1,0,4,2,1,2026-11-11,2,2026-W46,2026-10-23,2026-11-11,Modeling engine and document,29,30,167,167,0
+cs68614-hash,cs68614-hash,GitHub account,no,4,4,4,4,0,0,0,4,1,SolidCraft,0,0,1,1,4,2026-11-20,4,2026-W47,2026-11-20,2026-11-20,Geometry kernel (SolidCore),80,9,167,167,0
+devius,devius,GitHub account,no,4,3,4,4,0,0,0,0,1,SolidCraft,2,0,2,1,3,2026-11-17,3,2026-W47,2026-11-04,2026-11-17,User interface and viewport,43,11,167,167,0
+hazardandy,hazardandy,GitHub account,no,4,4,4,4,0,0,0,2,1,SolidCraft,2,0,3,3,2,2026-11-18,4,2026-W47,2026-11-17,2026-11-19,Modeling engine and document,60,11,167,167,0
+Jacquesvdberg92,Jacquesvdberg92,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,3,0,3,1,2,2026-10-24,3,2026-W43,2026-10-19,2026-11-13,Modeling engine and document,33,51,167,167,0
+KyleTryon,KyleTryon,GitHub account,no,4,3,4,4,0,0,0,1,1,SolidCraft,4,0,3,1,2,2026-11-18,3,2026-W47,2026-10-31,2026-11-18,Modeling engine and document,57,17,167,167,0
+lewis2e,lewis2e,GitHub account,no,4,0,4,4,0,0,0,1,1,SolidCraft,4,0,4,1,1,2026-11-13,2,2026-W46,2026-10-31,2026-11-13,Modeling engine and document,38,52,167,167,0
+ljgabc,ljgabc,GitHub account,no,4,4,4,4,0,0,0,4,1,SolidCraft,3,0,2,1,3,2026-11-20,3,2026-W47,2026-11-20,2026-11-23,Geometry kernel (SolidCore),33,43,167,167,0
+LorbusChris,LorbusChris,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,2,0,2,2,2,2026-11-02,2,2026-W45,2026-11-01,2026-11-02,Modeling engine and document,80,20,167,167,0
+lucas-aguilar89,lucas-aguilar89,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,1,0,2,2,2,2026-10-13,4,2026-W42,2026-10-12,2026-10-13,User interface and viewport,60,13,167,167,0
+martinpalsson,martinpalsson,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,4,0,4,2,1,2026-11-05,2,2026-W43,2026-10-18,2026-11-05,Modeling engine and document,60,11,167,167,0
+nedawson,nedawson,GitHub account,no,4,0,4,4,0,0,0,2,1,SolidCraft,3,0,4,4,1,2026-11-14,4,2026-W46,2026-11-11,2026-11-14,Geometry kernel (SolidCore),22,26,167,167,0
+Nithin1777,Nithin1777,GitHub account,no,4,4,4,4,0,0,0,2,1,SolidCraft,4,0,2,1,3,2026-11-16,4,2026-W47,2026-11-16,2026-11-18,Geometry kernel (SolidCore),29,19,167,167,0
+peppelorum,peppelorum,GitHub account,no,4,0,4,4,0,0,0,1,1,SolidCraft,1,0,3,2,2,2026-10-23,4,2026-W43,2026-10-20,2026-10-23,User interface and viewport,20,23,167,167,0
+ReDead,ReDead,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,4,0,4,2,1,2026-11-06,2,2026-W45,2026-10-29,2026-11-06,User interface and viewport,80,32,167,167,0
+rootarchitect,rootarchitect,GitHub account,no,4,0,4,4,0,0,0,4,1,SolidCraft,0,0,1,1,4,2026-10-27,4,2026-W44,2026-10-27,2026-10-27,Geometry kernel (SolidCore),40,25,167,167,0
+saosebastiao,saosebastiao,GitHub account,no,4,0,4,4,0,0,0,3,1,SolidCraft,3,0,4,2,1,2026-11-10,1,2026-W46,2026-10-25,2026-11-10,Geometry kernel (SolidCore),43,42,167,167,0
+SiroArt,SiroArt,GitHub account,no,4,0,4,4,0,0,0,1,1,SolidCraft,1,0,3,1,2,2026-10-19,3,2026-W43,2026-10-19,2026-11-04,User interface and viewport,60,12,167,167,0
+stevenpwaters,stevenpwaters,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,3,0,4,2,1,2026-11-05,3,2026-W44,2026-10-26,2026-11-05,Modeling engine and document,44,47,167,167,0
+taylorhayis,taylorhayis,GitHub account,no,4,0,4,4,0,0,0,0,1,SolidCraft,4,0,3,1,2,2026-10-27,3,2026-W44,2026-10-25,2026-10-30,User interface and viewport,57,41,167,167,0
+tpannila,tpannila,GitHub account,no,4,0,4,0,4,0,0,0,1,FieldCraft,0,0,2,1,2,2026-11-03,2,2026-W45,2026-10-29,2026-11-03,FieldCraft,100,14,167,167,0
+vitalibr,vitalibr,GitHub account,no,4,0,4,4,0,0,0,1,1,SolidCraft,0,0,1,1,4,2026-10-12,4,2026-W42,2026-10-12,2026-10-12,User interface and viewport,50,11,167,167,0
+dylanmtaylor,dylanmtaylor,GitHub account,no,3,0,6,3,0,0,0,0,1,SolidCraft,0,0,3,2,4,2026-10-10,5,2026-W41,2026-10-09,2026-10-29,Desktop and web apps,12,14,192,192,0
+hrb9,hrb9,GitHub account,no,3,3,6,1,0,2,0,0,2,PCBCraft / SolidCraft,0,0,2,2,5,2026-11-20,6,2026-W47,2026-11-20,2026-11-21,PCBCraft,83,29,192,192,0
+Till2911,Till2911,GitHub account,no,3,0,6,1,0,2,0,0,2,PCBCraft / SolidCraft,1,0,2,2,4,2026-11-13,6,2026-W46,2026-11-12,2026-11-13,PCBCraft,71,64,192,192,0
+sjbowden,sjbowden,GitHub account,no,3,0,4,3,0,0,0,3,1,SolidCraft,1,0,4,2,1,2026-10-27,2,2026-W43,2026-10-13,2026-10-27,Geometry kernel (SolidCore),33,20,192,192,0
+asd417,asd417,GitHub account,no,3,0,3,3,0,0,0,2,1,SolidCraft,3,0,3,1,1,2026-11-10,1,2026-W46,2026-10-21,2026-11-10,Modeling engine and document,33,12,192,192,0
+astechevolves,astechevolves,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,3,0,1,1,3,2026-10-30,3,2026-W44,2026-10-30,2026-10-30,User interface and viewport,50,14,192,192,0
+brenmarshall,brenmarshall,GitHub account,no,3,3,3,3,0,0,0,0,1,SolidCraft,3,0,3,2,1,2026-11-20,3,2026-W47,2026-11-16,2026-11-20,User interface and viewport,50,16,192,192,0
+CarelT,CarelT,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,0,0,3,1,1,2026-11-10,1,2026-W46,2026-10-27,2026-11-10,Modeling engine and document,50,14,192,192,0
+clark19990,clark19990,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,0,0,2,2,2,2026-10-31,3,2026-W44,2026-10-31,2026-11-01,User interface and viewport,75,11,192,192,0
+cwallyman,cwallyman,GitHub account,no,3,2,3,3,0,0,0,1,1,SolidCraft,2,0,3,2,1,2026-11-17,2,2026-W47,2026-11-12,2026-11-17,User interface and viewport,25,47,192,192,0
+dlucik,dlucik,GitHub account,no,3,0,3,3,0,0,0,3,1,SolidCraft,3,0,2,1,2,2026-10-24,2,2026-W43,2026-10-24,2026-10-26,Geometry kernel (SolidCore),50,8,192,192,0
+DundreDE,DundreDE,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,3,0,1,1,3,2026-10-20,3,2026-W43,2026-10-20,2026-10-20,Modeling engine and document,50,5,192,192,0
+Edigorin,Edigorin,GitHub account,no,3,2,3,3,0,0,0,1,1,SolidCraft,3,0,3,2,1,2026-11-17,2,2026-W47,2026-11-12,2026-11-17,Modeling engine and document,50,11,192,192,0
+ermanyop-stack,ermanyop-stack,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,3,0,3,2,1,2026-11-05,2,2026-W45,2026-10-28,2026-11-05,User interface and viewport,50,6,192,192,0
+Guenni1975,Guenni1975,GitHub account,no,3,3,3,3,0,0,0,3,1,SolidCraft,1,0,1,1,3,2026-11-20,3,2026-W47,2026-11-20,2026-11-20,Geometry kernel (SolidCore),100,41,192,192,0
+HansFel,HansFel,GitHub account,no,3,3,3,0,0,0,3,0,1,CamCraft,0,0,1,1,3,2026-11-18,3,2026-W47,2026-11-18,2026-11-18,CamCraft,100,92,192,192,0
+Herperlerpicus,Herperlerpicus,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,1,0,3,2,1,2026-10-28,2,2026-W43,2026-10-24,2026-10-28,User interface and viewport,43,44,192,192,0
+ingvarch,ingvarch,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,0,0,2,2,2,2026-10-14,3,2026-W42,2026-10-13,2026-10-14,MCP / CLI / plugins,40,23,192,192,0
+Ishred11,Ishred11,GitHub account,no,3,3,3,3,0,0,0,2,1,SolidCraft,1,0,3,3,1,2026-11-22,3,2026-W47,2026-11-20,2026-11-22,User interface and viewport,38,45,192,192,0
+Janiz-zzz,Janiz-zzz,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,2,0,3,1,1,2026-11-08,2,2026-W45,2026-10-30,2026-11-08,User interface and viewport,75,7,192,192,0
+jasiek,jasiek,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,1,0,3,2,1,2026-10-26,2,2026-W42,2026-10-14,2026-10-26,Desktop and web apps,25,39,192,192,0
+JShanklin,JShanklin,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,1,0,2,1,2,2026-10-25,2,2026-W43,2026-10-25,2026-10-29,User interface and viewport,60,8,192,192,0
+kezmdor,kezmdor,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,2,0,2,1,2,2026-10-19,3,2026-W43,2026-10-19,2026-10-21,User interface and viewport,67,4,192,192,0
+KristijanPruzinac,KristijanPruzinac,GitHub account,no,3,2,3,3,0,0,0,1,1,SolidCraft,2,0,2,1,2,2026-11-16,2,2026-W47,2026-11-10,2026-11-16,User interface and viewport,27,46,192,192,0
+luiscamaral,luiscamaral,GitHub account,no,3,0,3,3,0,0,0,2,1,SolidCraft,2,0,2,1,2,2026-10-22,3,2026-W43,2026-10-22,2026-10-25,Geometry kernel (SolidCore),40,5,192,192,0
+lunar-me,lunar-me,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,0,0,1,1,3,2026-10-13,3,2026-W42,2026-10-13,2026-10-13,Docs and planning,100,3,192,192,0
+mariogeiger,mariogeiger,GitHub account,no,3,0,3,3,0,0,0,1,1,SolidCraft,3,0,3,2,1,2026-11-06,2,2026-W45,2026-10-30,2026-11-06,Modeling engine and document,20,67,192,192,0
+Microslon3,Microslon3,GitHub account,no,3,3,3,3,0,0,0,1,1,SolidCraft,0,0,2,1,2,2026-11-22,3,2026-W47,2026-11-20,2026-11-22,Sketch and constraints,33,9,192,192,0
+n0tfr3shm1lk,n0tfr3shm1lk,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,2,0,3,1,1,2026-10-26,1,2026-W44,2026-10-18,2026-10-26,Modeling engine and document,50,13,192,192,0
+NecroKote,NecroKote,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,1,0,2,1,2,2026-10-17,2,2026-W42,2026-10-17,2026-10-25,User interface and viewport,25,22,192,192,0
+NStevenU,NStevenU,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,1,0,3,1,1,2026-11-10,1,2026-W46,2026-10-30,2026-11-10,Desktop and web apps,67,4,192,192,0
+PhilippBischoff0,PhilippBischoff0,GitHub account,no,3,0,3,3,0,0,0,1,1,SolidCraft,1,0,3,3,1,2026-10-16,3,2026-W42,2026-10-14,2026-10-16,Modeling engine and document,33,9,192,192,0
+Reefwalker,Reefwalker,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,3,0,2,1,2,2026-10-23,3,2026-W43,2026-10-23,2026-10-25,User interface and viewport,43,17,192,192,0
+Ryan-Red,Ryan-Red,GitHub account,no,3,0,3,3,0,0,0,1,1,SolidCraft,3,0,1,1,3,2026-10-29,3,2026-W44,2026-10-29,2026-10-29,User interface and viewport,30,34,192,192,0
+SamD98,SamD98,GitHub account,no,3,0,3,3,0,0,0,1,1,SolidCraft,2,0,3,1,1,2026-11-14,2,2026-W46,2026-11-05,2026-11-14,Modeling engine and document,38,29,192,192,0
+shop-3d,shop-3d,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,0,0,3,2,1,2026-10-25,3,2026-W43,2026-10-19,2026-10-25,User interface and viewport,75,7,192,192,0
+steven-gineer,steven-gineer,GitHub account,no,3,2,3,3,0,0,0,1,1,SolidCraft,3,0,2,1,2,2026-11-16,2,2026-W47,2026-11-13,2026-11-16,MCP / CLI / plugins,43,30,192,192,0
+tamasys,tamasys,GitHub account,no,3,0,3,3,0,0,0,1,1,SolidCraft,3,0,1,1,3,2026-11-13,3,2026-W46,2026-11-13,2026-11-13,Modeling engine and document,33,10,192,192,0
+thomas7475,thomas7475,GitHub account,no,3,0,3,3,0,0,0,0,1,SolidCraft,3,0,2,1,2,2026-11-10,2,2026-W46,2026-11-05,2026-11-10,User interface and viewport,50,63,192,192,0
+roer70,roer70,GitHub account,no,2,2,5,0,0,0,2,0,1,CamCraft,0,0,2,2,4,2026-11-18,5,2026-W47,2026-11-17,2026-11-18,CamCraft,100,67,231,231,0
+NAXLAB,NAXLAB,GitHub account,no,2,0,4,2,0,0,0,0,1,SolidCraft,0,0,3,2,2,2026-10-11,2,2026-W41,2026-10-11,2026-11-05,Desktop and web apps,20,5,231,231,0
+duramson,duramson,GitHub account,no,2,0,3,2,0,0,0,2,1,SolidCraft,0,0,1,1,3,2026-10-17,3,2026-W42,2026-10-17,2026-10-17,Geometry kernel (SolidCore),40,7,231,231,0
+Mithril-3d,Mithril-3d,GitHub account,no,2,0,3,2,0,0,0,1,1,SolidCraft,0,0,2,1,2,2026-10-11,2,2026-W41,2026-10-11,2026-10-13,User interface and viewport,33,54,231,231,0
+afaber999,afaber999,GitHub account,no,2,0,2,2,0,0,0,2,1,SolidCraft,1,0,2,2,1,2026-10-21,2,2026-W43,2026-10-20,2026-10-21,Geometry kernel (SolidCore),67,5,231,231,0
+AlexanderMech,AlexanderMech,GitHub account,no,2,2,2,2,0,0,0,2,1,SolidCraft,2,0,2,1,1,2026-11-22,2,2026-W47,2026-11-16,2026-11-22,Geometry kernel (SolidCore),100,15,231,231,0
+armin0411,armin0411,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,1,1,2026-11-10,1,2026-W46,2026-10-25,2026-11-10,Modeling engine and document,100,5,231,231,0
+artem-nerel,artem-nerel,GitHub account,no,2,2,2,2,0,0,0,0,1,SolidCraft,0,0,1,1,2,2026-11-20,2,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,100,4,231,231,0
+attisvalentin,attisvalentin,GitHub account,no,2,2,2,0,0,2,0,0,1,PCBCraft,0,0,1,1,2,2026-11-17,2,2026-W47,2026-11-17,2026-11-17,PCBCraft,100,8,231,231,0
+ConstantijnCrijnen,ConstantijnCrijnen,GitHub account,no,2,2,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-22,2,2026-W47,2026-11-20,2026-11-22,User interface and viewport,100,4,231,231,0
+curlh,curlh,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,2,1,2026-11-11,2,2026-W46,2026-11-10,2026-11-11,User interface and viewport,100,3,231,231,0
+cvengels,cvengels,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-11-01,2,2026-W44,2026-10-30,2026-11-01,User interface and viewport,33,66,231,231,0
+danedoubell,danedoubell,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,1,1,2026-10-30,2,2026-W44,2026-10-28,2026-10-30,User interface and viewport,50,7,231,231,0
+darkfoam,darkfoam,GitHub account,no,2,1,2,2,0,0,0,2,1,SolidCraft,2,0,2,1,1,2026-11-21,1,2026-W47,2026-11-13,2026-11-21,Geometry kernel (SolidCore),100,12,231,231,0
+DavidClawson,,Email only,no,2,2,2,2,0,0,0,1,1,SolidCraft,0,0,1,1,2,2026-11-23,2,2026-W48,2026-11-23,2026-11-23,Geometry kernel (SolidCore),50,2,231,231,0
+deece,deece,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,0,0,2,2,1,2026-11-05,2,2026-W45,2026-11-04,2026-11-05,Modeling engine and document,33,7,231,231,0
+derappelt,derappelt,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,1,0,2,1,1,2026-11-14,2,2026-W46,2026-11-09,2026-11-14,Modeling engine and document,50,5,231,231,0
+ealitt,ealitt,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-10-23,2,2026-W43,2026-10-19,2026-10-23,User interface and viewport,50,17,231,231,0
+flukejones,flukejones,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,1,0,2,1,1,2026-10-26,1,2026-W44,2026-10-21,2026-10-26,User interface and viewport,17,14,231,231,0
+Gray-Stone,Gray-Stone,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-05,1,2026-W45,2026-11-01,2026-11-05,User interface and viewport,33,23,231,231,0
+GrumpyOldNerd,GrumpyOldNerd,GitHub account,no,2,0,2,2,0,0,0,2,1,SolidCraft,1,0,1,1,2,2026-11-14,2,2026-W46,2026-11-14,2026-11-14,Geometry kernel (SolidCore),29,25,231,231,0
+gun4as,gun4as,GitHub account,no,2,1,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-11-18,1,2026-W47,2026-11-10,2026-11-18,User interface and viewport,67,6,231,231,0
+HEOJUNFO,HEOJUNFO,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,2,0,1,1,2,2026-10-14,2,2026-W42,2026-10-14,2026-10-14,Geometry kernel (SolidCore),33,6,231,231,0
+jb69,jb69,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,0,0,1,1,2,2026-10-20,2,2026-W43,2026-10-20,2026-10-20,Modeling engine and document,67,4,231,231,0
+KochC,KochC,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,1,1,2,2026-10-26,2,2026-W44,2026-10-26,2026-10-26,Modeling engine and document,50,28,231,231,0
+Koschtetnix,Koschtetnix,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,0,0,2,1,1,2026-10-17,1,2026-W42,2026-10-11,2026-10-17,User interface and viewport,33,22,231,231,0
+KS7-10,KS7-10,GitHub account,no,2,2,2,2,0,0,0,2,1,SolidCraft,1,0,2,1,1,2026-11-22,2,2026-W47,2026-11-18,2026-11-22,Geometry kernel (SolidCore),100,6,231,231,0
+Leocrydis,Leocrydis,GitHub account,no,2,2,2,2,0,0,0,0,1,SolidCraft,0,0,1,1,2,2026-11-21,2,2026-W47,2026-11-21,2026-11-21,Modeling engine and document,40,18,231,231,0
+m4tthewdavis,m4tthewdavis,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-15,1,2026-W46,2026-11-06,2026-11-15,User interface and viewport,40,12,231,231,0
+makreft,makreft,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,1,1,2,2026-11-11,2,2026-W46,2026-11-11,2026-11-11,Modeling engine and document,33,8,231,231,0
+MattGeiger,MattGeiger,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,2,1,2026-11-12,2,2026-W46,2026-11-11,2026-11-12,Modeling engine and document,22,25,231,231,0
+MattRuhland,MattRuhland,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-25,2,2026-W43,2026-10-19,2026-10-25,MCP / CLI / plugins,100,6,231,231,0
+Mike111177,Mike111177,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,2,0,2,1,1,2026-11-10,1,2026-W46,2026-10-29,2026-11-10,User interface and viewport,33,27,231,231,0
+morelandjo,morelandjo,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,2,1,2026-10-19,1,2026-W43,2026-10-18,2026-10-19,Modeling engine and document,50,11,231,231,0
+mvanhorn,mvanhorn,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,2,1,2026-10-25,2,2026-W43,2026-10-24,2026-10-25,User interface and viewport,25,21,231,231,0
+n1co0815,n1co0815,GitHub account,no,2,2,2,2,0,0,0,0,1,SolidCraft,2,0,2,2,1,2026-11-22,2,2026-W47,2026-11-21,2026-11-22,User interface and viewport,100,5,231,231,0
+nekomario28,nekomario28,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,1,1,2,2026-10-14,2,2026-W42,2026-10-14,2026-10-14,File import and export,50,3,231,231,0
+neosandeep24,neosandeep24,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,1,1,2,2026-10-25,2,2026-W43,2026-10-25,2026-10-25,User interface and viewport,67,6,231,231,0
+Noly1990,Noly1990,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,1,1,2,2026-10-14,2,2026-W42,2026-10-14,2026-10-14,User interface and viewport,40,19,231,231,0
+onenewcode,onenewcode,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,0,0,2,1,1,2026-10-17,2,2026-W42,2026-10-13,2026-10-17,Geometry kernel (SolidCore),33,6,231,231,0
+paulgcrabb,paulgcrabb,GitHub account,no,2,2,2,2,0,0,0,2,1,SolidCraft,2,0,2,1,1,2026-11-21,2,2026-W47,2026-11-19,2026-11-21,User interface and viewport,25,111,231,231,0
+potuzai,potuzai,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-05,1,2026-W45,2026-10-17,2026-11-05,User interface and viewport,100,6,231,231,0
+quantmind-br,quantmind-br,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-23,1,2026-W43,2026-10-13,2026-10-23,User interface and viewport,50,15,231,231,0
+queball1999,queball1999,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,0,0,2,2,1,2026-10-14,2,2026-W42,2026-10-13,2026-10-14,Modeling engine and document,50,14,231,231,0
+railconstr,railconstr,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-11-10,1,2026-W46,2026-10-30,2026-11-10,User interface and viewport,33,47,231,231,0
+rangoDJ,rangoDJ,GitHub account,no,2,2,2,2,0,0,0,0,1,SolidCraft,2,0,1,1,2,2026-11-16,2,2026-W47,2026-11-16,2026-11-16,Modeling engine and document,50,5,231,231,0
+raythurman2386,raythurman2386,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-11-05,1,2026-W45,2026-10-15,2026-11-05,Modeling engine and document,25,8,231,231,0
+rob-d3v,rob-d3v,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,2,1,2026-11-06,2,2026-W45,2026-11-05,2026-11-06,Modeling engine and document,50,6,231,231,0
+rvmzym5xv8-star,rvmzym5xv8-star,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-10-31,1,2026-W44,2026-10-25,2026-10-31,MCP / CLI / plugins,50,9,231,231,0
+Sam-47515301,Sam-47515301,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,1,1,2,2026-11-12,2,2026-W46,2026-11-12,2026-11-12,User interface and viewport,50,10,231,231,0
+shuff57,shuff57,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-25,1,2026-W43,2026-10-17,2026-10-25,Sketch and constraints,25,10,231,231,0
+Sloptimum,Sloptimum,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,1,0,2,1,1,2026-11-06,1,2026-W45,2026-10-27,2026-11-06,User interface and viewport,25,9,231,231,0
+smathles,smathles,GitHub account,no,2,2,2,2,0,0,0,2,1,SolidCraft,0,0,2,1,1,2026-11-22,2,2026-W47,2026-11-20,2026-11-22,Geometry kernel (SolidCore),40,24,231,231,0
+ssain3d-lgtm,ssain3d-lgtm,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-05,1,2026-W45,2026-10-24,2026-11-05,User interface and viewport,100,2,231,231,0
+sthifen,sthifen,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-23,1,2026-W43,2026-10-16,2026-10-23,Modeling engine and document,33,13,231,231,0
+tahazarif10,tahazarif10,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-25,2,2026-W43,2026-10-23,2026-10-25,Modeling engine and document,50,3,231,231,0
+vandang890615,vandang890615,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-10-27,1,2026-W44,2026-10-19,2026-10-27,User interface and viewport,50,6,231,231,0
+werwolfby,werwolfby,GitHub account,no,2,0,2,2,0,0,0,1,1,SolidCraft,2,0,2,1,1,2026-11-05,1,2026-W45,2026-10-24,2026-11-05,Geometry kernel (SolidCore),33,6,231,231,0
+WhiteNoiseGuy,WhiteNoiseGuy,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,2,0,2,1,1,2026-11-04,1,2026-W45,2026-10-30,2026-11-04,User interface and viewport,50,10,231,231,0
+yoyomaimai,yoyomaimai,GitHub account,no,2,0,2,2,0,0,0,0,1,SolidCraft,0,0,2,1,1,2026-11-10,1,2026-W46,2026-11-06,2026-11-10,User interface and viewport,100,3,231,231,0
+lo49,lo49,GitHub account,no,2,2,1,0,0,2,0,0,1,PCBCraft,0,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,PCBCraft,100,4,231,231,0
+fbccsz,fbccsz,GitHub account,no,1,0,11,0,0,1,0,0,1,PCBCraft,0,0,2,2,9,2026-11-13,11,2026-W46,2026-11-13,2026-11-14,PCBCraft,100,18,292,292,0
+idiosyncric,idiosyncric,GitHub account,no,1,1,5,0,0,1,0,0,1,PCBCraft,0,0,2,1,3,2026-11-19,5,2026-W47,2026-11-17,2026-11-19,PCBCraft,100,16,292,292,0
+henlamp,henlamp,GitHub account,no,1,0,4,1,0,0,0,4,1,SolidCraft,0,0,2,2,2,2026-10-23,4,2026-W43,2026-10-22,2026-10-23,Geometry kernel (SolidCore),50,109,292,292,0
+jawler,jawler,GitHub account,no,1,0,3,1,0,0,0,0,1,SolidCraft,0,0,2,2,2,2026-10-16,3,2026-W42,2026-10-16,2026-10-17,User interface and viewport,67,3,292,292,0
+jnz-1,jnz-1,GitHub account,no,1,0,3,0,0,0,1,0,1,CamCraft,0,0,1,1,3,2026-11-11,3,2026-W46,2026-11-11,2026-11-11,CamCraft,100,36,292,292,0
+ril3y,ril3y,GitHub account,no,1,0,3,0,0,0,1,0,1,CamCraft,0,0,2,1,2,2026-11-12,3,2026-W46,2026-11-10,2026-11-12,CamCraft,100,64,292,292,0
+marcbritten,marcbritten,GitHub account,no,1,1,2,0,0,0,1,0,1,CamCraft,0,0,1,1,2,2026-11-22,2,2026-W47,2026-11-22,2026-11-22,CamCraft,100,7,292,292,0
+paulsvc,paulsvc,GitHub account,no,1,1,2,0,0,0,1,0,1,CamCraft,0,0,1,1,2,2026-11-22,2,2026-W47,2026-11-22,2026-11-22,CamCraft,100,5,292,292,0
+a-hakim,a-hakim,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-19,1,2026-W43,2026-10-19,2026-10-19,User interface and viewport,33,5,292,292,0
+abteenz,abteenz,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-19,1,2026-W43,2026-10-19,2026-10-19,Desktop and web apps,50,4,292,292,0
+AdamHickerson,AdamHickerson,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-22,1,2026-W43,2026-10-22,2026-10-22,User interface and viewport,100,2,292,292,0
+aduijs,aduijs,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-04,1,2026-W45,2026-11-04,2026-11-04,Modeling engine and document,17,13,292,292,0
+ahagelberg,ahagelberg,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-14,1,2026-W46,2026-11-14,2026-11-14,Modeling engine and document,14,23,292,292,0
+ahmeddwalid,ahmeddwalid,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-12,1,2026-W46,2026-11-12,2026-11-12,User interface and viewport,100,2,292,292,0
+ahmetalpcelik,ahmetalpcelik,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-23,1,2026-W43,2026-10-23,2026-10-23,Modeling engine and document,100,2,292,292,0
+aiapienthusiast,aiapienthusiast,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,User interface and viewport,50,2,292,292,0
+Alan16888,Alan16888,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-13,1,2026-W42,2026-10-13,2026-10-13,User interface and viewport,50,3,292,292,0
+alex-s168,alex-s168,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-13,1,2026-W42,2026-10-13,2026-10-13,User interface and viewport,33,17,292,292,0
+allisonChilton,allisonChilton,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Tests and tooling,50,3,292,292,0
+AlumnoTuring,AlumnoTuring,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-15,1,2026-W46,2026-11-15,2026-11-15,User interface and viewport,100,1,292,292,0
+AndreIsraelAO,AndreIsraelAO,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-02,1,2026-W45,2026-11-02,2026-11-02,Geometry kernel (SolidCore),100,2,292,292,0
+Antiheld86,Antiheld86,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-12,1,2026-W46,2026-11-12,2026-11-12,User interface and viewport,100,4,292,292,0
+astrojhgu,astrojhgu,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-11,1,2026-W41,2026-10-11,2026-10-11,Tests and tooling,50,3,292,292,0
+bartkepl,bartkepl,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-11,1,2026-W46,2026-11-11,2026-11-11,User interface and viewport,25,8,292,292,0
+bastotec,bastotec,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-13,1,2026-W46,2026-11-13,2026-11-13,Geometry kernel (SolidCore),50,8,292,292,0
+bferanmi806-sketch,bferanmi806-sketch,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-06,1,2026-W45,2026-11-06,2026-11-06,User interface and viewport,100,1,292,292,0
+big-yellow-duck,big-yellow-duck,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-23,1,2026-W48,2026-11-23,2026-11-23,Sketch and constraints,100,1,292,292,0
+Brotholomew,Brotholomew,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,Modeling engine and document,50,4,292,292,0
+bwees,bwees,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-26,1,2026-W44,2026-10-26,2026-10-26,User interface and viewport,100,5,292,292,0
+CaliLuke,CaliLuke,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-15,1,2026-W46,2026-11-15,2026-11-15,User interface and viewport,33,14,292,292,0
+calmasacow,calmasacow,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,User interface and viewport,100,2,292,292,0
+CarlosKeese,CarlosKeese,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,Geometry kernel (SolidCore),100,3,292,292,0
+CC-David-CC,CC-David-CC,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,33,7,292,292,0
+Chemiseblanc,Chemiseblanc,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-12,1,2026-W46,2026-11-12,2026-11-12,User interface and viewport,50,3,292,292,0
+creativaestudio,creativaestudio,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,Geometry kernel (SolidCore),100,2,292,292,0
+Crypto69,Crypto69,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,Modeling engine and document,100,3,292,292,0
+DasWookie,DasWookie,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,Tests and tooling,50,3,292,292,0
+del000,del000,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-14,1,2026-W42,2026-10-14,2026-10-14,User interface and viewport,33,6,292,292,0
+DevonHope,DevonHope,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,100,4,292,292,0
+devrosx,devrosx,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-14,1,2026-W42,2026-10-14,2026-10-14,User interface and viewport,50,2,292,292,0
+drbh,drbh,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-17,1,2026-W47,2026-11-17,2026-11-17,Modeling engine and document,50,5,292,292,0
+Elias-Ta,Elias-Ta,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-09,1,2026-W46,2026-11-09,2026-11-09,Modeling engine and document,33,5,292,292,0
+erkinalp,erkinalp,GitHub account,no,1,0,1,0,1,0,0,0,1,FieldCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,FieldCraft,100,12,292,292,0
+essorblood,essorblood,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,User interface and viewport,100,3,292,292,0
+eugene-vereshchagin,eugene-vereshchagin,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,50,5,292,292,0
+exostasis,exostasis,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-18,1,2026-W47,2026-11-18,2026-11-18,Geometry kernel (SolidCore),100,2,292,292,0
+filippecha,filippecha,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-07,1,2026-W45,2026-11-07,2026-11-07,User interface and viewport,100,2,292,292,0
+fitb-greg,fitb-greg,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,User interface and viewport,100,2,292,292,0
+fnoppix,fnoppix,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-06,1,2026-W45,2026-11-06,2026-11-06,User interface and viewport,50,3,292,292,0
+GavinSchmidt,GavinSchmidt,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-30,1,2026-W44,2026-10-30,2026-10-30,User interface and viewport,50,10,292,292,0
+Gleinkaa,Gleinkaa,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,50,3,292,292,0
+GonMD,GonMD,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,User interface and viewport,100,1,292,292,0
+gsrunion,gsrunion,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-23,1,2026-W43,2026-10-23,2026-10-23,User interface and viewport,33,3,292,292,0
+harcerz,harcerz,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-06,1,2026-W45,2026-11-06,2026-11-06,Tests and tooling,100,1,292,292,0
+hb128,hb128,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-19,1,2026-W47,2026-11-19,2026-11-19,Geometry kernel (SolidCore),100,2,292,292,0
+HolyZephyros,HolyZephyros,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-19,1,2026-W47,2026-11-19,2026-11-19,User interface and viewport,100,1,292,292,0
+HotThrower71,HotThrower71,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-27,1,2026-W44,2026-10-27,2026-10-27,User interface and viewport,33,8,292,292,0
+ICE-KOLD,ICE-KOLD,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-02,1,2026-W45,2026-11-02,2026-11-02,User interface and viewport,50,5,292,292,0
+ich777,ich777,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,User interface and viewport,100,2,292,292,0
+imanu86,imanu86,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,User interface and viewport,33,11,292,292,0
+ingussp,ingussp,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,User interface and viewport,100,2,292,292,0
+ishiichan-dayo,ishiichan-dayo,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,User interface and viewport,50,3,292,292,0
+j4py,j4py,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-23,1,2026-W48,2026-11-23,2026-11-23,Modeling engine and document,100,2,292,292,0
+JarrodJackson98,JarrodJackson98,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,User interface and viewport,100,2,292,292,0
+jason3w,jason3w,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,User interface and viewport,50,7,292,292,0
+JehleM,JehleM,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-23,1,2026-W48,2026-11-23,2026-11-23,User interface and viewport,100,2,292,292,0
+jeremymiribung-blip,jeremymiribung-blip,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-22,1,2026-W43,2026-10-22,2026-10-22,Geometry kernel (SolidCore),50,2,292,292,0
+jianzhichun,jianzhichun,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Geometry kernel (SolidCore),100,4,292,292,0
+jiiimi,jiiimi,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,100,1,292,292,0
+JnRDesign,JnRDesign,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,Modeling engine and document,33,5,292,292,0
+Joberndo,Joberndo,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-02,1,2026-W45,2026-11-02,2026-11-02,User interface and viewport,100,5,292,292,0
+jochenhammes,jochenhammes,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,Desktop and web apps,50,6,292,292,0
+Jomguy2,Jomguy2,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,User interface and viewport,50,3,292,292,0
+JosephStew-art,JosephStew-art,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,33,13,292,292,0
+jruelli,jruelli,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-09,1,2026-W46,2026-11-09,2026-11-09,User interface and viewport,50,4,292,292,0
+jtecp,jtecp,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Geometry kernel (SolidCore),100,7,292,292,0
+JZiegener,JZiegener,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-21,1,2026-W43,2026-10-21,2026-10-21,Docs and planning,100,1,292,292,0
+KaworuSF5,KaworuSF5,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,100,1,292,292,0
+King,,Email only,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-01,1,2026-W44,2026-11-01,2026-11-01,Docs and planning,100,1,292,292,0
+kk376,kk376,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-01,1,2026-W44,2026-11-01,2026-11-01,Modeling engine and document,50,8,292,292,0
+Konrad-Waldhe,Konrad-Waldhe,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,User interface and viewport,33,5,292,292,0
+kuraneko1,kuraneko1,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-15,1,2026-W42,2026-10-15,2026-10-15,User interface and viewport,33,6,292,292,0
+lucasmontec,lucasmontec,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,User interface and viewport,50,4,292,292,0
+luke-kearney,luke-kearney,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-15,1,2026-W42,2026-10-15,2026-10-15,Geometry kernel (SolidCore),100,2,292,292,0
+lychee888,lychee888,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,25,24,292,292,0
+macrulz54,macrulz54,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-15,1,2026-W42,2026-10-15,2026-10-15,User interface and viewport,50,4,292,292,0
+makao1253,makao1253,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-26,1,2026-W44,2026-10-26,2026-10-26,Desktop and web apps,25,11,292,292,0
+mangod12,mangod12,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-17,1,2026-W47,2026-11-17,2026-11-17,Modeling engine and document,100,3,292,292,0
+ManInTheMiddle89,ManInTheMiddle89,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,User interface and viewport,50,14,292,292,0
+MannXo,MannXo,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-27,1,2026-W44,2026-10-27,2026-10-27,User interface and viewport,50,2,292,292,0
+Marentius,Marentius,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,User interface and viewport,50,5,292,292,0
+marquies,marquies,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-27,1,2026-W44,2026-10-27,2026-10-27,User interface and viewport,100,4,292,292,0
+MartinMajewski,MartinMajewski,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,33,8,292,292,0
+matheusmerlim1,matheusmerlim1,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-29,1,2026-W44,2026-10-29,2026-10-29,User interface and viewport,50,2,292,292,0
+Mauznemo,Mauznemo,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-21,1,2026-W43,2026-10-21,2026-10-21,User interface and viewport,33,8,292,292,0
+MaxMcKelvey,MaxMcKelvey,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-18,1,2026-W47,2026-11-18,2026-11-18,Modeling engine and document,25,26,292,292,0
+mayl,mayl,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-21,1,2026-W47,2026-11-21,2026-11-21,File import and export,33,6,292,292,0
+mericon,mericon,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-11,1,2026-W46,2026-11-11,2026-11-11,Modeling engine and document,33,9,292,292,0
+MisanaProger,MisanaProger,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-15,1,2026-W46,2026-11-15,2026-11-15,User interface and viewport,33,5,292,292,0
+Mishung,Mishung,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-26,1,2026-W44,2026-10-26,2026-10-26,Docs and planning,100,1,292,292,0
+mj42584,mj42584,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,User interface and viewport,100,1,292,292,0
+mkar1984,mkar1984,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-01,1,2026-W44,2026-11-01,2026-11-01,User interface and viewport,50,7,292,292,0
+Moi455,Moi455,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,User interface and viewport,50,6,292,292,0
+moritzuehling,moritzuehling,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Geometry kernel (SolidCore),50,7,292,292,0
+MorningFrog,MorningFrog,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-31,1,2026-W44,2026-10-31,2026-10-31,User interface and viewport,100,1,292,292,0
+morteng,morteng,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-14,1,2026-W46,2026-11-14,2026-11-14,Modeling engine and document,100,2,292,292,0
+mynoc-96,mynoc-96,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-29,1,2026-W44,2026-10-29,2026-10-29,User interface and viewport,50,8,292,292,0
+MythicForge,MythicForge,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-16,1,2026-W42,2026-10-16,2026-10-16,User interface and viewport,100,1,292,292,0
+nathan-charles,nathan-charles,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,User interface and viewport,100,2,292,292,0
+nickmayer,nickmayer,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Modeling engine and document,100,15,292,292,0
+nikigan,nikigan,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-12,1,2026-W46,2026-11-12,2026-11-12,User interface and viewport,100,7,292,292,0
+nikitairl,nikitairl,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-30,1,2026-W44,2026-10-30,2026-10-30,Geometry kernel (SolidCore),100,1,292,292,0
+nocturney,nocturney,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-17,1,2026-W47,2026-11-17,2026-11-17,User interface and viewport,100,1,292,292,0
+nofuturekid,nofuturekid,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Desktop and web apps,50,2,292,292,0
+olup,olup,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Desktop and web apps,33,6,292,292,0
+oryjkov,oryjkov,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-19,1,2026-W47,2026-11-19,2026-11-19,Geometry kernel (SolidCore),100,3,292,292,0
+p3rd1x,p3rd1x,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,Geometry kernel (SolidCore),100,2,292,292,0
+palaniraja,palaniraja,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,User interface and viewport,33,5,292,292,0
+pankleks,pankleks,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,Modeling engine and document,100,3,292,292,0
+pataar,pataar,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,33,6,292,292,0
+paulberdielAH,paulberdielAH,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-16,1,2026-W47,2026-11-16,2026-11-16,Geometry kernel (SolidCore),100,4,292,292,0
+phobicdotno,phobicdotno,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-09,1,2026-W46,2026-11-09,2026-11-09,User interface and viewport,100,3,292,292,0
+pjrus,pjrus,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-13,1,2026-W42,2026-10-13,2026-10-13,Docs and planning,100,1,292,292,0
+Priyanshu-choudhary,Priyanshu-choudhary,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,User interface and viewport,100,1,292,292,0
+purp0w,purp0w,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-29,1,2026-W44,2026-10-29,2026-10-29,Tests and tooling,50,199,292,292,0
+rafacerete23,rafacerete23,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,Modeling engine and document,20,9,292,292,0
+ralfkuh-lab,ralfkuh-lab,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-22,1,2026-W43,2026-10-22,2026-10-22,User interface and viewport,50,11,292,292,0
+Ramses13th,Ramses13th,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-26,1,2026-W44,2026-10-26,2026-10-26,Tests and tooling,100,2,292,292,0
+Razuer,Razuer,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,MCP / CLI / plugins,100,1,292,292,0
+rdcstout,rdcstout,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-17,1,2026-W47,2026-11-17,2026-11-17,Modeling engine and document,12,46,292,292,0
+rifqifatih,rifqifatih,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-20,1,2026-W43,2026-10-20,2026-10-20,File import and export,33,6,292,292,0
+robbpf,robbpf,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-13,1,2026-W46,2026-11-13,2026-11-13,User interface and viewport,50,4,292,292,0
+rpromas,rpromas,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Tests and tooling,50,7,292,292,0
+s17sh70x2jfl031ag,s17sh70x2jfl031ag,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,User interface and viewport,100,1,292,292,0
+sahenjp,sahenjp,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-13,1,2026-W42,2026-10-13,2026-10-13,Modeling engine and document,33,13,292,292,0
+sandman21vs,sandman21vs,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,User interface and viewport,33,10,292,292,0
+sclMAX,sclMAX,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-20,1,2026-W47,2026-11-20,2026-11-20,User interface and viewport,100,1,292,292,0
+Sebagrei,Sebagrei,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-08,1,2026-W45,2026-11-08,2026-11-08,User interface and viewport,50,6,292,292,0
+senilio,senilio,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-15,1,2026-W42,2026-10-15,2026-10-15,User interface and viewport,25,17,292,292,0
+shambazovalbert-art,shambazovalbert-art,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-07,1,2026-W45,2026-11-07,2026-11-07,Modeling engine and document,50,4,292,292,0
+ShawnMarx,ShawnMarx,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,Docs and planning,100,4,292,292,0
+sinu0,sinu0,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-19,1,2026-W43,2026-10-19,2026-10-19,Geometry kernel (SolidCore),100,2,292,292,0
+snowsh1ne,snowsh1ne,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-31,1,2026-W44,2026-10-31,2026-10-31,Desktop and web apps,50,2,292,292,0
+sommerper,sommerper,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,User interface and viewport,50,3,292,292,0
+spuder,spuder,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-18,1,2026-W42,2026-10-18,2026-10-18,User interface and viewport,100,2,292,292,0
+sst3ly,sst3ly,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-02,1,2026-W45,2026-11-02,2026-11-02,User interface and viewport,100,4,292,292,0
+styles01,styles01,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,User interface and viewport,100,3,292,292,0
+supersfera-online,supersfera-online,GitHub account,no,1,1,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-22,1,2026-W47,2026-11-22,2026-11-22,User interface and viewport,100,5,292,292,0
+SvenCarstensen,SvenCarstensen,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-30,1,2026-W44,2026-10-30,2026-10-30,Desktop and web apps,25,9,292,292,0
+tdslot,tdslot,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-18,1,2026-W42,2026-10-18,2026-10-18,User interface and viewport,100,4,292,292,0
+teebrin,teebrin,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-17,1,2026-W47,2026-11-17,2026-11-17,Geometry kernel (SolidCore),100,6,292,292,0
+thetooth,thetooth,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-12,1,2026-W46,2026-11-12,2026-11-12,Modeling engine and document,50,2,292,292,0
+tianxingjian2406,tianxingjian2406,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-27,1,2026-W44,2026-10-27,2026-10-27,Desktop and web apps,100,1,292,292,0
+tommasobbianchi,tommasobbianchi,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-17,1,2026-W42,2026-10-17,2026-10-17,Docs and planning,100,1,292,292,0
+trojancode,trojancode,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,User interface and viewport,100,3,292,292,0
+tsijercic1,tsijercic1,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,User interface and viewport,50,6,292,292,0
+Tury991,Tury991,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-04,1,2026-W45,2026-11-04,2026-11-04,Modeling engine and document,100,1,292,292,0
+twardnw,twardnw,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-10,1,2026-W46,2026-11-10,2026-11-10,User interface and viewport,33,10,292,292,0
+TyGrze,TyGrze,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,User interface and viewport,100,3,292,292,0
+vkalinsky,vkalinsky,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,User interface and viewport,33,27,292,292,0
+vshortt73,vshortt73,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-16,1,2026-W47,2026-11-16,2026-11-16,Geometry kernel (SolidCore),100,4,292,292,0
+wckdboy,wckdboy,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-10-25,1,2026-W43,2026-10-25,2026-10-25,Geometry kernel (SolidCore),33,7,292,292,0
+weltenseglr,weltenseglr,GitHub account,no,1,1,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-11-16,1,2026-W47,2026-11-16,2026-11-16,Geometry kernel (SolidCore),100,2,292,292,0
+westers,westers,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,1,0,1,1,1,2026-11-16,1,2026-W47,2026-11-16,2026-11-16,Geometry kernel (SolidCore),100,22,292,292,0
+weynechen,weynechen,GitHub account,no,1,0,1,1,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-19,1,2026-W43,2026-10-19,2026-10-19,Geometry kernel (SolidCore),100,1,292,292,0
+xmerik,xmerik,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-01,1,2026-W44,2026-11-01,2026-11-01,User interface and viewport,50,10,292,292,0
+YAEemf,YAEemf,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-10-28,1,2026-W44,2026-10-28,2026-10-28,Modeling engine and document,20,44,292,292,0
+Yarous,Yarous,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-09,1,2026-W46,2026-11-09,2026-11-09,User interface and viewport,50,5,292,292,0
+Yasen-55,Yasen-55,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-05,1,2026-W45,2026-11-05,2026-11-05,User interface and viewport,50,4,292,292,0
+yishinli,yishinli,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-11-04,1,2026-W45,2026-11-04,2026-11-04,File import and export,33,4,292,292,0
+Yogesh01000100,Yogesh01000100,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,1,0,1,1,1,2026-11-02,1,2026-W45,2026-11-02,2026-11-02,User interface and viewport,100,1,292,292,0
+yutyan0119,yutyan0119,GitHub account,no,1,0,1,1,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-18,1,2026-W42,2026-10-18,2026-10-18,Modeling engine and document,100,2,292,292,0
+jenhaert,jenhaert,GitHub account,no,1,0,0,0,0,0,1,0,1,CamCraft,0,0,0,0,0,,0,,,,,0,0,292,292,0
+facelessdevhack,facelessdevhack,GitHub account,no,0,0,7,0,0,0,0,0,1,FieldCraft,0,0,1,1,7,2026-10-15,7,2026-W42,2026-10-15,2026-10-15,FieldCraft,100,24,465,465,0
+mrwsl,mrwsl,GitHub account,no,0,0,5,0,0,0,0,0,1,FieldCraft,0,0,2,2,4,2026-10-21,5,2026-W43,2026-10-21,2026-10-22,FieldCraft,100,15,465,465,0
+valo,valo,GitHub account,no,0,0,4,0,0,0,0,0,1,FieldCraft,0,0,2,1,3,2026-11-17,3,2026-W47,2026-11-13,2026-11-17,FieldCraft,100,11,465,465,0
+Madarame-Baku1,Madarame-Baku1,GitHub account,no,0,0,3,0,0,0,0,0,1,FieldCraft,0,0,1,1,3,2026-10-28,3,2026-W44,2026-10-28,2026-10-28,FieldCraft,100,20,465,465,0
+ppenguin,ppenguin,GitHub account,no,0,0,3,0,0,0,0,0,1,FieldCraft,0,0,2,1,2,2026-11-07,2,2026-W45,2026-11-07,2026-11-13,FieldCraft,100,11,465,465,0
+begsaquib,begsaquib,GitHub account,no,0,0,2,0,0,0,0,2,1,SolidCraft,0,0,1,1,2,2026-10-30,2,2026-W44,2026-10-30,2026-10-30,Geometry kernel (SolidCore),50,8,465,465,0
+Skywalkingzulu1,Skywalkingzulu1,GitHub account,no,0,0,2,0,0,0,0,0,1,FieldCraft,0,0,1,1,2,2026-10-15,2,2026-W42,2026-10-15,2026-10-15,FieldCraft,100,5,465,465,0
+blackveilprecision,blackveilprecision,GitHub account,no,0,0,1,0,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-21,1,2026-W43,2026-10-21,2026-10-21,Geometry kernel (SolidCore),33,17,465,465,0
+Cameron Wight,,Email only,no,0,0,1,0,0,0,0,1,1,SolidCraft,0,0,1,1,1,2026-10-21,1,2026-W43,2026-10-21,2026-10-21,Geometry kernel (SolidCore),33,27,465,465,0
+Giganttilom,Giganttilom,GitHub account,no,0,0,1,0,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-24,1,2026-W43,2026-10-24,2026-10-24,Tests and tooling,100,1,465,465,0
+jiaqiwang969,jiaqiwang969,GitHub account,no,0,0,1,0,0,0,0,0,1,FieldCraft,0,0,1,1,1,2026-11-11,1,2026-W46,2026-11-11,2026-11-11,FieldCraft,100,13,465,465,0
+noosxe,noosxe,GitHub account,no,0,0,1,0,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,Tests and tooling,50,2,465,465,0
+Phaiz Mithriln,,Email only,no,0,0,1,0,0,0,0,0,1,SolidCraft,0,0,1,1,1,2026-10-12,1,2026-W42,2026-10-12,2026-10-12,Desktop and web apps,33,9,465,465,0

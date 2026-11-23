@@ -1,0 +1,11 @@
+{
+  "name": "tangency-leaderboard",
+  "private": true,
+  "type": "module",
+  "description": "All-time contributor leaderboard for the SolidCraft suite, published to GitHub Pages",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node pipeline/alltime.mjs",
+    "test": "node --test test/compute.test.mjs test/sync.test.mjs test/extra.test.mjs"
+  }
+}

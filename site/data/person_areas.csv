@@ -1,0 +1,1612 @@
+name,area,commits
+brett19,Geometry kernel (SolidCore),706
+brett19,Docs and planning,323
+brett19,Tests and tooling,211
+brett19,Modeling engine and document,11
+brett19,User interface and viewport,9
+brett19,MCP / CLI / plugins,7
+brett19,File import and export,6
+brett19,Sketch and constraints,2
+brett19,Desktop and web apps,2
+JehleM,User interface and viewport,1
+raykholo,Modeling engine and document,160
+raykholo,Geometry kernel (SolidCore),160
+raykholo,User interface and viewport,160
+raykholo,Docs and planning,69
+raykholo,MCP / CLI / plugins,64
+raykholo,Tests and tooling,33
+raykholo,Desktop and web apps,24
+raykholo,File import and export,22
+raykholo,Sketch and constraints,17
+ljgabc,Geometry kernel (SolidCore),4
+ljgabc,Modeling engine and document,3
+ljgabc,User interface and viewport,2
+ljgabc,Docs and planning,2
+ljgabc,Sketch and constraints,1
+mechatronics-studio,CamCraft,6
+mechatronics-studio,User interface and viewport,2
+mechatronics-studio,Modeling engine and document,1
+mechatronics-studio,Docs and planning,1
+big-yellow-duck,Sketch and constraints,1
+DavidClawson,Geometry kernel (SolidCore),1
+DavidClawson,Modeling engine and document,1
+dudedagger42,Modeling engine and document,79
+dudedagger42,User interface and viewport,40
+dudedagger42,Geometry kernel (SolidCore),33
+dudedagger42,Sketch and constraints,11
+dudedagger42,File import and export,8
+dudedagger42,FieldCraft,8
+dudedagger42,Tests and tooling,6
+dudedagger42,MCP / CLI / plugins,5
+dudedagger42,Docs and planning,4
+dudedagger42,Desktop and web apps,3
+j4py,Modeling engine and document,1
+ancientastronauttheorist,Geometry kernel (SolidCore),23
+ancientastronauttheorist,Modeling engine and document,11
+ancientastronauttheorist,User interface and viewport,11
+ancientastronauttheorist,Desktop and web apps,2
+ancientastronauttheorist,Docs and planning,2
+ancientastronauttheorist,Tests and tooling,2
+theironchef,Geometry kernel (SolidCore),18
+theironchef,Modeling engine and document,10
+theironchef,Tests and tooling,2
+ashxddaga,Modeling engine and document,16
+ashxddaga,User interface and viewport,12
+ashxddaga,Geometry kernel (SolidCore),5
+ashxddaga,File import and export,2
+ashxddaga,Tests and tooling,2
+ashxddaga,Sketch and constraints,2
+adnsv,File import and export,6
+adnsv,Docs and planning,4
+adnsv,Modeling engine and document,1
+bherbruck,Docs and planning,1126
+bherbruck,Geometry kernel (SolidCore),990
+bherbruck,Tests and tooling,727
+bherbruck,User interface and viewport,497
+bherbruck,Modeling engine and document,450
+bherbruck,MCP / CLI / plugins,184
+bherbruck,Desktop and web apps,96
+bherbruck,File import and export,70
+bherbruck,Website and other repos,60
+bherbruck,Sketch and constraints,45
+bherbruck,CamCraft,26
+bherbruck,PCBCraft,11
+bherbruck,FieldCraft,3
+MarkusReichart,Geometry kernel (SolidCore),193
+MarkusReichart,Docs and planning,33
+MarkusReichart,Modeling engine and document,28
+MarkusReichart,User interface and viewport,14
+MarkusReichart,File import and export,8
+MarkusReichart,Tests and tooling,7
+MarkusReichart,MCP / CLI / plugins,3
+MarkusReichart,Desktop and web apps,2
+MarkusReichart,Sketch and constraints,2
+h0witzer,Tests and tooling,7
+h0witzer,Geometry kernel (SolidCore),4
+h0witzer,Modeling engine and document,3
+h0witzer,Docs and planning,3
+h0witzer,User interface and viewport,2
+h0witzer,MCP / CLI / plugins,2
+h0witzer,File import and export,1
+TRget88,Modeling engine and document,5
+TRget88,MCP / CLI / plugins,3
+TRget88,File import and export,2
+TRget88,User interface and viewport,2
+TRget88,Tests and tooling,1
+TRget88,Geometry kernel (SolidCore),1
+TRget88,Docs and planning,1
+A-AL-ANAZI,User interface and viewport,47
+A-AL-ANAZI,MCP / CLI / plugins,2
+A-AL-ANAZI,Tests and tooling,1
+A-AL-ANAZI,Docs and planning,1
+0rdnungsamt,Modeling engine and document,73
+0rdnungsamt,User interface and viewport,37
+0rdnungsamt,Geometry kernel (SolidCore),10
+0rdnungsamt,Docs and planning,3
+0rdnungsamt,Desktop and web apps,2
+0rdnungsamt,MCP / CLI / plugins,1
+0rdnungsamt,File import and export,1
+0rdnungsamt,Tests and tooling,1
+n1co0815,User interface and viewport,2
+unusuallyhandsome,Modeling engine and document,9
+unusuallyhandsome,Geometry kernel (SolidCore),6
+unusuallyhandsome,User interface and viewport,2
+unusuallyhandsome,Docs and planning,2
+unusuallyhandsome,Tests and tooling,1
+jkkicks,Geometry kernel (SolidCore),16
+TomasDJo,User interface and viewport,3
+TomasDJo,Modeling engine and document,2
+TomasDJo,MCP / CLI / plugins,1
+cyryllo,User interface and viewport,5
+cyryllo,Docs and planning,1
+Ehuntabi,User interface and viewport,18
+Ehuntabi,Modeling engine and document,15
+Ehuntabi,Docs and planning,9
+Ehuntabi,MCP / CLI / plugins,5
+Ehuntabi,Tests and tooling,2
+Ehuntabi,Geometry kernel (SolidCore),2
+Ehuntabi,Sketch and constraints,1
+mj42584,User interface and viewport,1
+oursland,User interface and viewport,71
+oursland,Geometry kernel (SolidCore),48
+oursland,Docs and planning,42
+oursland,Modeling engine and document,39
+oursland,Tests and tooling,24
+oursland,File import and export,23
+oursland,MCP / CLI / plugins,17
+oursland,Desktop and web apps,8
+ConstantijnCrijnen,User interface and viewport,2
+AlexanderMech,Geometry kernel (SolidCore),2
+acebear17,User interface and viewport,6
+acebear17,Docs and planning,6
+acebear17,Tests and tooling,4
+acebear17,MCP / CLI / plugins,3
+acebear17,Desktop and web apps,2
+plexi32,User interface and viewport,36
+plexi32,Modeling engine and document,24
+plexi32,Geometry kernel (SolidCore),15
+plexi32,Docs and planning,12
+plexi32,Sketch and constraints,12
+plexi32,Tests and tooling,2
+plexi32,Desktop and web apps,1
+rlartot,User interface and viewport,25
+rlartot,Modeling engine and document,22
+rlartot,Docs and planning,6
+rlartot,Geometry kernel (SolidCore),6
+rlartot,Tests and tooling,3
+rlartot,Sketch and constraints,2
+rlartot,MCP / CLI / plugins,2
+rlartot,File import and export,1
+KazW,Modeling engine and document,13
+KazW,Geometry kernel (SolidCore),8
+KazW,Docs and planning,4
+KazW,User interface and viewport,3
+KazW,Sketch and constraints,2
+1993eg1,Docs and planning,28
+1993eg1,MCP / CLI / plugins,1
+takuto-NA,Modeling engine and document,11
+takuto-NA,User interface and viewport,10
+takuto-NA,Docs and planning,4
+takuto-NA,Sketch and constraints,3
+takuto-NA,MCP / CLI / plugins,2
+takuto-NA,Tests and tooling,2
+takuto-NA,Desktop and web apps,1
+cfaulkingham,User interface and viewport,110
+cfaulkingham,Modeling engine and document,89
+cfaulkingham,Docs and planning,27
+cfaulkingham,MCP / CLI / plugins,23
+cfaulkingham,Geometry kernel (SolidCore),19
+cfaulkingham,Sketch and constraints,9
+cfaulkingham,Tests and tooling,5
+cfaulkingham,Desktop and web apps,4
+cfaulkingham,File import and export,4
+Microslon3,Sketch and constraints,1
+Microslon3,User interface and viewport,1
+Microslon3,Geometry kernel (SolidCore),1
+Ishred11,User interface and viewport,3
+Ishred11,Modeling engine and document,3
+Ishred11,Geometry kernel (SolidCore),2
+CamWight,Modeling engine and document,138
+CamWight,User interface and viewport,73
+CamWight,Geometry kernel (SolidCore),64
+CamWight,Docs and planning,31
+CamWight,File import and export,30
+CamWight,Tests and tooling,18
+CamWight,Sketch and constraints,14
+CamWight,MCP / CLI / plugins,10
+CamWight,Desktop and web apps,8
+bnoa,File import and export,4
+bnoa,MCP / CLI / plugins,3
+bnoa,Modeling engine and document,2
+kakuteki,Modeling engine and document,4
+kakuteki,Docs and planning,4
+kakuteki,User interface and viewport,3
+kakuteki,File import and export,3
+kakuteki,MCP / CLI / plugins,1
+kakuteki,Tests and tooling,1
+kakuteki,Geometry kernel (SolidCore),1
+vdirienzo,Modeling engine and document,50
+vdirienzo,User interface and viewport,37
+vdirienzo,Docs and planning,12
+vdirienzo,MCP / CLI / plugins,8
+vdirienzo,Sketch and constraints,8
+vdirienzo,File import and export,6
+vdirienzo,Desktop and web apps,5
+vdirienzo,Tests and tooling,5
+vdirienzo,Geometry kernel (SolidCore),3
+mfaugiana,User interface and viewport,8
+mfaugiana,Modeling engine and document,7
+mfaugiana,Docs and planning,2
+mfaugiana,Desktop and web apps,1
+mfaugiana,MCP / CLI / plugins,1
+NOWN-DEV,Modeling engine and document,114
+NOWN-DEV,Docs and planning,48
+NOWN-DEV,Geometry kernel (SolidCore),35
+NOWN-DEV,User interface and viewport,24
+NOWN-DEV,Sketch and constraints,13
+NOWN-DEV,MCP / CLI / plugins,9
+NOWN-DEV,Tests and tooling,9
+NOWN-DEV,File import and export,7
+Karl-VonRichter,Docs and planning,51
+Karl-VonRichter,Geometry kernel (SolidCore),50
+Karl-VonRichter,Tests and tooling,48
+Karl-VonRichter,User interface and viewport,23
+Karl-VonRichter,Modeling engine and document,18
+Karl-VonRichter,MCP / CLI / plugins,8
+Karl-VonRichter,Sketch and constraints,7
+Karl-VonRichter,File import and export,1
+Karl-VonRichter,Desktop and web apps,1
+ChrisNourse,Geometry kernel (SolidCore),34
+ChrisNourse,Docs and planning,21
+ChrisNourse,Tests and tooling,9
+ChrisNourse,User interface and viewport,6
+ChrisNourse,Modeling engine and document,5
+ChrisNourse,MCP / CLI / plugins,1
+ChrisNourse,File import and export,1
+Werner1303,Geometry kernel (SolidCore),5
+Werner1303,User interface and viewport,4
+Werner1303,Modeling engine and document,3
+Werner1303,Tests and tooling,1
+Werner1303,MCP / CLI / plugins,1
+Werner1303,Sketch and constraints,1
+N3MI-DG,User interface and viewport,34
+N3MI-DG,Modeling engine and document,14
+N3MI-DG,Geometry kernel (SolidCore),8
+N3MI-DG,Docs and planning,5
+N3MI-DG,MCP / CLI / plugins,2
+N3MI-DG,File import and export,1
+N3MI-DG,Desktop and web apps,1
+creativaestudio,Geometry kernel (SolidCore),1
+JnRDesign,Modeling engine and document,1
+JnRDesign,Docs and planning,1
+JnRDesign,Tests and tooling,1
+erlis,Geometry kernel (SolidCore),14
+erlis,Docs and planning,8
+erlis,Modeling engine and document,5
+erlis,Tests and tooling,5
+erlis,Desktop and web apps,1
+erlis,User interface and viewport,1
+crono2250,User interface and viewport,24
+crono2250,Modeling engine and document,16
+crono2250,Docs and planning,12
+crono2250,Tests and tooling,6
+crono2250,Geometry kernel (SolidCore),5
+crono2250,Desktop and web apps,4
+crono2250,MCP / CLI / plugins,4
+crono2250,File import and export,1
+smathles,Geometry kernel (SolidCore),2
+smathles,User interface and viewport,1
+smathles,Modeling engine and document,1
+smathles,Tests and tooling,1
+thocsmith,User interface and viewport,17
+thocsmith,Modeling engine and document,12
+thocsmith,MCP / CLI / plugins,3
+thocsmith,File import and export,3
+thocsmith,Sketch and constraints,2
+thocsmith,Docs and planning,2
+thocsmith,Desktop and web apps,1
+Alauan,User interface and viewport,3
+Alauan,Modeling engine and document,2
+Alauan,Geometry kernel (SolidCore),1
+Alauan,Sketch and constraints,1
+sethml,User interface and viewport,5
+sethml,Geometry kernel (SolidCore),4
+sethml,Tests and tooling,2
+sethml,Sketch and constraints,1
+sethml,Desktop and web apps,1
+sethml,MCP / CLI / plugins,1
+Rempelino,Geometry kernel (SolidCore),20
+leValdemar19,User interface and viewport,19
+leValdemar19,Modeling engine and document,13
+leValdemar19,Docs and planning,6
+leValdemar19,MCP / CLI / plugins,2
+leValdemar19,Sketch and constraints,2
+leValdemar19,File import and export,1
+rugbymauri,User interface and viewport,17
+rugbymauri,Docs and planning,6
+rugbymauri,Modeling engine and document,5
+rugbymauri,Sketch and constraints,2
+rugbymauri,MCP / CLI / plugins,2
+KS7-10,Geometry kernel (SolidCore),2
+thomschlie,Modeling engine and document,3
+thomschlie,Sketch and constraints,2
+thomschlie,Tests and tooling,2
+thomschlie,MCP / CLI / plugins,2
+thomschlie,User interface and viewport,2
+thomschlie,Docs and planning,2
+thomschlie,FieldCraft,1
+khanahmad4527,Geometry kernel (SolidCore),59
+khanahmad4527,Docs and planning,41
+khanahmad4527,Modeling engine and document,13
+khanahmad4527,User interface and viewport,13
+khanahmad4527,Tests and tooling,8
+khanahmad4527,MCP / CLI / plugins,3
+khanahmad4527,Sketch and constraints,1
+Nathan-Dane,User interface and viewport,149
+Nathan-Dane,Docs and planning,88
+Nathan-Dane,Modeling engine and document,56
+Nathan-Dane,MCP / CLI / plugins,35
+Nathan-Dane,Tests and tooling,18
+Nathan-Dane,Geometry kernel (SolidCore),12
+Nathan-Dane,Desktop and web apps,10
+Nathan-Dane,Sketch and constraints,1
+supersfera-online,User interface and viewport,1
+carlymx,User interface and viewport,23
+carlymx,Docs and planning,2
+AlexMitchellMus,File import and export,10
+AlexMitchellMus,Geometry kernel (SolidCore),3
+AlexMitchellMus,Tests and tooling,3
+Crypto69,Modeling engine and document,1
+darkfoam,Geometry kernel (SolidCore),2
+aapolipponen,Geometry kernel (SolidCore),41
+aapolipponen,Docs and planning,19
+aapolipponen,Tests and tooling,6
+aapolipponen,File import and export,2
+DAmesberger,PCBCraft,12
+DAmesberger,User interface and viewport,1
+DAmesberger,Geometry kernel (SolidCore),1
+hrb9,PCBCraft,5
+hrb9,User interface and viewport,1
+Sebastion,User interface and viewport,8
+Sebastion,Modeling engine and document,7
+Sebastion,Docs and planning,4
+Sebastion,MCP / CLI / plugins,1
+Leocrydis,Modeling engine and document,2
+Leocrydis,File import and export,1
+Leocrydis,Docs and planning,1
+Leocrydis,MCP / CLI / plugins,1
+zorbathut,User interface and viewport,4
+zorbathut,Geometry kernel (SolidCore),3
+zorbathut,Modeling engine and document,2
+zorbathut,Docs and planning,1
+rudalabs,Modeling engine and document,5
+rudalabs,Geometry kernel (SolidCore),3
+rudalabs,User interface and viewport,3
+rudalabs,File import and export,3
+rudalabs,MCP / CLI / plugins,2
+rudalabs,Docs and planning,2
+rudalabs,Tests and tooling,2
+rudalabs,Desktop and web apps,1
+umutacil,User interface and viewport,10
+umutacil,Modeling engine and document,2
+umutacil,File import and export,1
+umutacil,Geometry kernel (SolidCore),1
+umutacil,Sketch and constraints,1
+HiroKenEz,User interface and viewport,29
+HiroKenEz,Modeling engine and document,22
+HiroKenEz,Docs and planning,10
+HiroKenEz,MCP / CLI / plugins,3
+HiroKenEz,Tests and tooling,3
+HiroKenEz,Sketch and constraints,2
+HiroKenEz,Geometry kernel (SolidCore),1
+mayl,Tests and tooling,1
+mayl,File import and export,1
+mayl,Modeling engine and document,1
+dannyow,User interface and viewport,33
+dannyow,Modeling engine and document,14
+dannyow,Docs and planning,7
+dannyow,MCP / CLI / plugins,5
+dannyow,Sketch and constraints,2
+dannyow,Tests and tooling,1
+dannyow,Desktop and web apps,1
+paulgcrabb,User interface and viewport,2
+paulgcrabb,Modeling engine and document,2
+paulgcrabb,Docs and planning,2
+paulgcrabb,Geometry kernel (SolidCore),2
+PaddleStroke,User interface and viewport,73
+PaddleStroke,Modeling engine and document,42
+PaddleStroke,Docs and planning,22
+PaddleStroke,MCP / CLI / plugins,17
+PaddleStroke,Geometry kernel (SolidCore),14
+PaddleStroke,Sketch and constraints,10
+PaddleStroke,Tests and tooling,8
+PaddleStroke,Desktop and web apps,6
+PaddleStroke,File import and export,6
+chrishamm,User interface and viewport,8
+chrishamm,Docs and planning,4
+chrishamm,Modeling engine and document,3
+chrishamm,MCP / CLI / plugins,2
+chrishamm,Tests and tooling,1
+chrishamm,File import and export,1
+P-tite-tete,Modeling engine and document,8
+P-tite-tete,User interface and viewport,8
+P-tite-tete,Docs and planning,3
+P-tite-tete,Geometry kernel (SolidCore),2
+P-tite-tete,Tests and tooling,1
+P-tite-tete,MCP / CLI / plugins,1
+altvnk,Geometry kernel (SolidCore),176
+altvnk,Docs and planning,85
+altvnk,Tests and tooling,64
+altvnk,File import and export,11
+altvnk,User interface and viewport,10
+altvnk,Modeling engine and document,5
+altvnk,Desktop and web apps,2
+altvnk,MCP / CLI / plugins,1
+shadaytree,Modeling engine and document,5
+shadaytree,User interface and viewport,2
+shadaytree,Docs and planning,2
+shadaytree,Geometry kernel (SolidCore),2
+shadaytree,File import and export,1
+JesperWe,Modeling engine and document,6
+JesperWe,User interface and viewport,6
+JesperWe,Geometry kernel (SolidCore),5
+JesperWe,Docs and planning,2
+JesperWe,MCP / CLI / plugins,1
+JesperWe,Desktop and web apps,1
+j-a-b-r-o-n-i,Geometry kernel (SolidCore),12
+j-a-b-r-o-n-i,Modeling engine and document,8
+j-a-b-r-o-n-i,MCP / CLI / plugins,4
+j-a-b-r-o-n-i,User interface and viewport,3
+j-a-b-r-o-n-i,File import and export,1
+DevonHope,Modeling engine and document,1
+Guenni1975,Geometry kernel (SolidCore),3
+CC-David-CC,Modeling engine and document,1
+CC-David-CC,Geometry kernel (SolidCore),1
+CC-David-CC,Tests and tooling,1
+brenmarshall,User interface and viewport,3
+brenmarshall,Modeling engine and document,2
+brenmarshall,Desktop and web apps,1
+jijinbei,Modeling engine and document,11
+jijinbei,User interface and viewport,10
+jijinbei,Geometry kernel (SolidCore),9
+jijinbei,Tests and tooling,6
+jijinbei,Docs and planning,5
+jijinbei,Sketch and constraints,3
+jijinbei,MCP / CLI / plugins,2
+jijinbei,Desktop and web apps,1
+jijinbei,File import and export,1
+jijinbei,FieldCraft,1
+jtecp,Geometry kernel (SolidCore),1
+MartinMajewski,Modeling engine and document,1
+MartinMajewski,Docs and planning,1
+MartinMajewski,Geometry kernel (SolidCore),1
+sclMAX,User interface and viewport,1
+austin62jake,Modeling engine and document,70
+austin62jake,User interface and viewport,30
+austin62jake,PCBCraft,20
+austin62jake,CamCraft,20
+austin62jake,Geometry kernel (SolidCore),7
+austin62jake,Docs and planning,7
+austin62jake,File import and export,5
+austin62jake,MCP / CLI / plugins,4
+austin62jake,Desktop and web apps,3
+austin62jake,Sketch and constraints,1
+iHateStupidPeople,User interface and viewport,5
+iHateStupidPeople,Modeling engine and document,3
+iHateStupidPeople,File import and export,1
+iHateStupidPeople,Sketch and constraints,1
+iHateStupidPeople,Tests and tooling,1
+iHateStupidPeople,Docs and planning,1
+eugene-vereshchagin,Modeling engine and document,1
+eugene-vereshchagin,Geometry kernel (SolidCore),1
+cs68614-hash,Geometry kernel (SolidCore),4
+cs68614-hash,Modeling engine and document,1
+Dylan-ISE,Modeling engine and document,2
+Dylan-ISE,User interface and viewport,2
+Dylan-ISE,Tests and tooling,1
+Dylan-ISE,MCP / CLI / plugins,1
+Dylan-ISE,Geometry kernel (SolidCore),1
+artem-nerel,Modeling engine and document,2
+p3rd1x,Geometry kernel (SolidCore),1
+BrunIF,User interface and viewport,19
+BrunIF,Desktop and web apps,1
+BrunIF,Docs and planning,1
+BrunIF,MCP / CLI / plugins,1
+nickmayer,Modeling engine and document,1
+phanoob,User interface and viewport,40
+phanoob,Modeling engine and document,28
+phanoob,Geometry kernel (SolidCore),10
+phanoob,Tests and tooling,7
+phanoob,Docs and planning,6
+phanoob,Sketch and constraints,4
+phanoob,Desktop and web apps,2
+jianzhichun,Geometry kernel (SolidCore),1
+jyviko,FieldCraft,972
+jyviko,Geometry kernel (SolidCore),668
+jyviko,Modeling engine and document,221
+jyviko,Docs and planning,193
+jyviko,Tests and tooling,167
+jyviko,User interface and viewport,130
+jyviko,MCP / CLI / plugins,76
+jyviko,File import and export,54
+jyviko,Desktop and web apps,20
+jyviko,Sketch and constraints,13
+jyviko,Website and other repos,4
+JarrodJackson98,User interface and viewport,1
+hb128,Geometry kernel (SolidCore),1
+HolyZephyros,User interface and viewport,1
+oryjkov,Geometry kernel (SolidCore),1
+sn3ro,CamCraft,14
+sn3ro,User interface and viewport,3
+acbrazzl,Geometry kernel (SolidCore),9
+acbrazzl,Modeling engine and document,5
+acbrazzl,Docs and planning,3
+acbrazzl,Sketch and constraints,1
+acbrazzl,File import and export,1
+acbrazzl,User interface and viewport,1
+acbrazzl,MCP / CLI / plugins,1
+rbousigues88,Modeling engine and document,5
+rbousigues88,User interface and viewport,3
+rbousigues88,MCP / CLI / plugins,2
+rbousigues88,Sketch and constraints,1
+rbousigues88,Docs and planning,1
+steffenl1,User interface and viewport,6
+steffenl1,Geometry kernel (SolidCore),2
+steffenl1,Modeling engine and document,1
+steffenl1,Tests and tooling,1
+leon-vv,Modeling engine and document,5
+leon-vv,Geometry kernel (SolidCore),3
+leon-vv,Tests and tooling,1
+hazardandy,Modeling engine and document,3
+hazardandy,Geometry kernel (SolidCore),2
+liorknafo,Geometry kernel (SolidCore),5
+bendavis,User interface and viewport,4
+bendavis,Modeling engine and document,3
+bendavis,Geometry kernel (SolidCore),3
+bendavis,Docs and planning,1
+bendavis,MCP / CLI / plugins,1
+MaxMcKelvey,Modeling engine and document,1
+MaxMcKelvey,Sketch and constraints,1
+MaxMcKelvey,Geometry kernel (SolidCore),1
+MaxMcKelvey,Tests and tooling,1
+cloker53,Geometry kernel (SolidCore),4
+cloker53,User interface and viewport,2
+cloker53,Sketch and constraints,1
+cloker53,Modeling engine and document,1
+KyleTryon,Modeling engine and document,4
+KyleTryon,User interface and viewport,1
+KyleTryon,Geometry kernel (SolidCore),1
+KyleTryon,MCP / CLI / plugins,1
+rmorgans,Modeling engine and document,5
+rmorgans,MCP / CLI / plugins,5
+rmorgans,Geometry kernel (SolidCore),2
+rmorgans,Docs and planning,2
+rmorgans,User interface and viewport,2
+rmorgans,Desktop and web apps,1
+56steve,Modeling engine and document,9
+sylvesterkaczmarek,User interface and viewport,11
+sylvesterkaczmarek,Modeling engine and document,6
+sylvesterkaczmarek,Geometry kernel (SolidCore),1
+sylvesterkaczmarek,File import and export,1
+sylvesterkaczmarek,Docs and planning,1
+sylvesterkaczmarek,MCP / CLI / plugins,1
+Nithin1777,Geometry kernel (SolidCore),2
+Nithin1777,Modeling engine and document,2
+Nithin1777,User interface and viewport,1
+Nithin1777,File import and export,1
+Nithin1777,MCP / CLI / plugins,1
+gun4as,User interface and viewport,2
+gun4as,Docs and planning,1
+exostasis,Geometry kernel (SolidCore),1
+kaievns,User interface and viewport,18
+kaievns,Modeling engine and document,11
+kaievns,Docs and planning,8
+kaievns,MCP / CLI / plugins,6
+kaievns,Sketch and constraints,4
+kaievns,Geometry kernel (SolidCore),1
+ablasik,Geometry kernel (SolidCore),67
+ablasik,Docs and planning,41
+ablasik,Tests and tooling,14
+ablasik,User interface and viewport,12
+ablasik,Modeling engine and document,11
+ablasik,MCP / CLI / plugins,4
+devius,Docs and planning,4
+devius,User interface and viewport,3
+mangod12,Modeling engine and document,1
+nocturney,User interface and viewport,1
+cwallyman,User interface and viewport,3
+cwallyman,Docs and planning,3
+cwallyman,Tests and tooling,1
+cwallyman,MCP / CLI / plugins,1
+cwallyman,Desktop and web apps,1
+cwallyman,Geometry kernel (SolidCore),1
+cwallyman,Modeling engine and document,1
+cwallyman,File import and export,1
+teebrin,Geometry kernel (SolidCore),1
+rdcstout,Tests and tooling,1
+rdcstout,Modeling engine and document,1
+rdcstout,User interface and viewport,1
+rdcstout,MCP / CLI / plugins,1
+rdcstout,Desktop and web apps,1
+rdcstout,Docs and planning,1
+rdcstout,File import and export,1
+rdcstout,Geometry kernel (SolidCore),1
+drbh,Modeling engine and document,1
+drbh,Geometry kernel (SolidCore),1
+Edigorin,Modeling engine and document,2
+Edigorin,MCP / CLI / plugins,1
+Edigorin,Geometry kernel (SolidCore),1
+PapaEcho13,User interface and viewport,8
+PapaEcho13,Docs and planning,4
+PapaEcho13,Geometry kernel (SolidCore),4
+PapaEcho13,Modeling engine and document,3
+PapaEcho13,MCP / CLI / plugins,2
+steven-gineer,MCP / CLI / plugins,3
+steven-gineer,User interface and viewport,2
+steven-gineer,Modeling engine and document,1
+steven-gineer,Geometry kernel (SolidCore),1
+0xlillith,Docs and planning,78
+0xlillith,Website and other repos,71
+0xlillith,User interface and viewport,56
+0xlillith,Modeling engine and document,35
+0xlillith,Tests and tooling,28
+0xlillith,Geometry kernel (SolidCore),26
+0xlillith,File import and export,19
+0xlillith,MCP / CLI / plugins,14
+0xlillith,Desktop and web apps,4
+0xlillith,Sketch and constraints,2
+KristijanPruzinac,User interface and viewport,3
+KristijanPruzinac,Modeling engine and document,2
+KristijanPruzinac,Docs and planning,2
+KristijanPruzinac,Tests and tooling,1
+KristijanPruzinac,File import and export,1
+KristijanPruzinac,Geometry kernel (SolidCore),1
+KristijanPruzinac,Sketch and constraints,1
+SychPL,Modeling engine and document,44
+SychPL,User interface and viewport,37
+SychPL,MCP / CLI / plugins,35
+SychPL,Docs and planning,27
+SychPL,Geometry kernel (SolidCore),18
+SychPL,Tests and tooling,13
+SychPL,Desktop and web apps,7
+SychPL,File import and export,6
+SychPL,Sketch and constraints,4
+Warmbird,PCBCraft,460
+Warmbird,Desktop and web apps,1
+Warmbird,User interface and viewport,1
+rangoDJ,Modeling engine and document,1
+rangoDJ,User interface and viewport,1
+fdalmaso,Geometry kernel (SolidCore),23
+fdalmaso,Tests and tooling,17
+fdalmaso,Docs and planning,14
+paulberdielAH,Geometry kernel (SolidCore),1
+weltenseglr,Geometry kernel (SolidCore),1
+vshortt73,Geometry kernel (SolidCore),1
+FinnDaCaptain,Tests and tooling,5
+FinnDaCaptain,User interface and viewport,5
+FinnDaCaptain,Desktop and web apps,2
+FinnDaCaptain,Docs and planning,2
+FinnDaCaptain,MCP / CLI / plugins,1
+FinnDaCaptain,Modeling engine and document,1
+westers,Geometry kernel (SolidCore),1
+yuri-schmaltz,Tests and tooling,25
+yuri-schmaltz,Modeling engine and document,20
+yuri-schmaltz,Geometry kernel (SolidCore),5
+yuri-schmaltz,Docs and planning,1
+CaliLuke,User interface and viewport,1
+CaliLuke,Modeling engine and document,1
+CaliLuke,Docs and planning,1
+MisanaProger,User interface and viewport,1
+MisanaProger,Modeling engine and document,1
+MisanaProger,Docs and planning,1
+m4tthewdavis,User interface and viewport,2
+m4tthewdavis,MCP / CLI / plugins,2
+m4tthewdavis,Docs and planning,1
+dahakbuilds,User interface and viewport,41
+dahakbuilds,Modeling engine and document,27
+dahakbuilds,MCP / CLI / plugins,6
+dahakbuilds,Tests and tooling,5
+dahakbuilds,Sketch and constraints,4
+dahakbuilds,Docs and planning,4
+dahakbuilds,Desktop and web apps,2
+dahakbuilds,Geometry kernel (SolidCore),1
+AlumnoTuring,User interface and viewport,1
+SamD98,Modeling engine and document,3
+SamD98,User interface and viewport,2
+SamD98,Docs and planning,2
+SamD98,Geometry kernel (SolidCore),1
+Hainlein4711,User interface and viewport,4
+Hainlein4711,Modeling engine and document,2
+Hainlein4711,Desktop and web apps,1
+morteng,Modeling engine and document,1
+glitchau,User interface and viewport,5
+glitchau,Modeling engine and document,4
+glitchau,Docs and planning,3
+glitchau,Geometry kernel (SolidCore),2
+glitchau,Tests and tooling,1
+glitchau,MCP / CLI / plugins,1
+GrumpyOldNerd,Geometry kernel (SolidCore),2
+GrumpyOldNerd,Tests and tooling,1
+GrumpyOldNerd,Modeling engine and document,1
+GrumpyOldNerd,User interface and viewport,1
+GrumpyOldNerd,Docs and planning,1
+GrumpyOldNerd,File import and export,1
+derappelt,Modeling engine and document,1
+derappelt,Geometry kernel (SolidCore),1
+FlamingFireCoding,CamCraft,63
+FlamingFireCoding,User interface and viewport,1
+FlamingFireCoding,Modeling engine and document,1
+nedawson,Tests and tooling,3
+nedawson,Geometry kernel (SolidCore),2
+nedawson,Docs and planning,2
+nedawson,MCP / CLI / plugins,1
+nedawson,User interface and viewport,1
+ahagelberg,Tests and tooling,1
+ahagelberg,Modeling engine and document,1
+ahagelberg,User interface and viewport,1
+ahagelberg,Desktop and web apps,1
+ahagelberg,Docs and planning,1
+ahagelberg,File import and export,1
+ahagelberg,Geometry kernel (SolidCore),1
+bluecmd,FieldCraft,138
+bluecmd,Docs and planning,32
+bluecmd,Geometry kernel (SolidCore),29
+bluecmd,Tests and tooling,23
+bluecmd,User interface and viewport,6
+bluecmd,Modeling engine and document,2
+bluecmd,Desktop and web apps,1
+bluecmd,File import and export,1
+bastotec,Tests and tooling,1
+bastotec,Geometry kernel (SolidCore),1
+tamasys,Modeling engine and document,2
+tamasys,User interface and viewport,1
+tamasys,File import and export,1
+tamasys,Geometry kernel (SolidCore),1
+tamasys,Sketch and constraints,1
+Jacquesvdberg92,Modeling engine and document,3
+Jacquesvdberg92,User interface and viewport,2
+Jacquesvdberg92,Docs and planning,2
+Jacquesvdberg92,MCP / CLI / plugins,2
+robbpf,User interface and viewport,1
+robbpf,Docs and planning,1
+alfonsotames,User interface and viewport,2
+alfonsotames,Modeling engine and document,2
+alfonsotames,Docs and planning,1
+danieldimitrov86,User interface and viewport,7
+danieldimitrov86,Geometry kernel (SolidCore),6
+danieldimitrov86,Docs and planning,4
+danieldimitrov86,MCP / CLI / plugins,3
+danieldimitrov86,Tests and tooling,1
+danieldimitrov86,Modeling engine and document,1
+lewis2e,Modeling engine and document,3
+lewis2e,User interface and viewport,2
+lewis2e,Geometry kernel (SolidCore),1
+lewis2e,Tests and tooling,1
+lewis2e,Sketch and constraints,1
+MattGeiger,Modeling engine and document,2
+MattGeiger,File import and export,2
+MattGeiger,Docs and planning,2
+MattGeiger,MCP / CLI / plugins,2
+MattGeiger,User interface and viewport,1
+nikigan,User interface and viewport,1
+Till2911,PCBCraft,5
+Till2911,User interface and viewport,1
+Till2911,MCP / CLI / plugins,1
+ahmeddwalid,User interface and viewport,1
+infield,CamCraft,5
+infield,Modeling engine and document,2
+infield,File import and export,1
+infield,Geometry kernel (SolidCore),1
+infield,User interface and viewport,1
+infield,MCP / CLI / plugins,1
+Antiheld86,User interface and viewport,1
+BryanCrotaz,Modeling engine and document,5
+BryanCrotaz,MCP / CLI / plugins,3
+fkirill,Geometry kernel (SolidCore),26
+fkirill,Docs and planning,20
+fkirill,Tests and tooling,18
+fkirill,Modeling engine and document,7
+fkirill,User interface and viewport,6
+fkirill,MCP / CLI / plugins,1
+SilentWolf75,User interface and viewport,18
+SilentWolf75,Modeling engine and document,6
+SilentWolf75,Desktop and web apps,4
+SilentWolf75,Docs and planning,2
+SilentWolf75,Tests and tooling,2
+SilentWolf75,MCP / CLI / plugins,1
+SilentWolf75,Sketch and constraints,1
+Chemiseblanc,User interface and viewport,1
+Chemiseblanc,Docs and planning,1
+Sam-47515301,User interface and viewport,1
+Sam-47515301,Modeling engine and document,1
+thetooth,Modeling engine and document,1
+thetooth,Geometry kernel (SolidCore),1
+mericon,Modeling engine and document,1
+mericon,Geometry kernel (SolidCore),1
+mericon,Tests and tooling,1
+bartkepl,User interface and viewport,1
+bartkepl,Modeling engine and document,1
+bartkepl,Docs and planning,1
+bartkepl,MCP / CLI / plugins,1
+makreft,Modeling engine and document,1
+makreft,File import and export,1
+makreft,MCP / CLI / plugins,1
+curlh,User interface and viewport,2
+Benny1496,Tests and tooling,3
+Benny1496,Modeling engine and document,2
+Benny1496,Docs and planning,2
+SS-EN,Modeling engine and document,31
+SS-EN,User interface and viewport,19
+SS-EN,MCP / CLI / plugins,8
+SS-EN,Docs and planning,7
+SS-EN,Geometry kernel (SolidCore),6
+SS-EN,Desktop and web apps,1
+DuBearte,User interface and viewport,60
+DuBearte,Modeling engine and document,36
+DuBearte,Docs and planning,13
+DuBearte,MCP / CLI / plugins,11
+DuBearte,Tests and tooling,6
+DuBearte,Geometry kernel (SolidCore),5
+DuBearte,Desktop and web apps,4
+DuBearte,Sketch and constraints,2
+DuBearte,File import and export,1
+LouisBunt,Modeling engine and document,40
+LouisBunt,User interface and viewport,8
+LouisBunt,Docs and planning,3
+LouisBunt,MCP / CLI / plugins,1
+Mike111177,User interface and viewport,2
+Mike111177,Docs and planning,2
+Mike111177,Modeling engine and document,1
+Mike111177,Geometry kernel (SolidCore),1
+meros,Geometry kernel (SolidCore),11
+meros,Docs and planning,2
+meros,Tests and tooling,1
+thomas7475,User interface and viewport,3
+thomas7475,Modeling engine and document,3
+CarelT,Modeling engine and document,2
+CarelT,Docs and planning,1
+CarelT,User interface and viewport,1
+yoyomaimai,User interface and viewport,2
+twardnw,User interface and viewport,1
+twardnw,Docs and planning,1
+twardnw,MCP / CLI / plugins,1
+Rec0iL,User interface and viewport,9
+Rec0iL,MCP / CLI / plugins,9
+Rec0iL,Docs and planning,4
+Rec0iL,Desktop and web apps,1
+Lars-,User interface and viewport,14
+Lars-,Docs and planning,14
+Lars-,MCP / CLI / plugins,13
+Lars-,Tests and tooling,1
+jiiimi,User interface and viewport,1
+pataar,User interface and viewport,1
+pataar,Modeling engine and document,1
+pataar,File import and export,1
+JosephStew-art,User interface and viewport,1
+JosephStew-art,Modeling engine and document,1
+JosephStew-art,Docs and planning,1
+Gleinkaa,User interface and viewport,1
+Gleinkaa,Modeling engine and document,1
+tr1pp4,User interface and viewport,9
+tr1pp4,Docs and planning,4
+tr1pp4,Modeling engine and document,4
+tr1pp4,MCP / CLI / plugins,2
+tr1pp4,File import and export,1
+KaworuSF5,User interface and viewport,1
+rafacerete23,Modeling engine and document,1
+rafacerete23,User interface and viewport,1
+rafacerete23,MCP / CLI / plugins,1
+rafacerete23,Docs and planning,1
+rafacerete23,Geometry kernel (SolidCore),1
+lychee888,User interface and viewport,1
+lychee888,Modeling engine and document,1
+lychee888,Docs and planning,1
+lychee888,MCP / CLI / plugins,1
+NStevenU,Desktop and web apps,2
+NStevenU,User interface and viewport,1
+yhamil04,User interface and viewport,10
+yhamil04,Modeling engine and document,7
+yhamil04,Tests and tooling,6
+yhamil04,Docs and planning,5
+yhamil04,MCP / CLI / plugins,2
+yhamil04,Desktop and web apps,2
+yhamil04,Geometry kernel (SolidCore),2
+saosebastiao,Geometry kernel (SolidCore),3
+saosebastiao,Docs and planning,2
+saosebastiao,Modeling engine and document,1
+saosebastiao,Tests and tooling,1
+asd417,Modeling engine and document,2
+asd417,Tests and tooling,2
+asd417,Geometry kernel (SolidCore),2
+DasWookie,Tests and tooling,1
+DasWookie,Docs and planning,1
+railconstr,User interface and viewport,2
+railconstr,Modeling engine and document,2
+railconstr,Docs and planning,1
+railconstr,MCP / CLI / plugins,1
+armin0411,Modeling engine and document,2
+JSwetz,CamCraft,16
+JSwetz,Geometry kernel (SolidCore),1
+Yarous,User interface and viewport,1
+Yarous,Docs and planning,1
+kaltenbrunnermarkus,Modeling engine and document,31
+kaltenbrunnermarkus,User interface and viewport,29
+kaltenbrunnermarkus,File import and export,10
+kaltenbrunnermarkus,Docs and planning,7
+kaltenbrunnermarkus,Geometry kernel (SolidCore),7
+kaltenbrunnermarkus,Sketch and constraints,5
+kaltenbrunnermarkus,Tests and tooling,4
+kaltenbrunnermarkus,Desktop and web apps,1
+kaltenbrunnermarkus,MCP / CLI / plugins,1
+semmelrinde,User interface and viewport,272
+semmelrinde,Modeling engine and document,83
+semmelrinde,FieldCraft,16
+semmelrinde,Sketch and constraints,14
+semmelrinde,Docs and planning,12
+semmelrinde,Desktop and web apps,5
+semmelrinde,Tests and tooling,5
+semmelrinde,File import and export,3
+semmelrinde,MCP / CLI / plugins,2
+semmelrinde,Geometry kernel (SolidCore),1
+Elias-Ta,Modeling engine and document,1
+Elias-Ta,Docs and planning,1
+Elias-Ta,Geometry kernel (SolidCore),1
+tdamsma,Geometry kernel (SolidCore),138
+tdamsma,Docs and planning,91
+tdamsma,Tests and tooling,56
+tdamsma,User interface and viewport,2
+tdamsma,MCP / CLI / plugins,1
+tdamsma,File import and export,1
+tdamsma,Sketch and constraints,1
+sascha2101,User interface and viewport,14
+sascha2101,Modeling engine and document,8
+sascha2101,Docs and planning,2
+sascha2101,MCP / CLI / plugins,2
+phobicdotno,User interface and viewport,1
+jruelli,User interface and viewport,1
+jruelli,Modeling engine and document,1
+Loohi,Modeling engine and document,7
+Loohi,User interface and viewport,4
+Loohi,Geometry kernel (SolidCore),3
+Loohi,Tests and tooling,2
+Loohi,Docs and planning,2
+Janiz-zzz,User interface and viewport,3
+Janiz-zzz,Docs and planning,1
+outlookhazy,Geometry kernel (SolidCore),88
+outlookhazy,Docs and planning,86
+outlookhazy,Tests and tooling,5
+outlookhazy,User interface and viewport,1
+outlookhazy,Modeling engine and document,1
+Sebagrei,User interface and viewport,1
+Sebagrei,Docs and planning,1
+kravens,User interface and viewport,4
+kravens,Modeling engine and document,3
+kravens,Docs and planning,2
+kravens,Sketch and constraints,1
+kravens,MCP / CLI / plugins,1
+kravens,File import and export,1
+kravens,Geometry kernel (SolidCore),1
+flyboy-byte,Docs and planning,12
+flyboy-byte,Geometry kernel (SolidCore),12
+flyboy-byte,Tests and tooling,9
+flyboy-byte,User interface and viewport,6
+flyboy-byte,Sketch and constraints,3
+flyboy-byte,MCP / CLI / plugins,1
+flyboy-byte,Modeling engine and document,1
+filippecha,User interface and viewport,1
+shambazovalbert-art,Modeling engine and document,1
+shambazovalbert-art,File import and export,1
+harcerz,Tests and tooling,1
+Giganttilom,Tests and tooling,1
+zorak1103,Geometry kernel (SolidCore),9
+zorak1103,Docs and planning,8
+zorak1103,Tests and tooling,4
+H1D,Geometry kernel (SolidCore),9
+H1D,Tests and tooling,6
+H1D,Modeling engine and document,5
+H1D,Docs and planning,4
+fnoppix,User interface and viewport,1
+fnoppix,Docs and planning,1
+Sloptimum,Docs and planning,2
+Sloptimum,User interface and viewport,1
+Sloptimum,MCP / CLI / plugins,1
+rob-d3v,Modeling engine and document,2
+rob-d3v,Tests and tooling,1
+rob-d3v,User interface and viewport,1
+mariogeiger,Modeling engine and document,3
+mariogeiger,User interface and viewport,3
+mariogeiger,Docs and planning,3
+mariogeiger,File import and export,3
+mariogeiger,MCP / CLI / plugins,1
+mariogeiger,Geometry kernel (SolidCore),1
+mariogeiger,Tests and tooling,1
+JoKa3D,User interface and viewport,6
+JoKa3D,Modeling engine and document,5
+JoKa3D,Docs and planning,3
+JoKa3D,Desktop and web apps,1
+bferanmi806-sketch,User interface and viewport,1
+ReDead,User interface and viewport,4
+ReDead,Modeling engine and document,1
+martinpalsson,Modeling engine and document,3
+martinpalsson,User interface and viewport,1
+martinpalsson,Desktop and web apps,1
+potuzai,User interface and viewport,2
+ermanyop-stack,User interface and viewport,2
+ermanyop-stack,Modeling engine and document,1
+ermanyop-stack,Sketch and constraints,1
+deece,Modeling engine and document,1
+deece,MCP / CLI / plugins,1
+deece,Geometry kernel (SolidCore),1
+stevenpwaters,Modeling engine and document,4
+stevenpwaters,User interface and viewport,3
+stevenpwaters,Desktop and web apps,1
+stevenpwaters,File import and export,1
+Yasen-55,User interface and viewport,1
+Yasen-55,Docs and planning,1
+Gray-Stone,User interface and viewport,2
+Gray-Stone,Docs and planning,2
+Gray-Stone,MCP / CLI / plugins,1
+Gray-Stone,Modeling engine and document,1
+fitb-greg,User interface and viewport,1
+sommerper,User interface and viewport,1
+sommerper,Modeling engine and document,1
+ssain3d-lgtm,User interface and viewport,2
+Brotholomew,Modeling engine and document,1
+Brotholomew,Sketch and constraints,1
+werwolfby,Geometry kernel (SolidCore),1
+werwolfby,Modeling engine and document,1
+werwolfby,Sketch and constraints,1
+aiapienthusiast,User interface and viewport,1
+aiapienthusiast,MCP / CLI / plugins,1
+froglemonade2,Docs and planning,65
+froglemonade2,Geometry kernel (SolidCore),55
+froglemonade2,Tests and tooling,47
+froglemonade2,User interface and viewport,16
+froglemonade2,MCP / CLI / plugins,14
+froglemonade2,Modeling engine and document,11
+froglemonade2,Desktop and web apps,4
+froglemonade2,Sketch and constraints,1
+Make-o-Rama,Modeling engine and document,4
+Make-o-Rama,User interface and viewport,2
+Make-o-Rama,Desktop and web apps,1
+Make-o-Rama,Docs and planning,1
+NAXLAB,Tests and tooling,1
+NAXLAB,Desktop and web apps,1
+NAXLAB,Docs and planning,1
+NAXLAB,MCP / CLI / plugins,1
+NAXLAB,User interface and viewport,1
+raythurman2386,Modeling engine and document,1
+raythurman2386,Docs and planning,1
+raythurman2386,Desktop and web apps,1
+raythurman2386,User interface and viewport,1
+ShawnMarx,Docs and planning,1
+WhiteNoiseGuy,User interface and viewport,2
+WhiteNoiseGuy,Modeling engine and document,1
+WhiteNoiseGuy,Tests and tooling,1
+SiroArt,User interface and viewport,3
+SiroArt,Tests and tooling,1
+SiroArt,Geometry kernel (SolidCore),1
+aduijs,Modeling engine and document,1
+aduijs,Tests and tooling,1
+aduijs,User interface and viewport,1
+aduijs,MCP / CLI / plugins,1
+aduijs,Desktop and web apps,1
+aduijs,Docs and planning,1
+yishinli,Tests and tooling,1
+yishinli,File import and export,1
+yishinli,Docs and planning,1
+Tury991,Modeling engine and document,1
+Tyler-Chiriboga,Docs and planning,5
+Tyler-Chiriboga,Desktop and web apps,3
+Tyler-Chiriboga,File import and export,3
+Tyler-Chiriboga,Modeling engine and document,2
+MateuszSychXpl,Tests and tooling,9
+MateuszSychXpl,Modeling engine and document,9
+MateuszSychXpl,User interface and viewport,8
+MateuszSychXpl,Docs and planning,4
+MateuszSychXpl,MCP / CLI / plugins,2
+rootarchitect,Docs and planning,4
+rootarchitect,Geometry kernel (SolidCore),4
+rootarchitect,Tests and tooling,2
+Vvynot,User interface and viewport,6
+LorbusChris,Modeling engine and document,4
+LorbusChris,User interface and viewport,1
+momysnow,Docs and planning,9
+momysnow,User interface and viewport,7
+momysnow,Geometry kernel (SolidCore),7
+momysnow,Tests and tooling,4
+momysnow,Modeling engine and document,3
+momysnow,MCP / CLI / plugins,2
+Yogesh01000100,User interface and viewport,1
+sst3ly,User interface and viewport,1
+AndreIsraelAO,Geometry kernel (SolidCore),1
+Joberndo,User interface and viewport,1
+ICE-KOLD,User interface and viewport,1
+ICE-KOLD,Modeling engine and document,1
+jeromehzl,User interface and viewport,7
+jeromehzl,Modeling engine and document,3
+kk376,Modeling engine and document,1
+kk376,Docs and planning,1
+thodoristsagko,User interface and viewport,8
+thodoristsagko,Modeling engine and document,3
+thodoristsagko,Geometry kernel (SolidCore),1
+xmerik,User interface and viewport,1
+xmerik,Modeling engine and document,1
+mkar1984,User interface and viewport,1
+mkar1984,MCP / CLI / plugins,1
+clark19990,User interface and viewport,3
+clark19990,Modeling engine and document,1
+cvengels,User interface and viewport,2
+cvengels,Docs and planning,2
+cvengels,Modeling engine and document,1
+cvengels,MCP / CLI / plugins,1
+King,Docs and planning,1
+rvmzym5xv8-star,MCP / CLI / plugins,1
+rvmzym5xv8-star,Modeling engine and document,1
+ian691,Geometry kernel (SolidCore),7
+ian691,Docs and planning,6
+MorningFrog,User interface and viewport,1
+badgerisda,User interface and viewport,9
+badgerisda,Docs and planning,1
+badgerisda,MCP / CLI / plugins,1
+snowsh1ne,Desktop and web apps,1
+snowsh1ne,Docs and planning,1
+begsaquib,Docs and planning,2
+begsaquib,Geometry kernel (SolidCore),2
+astechevolves,User interface and viewport,3
+astechevolves,MCP / CLI / plugins,2
+astechevolves,Docs and planning,1
+nikitairl,Geometry kernel (SolidCore),1
+GavinSchmidt,User interface and viewport,1
+GavinSchmidt,Docs and planning,1
+SvenCarstensen,Desktop and web apps,1
+SvenCarstensen,User interface and viewport,1
+SvenCarstensen,Docs and planning,1
+SvenCarstensen,MCP / CLI / plugins,1
+danedoubell,User interface and viewport,1
+danedoubell,Modeling engine and document,1
+mknutso-2,Modeling engine and document,5
+mknutso-2,Docs and planning,4
+mknutso-2,MCP / CLI / plugins,2
+mknutso-2,Desktop and web apps,1
+mknutso-2,User interface and viewport,1
+mknutso-2,Tests and tooling,1
+taylorhayis,User interface and viewport,4
+taylorhayis,Docs and planning,2
+taylorhayis,MCP / CLI / plugins,1
+matheusmerlim1,User interface and viewport,1
+matheusmerlim1,Modeling engine and document,1
+Ryan-Red,User interface and viewport,3
+Ryan-Red,Docs and planning,3
+Ryan-Red,Modeling engine and document,1
+Ryan-Red,MCP / CLI / plugins,1
+Ryan-Red,File import and export,1
+Ryan-Red,Geometry kernel (SolidCore),1
+dylanmtaylor,Tests and tooling,6
+dylanmtaylor,Docs and planning,1
+dylanmtaylor,Desktop and web apps,1
+JShanklin,User interface and viewport,3
+JShanklin,Docs and planning,1
+JShanklin,MCP / CLI / plugins,1
+mynoc-96,User interface and viewport,1
+mynoc-96,Docs and planning,1
+nomadsgalaxy,User interface and viewport,7
+nomadsgalaxy,Desktop and web apps,6
+nomadsgalaxy,Docs and planning,4
+nomadsgalaxy,Modeling engine and document,2
+nomadsgalaxy,Tests and tooling,2
+purp0w,Tests and tooling,1
+purp0w,Docs and planning,1
+YAEemf,Modeling engine and document,1
+YAEemf,User interface and viewport,1
+YAEemf,MCP / CLI / plugins,1
+YAEemf,Docs and planning,1
+YAEemf,File import and export,1
+javl,User interface and viewport,5
+javl,Modeling engine and document,1
+TyGrze,User interface and viewport,1
+trojancode,User interface and viewport,1
+Herperlerpicus,User interface and viewport,3
+Herperlerpicus,Docs and planning,2
+Herperlerpicus,Modeling engine and document,1
+Herperlerpicus,MCP / CLI / plugins,1
+tsijercic1,User interface and viewport,1
+tsijercic1,Docs and planning,1
+Jomguy2,User interface and viewport,1
+Jomguy2,MCP / CLI / plugins,1
+ingussp,User interface and viewport,1
+amolinari-autotex,User interface and viewport,18
+amolinari-autotex,Docs and planning,12
+amolinari-autotex,Modeling engine and document,10
+marquies,User interface and viewport,1
+Vittuu,Docs and planning,5
+Vittuu,Tests and tooling,5
+Vittuu,User interface and viewport,4
+Vittuu,Modeling engine and document,3
+Vittuu,MCP / CLI / plugins,3
+MannXo,User interface and viewport,1
+MannXo,Modeling engine and document,1
+tianxingjian2406,Desktop and web apps,1
+vandang890615,User interface and viewport,2
+vandang890615,Tests and tooling,1
+vandang890615,Docs and planning,1
+dlucik,Docs and planning,3
+dlucik,Geometry kernel (SolidCore),3
+HotThrower71,User interface and viewport,1
+HotThrower71,Tests and tooling,1
+HotThrower71,Modeling engine and document,1
+sjbowden,Geometry kernel (SolidCore),3
+sjbowden,Tests and tooling,2
+sjbowden,Docs and planning,2
+sjbowden,User interface and viewport,1
+sjbowden,Modeling engine and document,1
+embed-3d,Geometry kernel (SolidCore),15
+embed-3d,Docs and planning,14
+embed-3d,Tests and tooling,9
+makao1253,Desktop and web apps,1
+makao1253,User interface and viewport,1
+makao1253,Docs and planning,1
+makao1253,MCP / CLI / plugins,1
+ahmetv10,CamCraft,14
+ahmetv10,User interface and viewport,2
+ivisaf,CamCraft,6
+ivisaf,PCBCraft,3
+ivisaf,Modeling engine and document,2
+ivisaf,User interface and viewport,2
+ivisaf,Docs and planning,1
+ivisaf,Desktop and web apps,1
+KochC,Modeling engine and document,1
+KochC,User interface and viewport,1
+jasiek,Desktop and web apps,2
+jasiek,Tests and tooling,2
+jasiek,Docs and planning,2
+jasiek,Modeling engine and document,1
+jasiek,User interface and viewport,1
+n0tfr3shm1lk,Modeling engine and document,2
+n0tfr3shm1lk,User interface and viewport,2
+Mishung,Docs and planning,1
+Ramses13th,Tests and tooling,1
+bwees,User interface and viewport,1
+flukejones,User interface and viewport,1
+flukejones,Modeling engine and document,1
+flukejones,MCP / CLI / plugins,1
+flukejones,Docs and planning,1
+flukejones,File import and export,1
+flukejones,Geometry kernel (SolidCore),1
+shuff57,Sketch and constraints,1
+shuff57,Desktop and web apps,1
+shuff57,User interface and viewport,1
+shuff57,Docs and planning,1
+dennisklappe,User interface and viewport,3
+dennisklappe,File import and export,2
+dennisklappe,Modeling engine and document,1
+vkalinsky,User interface and viewport,1
+vkalinsky,Modeling engine and document,1
+vkalinsky,Docs and planning,1
+calmasacow,User interface and viewport,1
+shop-3d,User interface and viewport,3
+shop-3d,Docs and planning,1
+tahazarif10,Modeling engine and document,1
+tahazarif10,MCP / CLI / plugins,1
+CarlosKeese,Geometry kernel (SolidCore),1
+Marentius,User interface and viewport,1
+Marentius,Docs and planning,1
+neosandeep24,User interface and viewport,2
+neosandeep24,Desktop and web apps,1
+luiscamaral,Tests and tooling,2
+luiscamaral,Geometry kernel (SolidCore),2
+luiscamaral,User interface and viewport,1
+s17sh70x2jfl031ag,User interface and viewport,1
+NecroKote,Docs and planning,3
+NecroKote,Tests and tooling,2
+NecroKote,User interface and viewport,2
+NecroKote,Desktop and web apps,1
+mvanhorn,User interface and viewport,2
+mvanhorn,Modeling engine and document,2
+mvanhorn,Docs and planning,2
+mvanhorn,Sketch and constraints,1
+mvanhorn,MCP / CLI / plugins,1
+wckdboy,Geometry kernel (SolidCore),1
+wckdboy,Docs and planning,1
+wckdboy,Tests and tooling,1
+Reefwalker,User interface and viewport,3
+Reefwalker,Modeling engine and document,2
+Reefwalker,Sketch and constraints,1
+Reefwalker,Docs and planning,1
+ishiichan-dayo,User interface and viewport,1
+ishiichan-dayo,MCP / CLI / plugins,1
+MattRuhland,MCP / CLI / plugins,2
+fugazister,User interface and viewport,6
+fugazister,Docs and planning,4
+fugazister,MCP / CLI / plugins,4
+fugazister,Desktop and web apps,1
+fugazister,Modeling engine and document,1
+imanu86,User interface and viewport,1
+imanu86,Modeling engine and document,1
+imanu86,Docs and planning,1
+ManInTheMiddle89,User interface and viewport,1
+ManInTheMiddle89,Modeling engine and document,1
+GonMD,User interface and viewport,1
+sandman21vs,User interface and viewport,1
+sandman21vs,Modeling engine and document,1
+sandman21vs,Docs and planning,1
+Razuer,MCP / CLI / plugins,1
+jason3w,User interface and viewport,1
+jason3w,Modeling engine and document,1
+denelson1-dot,Docs and planning,17
+denelson1-dot,Geometry kernel (SolidCore),14
+denelson1-dot,Tests and tooling,9
+denelson1-dot,Modeling engine and document,1
+henlamp,Geometry kernel (SolidCore),4
+henlamp,Tests and tooling,2
+henlamp,Docs and planning,2
+quantmind-br,User interface and viewport,2
+quantmind-br,Docs and planning,1
+quantmind-br,MCP / CLI / plugins,1
+ealitt,User interface and viewport,2
+ealitt,Docs and planning,1
+ealitt,MCP / CLI / plugins,1
+ahmetalpcelik,Modeling engine and document,1
+peppelorum,Tests and tooling,3
+peppelorum,User interface and viewport,2
+peppelorum,Docs and planning,2
+peppelorum,Desktop and web apps,1
+peppelorum,Geometry kernel (SolidCore),1
+peppelorum,Modeling engine and document,1
+gsrunion,User interface and viewport,1
+gsrunion,Modeling engine and document,1
+gsrunion,Docs and planning,1
+sthifen,Modeling engine and document,1
+sthifen,User interface and viewport,1
+sthifen,MCP / CLI / plugins,1
+wdunn001,User interface and viewport,23
+wdunn001,Modeling engine and document,8
+wdunn001,Docs and planning,4
+wdunn001,MCP / CLI / plugins,3
+wdunn001,Sketch and constraints,2
+wdunn001,Desktop and web apps,1
+wdunn001,File import and export,1
+mrbjmy,User interface and viewport,4
+mrbjmy,Modeling engine and document,4
+mrbjmy,Docs and planning,2
+mrbjmy,MCP / CLI / plugins,1
+blackveilprecision,Tests and tooling,1
+blackveilprecision,Docs and planning,1
+blackveilprecision,Geometry kernel (SolidCore),1
+ralfkuh-lab,User interface and viewport,1
+ralfkuh-lab,Tests and tooling,1
+AdamHickerson,User interface and viewport,1
+jeremymiribung-blip,Tests and tooling,1
+jeremymiribung-blip,Geometry kernel (SolidCore),1
+damgru,Tests and tooling,14
+damgru,Docs and planning,13
+damgru,Geometry kernel (SolidCore),13
+Mqrius,Geometry kernel (SolidCore),9
+Mqrius,Modeling engine and document,8
+Mqrius,Docs and planning,4
+Mqrius,Tests and tooling,3
+Mqrius,Sketch and constraints,1
+Mqrius,User interface and viewport,1
+Cameron Wight,Tests and tooling,1
+Cameron Wight,Docs and planning,1
+Cameron Wight,Geometry kernel (SolidCore),1
+PixelSoftwareStudios,Website and other repos,22
+PixelSoftwareStudios,Docs and planning,5
+PixelSoftwareStudios,Tests and tooling,3
+PixelSoftwareStudios,Geometry kernel (SolidCore),2
+PixelSoftwareStudios,Desktop and web apps,1
+Mauznemo,User interface and viewport,1
+Mauznemo,Modeling engine and document,1
+Mauznemo,Docs and planning,1
+Pluto-XI,Tests and tooling,5
+Pluto-XI,Geometry kernel (SolidCore),5
+Pluto-XI,Docs and planning,4
+afaber999,Geometry kernel (SolidCore),2
+afaber999,Docs and planning,1
+kezmdor,User interface and viewport,2
+kezmdor,File import and export,1
+JZiegener,Docs and planning,1
+pankleks,Modeling engine and document,1
+DundreDE,Modeling engine and document,2
+DundreDE,Sketch and constraints,1
+DundreDE,User interface and viewport,1
+lucasmontec,User interface and viewport,1
+lucasmontec,Geometry kernel (SolidCore),1
+nathan-charles,User interface and viewport,1
+Moi455,User interface and viewport,1
+Moi455,Docs and planning,1
+jb69,Modeling engine and document,2
+jb69,Geometry kernel (SolidCore),1
+Priyanshu-choudhary,User interface and viewport,1
+rifqifatih,Tests and tooling,1
+rifqifatih,File import and export,1
+rifqifatih,Geometry kernel (SolidCore),1
+morelandjo,Modeling engine and document,2
+morelandjo,MCP / CLI / plugins,1
+morelandjo,User interface and viewport,1
+weynechen,Geometry kernel (SolidCore),1
+erkexzcx,Modeling engine and document,8
+erkexzcx,Geometry kernel (SolidCore),7
+erkexzcx,Tests and tooling,3
+erkexzcx,MCP / CLI / plugins,1
+sinu0,Geometry kernel (SolidCore),1
+duramson,Docs and planning,2
+duramson,Geometry kernel (SolidCore),2
+duramson,Tests and tooling,1
+abteenz,Desktop and web apps,1
+abteenz,User interface and viewport,1
+a-hakim,User interface and viewport,1
+a-hakim,Docs and planning,1
+a-hakim,MCP / CLI / plugins,1
+CypherNaught-0x,Modeling engine and document,31
+CypherNaught-0x,Geometry kernel (SolidCore),17
+CypherNaught-0x,User interface and viewport,13
+CypherNaught-0x,Docs and planning,13
+CypherNaught-0x,MCP / CLI / plugins,8
+CypherNaught-0x,Tests and tooling,7
+CypherNaught-0x,Sketch and constraints,3
+CypherNaught-0x,File import and export,2
+CypherNaught-0x,Desktop and web apps,2
+tdslot,User interface and viewport,1
+yutyan0119,Modeling engine and document,1
+spuder,User interface and viewport,1
+onembyte,User interface and viewport,3
+onembyte,Tests and tooling,2
+onembyte,MCP / CLI / plugins,2
+onembyte,Desktop and web apps,1
+onembyte,File import and export,1
+onembyte,Modeling engine and document,1
+onembyte,Geometry kernel (SolidCore),1
+Ian-cmd-ops,Geometry kernel (SolidCore),11
+Ian-cmd-ops,Modeling engine and document,8
+Ian-cmd-ops,Tests and tooling,6
+Ian-cmd-ops,User interface and viewport,1
+Ian-cmd-ops,Docs and planning,1
+lasselian,Modeling engine and document,9
+lasselian,User interface and viewport,8
+lasselian,Docs and planning,8
+lasselian,MCP / CLI / plugins,7
+lasselian,Tests and tooling,7
+lasselian,Geometry kernel (SolidCore),5
+lasselian,File import and export,3
+lasselian,Sketch and constraints,2
+Koschtetnix,User interface and viewport,2
+Koschtetnix,Modeling engine and document,1
+Koschtetnix,Tests and tooling,1
+Koschtetnix,Docs and planning,1
+Koschtetnix,Geometry kernel (SolidCore),1
+nofuturekid,Desktop and web apps,1
+nofuturekid,Tests and tooling,1
+pablopeza,User interface and viewport,7
+pablopeza,Modeling engine and document,4
+pablopeza,Docs and planning,2
+pablopeza,Geometry kernel (SolidCore),2
+rpromas,Tests and tooling,1
+rpromas,Docs and planning,1
+moritzuehling,Tests and tooling,1
+moritzuehling,Geometry kernel (SolidCore),1
+onenewcode,Geometry kernel (SolidCore),1
+onenewcode,Docs and planning,1
+onenewcode,Modeling engine and document,1
+olup,Desktop and web apps,1
+olup,Tests and tooling,1
+olup,Docs and planning,1
+allisonChilton,Tests and tooling,1
+allisonChilton,Docs and planning,1
+jawler,User interface and viewport,2
+jawler,Docs and planning,1
+tommasobbianchi,Docs and planning,1
+styles01,User interface and viewport,1
+midasdf,Modeling engine and document,5
+midasdf,Geometry kernel (SolidCore),4
+midasdf,User interface and viewport,3
+midasdf,Docs and planning,3
+midasdf,Sketch and constraints,2
+midasdf,File import and export,1
+PhilippBischoff0,Modeling engine and document,2
+PhilippBischoff0,Geometry kernel (SolidCore),1
+PhilippBischoff0,MCP / CLI / plugins,1
+PhilippBischoff0,Docs and planning,1
+PhilippBischoff0,User interface and viewport,1
+gvocale,Modeling engine and document,6
+gvocale,Geometry kernel (SolidCore),5
+gvocale,Tests and tooling,2
+MythicForge,User interface and viewport,1
+macrulz54,User interface and viewport,1
+macrulz54,Docs and planning,1
+luke-kearney,Geometry kernel (SolidCore),1
+kuraneko1,User interface and viewport,1
+kuraneko1,Tests and tooling,1
+kuraneko1,MCP / CLI / plugins,1
+senilio,User interface and viewport,1
+senilio,Modeling engine and document,1
+senilio,Docs and planning,1
+senilio,MCP / CLI / plugins,1
+queball1999,Modeling engine and document,2
+queball1999,Geometry kernel (SolidCore),1
+queball1999,Tests and tooling,1
+tbreckle,User interface and viewport,10
+tbreckle,Modeling engine and document,3
+tbreckle,Geometry kernel (SolidCore),2
+tbreckle,Tests and tooling,2
+tbreckle,Docs and planning,1
+tbreckle,Desktop and web apps,1
+devrosx,User interface and viewport,1
+devrosx,Docs and planning,1
+nekomario28,File import and export,1
+nekomario28,Modeling engine and document,1
+jonaswre,Modeling engine and document,43
+jonaswre,Docs and planning,7
+jonaswre,MCP / CLI / plugins,7
+jonaswre,Geometry kernel (SolidCore),4
+jonaswre,User interface and viewport,3
+jonaswre,Tests and tooling,3
+jonaswre,Desktop and web apps,1
+del000,User interface and viewport,1
+del000,Docs and planning,1
+del000,MCP / CLI / plugins,1
+Noly1990,User interface and viewport,2
+Noly1990,Tests and tooling,1
+Noly1990,Docs and planning,1
+Noly1990,MCP / CLI / plugins,1
+ingvarch,MCP / CLI / plugins,2
+ingvarch,Desktop and web apps,1
+ingvarch,Tests and tooling,1
+ingvarch,Docs and planning,1
+HEOJUNFO,Geometry kernel (SolidCore),1
+HEOJUNFO,User interface and viewport,1
+HEOJUNFO,Modeling engine and document,1
+lunar-me,Docs and planning,3
+Mithril-3d,User interface and viewport,3
+Mithril-3d,Docs and planning,2
+Mithril-3d,Desktop and web apps,2
+Mithril-3d,Modeling engine and document,1
+Mithril-3d,Geometry kernel (SolidCore),1
+alex-s168,User interface and viewport,1
+alex-s168,Modeling engine and document,1
+alex-s168,Docs and planning,1
+sahenjp,Modeling engine and document,1
+sahenjp,Docs and planning,1
+sahenjp,Geometry kernel (SolidCore),1
+lucas-aguilar89,User interface and viewport,3
+lucas-aguilar89,Modeling engine and document,2
+Alan16888,User interface and viewport,1
+Alan16888,MCP / CLI / plugins,1
+pjrus,Docs and planning,1
+Konrad-Waldhe,User interface and viewport,1
+Konrad-Waldhe,Docs and planning,1
+Konrad-Waldhe,MCP / CLI / plugins,1
+vitalibr,User interface and viewport,4
+vitalibr,Docs and planning,2
+vitalibr,Modeling engine and document,1
+vitalibr,Geometry kernel (SolidCore),1
+jochenhammes,Desktop and web apps,1
+jochenhammes,Docs and planning,1
+palaniraja,User interface and viewport,1
+palaniraja,Docs and planning,1
+palaniraja,MCP / CLI / plugins,1
+essorblood,User interface and viewport,1
+Phaiz Mithriln,Desktop and web apps,1
+Phaiz Mithriln,Tests and tooling,1
+Phaiz Mithriln,Docs and planning,1
+noosxe,Tests and tooling,1
+noosxe,Docs and planning,1
+ich777,User interface and viewport,1
+EmDecay,Modeling engine and document,3
+EmDecay,MCP / CLI / plugins,3
+EmDecay,File import and export,2
+EmDecay,Sketch and constraints,1
+EmDecay,User interface and viewport,1
+EmDecay,Desktop and web apps,1
+EmDecay,Geometry kernel (SolidCore),1
+astrojhgu,Tests and tooling,1
+astrojhgu,Docs and planning,1
+valo,FieldCraft,4
+jiaqiwang969,FieldCraft,1
+ppenguin,FieldCraft,3
+tpannila,FieldCraft,4
+Madarame-Baku1,FieldCraft,3
+mrwsl,FieldCraft,5
+erkinalp,FieldCraft,1
+facelessdevhack,FieldCraft,7
+Skywalkingzulu1,FieldCraft,2
+travle1,PCBCraft,651
+lo49,PCBCraft,1
+Seyamalam,PCBCraft,15
+Xnaff,PCBCraft,38
+idiosyncric,PCBCraft,5
+attisvalentin,PCBCraft,2
+Amdixer,PCBCraft,15
+fbccsz,PCBCraft,11
+mkinney,CamCraft,1595
+NeoTech,CamCraft,1620
+qsmits,CamCraft,39
+HansFel,CamCraft,3
+paulsvc,CamCraft,2
+vilts,CamCraft,54
+marcbritten,CamCraft,2
+roer70,CamCraft,5
+ril3y,CamCraft,3
+seelesturm,CamCraft,32
+jnz-1,CamCraft,3
+linuxguy123,CamCraft,33

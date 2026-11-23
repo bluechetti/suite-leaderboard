@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SolidCraft suite · All-time leaderboard</title>
+<meta name="description" content="Everyone who built SolidCraft, SolidCore, FieldCraft, PCBCraft and CamCraft, ranked by merged PRs, kernel work, triage, reviews and more. Updates every hour.">
+<meta property="og:title" content="The people who built the suite">
+<meta property="og:description" content="All-time leaderboard for the SolidCraft suite. Updates every hour.">
+<meta name="theme-color" content="#181c24">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="shim.js"></script>
+</head>
+<body>
+<style>
+
+html, body { margin: 0; background: #181c24; }
+.dash-select { font: inherit; font-size: 14px; padding: 7px 30px 7px 12px; border: 1px solid #3b4657; border-radius: 8px; background-color: #202630; color: #f0f4fa;
+  appearance: none; background-image: linear-gradient(45deg, transparent 50%, #969eac 50%), linear-gradient(135deg, #969eac 50%, transparent 50%);
+  background-position: calc(100% - 16px) 50%, calc(100% - 11px) 50%; background-size: 5px 5px; background-repeat: no-repeat; max-width: 100%; }
+.dash-skeleton { opacity: 0.5; }
+.tl a { color: var(--link); }
+#dash-root { --dash-gutter: 0; }
+.tl {
+  --canvas: #181c24; --surface: #202630; --surface-strong: #293240; --ink: #f0f4fa; --muted: #b5becc;
+  --subtle: #969eac; --line: #3b4657; --blue: #609eec; --link: #96bef5; --action: #1f58b5; --gold: #e8c46a;
+  --up: #5fcf8a; --down: #f07b7b;
+  --sans: "IBM Plex Sans Variable", "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--canvas); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.5;
+  padding: clamp(20px, 4vw, 56px) clamp(16px, 4vw, 56px) 64px;
+}
+.tl * { box-sizing: border-box; }
+.tl-wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: clamp(40px, 6vw, 72px); }
+.tl-eyebrow { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.13em; text-transform: uppercase; color: var(--blue); margin: 0 0 12px; }
+.tl-h1 { font-size: clamp(40px, 7vw, 72px); font-weight: 550; letter-spacing: -0.055em; line-height: 1.02; margin: 0; }
+.tl-h1 em { font-style: normal; color: var(--blue); }
+.tl-h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 550; letter-spacing: -0.04em; line-height: 1.08; margin: 0; }
+.tl-lede { color: var(--muted); font-size: 18px; max-width: 44em; margin: 18px 0 0; }
+.tl-lede b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.tl-meta { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 18px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; color: var(--subtle); text-transform: uppercase; }
+.tl-live { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+.tl-live::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--up); box-shadow: 0 0 0 3px rgba(95, 207, 138, 0.18); }
+.tl-sub { color: var(--subtle); font-size: 14px; margin: 10px 0 0; max-width: 60em; }
+
+/* stat strip */
+.tl-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.tl-strip > div { padding: 18px 20px; border-right: 1px solid var(--line); background: var(--surface); }
+.tl-strip > div:last-child { border-right: 0; }
+.tl-strip .tl-k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--subtle); }
+.tl-strip .tl-v { font-size: clamp(26px, 3.4vw, 36px); font-weight: 550; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; margin-top: 4px; }
+
+/* main event */
+.tl-main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 760px) { .tl-main { grid-template-columns: 1fr; } }
+.tl-champ { position: relative; background: linear-gradient(160deg, #24324a 0%, var(--surface) 55%); border: 1px solid #3a5a8a; border-radius: 12px; padding: clamp(20px, 3vw, 32px); overflow: hidden; min-height: 300px; }
+.tl-champ::after { content: '#1'; position: absolute; right: -6px; bottom: -40px; font-size: 200px; font-weight: 700; letter-spacing: -0.08em; color: rgba(96, 158, 236, 0.07); line-height: 1; pointer-events: none; }
+.tl-champ-top { display: flex; gap: 22px; align-items: center; }
+.tl-champ-name { font-size: clamp(30px, 4.6vw, 48px); font-weight: 600; letter-spacing: -0.04em; line-height: 1.05; overflow-wrap: anywhere; }
+.tl-champ-title { font-family: var(--mono); font-size: 12px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.tl-tape { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0; background: rgba(24, 28, 36, 0.85); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-top: 24px; position: relative; z-index: 1; }
+.tl-tape > div { padding: 12px 14px; box-shadow: 1px 0 0 var(--line), 0 1px 0 var(--line); }
+.tl-tape .tl-k { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--subtle); }
+.tl-tape .tl-v { font-size: 22px; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.tl-lead { margin-top: 16px; color: var(--muted); font-size: 14px; position: relative; z-index: 1; }
+.tl-lead b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.tl-contenders { display: flex; flex-direction: column; gap: 10px; }
+.tl-contender { display: grid; grid-template-columns: 40px 52px minmax(0, 1fr) auto; gap: 14px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+.tl-contender .tl-place { font-size: 28px; font-weight: 600; letter-spacing: -0.04em; color: var(--subtle); text-align: center; font-variant-numeric: tabular-nums; }
+.tl-contender .tl-who { font-weight: 600; font-size: 17px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tl-contender .tl-what { color: var(--subtle); font-size: 13px; }
+.tl-contender .tl-num { text-align: right; font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; }
+.tl-contender .tl-num small { display: block; font-size: 11px; font-weight: 500; color: var(--subtle); font-family: var(--mono); letter-spacing: 0.06em; }
+
+/* avatars */
+.tl-av { display: inline-block; border-radius: 50%; object-fit: cover; background: var(--surface-strong); flex: none; }
+.tl-av-ph { display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--surface-strong); color: var(--muted); font-weight: 600; flex: none; }
+.tl-av-ring { box-shadow: 0 0 0 3px var(--canvas), 0 0 0 5px var(--gold); }
+
+/* title holders */
+.tl-belts { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 24px; }
+.tl-belt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 14px; min-height: 236px; }
+.tl-belt-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.tl-belt-no { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; color: var(--blue); text-transform: uppercase; }
+.tl-belt-name { font-size: 19px; font-weight: 600; letter-spacing: -0.02em; margin-top: 4px; }
+.tl-belt-what { color: var(--subtle); font-size: 13px; margin-top: 2px; }
+.tl-holder { display: flex; gap: 14px; align-items: center; }
+.tl-holder .tl-who { font-weight: 600; font-size: 17px; overflow-wrap: anywhere; }
+.tl-holder .tl-val { font-size: 26px; font-weight: 600; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.tl-holder .tl-val small { font-size: 13px; color: var(--subtle); font-weight: 500; letter-spacing: 0; margin-left: 4px; }
+.tl-holder .tl-detail { color: var(--subtle); font-size: 12px; }
+.tl-chasers { display: flex; flex-direction: column; gap: 6px; border-top: 1px solid var(--line); padding-top: 10px; margin-top: auto; }
+.tl-chaser { display: grid; grid-template-columns: 16px 24px minmax(0, 1fr) auto; gap: 8px; align-items: center; font-size: 13.5px; color: var(--muted); }
+.tl-chaser .tl-n { font-family: var(--mono); font-size: 11px; color: var(--subtle); }
+.tl-chaser .tl-who { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tl-chaser .tl-val { font-variant-numeric: tabular-nums; color: var(--ink); }
+.tl-badge { font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; color: var(--subtle); }
+.tl-badge.exact { color: var(--up); border-color: rgba(95, 207, 138, 0.5); }
+.tl-badge.close { color: var(--gold); border-color: rgba(232, 196, 106, 0.5); }
+.tl-badge.estimate { color: var(--down); border-color: rgba(240, 123, 123, 0.5); }
+.tl-empty { color: var(--subtle); font-size: 13px; }
+
+/* house */
+.tl-house { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; margin-top: 24px; }
+.tl-keeper { display: flex; gap: 16px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-height: 104px; }
+.tl-keeper .tl-who { font-weight: 600; font-size: 18px; }
+.tl-keeper .tl-role { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); }
+.tl-keeper .tl-facts { color: var(--muted); font-size: 13.5px; margin-top: 4px; font-variant-numeric: tabular-nums; }
+
+/* rankings */
+.tl-controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 20px; }
+.tl-controls .dash-select { background-color: var(--surface); color: var(--ink); border-color: var(--line); }
+.tl-input { font: inherit; font-size: 14px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 8px; background-color: var(--surface); color: var(--ink); width: 15em; max-width: 100%; }
+.tl-check { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; }
+.tl-count { color: var(--subtle); font-size: 13px; font-family: var(--mono); }
+.tl-table-wrap { overflow: auto; margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; max-height: 760px; background: var(--surface); }
+.tl-table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 14px; }
+.tl-table th, .tl-table td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.tl-table th { position: sticky; top: 0; z-index: 1; background: var(--surface-strong); color: var(--subtle); font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; vertical-align: bottom; }
+.tl-table tbody tr:hover td { background: rgba(96, 158, 236, 0.06); }
+.tl-table .num { text-align: right; }
+.tl-table td.tl-strong { color: var(--ink); font-weight: 600; }
+.tl-table td { color: var(--muted); }
+.tl-table td.tl-name { color: var(--ink); font-weight: 500; }
+.tl-namecell { display: flex; align-items: center; gap: 10px; }
+.tl-rank { font-weight: 600; color: var(--ink); }
+.tl-move { font-family: var(--mono); font-size: 11px; margin-left: 6px; }
+.tl-move.up { color: var(--up); } .tl-move.down { color: var(--down); } .tl-move.same { color: var(--subtle); }
+.tl-sortbtn { font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+.tl-sortbtn:hover { color: var(--ink); }
+.tl-sortbtn::after { content: ''; display: inline-block; width: 0.9em; margin-left: 3px; }
+th[aria-sort] .tl-sortbtn { color: var(--ink); }
+th[aria-sort="descending"] .tl-sortbtn::after { content: '▾'; }
+th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
+.tl-chip { display: inline-block; font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; padding: 1px 6px; border-radius: 4px; margin-right: 4px; border: 1px solid var(--line); color: var(--muted); }
+.tl-chip.SolidCraft { color: #96bef5; border-color: rgba(96, 158, 236, 0.45); }
+.tl-chip.FieldCraft { color: #e8c46a; border-color: rgba(232, 196, 106, 0.45); }
+.tl-chip.PCBCraft { color: #5fcf8a; border-color: rgba(95, 207, 138, 0.45); }
+.tl-chip.CamCraft { color: #c3a4f5; border-color: rgba(195, 164, 245, 0.45); }
+.tl-bar { height: 6px; border-radius: 3px; background: var(--blue); min-width: 2px; }
+.tl-barcell { width: 120px; }
+
+/* fighter card */
+.tl-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; margin-top: 20px; }
+@media (max-width: 760px) { .tl-card { grid-template-columns: 1fr; } }
+.tl-card-left { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; min-height: 260px; }
+.tl-card-right { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; min-height: 260px; }
+.tl-bars { display: flex; flex-direction: column; gap: 10px; }
+.tl-barrow { display: grid; grid-template-columns: minmax(0, 13em) 1fr auto; gap: 12px; align-items: center; font-size: 13.5px; color: var(--muted); }
+.tl-barrow .tl-bar { height: 8px; }
+.tl-barrow .tl-val { font-variant-numeric: tabular-nums; color: var(--ink); }
+
+/* defs */
+.tl-defs td { white-space: normal; vertical-align: top; color: var(--muted); }
+.tl-defs td:first-child { white-space: nowrap; color: var(--ink); font-weight: 500; }
+.tl-foot { color: var(--subtle); font-size: 13px; }
+.tl-fail { color: var(--down); font-size: 13px; }
+@media print { .tl-table-wrap { max-height: none; overflow: visible; } }
+</style>
+
+<div class="tl">
+<div class="tl-wrap">
+
+  <header id="top">
+    <p class="tl-eyebrow">Tangency Labs · All-time leaderboard</p>
+    <h1 class="tl-h1">The people who <em>built the suite.</em></h1>
+    <p class="tl-lede" data-read lang="en"><b data-draw="h_people" data-source="totals" data-field="people" data-row="0">—</b> contributors have landed <b data-draw="h_prs" data-source="totals" data-field="prs" data-row="0">—</b> pull requests across SolidCraft, SolidCore, FieldCraft, PCBCraft and CamCraft since October 7. Every one of them counts here.</p>
+    <div class="tl-meta">
+      <span class="tl-live">Updates every hour</span>
+      <span>Last update <span data-draw="h_updated" data-source="updated" data-field="generated_at" data-row="0">—</span></span>
+      <span>Rankings follow the daily board: maintainers listed separately</span>
+    </div>
+  </header>
+
+  <section class="tl-strip" id="totals">
+    <div><div class="tl-k">Contributors</div><div class="tl-v" data-draw="t_people" data-source="totals" data-field="people" data-row="0">—</div></div>
+    <div><div class="tl-k">Merged PRs</div><div class="tl-v" data-draw="t_prs" data-source="totals" data-field="prs" data-row="0">—</div></div>
+    <div><div class="tl-k">Last 7 days</div><div class="tl-v" data-draw="t_recent" data-source="totals" data-field="prs_7d" data-row="0">—</div></div>
+    <div><div class="tl-k">Commits</div><div class="tl-v" data-draw="t_commits" data-source="totals" data-field="commits" data-row="0">—</div></div>
+    <div><div class="tl-k">100+ PR club</div><div class="tl-v" data-draw="t_hundred" data-source="totals" data-field="hundred_club" data-row="0">—</div></div>
+  </section>
+
+  <section id="main-event">
+    <p class="tl-eyebrow">01 / Main event</p>
+    <h2 class="tl-h2">Most merged PRs, all time.</h2>
+    <div class="tl-main" style="margin-top: 24px">
+      <div class="tl-champ" data-draw="champ" data-source="board avatars"></div>
+      <div class="tl-contenders" data-draw="contenders" data-source="board avatars"></div>
+    </div>
+  </section>
+
+  <section id="titles">
+    <p class="tl-eyebrow">02 / Title holders</p>
+    <h2 class="tl-h2">Every way to top the board.</h2>
+    <p class="tl-sub">Contributors only; maintainers have their own section below. Each card shows the holder and the next two.</p>
+    <div class="tl-belts">
+      <div class="tl-belt" id="title-prs"><div class="tl-belt-head"><div><div class="tl-belt-no">Merged PRs</div><div class="tl-belt-name">All-time leader</div><div class="tl-belt-what">Merged PRs, every product</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_prs" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-recent"><div class="tl-belt-head"><div><div class="tl-belt-no">Last 7 days</div><div class="tl-belt-name">Hot hand</div><div class="tl-belt-what">Merged PRs in the past week</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_recent" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-solidcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCraft</div><div class="tl-belt-name">SolidCraft champion</div><div class="tl-belt-what">Merged PRs in SolidCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_solidcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-kernel"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCore</div><div class="tl-belt-name">Kernel master</div><div class="tl-belt-what">Commits that changed the geometry kernel</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_kernel" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-fieldcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">FieldCraft</div><div class="tl-belt-name">FieldCraft champion</div><div class="tl-belt-what">Merged PRs in FieldCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_fieldcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-pcbcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">PCBCraft</div><div class="tl-belt-name">PCBCraft champion</div><div class="tl-belt-what">Merged PRs in PCBCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_pcbcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-camcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">CamCraft</div><div class="tl-belt-name">CamCraft champion</div><div class="tl-belt-what">Merged PRs in CamCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_camcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-triage"><div class="tl-belt-head"><div><div class="tl-belt-no">Triage</div><div class="tl-belt-name">Triage king</div><div class="tl-belt-what">Issues they've commented on</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_triage" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-hunter"><div class="tl-belt-head"><div><div class="tl-belt-no">Bug reports</div><div class="tl-belt-name">Bug hunter</div><div class="tl-belt-what">Issues they've opened</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_hunter" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-reviews"><div class="tl-belt-head"><div><div class="tl-belt-no">Reviews</div><div class="tl-belt-name">Top reviewer</div><div class="tl-belt-what">Other people's PRs they reviewed</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_reviews" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-streak"><div class="tl-belt-head"><div><div class="tl-belt-no">Consistency</div><div class="tl-belt-name">Iron streak</div><div class="tl-belt-what">Most days in a row with a commit on main</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_streak" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-day"><div class="tl-belt-head"><div><div class="tl-belt-no">One day</div><div class="tl-belt-name">Biggest single day</div><div class="tl-belt-what">Most commits on main in one UTC day</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_day" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-multi"><div class="tl-belt-head"><div><div class="tl-belt-no">Range</div><div class="tl-belt-name">Across the suite</div><div class="tl-belt-what">Products they've committed to</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_multi" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-rookie"><div class="tl-belt-head"><div><div class="tl-belt-no">New arrivals</div><div class="tl-belt-name">Rookie of the month</div><div class="tl-belt-what">Most merged PRs, first commit in the last 30 days</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_rookie" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-og"><div class="tl-belt-head"><div><div class="tl-belt-no">Day one</div><div class="tl-belt-name">The originals</div><div class="tl-belt-what">Earliest first commit, 20+ merged PRs</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_og" data-source="awards avatars"></div></div>
+    </div>
+  </section>
+
+  <section id="house">
+    <p class="tl-eyebrow">03 / Maintainers</p>
+    <h2 class="tl-h2">The people who keep it running.</h2>
+    <p class="tl-sub">Maintainers review and land everyone else's work, so like the daily board they aren't ranked against contributors.</p>
+    <div class="tl-house" data-draw="house" data-source="board avatars"></div>
+  </section>
+
+  <section id="rankings">
+    <p class="tl-eyebrow">04 / Rankings</p>
+    <h2 class="tl-h2">Everyone, every stat.</h2>
+    <p class="tl-sub">Click a column to rank by it; click again to flip. Arrows show movement in merged-PR rank since yesterday (UTC).</p>
+    <div class="tl-controls">
+      <select class="dash-select" id="tl-product" aria-label="Product">
+        <option value="">All products</option>
+        <option value="SolidCraft">SolidCraft</option>
+        <option value="FieldCraft">FieldCraft</option>
+        <option value="PCBCraft">PCBCraft</option>
+        <option value="CamCraft">CamCraft</option>
+      </select>
+      <input class="tl-input" id="tl-find" type="search" placeholder="Find a name" aria-label="Find a name">
+      <label class="tl-check"><input type="checkbox" id="tl-maint"> Include maintainers</label>
+      <span class="tl-count" data-draw="board_count"></span>
+    </div>
+    <div class="tl-table-wrap">
+      <table class="tl-table" id="tl-board" data-source="board" data-row-key="name">
+        <thead><tr>
+          <th class="num">#</th>
+          <th data-field="name" data-col="name"><button class="tl-sortbtn">Name</button></th>
+          <th class="num" data-field="prs_merged" data-col="prs_merged" aria-sort="descending"><button class="tl-sortbtn">Merged PRs</button></th>
+          <th class="tl-barcell"></th>
+          <th class="num" data-field="prs_7d" data-col="prs_7d"><button class="tl-sortbtn">7 days</button></th>
+          <th class="num" data-field="commits" data-col="commits"><button class="tl-sortbtn">Commits</button></th>
+          <th class="num" data-field="solidcraft_prs" data-col="solidcraft_prs"><button class="tl-sortbtn">SolidCraft</button></th>
+          <th class="num" data-field="kernel_commits" data-col="kernel_commits"><button class="tl-sortbtn">Kernel</button></th>
+          <th class="num" data-field="fieldcraft_prs" data-col="fieldcraft_prs"><button class="tl-sortbtn">FieldCraft</button></th>
+          <th class="num" data-field="pcbcraft_prs" data-col="pcbcraft_prs"><button class="tl-sortbtn">PCBCraft</button></th>
+          <th class="num" data-field="camcraft_prs" data-col="camcraft_prs"><button class="tl-sortbtn">CamCraft</button></th>
+          <th class="num" data-field="issues_commented" data-col="issues_commented"><button class="tl-sortbtn">Triage</button></th>
+          <th class="num" data-field="issues_opened" data-col="issues_opened"><button class="tl-sortbtn">Issues</button></th>
+          <th class="num" data-field="prs_reviewed" data-col="prs_reviewed"><button class="tl-sortbtn">Reviews</button></th>
+          <th class="num" data-field="longest_streak" data-col="longest_streak"><button class="tl-sortbtn">Streak</button></th>
+          <th class="num" data-field="active_days" data-col="active_days"><button class="tl-sortbtn">Days</button></th>
+          <th data-field="first_day" data-col="first_day"><button class="tl-sortbtn">Since</button></th>
+          <th data-field="main_area" data-col="main_area"><button class="tl-sortbtn">Main area</button></th>
+        </tr></thead>
+        <tbody data-draw="board_rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="card">
+    <p class="tl-eyebrow">05 / Player card</p>
+    <h2 class="tl-h2">Look anyone up.</h2>
+    <div class="tl-controls">
+      <select class="dash-select" id="tl-person" aria-label="Person" data-draw="person_select" data-source="board"></select>
+    </div>
+    <div class="tl-card">
+      <div class="tl-card-left" data-draw="person_card" data-source="board avatars"></div>
+      <div class="tl-card-right">
+        <p class="tl-eyebrow" style="margin-bottom: 16px">Where their commits landed</p>
+        <div class="tl-bars" data-draw="person_bars" data-source="person_areas"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas">
+    <p class="tl-eyebrow">06 / Divisions</p>
+    <h2 class="tl-h2">Who owns which part.</h2>
+    <p class="tl-sub">SolidCraft split by folder; the other products count as one area each. Commits are counted by the files they changed.</p>
+    <div class="tl-table-wrap">
+      <table class="tl-table" data-source="areas" data-row-key="area">
+        <thead><tr><th data-field="area">Area</th><th data-field="leader">Leader</th><th class="num" data-field="leader_commits">Commits</th><th class="num" data-field="leader_share">Share %</th><th data-field="second">Next</th><th class="num" data-field="second_commits">Commits</th><th class="num" data-field="commits">All</th><th class="num" data-field="people">People</th></tr></thead>
+        <tbody data-draw="area_rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="definitions">
+    <p class="tl-eyebrow">07 / The rules</p>
+    <h2 class="tl-h2">Exactly what's counted.</h2>
+    <p class="tl-sub"><span class="tl-badge exact">Exact</span> counted directly from git or GitHub. <span class="tl-badge close">Close</span> exact count, but a small part of the credit is inferred. <span class="tl-badge estimate">Estimate</span> based on wording, not proof.</p>
+    <div class="tl-table-wrap">
+      <table class="tl-table tl-defs">
+        <thead><tr><th>Stat</th><th>What's counted</th><th>Certainty</th></tr></thead>
+        <tbody>
+          <tr><td>Merged PRs</td><td>SolidCraft and FieldCraft squash each PR into one commit ending in "(#number)", authored by the PR's author. PCBCraft and CamCraft keep merge commits titled "Merge pull request #n from owner/branch", credited to the branch owner.</td><td><span class="tl-badge exact">Exact</span> for SolidCraft and FieldCraft</td></tr>
+          <tr><td>PCBCraft and CamCraft PRs</td><td>As above. PRs from branches inside the project's own repo don't name a person, so they go to the author of the branch's last commit.</td><td><span class="tl-badge close">Close</span></td></tr>
+          <tr><td>Last 7 days</td><td>Merged PRs whose merge landed on main in the 7 days before the last update.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Commits</td><td>Commits on main they authored, merge commits left out. SolidCore's repo copies SolidCraft's kernel commits, so those count once.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Kernel commits</td><td>Commits that changed SolidCraft's geometry-kernel folders (solidcore, kernel, smlib, geom, goldens, difftest) and kernel test cases.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Triage</td><td>Issues they commented on, in any of the repos. It counts issues, not individual comments.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Issues</td><td>Issues they opened in any of the repos.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Reviews</td><td>Other people's PRs they left at least one review on. Plain comments aren't reviews.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Streak, days, best day</td><td>UTC days with at least one commit they authored on main in any repo; a streak is consecutive days.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Main area</td><td>The area, by files changed, with most of their commits, docs and tests left out.</td><td><span class="tl-badge exact">Exact</span> for folders; the grouping is a choice</td></tr>
+          <tr><td>Rank movement</td><td>Change in merged-PR rank among contributors since the last update of the previous UTC day.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Identity</td><td>Commits are tied to people by GitHub account. A commit email GitHub can't tie to an account joins one only when the same full name was used on that account's linked commits; the few left over stay under the email's name.</td><td><span class="tl-badge exact">Exact</span> for accounts; <span class="tl-badge close">Close</span> for name matches</td></tr>
+          <tr><td>Maintainers</td><td>bherbruck and jyviko (Tangency Labs) and NeoTech (CamCraft's owner), as on the official daily board.</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tl-foot">Repos: every public tangency-labs repo (forks of outside code left out) plus NeoTech/Camcraft. Counts measure volume, much of it agent-written, not difficulty or impact. Everything updates every hour from git and GitHub's API.</p>
+  </section>
+
+  <footer class="tl-foot" id="tl-source">Built from public git history and GitHub's API.</footer>
+
+</div>
+</div>
+
+<script>
+dash.calc('board', {
+  title: 'Leaderboard',
+  description: 'Each person from git history, joined by GitHub login to their issue, triage and review counts.',
+  inputs: ['people', 'gh_counts'],
+  fn: (people, gh) => {
+    const byLogin = new Map(gh.map((g) => [String(g.login).toLowerCase(), g]));
+    const num = (v) => (v === null || v === undefined || v === '' ? null : +v);
+    const ints = ['prs_merged', 'prs_7d', 'commits', 'solidcraft_prs', 'fieldcraft_prs', 'pcbcraft_prs', 'camcraft_prs', 'kernel_commits', 'products', 'landed_for_others', 'active_days', 'longest_streak', 'best_day', 'best_week', 'main_area_share'];
+    return people.map((p) => {
+      const row = {name: p.name, login: p.login || '', identity: p.identity, maintainer: p.maintainer === 'yes', product_list: p.product_list || '',
+        best_day_date: p.best_day_date, first_day: p.first_day, last_day: p.last_day, main_area: p.main_area,
+        rank: num(p.rank), rank_change: num(p.rank_change)};
+      ints.forEach((k) => { row[k] = +p[k] || 0; });
+      const g = p.login ? byLogin.get(String(p.login).toLowerCase()) : null;
+      const known = gh.length > 0 && p.login;
+      row.issues_opened = g ? num(g.issues_opened) : known ? 0 : null;
+      row.issues_commented = g ? num(g.issues_commented) : known ? 0 : null;
+      row.prs_reviewed = g ? num(g.prs_reviewed) : known ? 0 : null;
+      return row;
+    });
+  },
+});
+
+dash.calc('totals', {
+  title: 'Totals',
+  description: 'Contributors, merged PRs and commits, all time and in the last 7 days.',
+  inputs: ['board'],
+  fn: (board) => {
+    if (!board.length) return [];
+    return [{
+      people: board.length,
+      prs: d3.sum(board, (p) => p.prs_merged),
+      prs_7d: d3.sum(board, (p) => p.prs_7d),
+      commits: d3.sum(board, (p) => p.commits),
+      hundred_club: board.filter((p) => p.prs_merged >= 100).length,
+    }];
+  },
+});
+
+dash.calc('awards', {
+  title: 'Title holders',
+  description: 'The top 3 contributors (maintainers left out) for each title; ties broken by merged PRs.',
+  inputs: ['board', 'updated'],
+  fn: (board, meta) => {
+    const out = [];
+    const people = board.filter((r) => !r.maintainer);
+    const cutoff = meta[0] ? new Date(meta[0].generated_at) : new Date();
+    const monthAgo = new Date(cutoff.getTime() - 30 * 86400000).toISOString().slice(0, 10);
+    const podium = (award, field, opts = {}) => {
+      let rows = people.filter((r) => r[field] !== null && r[field] !== undefined && r[field] > 0);
+      if (opts.where) rows = rows.filter(opts.where);
+      rows.sort(opts.sort || ((a, b) => b[field] - a[field] || b.prs_merged - a.prs_merged));
+      rows.slice(0, 3).forEach((r, i) => out.push({award, rank: i + 1, name: r.name, login: r.login, value: r[field], detail: opts.detail ? opts.detail(r) : ''}));
+    };
+    podium('prs', 'prs_merged');
+    podium('recent', 'prs_7d');
+    podium('solidcraft', 'solidcraft_prs');
+    podium('kernel', 'kernel_commits');
+    podium('fieldcraft', 'fieldcraft_prs');
+    podium('pcbcraft', 'pcbcraft_prs');
+    podium('camcraft', 'camcraft_prs');
+    podium('triage', 'issues_commented');
+    podium('hunter', 'issues_opened');
+    podium('reviews', 'prs_reviewed');
+    podium('streak', 'longest_streak');
+    podium('day', 'best_day', {detail: (r) => r.best_day_date});
+    podium('multi', 'products', {sort: (a, b) => b.products - a.products || b.prs_merged - a.prs_merged, detail: (r) => r.product_list});
+    podium('rookie', 'prs_merged', {where: (r) => r.first_day >= monthAgo, detail: (r) => r.first_day});
+    podium('og', 'prs_merged', {where: (r) => r.prs_merged >= 20 && r.first_day, sort: (a, b) => (a.first_day < b.first_day ? -1 : a.first_day > b.first_day ? 1 : b.prs_merged - a.prs_merged), detail: (r) => r.first_day});
+    return out;
+  },
+});
+</script>
+
+<script>
+(function () {
+  const fmt = d3.format(',');
+  const fmtDay = d3.utcFormat('%b %-d');
+  const dayText = (s) => (s && /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(s) ? fmtDay(new Date(s + 'T00:00:00Z')) : (s || ''));
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };
+
+  // Profile pictures, looked up by login; anyone without one gets their initials.
+  // Profile pictures come straight from GitHub; anyone without one gets their initials.
+  function pics() { return null; }
+  function initials(person, size, ring) {
+    const ph = el('span', 'tl-av-ph' + (ring ? ' tl-av-ring' : ''), String(person.name || '?').replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || '?');
+    ph.style.width = size + 'px'; ph.style.height = size + 'px'; ph.style.fontSize = Math.round(size * 0.38) + 'px';
+    ph.setAttribute('aria-hidden', 'true');
+    return ph;
+  }
+  function avatar(map, person, size, ring) {
+    const login = person.login ? String(person.login) : '';
+    if (!/^[A-Za-z0-9-]+$/.test(login)) return initials(person, size, ring);
+    const img = el('img', 'tl-av' + (ring ? ' tl-av-ring' : ''));
+    img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+    img.width = size; img.height = size; img.style.width = size + 'px'; img.style.height = size + 'px';
+    img.addEventListener('error', () => img.replaceWith(initials(person, size, ring)), { once: true });
+    img.src = 'https://avatars.githubusercontent.com/' + login + '?s=' + (size > 48 ? 160 : 64);
+    return img;
+  }
+  const failNote = (node, what) => { node.replaceChildren(el('p', 'tl-fail', "Couldn't load " + what + '.')); };
+
+  function fig(name, source, field, kind) {
+    dash.draw(name, (node) => {
+      const d = dash.data(source);
+      if (d.status === 'loading') node.classList.add('dash-skeleton'); else node.classList.remove('dash-skeleton');
+      if (d.status !== 'ok' || !d.data || !d.data[0]) { node.textContent = '—'; return; }
+      const v = d.data[0][field];
+      if (kind === 'time') { const t = new Date(v); node.textContent = isNaN(t) ? String(v) : d3.utcFormat('%b %-d, %H:%M UTC')(t); return; }
+      node.textContent = v === null || v === undefined ? '—' : fmt(v);
+    });
+  }
+  [['h_people', 'people'], ['h_prs', 'prs'], ['t_people', 'people'], ['t_prs', 'prs'], ['t_recent', 'prs_7d'], ['t_commits', 'commits'], ['t_hundred', 'hundred_club']].forEach(([n, f]) => fig(n, 'totals', f));
+  fig('h_updated', 'updated', 'generated_at', 'time');
+
+  const contributors = (rows) => rows.filter((r) => !r.maintainer).sort((a, b) => b.prs_merged - a.prs_merged || b.commits - a.commits);
+
+  // 01 Main event: the #1 contributor and the next four.
+  dash.draw('champ', (node) => {
+    const d = dash.data('board');
+    node.replaceChildren();
+    if (d.status === 'error') return failNote(node, 'the leader');
+    if (d.status !== 'ok' || !d.data) return;
+    const list = contributors(d.data);
+    const c = list[0], next = list[1];
+    if (!c) return;
+    const map = pics();
+    const top = el('div', 'tl-champ-top');
+    const who = el('div');
+    who.append(el('div', 'tl-champ-title', 'Number one · contributors'), el('div', 'tl-champ-name', c.name));
+    if (c.product_list) { const chips = el('div'); chips.style.marginTop = '10px'; c.product_list.split(' / ').filter((x) => x && x !== 'Other').forEach((p) => chips.append(el('span', 'tl-chip ' + p, p))); who.append(chips); }
+    top.append(avatar(map, c, 120, true), who);
+    const tape = el('div', 'tl-tape');
+    [['Merged PRs', fmt(c.prs_merged)], ['Last 7 days', fmt(c.prs_7d)], ['Commits', fmt(c.commits)], ['Streak', fmt(c.longest_streak) + 'd'], ['Since', dayText(c.first_day)]]
+      .forEach(([k, v]) => { const cell = el('div'); cell.append(el('div', 'tl-k', k), el('div', 'tl-v', v)); tape.append(cell); });
+    node.append(top, tape);
+    if (next) {
+      const lead = el('p', 'tl-lead');
+      lead.append(document.createTextNode('Lead over ' + next.name + ': '), el('b', '', fmt(c.prs_merged - next.prs_merged) + ' PRs'));
+      node.append(lead);
+    }
+  });
+  dash.draw('contenders', (node) => {
+    const d = dash.data('board');
+    node.replaceChildren();
+    if (d.status === 'error') return failNote(node, 'the contenders');
+    if (d.status !== 'ok' || !d.data) return;
+    const list = contributors(d.data);
+    const map = pics();
+    list.slice(1, 5).forEach((c, i) => {
+      const row = el('div', 'tl-contender');
+      const mid = el('div');
+      mid.append(el('div', 'tl-who', c.name), el('div', 'tl-what', fmt(c.prs_7d) + ' in the last 7 days'));
+      const n = el('div', 'tl-num', fmt(c.prs_merged));
+      n.append(el('small', '', (list[0].prs_merged - c.prs_merged > 0 ? '−' + fmt(list[0].prs_merged - c.prs_merged) : 'tied') + ' to #1'));
+      row.append(el('div', 'tl-place', String(i + 2)), avatar(map, c, 52), mid, n);
+      node.append(row);
+    });
+  });
+
+  // 02 Title holders.
+  const unit = {
+    prs: 'PRs', recent: 'PRs', solidcraft: 'PRs', kernel: 'commits', fieldcraft: 'PRs', pcbcraft: 'PRs', camcraft: 'PRs',
+    triage: 'issues', hunter: 'issues', reviews: 'PRs', streak: 'days', day: 'commits', multi: 'products', rookie: 'PRs', og: 'PRs',
+  };
+  const detail = {
+    day: (r) => 'on ' + dayText(r.detail), multi: (r) => r.detail.split(' / ').filter((x) => x !== 'Other').join(' · '),
+    rookie: (r) => 'first commit ' + dayText(r.detail), og: (r) => 'since ' + dayText(r.detail),
+  };
+  const ghAward = {triage: 1, hunter: 1, reviews: 1};
+  Object.keys(unit).forEach((award) => {
+    dash.draw('aw_' + award, (node) => {
+      const d = dash.data('awards');
+      node.replaceChildren();
+      if (d.status === 'error') return failNote(node, 'this title');
+      if (d.status !== 'ok' || !d.data) return;
+      const rows = d.data.filter((r) => r.award === award).sort((a, b) => a.rank - b.rank);
+      if (!rows.length) { node.append(el('p', 'tl-empty', ghAward[award] ? 'Waiting on GitHub counts.' : 'Nobody yet.')); return; }
+      const map = pics();
+      const h = rows[0];
+      const holder = el('div', 'tl-holder');
+      const txt = el('div');
+      const val = el('div', 'tl-val', fmt(h.value));
+      val.append(el('small', '', unit[award]));
+      txt.append(el('div', 'tl-who', h.name), val);
+      if (detail[award]) txt.append(el('div', 'tl-detail', detail[award](h)));
+      holder.append(avatar(map, h, 64, true), txt);
+      node.append(holder);
+      if (rows.length > 1) {
+        const ch = el('div', 'tl-chasers');
+        rows.slice(1).forEach((r) => {
+          const line = el('div', 'tl-chaser');
+          line.append(el('span', 'tl-n', String(r.rank)), avatar(map, r, 24), el('span', 'tl-who', r.name), el('span', 'tl-val', fmt(r.value)));
+          ch.append(line);
+        });
+        node.append(ch);
+      }
+    });
+  });
+
+  // 03 Maintainers.
+  const roles = {bherbruck: 'Tangency Labs maintainer', jyviko: 'Tangency Labs maintainer', neotech: 'CamCraft maintainer'};
+  dash.draw('house', (node) => {
+    const d = dash.data('board');
+    node.replaceChildren();
+    if (d.status === 'error') return failNote(node, 'the maintainers');
+    if (d.status !== 'ok' || !d.data) return;
+    const map = pics();
+    d.data.filter((r) => r.maintainer).sort((a, b) => b.prs_merged - a.prs_merged).forEach((m) => {
+      const card = el('div', 'tl-keeper');
+      const txt = el('div');
+      const facts = [fmt(m.prs_merged) + ' merged PRs', fmt(m.landed_for_others) + ' landed for others'];
+      if (m.prs_reviewed) facts.push(fmt(m.prs_reviewed) + ' PRs reviewed');
+      if (m.longest_streak) facts.push(fmt(m.longest_streak) + '-day streak');
+      txt.append(el('div', 'tl-role', roles[String(m.login).toLowerCase()] || 'Maintainer'), el('div', 'tl-who', m.name), el('div', 'tl-facts', facts.join(' · ')));
+      card.append(avatar(map, m, 72), txt);
+      node.append(card);
+    });
+  });
+
+  // 04 Rankings.
+  const textCols = {name: 1, first_day: 1, main_area: 1};
+  window.__tl = window.__tl || {sort: 'prs_merged', dir: 'desc', product: '', find: '', maint: false};
+  const st = window.__tl;
+  document.querySelectorAll('#tl-board th[data-col]').forEach((th) => {
+    const b = th.querySelector('button');
+    if (!b) return;
+    b.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (st.sort === col) st.dir = st.dir === 'desc' ? 'asc' : 'desc';
+      else { st.sort = col; st.dir = textCols[col] ? 'asc' : 'desc'; }
+      document.querySelectorAll('#tl-board th[data-col]').forEach((h) => {
+        if (h.dataset.col === st.sort) h.setAttribute('aria-sort', st.dir === 'desc' ? 'descending' : 'ascending');
+        else h.removeAttribute('aria-sort');
+      });
+      dash.draw('board_rows'); dash.draw('board_count');
+    });
+  });
+  document.querySelectorAll('#tl-product').forEach((s) => s.addEventListener('change', () => { st.product = s.value; dash.draw('board_rows'); dash.draw('board_count'); }));
+  document.querySelectorAll('#tl-find').forEach((s) => s.addEventListener('input', () => { st.find = s.value.trim().toLowerCase(); dash.draw('board_rows'); dash.draw('board_count'); }));
+  document.querySelectorAll('#tl-maint').forEach((s) => s.addEventListener('change', () => { st.maint = s.checked; dash.draw('board_rows'); dash.draw('board_count'); }));
+
+  function view(data) {
+    let rows = data.filter((r) => st.maint || !r.maintainer);
+    if (st.product) rows = rows.filter((r) => r.product_list.split(' / ').includes(st.product));
+    const col = st.sort, dir = st.dir === 'desc' ? -1 : 1;
+    rows = rows.slice().sort((a, b) => {
+      const va = a[col], vb = b[col];
+      const na = va === null || va === undefined || va === '', nb = vb === null || vb === undefined || vb === '';
+      if (na !== nb) return na ? 1 : -1;
+      if (!na) {
+        if (textCols[col]) { const c = String(va).localeCompare(String(vb), undefined, {sensitivity: 'base'}); if (c) return c * dir; }
+        else if (va !== vb) return (va - vb) * dir;
+      }
+      return b.prs_merged - a.prs_merged || String(a.name).localeCompare(String(b.name));
+    });
+    const ranks = new Map();
+    let rank = 0, prev;
+    rows.forEach((r, i) => { const v = r[col]; if (i === 0 || textCols[col] || v !== prev) rank = i + 1; prev = v; ranks.set(r, rank); });
+    const all = rows.length;
+    if (st.find) rows = rows.filter((r) => String(r.name).toLowerCase().includes(st.find) || String(r.login).toLowerCase().includes(st.find));
+    return {rows, all, ranks};
+  }
+  const numCols = ['prs_7d', 'commits', 'solidcraft_prs', 'kernel_commits', 'fieldcraft_prs', 'pcbcraft_prs', 'camcraft_prs', 'issues_commented', 'issues_opened', 'prs_reviewed', 'longest_streak', 'active_days'];
+  dash.draw('board_rows', (tb) => {
+    const d = dash.data('board');
+    tb.replaceChildren();
+    if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 18; td.className = 'tl-fail'; td.textContent = "Couldn't load the rankings."; return; }
+    if (d.status !== 'ok' || !d.data) return;
+    const {rows, ranks} = view(d.data);
+    const map = pics();
+    const max = d3.max(d.data, (r) => r.prs_merged) || 1;
+    rows.slice(0, 600).forEach((r) => {
+      const tr = tb.insertRow();
+      tr.dataset.key = r.name;
+      const rk = tr.insertCell(); rk.className = 'num';
+      rk.append(el('span', 'tl-rank', String(ranks.get(r))));
+      if (st.sort === 'prs_merged' && r.rank_change !== null && r.rank_change !== undefined) {
+        const ch = r.rank_change;
+        rk.append(el('span', 'tl-move ' + (ch > 0 ? 'up' : ch < 0 ? 'down' : 'same'), ch > 0 ? '▲' + ch : ch < 0 ? '▼' + -ch : '–'));
+      }
+      const nm = tr.insertCell(); nm.className = 'tl-name';
+      const wrap = el('div', 'tl-namecell');
+      const label = el('span', '', r.name);
+      wrap.append(avatar(map, r, 28), label);
+      if (r.maintainer) wrap.append(el('span', 'tl-chip', 'maintainer'));
+      nm.append(wrap);
+      const pr = tr.insertCell(); pr.className = 'num' + (st.sort === 'prs_merged' ? ' tl-strong' : ''); pr.textContent = fmt(r.prs_merged);
+      const bc = tr.insertCell(); bc.className = 'tl-barcell';
+      const bar = el('div', 'tl-bar'); bar.style.width = Math.max(1, (r.prs_merged / max) * 100) + '%'; bc.append(bar);
+      numCols.forEach((c) => {
+        const td = tr.insertCell(); td.className = 'num' + (c === st.sort ? ' tl-strong' : '');
+        td.textContent = r[c] === null || r[c] === undefined ? '' : fmt(r[c]);
+      });
+      tr.insertCell().textContent = dayText(r.first_day);
+      tr.insertCell().textContent = r.main_area ? r.main_area + ' · ' + r.main_area_share + '%' : '';
+    });
+    if (!rows.length) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 18; td.textContent = 'No one matches.'; }
+  });
+  dash.draw('board_count', (node) => {
+    const d = dash.data('board');
+    if (d.status !== 'ok' || !d.data) { node.textContent = ''; return; }
+    const {rows, all} = view(d.data);
+    node.textContent = fmt(rows.length) + ' of ' + fmt(all) + (st.product ? ' in ' + st.product : '');
+  });
+
+  // 05 Player card.
+  window.__tlPerson = window.__tlPerson || '';
+  dash.draw('person_select', (sel) => {
+    const d = dash.data('board');
+    const rows = d.status === 'ok' && d.data ? d.data.slice().sort((a, b) => b.prs_merged - a.prs_merged || String(a.name).localeCompare(String(b.name))) : [];
+    sel.replaceChildren(...rows.map((r) => new Option(r.name + ' (' + fmt(r.prs_merged) + ' PRs)', r.name)));
+    if (!window.__tlPerson && rows[0]) window.__tlPerson = (contributors(rows)[0] || rows[0]).name;
+    sel.value = window.__tlPerson;
+    sel.onchange = () => { window.__tlPerson = sel.value; dash.draw('person_card'); dash.draw('person_bars'); };
+  });
+  dash.draw('person_card', (node) => {
+    const d = dash.data('board');
+    node.replaceChildren();
+    if (d.status === 'error') return failNote(node, 'this card');
+    if (d.status !== 'ok' || !d.data) return;
+    const r = d.data.find((x) => x.name === window.__tlPerson);
+    if (!r) return;
+    const map = pics();
+    const top = el('div', 'tl-champ-top');
+    const who = el('div');
+    who.append(el('div', 'tl-champ-title', r.maintainer ? 'Maintainer' : (r.rank ? 'Rank #' + r.rank + ' · contributors' : 'Contributor')), el('div', 'tl-champ-name', r.name));
+    if (r.product_list) { const chips = el('div'); chips.style.marginTop = '8px'; r.product_list.split(' / ').filter((x) => x && x !== 'Other').forEach((p) => chips.append(el('span', 'tl-chip ' + p, p))); who.append(chips); }
+    top.append(avatar(map, r, 96, !r.maintainer && r.rank === 1), who);
+    const na = (v) => (v === null || v === undefined ? 'n/a' : fmt(v));
+    const tape = el('div', 'tl-tape');
+    [['Merged PRs', fmt(r.prs_merged)], ['Last 7 days', fmt(r.prs_7d)], ['Commits', fmt(r.commits)], ['Kernel', fmt(r.kernel_commits)],
+     ['Triage', na(r.issues_commented)], ['Issues', na(r.issues_opened)], ['Reviews', na(r.prs_reviewed)], ['Streak', fmt(r.longest_streak) + 'd'],
+     ['Days active', fmt(r.active_days)], ['Since', dayText(r.first_day)]]
+      .forEach(([k, v]) => { const cell = el('div'); cell.append(el('div', 'tl-k', k), el('div', 'tl-v', v)); tape.append(cell); });
+    node.append(top, tape);
+    if (r.identity === 'Email only') node.append(el('p', 'tl-lead', 'Not tied to a GitHub account, so issue, triage and review counts are unavailable.'));
+  });
+  dash.draw('person_bars', (node) => {
+    const d = dash.data('person_areas');
+    node.replaceChildren();
+    if (d.status === 'error') return failNote(node, 'their areas');
+    if (d.status !== 'ok' || !d.data) return;
+    const rows = d.data.filter((r) => r.name === window.__tlPerson).map((r) => ({area: r.area, n: +r.commits})).sort((a, b) => b.n - a.n);
+    if (!rows.length) { node.append(el('p', 'tl-empty', 'No commits of their own on main; their credit is for PRs or merges.')); return; }
+    const max = d3.max(rows, (r) => r.n) || 1;
+    rows.forEach((r) => {
+      const row = el('div', 'tl-barrow');
+      const track = el('div');
+      const fill = el('div', 'tl-bar'); fill.style.width = (r.n / max * 100) + '%'; track.append(fill);
+      row.append(el('div', '', r.area), track, el('div', 'tl-val', fmt(r.n)));
+      node.append(row);
+    });
+  });
+
+  // 06 Divisions.
+  dash.draw('area_rows', (tb) => {
+    const d = dash.data('areas');
+    tb.replaceChildren();
+    if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 8; td.className = 'tl-fail'; td.textContent = "Couldn't load this table."; return; }
+    if (d.status !== 'ok' || !d.data) return;
+    d.data.forEach((r) => {
+      const tr = tb.insertRow();
+      const a = tr.insertCell(); a.className = 'tl-name'; a.textContent = r.area;
+      tr.insertCell().textContent = r.leader;
+      [r.leader_commits, r.leader_share].forEach((v) => { const td = tr.insertCell(); td.className = 'num'; td.textContent = fmt(+v); });
+      tr.insertCell().textContent = r.second;
+      [r.second_commits, r.commits, r.people].forEach((v) => { const td = tr.insertCell(); td.className = 'num'; td.textContent = fmt(+v); });
+    });
+  });
+})();
+</script>
+
+<script>
+(function () {
+  const host = location.hostname, m = host.match(/^([A-Za-z0-9-]+)\.github\.io$/);
+  const node = document.getElementById('tl-source');
+  if (!m || !node) return;
+  const seg = location.pathname.split('/').filter(Boolean)[0];
+  const repo = seg && !seg.includes('.') ? seg : host;
+  const a = document.createElement('a');
+  a.href = 'https://github.com/' + m[1] + '/' + repo; a.textContent = 'Source and definitions on GitHub';
+  node.append(' ', a, '.');
+})();
+</script>
+</body>
+</html>

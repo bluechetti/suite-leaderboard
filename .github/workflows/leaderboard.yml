@@ -1,0 +1,78 @@
+name: Leaderboard
+
+on:
+  schedule:
+    - cron: '23 * * * *' # every hour; use '*/15 * * * *' for every 15 minutes
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore the previous run's clones, counts and rank snapshot
+        uses: actions/cache/restore@v4
+        with:
+          path: work
+          key: leaderboard-${{ github.run_id }}
+          restore-keys: leaderboard-
+
+      # Git history: commits, merged PRs, areas, streaks, rankings. About a minute.
+      - name: Build the data
+        run: bash pipeline/build.sh
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publish the page
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      # GitHub's API: issues opened, issues commented on, PRs reviewed, and the account behind each
+      # commit email. Only what changed since the last run is fetched, so this takes a minute or two.
+      # The very first sync reads everything and may need a few runs with the built-in token; it
+      # saves its progress, and the page keeps the starting counts until a sync finishes.
+      - name: Sync GitHub activity counts
+        id: counts
+        continue-on-error: true
+        timeout-minutes: 45
+        run: node pipeline/alltime.mjs --org tangency-labs --extra NeoTech/Camcraft:main --no-git --cache work/api-cache --out work/counts
+        env:
+          # The built-in token allows 1,000 requests an hour. A read-only personal token saved as the
+          # LEADERBOARD_TOKEN secret allows 5,000 and makes the first sync much faster.
+          GITHUB_TOKEN: ${{ secrets.LEADERBOARD_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Keep the new counts for the next build
+        if: steps.counts.outcome == 'success'
+        run: |
+          mkdir -p work/state
+          cp work/counts/gh_counts.csv work/state/gh_counts.csv
+          node pipeline/learn-aliases.mjs work/api-cache work/state/aliases_learned.json
+
+      - name: Save for the next run
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: work
+          key: leaderboard-${{ github.run_id }}
