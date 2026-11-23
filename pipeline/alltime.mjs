@@ -418,6 +418,8 @@ export function compute(repos, stores, aliases = {}) {
     return p;
   };
   const mergedByDay = {}; // day -> key -> merged PRs, for daily titles
+  // Issue, triage and review counts per repo, so the page can count only the repos a viewer picks.
+  const perRepo = (p, repo) => ((p.byRepo = p.byRepo || {})[repo] = p.byRepo[repo] || { io: 0, ic: new Set(), rv: new Set() });
 
   for (const repo of repos) {
     const s = stores[repo];
@@ -442,7 +444,7 @@ export function compute(repos, stores, aliases = {}) {
       for (const [login, type, state, at] of pr.r || []) {
         if (!login || isBotLogin(login, type) || login.toLowerCase() === pr.a.toLowerCase() || state === 'PENDING') continue;
         const r = byLogin(login);
-        r.reviews++; r.reviewedPrs.add(`${repo}#${num}`);
+        r.reviews++; r.reviewedPrs.add(`${repo}#${num}`); perRepo(r, repo).rv.add(num);
         if (state === 'APPROVED') r.approvals++;
         if (at) r.days.add(etDay(at));
       }
@@ -451,6 +453,7 @@ export function compute(repos, stores, aliases = {}) {
       if (!is.a || isBotLogin(is.a, is.at)) continue;
       const p = byLogin(is.a);
       p.issuesOpened++;
+      perRepo(p, repo).io++;
       if (is.sr === 'COMPLETED') p.issuesCompleted++;
       p.days.add(etDay(is.c));
     }
@@ -458,7 +461,7 @@ export function compute(repos, stores, aliases = {}) {
       if (!c.u || isBotLogin(c.u, c.ut)) continue;
       const p = byLogin(c.u);
       p.comments++;
-      if (!prNumbers.has(c.n)) p.commentedIssues.add(`${repo}#${c.n}`);
+      if (!prNumbers.has(c.n)) { p.commentedIssues.add(`${repo}#${c.n}`); perRepo(p, repo).ic.add(c.n); }
       p.days.add(etDay(c.c));
     }
     for (const c of Object.values(s.reviewComments)) {
@@ -513,6 +516,7 @@ export function compute(repos, stores, aliases = {}) {
 
   const rows = [];
   const personAreas = [];
+  const repoCounts = [];
   for (const p of people.values()) {
     const days = [...p.days].sort();
     if (!days.length && !p.landed) continue;
@@ -540,9 +544,14 @@ export function compute(repos, stores, aliases = {}) {
       main_area: main[0], main_area_share: areaSum ? Math.round((100 * main[1]) / areaSum) : 0, files_touched: p.files,
     });
     for (const [area, n] of areaList) personAreas.push({ name: p.name, area, commits: n });
+    if (p.identity === 'GitHub account') {
+      for (const [repo, c] of Object.entries(p.byRepo || {})) {
+        if (c.io || c.ic.size || c.rv.size) repoCounts.push({ login: p.name, repo, issues_opened: c.io, issues_commented: c.ic.size, prs_reviewed: c.rv.size });
+      }
+    }
   }
   rows.sort((a, b) => b.prs_merged - a.prs_merged || b.commits - a.commits || a.name.localeCompare(b.name));
-  return { rows, areas, personAreas, winners };
+  return { rows, areas, personAreas, winners, repoCounts };
 }
 
 // ---------- output ----------
@@ -618,7 +627,7 @@ async function main() {
   }
 
   const repos = repoList.map((r) => r.name);
-  const { rows, areas, personAreas, winners } = compute(repos, stores, aliases);
+  const { rows, areas, personAreas, winners, repoCounts } = compute(repos, stores, aliases);
   const peopleCols = Object.keys(rows[0] || { name: '' });
   await writeFile(join(OUT, 'people.csv'), toCsv(rows, peopleCols));
   await writeFile(join(OUT, 'areas.csv'), toCsv(areas, ['area', 'commits', 'people', 'leader', 'leader_commits', 'leader_share', 'second', 'second_commits']));
@@ -626,6 +635,8 @@ async function main() {
   await writeFile(join(OUT, 'daily_winners.csv'), toCsv(winners, ['day', 'login', 'merged_prs']));
   // Same shape the dashboard's GitHub counts file has always had.
   await writeFile(join(OUT, 'gh_counts.csv'), toCsv(rows.filter((r) => r.login), ['login', 'issues_opened', 'issues_commented', 'prs_reviewed']));
+  // The same counts split by repo, for the page's repo filter.
+  await writeFile(join(OUT, 'gh_counts_by_repo.csv'), toCsv(repoCounts, ['login', 'repo', 'issues_opened', 'issues_commented', 'prs_reviewed']));
   const totals = {
     people: rows.length, prs_merged: rows.reduce((s, r) => s + r.prs_merged, 0), commits: rows.reduce((s, r) => s + r.commits, 0),
     comments: rows.reduce((s, r) => s + r.comments, 0), reviews: rows.reduce((s, r) => s + r.reviews, 0),

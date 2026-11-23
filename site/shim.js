@@ -4,6 +4,7 @@
   const FILES = {
     people: 'data/people.csv', areas: 'data/areas.csv', person_areas: 'data/person_areas.csv',
     gh_counts: 'data/gh_counts.csv', updated: 'data/meta.csv',
+    activity: 'data/activity.csv', repos: 'data/repos.csv', gh_by_product: 'data/gh_counts_by_product.csv',
   };
   const results = {};
   const calcs = [];
@@ -17,7 +18,17 @@
       try { fn(node); } catch (e) { console.error('drawing ' + name + ' failed', e); }
     });
   };
+  const compute = () => {
+    for (const [id, spec] of calcs) {
+      const inputs = spec.inputs.map((i) => results[i]);
+      if (inputs.some((r) => !r || r.status !== 'ok')) { results[id] = { status: 'error', data: null }; continue; }
+      try { results[id] = { status: 'ok', data: spec.fn(...inputs.map((r) => r.data)) }; }
+      catch (e) { console.error('calc ' + id + ' failed', e); results[id] = { status: 'error', data: null }; }
+    }
+  };
   window.dash = {
+    // Work the derived tables out again (for example after the repo selection changed) and redraw everything.
+    recalc() { if (!ready) return; compute(); Object.keys(draws).forEach(run); },
     calc(id, spec) { calcs.push([id, spec]); },
     draw(name, fn) { if (fn) draws[name] = fn; run(name); },
     data(id) {
@@ -42,13 +53,8 @@
         results[id] = { status: 'error', data: [], message: String(e.message || e) };
       }
     }));
-    for (const [id, spec] of calcs) {
-      const inputs = spec.inputs.map((i) => results[i]);
-      if (inputs.some((r) => !r || r.status !== 'ok')) { results[id] = { status: 'error', data: null }; continue; }
-      try { results[id] = { status: 'ok', data: spec.fn(...inputs.map((r) => r.data)) }; }
-      catch (e) { console.error('calc ' + id + ' failed', e); results[id] = { status: 'error', data: null }; }
-    }
     ready = true;
+    compute();
     Object.keys(draws).forEach(run);
   });
 })();

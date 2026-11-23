@@ -57,7 +57,7 @@ jobs:
         id: counts
         continue-on-error: true
         timeout-minutes: 45
-        run: node pipeline/alltime.mjs --org tangency-labs --extra NeoTech/Camcraft:main --no-git --cache work/api-cache --out work/counts
+        run: node pipeline/alltime.mjs --org tangency-labs --extra NeoTech/Camcraft:main,dutchman-cad/dutchman:main,cadmpeg/cadmpeg:main --no-git --cache work/api-cache --out work/counts
         env:
           # The built-in token allows 1,000 requests an hour. A read-only personal token saved as the
           # LEADERBOARD_TOKEN secret allows 5,000 and makes the first sync much faster.
@@ -68,6 +68,7 @@ jobs:
         run: |
           mkdir -p work/state
           cp work/counts/gh_counts.csv work/state/gh_counts.csv
+          cp work/counts/gh_counts_by_repo.csv work/state/gh_counts_by_repo.csv
           node pipeline/learn-aliases.mjs work/api-cache work/state/aliases_learned.json
 
       - name: Save for the next run

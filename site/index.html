@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SolidCraft suite · All-time leaderboard</title>
-<meta name="description" content="Everyone who built SolidCraft, SolidCore, FieldCraft, PCBCraft and CamCraft, ranked by merged PRs, kernel work, triage, reviews and more. Updates every hour.">
+<meta name="description" content="Everyone who built SolidCraft, SolidCore, FieldCraft, PCBCraft, CamCraft, Dutchman and cadmpeg, ranked by merged PRs, kernel work, triage, reviews and more. Updates every hour.">
 <meta property="og:title" content="The people who built the suite">
 <meta property="og:description" content="All-time leaderboard for the SolidCraft suite. Updates every hour.">
 <meta name="theme-color" content="#181c24">
@@ -140,6 +140,32 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
 .tl-chip.FieldCraft { color: #e8c46a; border-color: rgba(232, 196, 106, 0.45); }
 .tl-chip.PCBCraft { color: #5fcf8a; border-color: rgba(95, 207, 138, 0.45); }
 .tl-chip.CamCraft { color: #c3a4f5; border-color: rgba(195, 164, 245, 0.45); }
+.tl-chip.Dutchman { color: #f0a35e; border-color: rgba(240, 163, 94, 0.45); }
+.tl-chip.cadmpeg { color: #5ec8d8; border-color: rgba(94, 200, 216, 0.45); }
+
+/* repo switches */
+.tl-switchbar { position: sticky; top: 0; z-index: 5; margin: calc(-1 * clamp(20px, 3vw, 36px)) 0; padding: 12px 0;
+  background: rgba(24, 28, 36, 0.92); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.tl-switches { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+@media (max-width: 760px) {
+  .tl-switches { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 calc(-1 * clamp(16px, 4vw, 56px)); padding: 0 clamp(16px, 4vw, 56px); }
+  .tl-switches::-webkit-scrollbar { display: none; }
+  .tl-switch, .tl-switch-k, .tl-switch-all { flex: none; }
+}
+.tl-switch-k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--subtle); margin-right: 4px; }
+.tl-switch { --c: var(--muted); font: inherit; font-size: 14px; font-weight: 500; display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: transparent; color: var(--subtle); cursor: pointer; user-select: none; -webkit-user-select: none; min-height: 36px; }
+.tl-switch::before { content: ''; width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--c); box-sizing: border-box; }
+.tl-switch[aria-pressed="true"] { color: var(--ink); border-color: color-mix(in srgb, var(--c) 55%, transparent); background: color-mix(in srgb, var(--c) 12%, transparent); }
+.tl-switch[aria-pressed="true"]::before { background: var(--c); }
+.tl-switch:hover { border-color: var(--c); }
+.tl-switch:focus-visible, .tl-switch-all:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.tl-switch small { font-family: var(--mono); font-size: 11px; color: var(--subtle); font-weight: 400; }
+.tl-switch.SolidCraft { --c: #96bef5; } .tl-switch.FieldCraft { --c: #e8c46a; } .tl-switch.PCBCraft { --c: #5fcf8a; }
+.tl-switch.CamCraft { --c: #c3a4f5; } .tl-switch.Dutchman { --c: #f0a35e; } .tl-switch.cadmpeg { --c: #5ec8d8; }
+.tl-switch-all { font: inherit; font-size: 13px; background: none; border: 0; color: var(--link); cursor: pointer; padding: 6px 4px; min-height: 36px; }
+.tl-switch-all[disabled] { color: var(--subtle); cursor: default; opacity: 0.6; }
+.tl-switch-hint { color: var(--subtle); font-size: 14px; margin: 10px 0 0; max-width: 60em; }
 .tl-bar { height: 6px; border-radius: 3px; background: var(--blue); min-width: 2px; }
 .tl-barcell { width: 120px; }
 
@@ -167,13 +193,18 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
   <header id="top">
     <p class="tl-eyebrow">Tangency Labs · All-time leaderboard</p>
     <h1 class="tl-h1">The people who <em>built the suite.</em></h1>
-    <p class="tl-lede" data-read lang="en"><b data-draw="h_people" data-source="totals" data-field="people" data-row="0">—</b> contributors have landed <b data-draw="h_prs" data-source="totals" data-field="prs" data-row="0">—</b> pull requests across SolidCraft, SolidCore, FieldCraft, PCBCraft and CamCraft since October 7. Every one of them counts here.</p>
+    <p class="tl-lede" data-read lang="en"><b data-draw="h_people" data-source="totals" data-field="people" data-row="0">—</b> contributors have landed <b data-draw="h_prs" data-source="totals" data-field="prs" data-row="0">—</b> pull requests across <span data-draw="h_products">SolidCraft, SolidCore, FieldCraft, PCBCraft, CamCraft, Dutchman and cadmpeg</span> since <span data-draw="h_since">—</span>. Every one of them counts here.</p>
+    <p class="tl-switch-hint">Use the switches below to choose which projects count: click one to count it or leave it out, double-click to count only that one. Every number on the page follows, and the link keeps your pick.</p>
     <div class="tl-meta">
       <span class="tl-live">Updates every hour</span>
       <span>Last update <span data-draw="h_updated" data-source="updated" data-field="generated_at" data-row="0">—</span></span>
       <span>Rankings follow the daily board: maintainers listed separately</span>
     </div>
   </header>
+
+  <nav class="tl-switchbar" aria-label="Repos counted">
+    <div class="tl-switches" data-draw="repo_switches"></div>
+  </nav>
 
   <section class="tl-strip" id="totals">
     <div><div class="tl-k">Contributors</div><div class="tl-v" data-draw="t_people" data-source="totals" data-field="people" data-row="0">—</div></div>
@@ -197,13 +228,15 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
     <h2 class="tl-h2">Every way to top the board.</h2>
     <p class="tl-sub">Contributors only; maintainers have their own section below. Each card shows the holder and the next two.</p>
     <div class="tl-belts">
-      <div class="tl-belt" id="title-prs"><div class="tl-belt-head"><div><div class="tl-belt-no">Merged PRs</div><div class="tl-belt-name">All-time leader</div><div class="tl-belt-what">Merged PRs, every product</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_prs" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-prs"><div class="tl-belt-head"><div><div class="tl-belt-no">Merged PRs</div><div class="tl-belt-name">All-time leader</div><div class="tl-belt-what">Merged PRs, every project counted</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_prs" data-source="awards avatars"></div></div>
       <div class="tl-belt" id="title-recent"><div class="tl-belt-head"><div><div class="tl-belt-no">Last 7 days</div><div class="tl-belt-name">Hot hand</div><div class="tl-belt-what">Merged PRs in the past week</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_recent" data-source="awards avatars"></div></div>
-      <div class="tl-belt" id="title-solidcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCraft</div><div class="tl-belt-name">SolidCraft champion</div><div class="tl-belt-what">Merged PRs in SolidCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_solidcraft" data-source="awards avatars"></div></div>
-      <div class="tl-belt" id="title-kernel"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCore</div><div class="tl-belt-name">Kernel master</div><div class="tl-belt-what">Commits that changed the geometry kernel</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_kernel" data-source="awards avatars"></div></div>
-      <div class="tl-belt" id="title-fieldcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">FieldCraft</div><div class="tl-belt-name">FieldCraft champion</div><div class="tl-belt-what">Merged PRs in FieldCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_fieldcraft" data-source="awards avatars"></div></div>
-      <div class="tl-belt" id="title-pcbcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">PCBCraft</div><div class="tl-belt-name">PCBCraft champion</div><div class="tl-belt-what">Merged PRs in PCBCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_pcbcraft" data-source="awards avatars"></div></div>
-      <div class="tl-belt" id="title-camcraft"><div class="tl-belt-head"><div><div class="tl-belt-no">CamCraft</div><div class="tl-belt-name">CamCraft champion</div><div class="tl-belt-what">Merged PRs in CamCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_camcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-solidcraft" data-product="SolidCraft"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCraft</div><div class="tl-belt-name">SolidCraft champion</div><div class="tl-belt-what">Merged PRs in SolidCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_solidcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-kernel" data-product="SolidCraft"><div class="tl-belt-head"><div><div class="tl-belt-no">SolidCore</div><div class="tl-belt-name">Kernel master</div><div class="tl-belt-what">Commits that changed the geometry kernel</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_kernel" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-fieldcraft" data-product="FieldCraft"><div class="tl-belt-head"><div><div class="tl-belt-no">FieldCraft</div><div class="tl-belt-name">FieldCraft champion</div><div class="tl-belt-what">Merged PRs in FieldCraft</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_fieldcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-pcbcraft" data-product="PCBCraft"><div class="tl-belt-head"><div><div class="tl-belt-no">PCBCraft</div><div class="tl-belt-name">PCBCraft champion</div><div class="tl-belt-what">Merged PRs in PCBCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_pcbcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-camcraft" data-product="CamCraft"><div class="tl-belt-head"><div><div class="tl-belt-no">CamCraft</div><div class="tl-belt-name">CamCraft champion</div><div class="tl-belt-what">Merged PRs in CamCraft</div></div><span class="tl-badge close">Close</span></div><div class="tl-belt-body" data-draw="aw_camcraft" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-dutchman" data-product="Dutchman"><div class="tl-belt-head"><div><div class="tl-belt-no">Dutchman</div><div class="tl-belt-name">Dutchman champion</div><div class="tl-belt-what">Merged PRs in Dutchman</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_dutchman" data-source="awards avatars"></div></div>
+      <div class="tl-belt" id="title-cadmpeg" data-product="cadmpeg"><div class="tl-belt-head"><div><div class="tl-belt-no">cadmpeg</div><div class="tl-belt-name">cadmpeg champion</div><div class="tl-belt-what">Merged PRs in cadmpeg</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_cadmpeg" data-source="awards avatars"></div></div>
       <div class="tl-belt" id="title-triage"><div class="tl-belt-head"><div><div class="tl-belt-no">Triage</div><div class="tl-belt-name">Triage king</div><div class="tl-belt-what">Issues they've commented on</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_triage" data-source="awards avatars"></div></div>
       <div class="tl-belt" id="title-hunter"><div class="tl-belt-head"><div><div class="tl-belt-no">Bug reports</div><div class="tl-belt-name">Bug hunter</div><div class="tl-belt-what">Issues they've opened</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_hunter" data-source="awards avatars"></div></div>
       <div class="tl-belt" id="title-reviews"><div class="tl-belt-head"><div><div class="tl-belt-no">Reviews</div><div class="tl-belt-name">Top reviewer</div><div class="tl-belt-what">Other people's PRs they reviewed</div></div><span class="tl-badge exact">Exact</span></div><div class="tl-belt-body" data-draw="aw_reviews" data-source="awards avatars"></div></div>
@@ -225,15 +258,8 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
   <section id="rankings">
     <p class="tl-eyebrow">04 / Rankings</p>
     <h2 class="tl-h2">Everyone, every stat.</h2>
-    <p class="tl-sub">Click a column to rank by it; click again to flip. Arrows show movement in merged-PR rank since yesterday (UTC).</p>
+    <p class="tl-sub">Click a column to rank by it; click again to flip. Arrows show movement in merged-PR rank since yesterday (UTC), shown while every project is counted.</p>
     <div class="tl-controls">
-      <select class="dash-select" id="tl-product" aria-label="Product">
-        <option value="">All products</option>
-        <option value="SolidCraft">SolidCraft</option>
-        <option value="FieldCraft">FieldCraft</option>
-        <option value="PCBCraft">PCBCraft</option>
-        <option value="CamCraft">CamCraft</option>
-      </select>
       <input class="tl-input" id="tl-find" type="search" placeholder="Find a name" aria-label="Find a name">
       <label class="tl-check"><input type="checkbox" id="tl-maint"> Include maintainers</label>
       <span class="tl-count" data-draw="board_count"></span>
@@ -247,11 +273,13 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
           <th class="tl-barcell"></th>
           <th class="num" data-field="prs_7d" data-col="prs_7d"><button class="tl-sortbtn">7 days</button></th>
           <th class="num" data-field="commits" data-col="commits"><button class="tl-sortbtn">Commits</button></th>
-          <th class="num" data-field="solidcraft_prs" data-col="solidcraft_prs"><button class="tl-sortbtn">SolidCraft</button></th>
-          <th class="num" data-field="kernel_commits" data-col="kernel_commits"><button class="tl-sortbtn">Kernel</button></th>
-          <th class="num" data-field="fieldcraft_prs" data-col="fieldcraft_prs"><button class="tl-sortbtn">FieldCraft</button></th>
-          <th class="num" data-field="pcbcraft_prs" data-col="pcbcraft_prs"><button class="tl-sortbtn">PCBCraft</button></th>
-          <th class="num" data-field="camcraft_prs" data-col="camcraft_prs"><button class="tl-sortbtn">CamCraft</button></th>
+          <th class="num" data-field="solidcraft_prs" data-col="solidcraft_prs" data-product="SolidCraft"><button class="tl-sortbtn">SolidCraft</button></th>
+          <th class="num" data-field="kernel_commits" data-col="kernel_commits" data-product="SolidCraft"><button class="tl-sortbtn">Kernel</button></th>
+          <th class="num" data-field="fieldcraft_prs" data-col="fieldcraft_prs" data-product="FieldCraft"><button class="tl-sortbtn">FieldCraft</button></th>
+          <th class="num" data-field="pcbcraft_prs" data-col="pcbcraft_prs" data-product="PCBCraft"><button class="tl-sortbtn">PCBCraft</button></th>
+          <th class="num" data-field="camcraft_prs" data-col="camcraft_prs" data-product="CamCraft"><button class="tl-sortbtn">CamCraft</button></th>
+          <th class="num" data-field="dutchman_prs" data-col="dutchman_prs" data-product="Dutchman"><button class="tl-sortbtn">Dutchman</button></th>
+          <th class="num" data-field="cadmpeg_prs" data-col="cadmpeg_prs" data-product="cadmpeg"><button class="tl-sortbtn">cadmpeg</button></th>
           <th class="num" data-field="issues_commented" data-col="issues_commented"><button class="tl-sortbtn">Triage</button></th>
           <th class="num" data-field="issues_opened" data-col="issues_opened"><button class="tl-sortbtn">Issues</button></th>
           <th class="num" data-field="prs_reviewed" data-col="prs_reviewed"><button class="tl-sortbtn">Reviews</button></th>
@@ -283,9 +311,9 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
   <section id="areas">
     <p class="tl-eyebrow">06 / Divisions</p>
     <h2 class="tl-h2">Who owns which part.</h2>
-    <p class="tl-sub">SolidCraft split by folder; the other products count as one area each. Commits are counted by the files they changed.</p>
+    <p class="tl-sub">SolidCraft split by folder; the other projects count as one area each. Commits are counted by the files they changed.</p>
     <div class="tl-table-wrap">
-      <table class="tl-table" data-source="areas" data-row-key="area">
+      <table class="tl-table" data-source="areas_view" data-row-key="area">
         <thead><tr><th data-field="area">Area</th><th data-field="leader">Leader</th><th class="num" data-field="leader_commits">Commits</th><th class="num" data-field="leader_share">Share %</th><th data-field="second">Next</th><th class="num" data-field="second_commits">Commits</th><th class="num" data-field="commits">All</th><th class="num" data-field="people">People</th></tr></thead>
         <tbody data-draw="area_rows"></tbody>
       </table>
@@ -300,23 +328,24 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
       <table class="tl-table tl-defs">
         <thead><tr><th>Stat</th><th>What's counted</th><th>Certainty</th></tr></thead>
         <tbody>
-          <tr><td>Merged PRs</td><td>SolidCraft and FieldCraft squash each PR into one commit ending in "(#number)", authored by the PR's author. PCBCraft and CamCraft keep merge commits titled "Merge pull request #n from owner/branch", credited to the branch owner.</td><td><span class="tl-badge exact">Exact</span> for SolidCraft and FieldCraft</td></tr>
+          <tr><td>Merged PRs</td><td>SolidCraft, FieldCraft, Dutchman and cadmpeg squash each PR into one commit ending in "(#number)", authored by the PR's author. PCBCraft and CamCraft keep merge commits titled "Merge pull request #n from owner/branch", credited to the branch owner.</td><td><span class="tl-badge exact">Exact</span> for SolidCraft, FieldCraft, Dutchman and cadmpeg</td></tr>
           <tr><td>PCBCraft and CamCraft PRs</td><td>As above. PRs from branches inside the project's own repo don't name a person, so they go to the author of the branch's last commit.</td><td><span class="tl-badge close">Close</span></td></tr>
           <tr><td>Last 7 days</td><td>Merged PRs whose merge landed on main in the 7 days before the last update.</td><td><span class="tl-badge exact">Exact</span></td></tr>
           <tr><td>Commits</td><td>Commits on main they authored, merge commits left out. SolidCore's repo copies SolidCraft's kernel commits, so those count once.</td><td><span class="tl-badge exact">Exact</span></td></tr>
           <tr><td>Kernel commits</td><td>Commits that changed SolidCraft's geometry-kernel folders (solidcore, kernel, smlib, geom, goldens, difftest) and kernel test cases.</td><td><span class="tl-badge exact">Exact</span></td></tr>
-          <tr><td>Triage</td><td>Issues they commented on, in any of the repos. It counts issues, not individual comments.</td><td><span class="tl-badge exact">Exact</span></td></tr>
-          <tr><td>Issues</td><td>Issues they opened in any of the repos.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Triage</td><td>Issues they commented on, in the repos being counted. It counts issues, not individual comments.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Issues</td><td>Issues they opened in the repos being counted.</td><td><span class="tl-badge exact">Exact</span></td></tr>
           <tr><td>Reviews</td><td>Other people's PRs they left at least one review on. Plain comments aren't reviews.</td><td><span class="tl-badge exact">Exact</span></td></tr>
-          <tr><td>Streak, days, best day</td><td>UTC days with at least one commit they authored on main in any repo; a streak is consecutive days.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Streak, days, best day</td><td>UTC days with at least one commit they authored on main in the repos being counted; a streak is consecutive days.</td><td><span class="tl-badge exact">Exact</span></td></tr>
           <tr><td>Main area</td><td>The area, by files changed, with most of their commits, docs and tests left out.</td><td><span class="tl-badge exact">Exact</span> for folders; the grouping is a choice</td></tr>
           <tr><td>Rank movement</td><td>Change in merged-PR rank among contributors since the last update of the previous UTC day.</td><td><span class="tl-badge exact">Exact</span></td></tr>
+          <tr><td>Repo switches</td><td>The switches at the top choose which projects count. Every number, rank and title is worked out again from only those projects' commits, PRs, issues and reviews. "Other repos" is the rest of tangency-labs (website, models, library and so on).</td><td></td></tr>
           <tr><td>Identity</td><td>Commits are tied to people by GitHub account. A commit email GitHub can't tie to an account joins one only when the same full name was used on that account's linked commits; the few left over stay under the email's name.</td><td><span class="tl-badge exact">Exact</span> for accounts; <span class="tl-badge close">Close</span> for name matches</td></tr>
           <tr><td>Maintainers</td><td>bherbruck and jyviko (Tangency Labs) and NeoTech (CamCraft's owner), as on the official daily board.</td><td></td></tr>
         </tbody>
       </table>
     </div>
-    <p class="tl-foot">Repos: every public tangency-labs repo (forks of outside code left out) plus NeoTech/Camcraft. Counts measure volume, much of it agent-written, not difficulty or impact. Everything updates every hour from git and GitHub's API.</p>
+    <p class="tl-foot">Repos: every public tangency-labs repo (forks of outside code left out) plus NeoTech/Camcraft, dutchman-cad/dutchman and cadmpeg/cadmpeg. Counts measure volume, much of it agent-written, not difficulty or impact. Everything updates every hour from git and GitHub's API.</p>
   </section>
 
   <footer class="tl-foot" id="tl-source">Built from public git history and GitHub's API.</footer>
@@ -325,41 +354,128 @@ th[aria-sort="ascending"] .tl-sortbtn::after { content: '▴'; }
 </div>
 
 <script>
+// Which projects count. Kept in window.__tlSel; the URL's #repos=... remembers a partial pick.
+window.TL = {
+  OTHER: 'Other',
+  products(repos) { return [...new Set(repos.map((r) => r.product))]; },
+  selection(repos) {
+    const all = TL.products(repos);
+    if (!window.__tlSel) {
+      const m = location.hash.match(/repos=([^&]*)/);
+      const want = m ? decodeURIComponent(m[1]).split(',').filter((p) => all.includes(p)) : [];
+      window.__tlSel = new Set(want.length ? want : all);
+    }
+    const sel = window.__tlSel;
+    return {all, sel, every: all.every((p) => sel.has(p))};
+  },
+  key(product) { return String(product).toLowerCase() + '_prs'; },
+  streak(days) {
+    let best = 0, cur = 0, prev = null;
+    for (const d of days) {
+      const t = Date.parse(d + 'T00:00:00Z');
+      cur = prev !== null && t - prev === 86400000 ? cur + 1 : 1;
+      best = Math.max(best, cur); prev = t;
+    }
+    return best;
+  },
+};
+
 dash.calc('board', {
   title: 'Leaderboard',
-  description: 'Each person from git history, joined by GitHub login to their issue, triage and review counts.',
-  inputs: ['people', 'gh_counts'],
-  fn: (people, gh) => {
-    const byLogin = new Map(gh.map((g) => [String(g.login).toLowerCase(), g]));
+  description: 'Each person, counting only the projects switched on: git activity per day, areas, and issue, triage and review counts.',
+  inputs: ['people', 'activity', 'gh_counts', 'gh_by_product', 'person_areas', 'repos'],
+  fn: (people, activity, gh, ghp, personAreas, repos) => {
+    const {all, sel, every} = TL.selection(repos);
     const num = (v) => (v === null || v === undefined || v === '' ? null : +v);
-    const ints = ['prs_merged', 'prs_7d', 'commits', 'solidcraft_prs', 'fieldcraft_prs', 'pcbcraft_prs', 'camcraft_prs', 'kernel_commits', 'products', 'landed_for_others', 'active_days', 'longest_streak', 'best_day', 'best_week', 'main_area_share'];
-    return people.map((p) => {
-      const row = {name: p.name, login: p.login || '', identity: p.identity, maintainer: p.maintainer === 'yes', product_list: p.product_list || '',
-        best_day_date: p.best_day_date, first_day: p.first_day, last_day: p.last_day, main_area: p.main_area,
-        rank: num(p.rank), rank_change: num(p.rank_change)};
-      ints.forEach((k) => { row[k] = +p[k] || 0; });
-      const g = p.login ? byLogin.get(String(p.login).toLowerCase()) : null;
-      const known = gh.length > 0 && p.login;
-      row.issues_opened = g ? num(g.issues_opened) : known ? 0 : null;
-      row.issues_commented = g ? num(g.issues_commented) : known ? 0 : null;
-      row.prs_reviewed = g ? num(g.prs_reviewed) : known ? 0 : null;
-      return row;
-    });
+    const agg = new Map();
+    for (const a of activity) {
+      if (!sel.has(a.product)) continue;
+      let g = agg.get(a.id);
+      if (!g) agg.set(a.id, g = {commits: 0, prs: 0, prs_7d: 0, kernel: 0, landed: 0, files: 0, prsBy: {}, touched: new Set(), days: new Map()});
+      const c = +a.commits || 0, pr = +a.prs || 0;
+      g.commits += c; g.prs += pr; g.prs_7d += +a.prs_7d || 0; g.kernel += +a.kernel || 0; g.landed += +a.landed || 0; g.files += +a.files || 0;
+      g.prsBy[a.product] = (g.prsBy[a.product] || 0) + pr;
+      if (c || pr) g.touched.add(a.product);
+      if (c) g.days.set(a.day, (g.days.get(a.day) || 0) + c);
+    }
+    const areasOf = new Map();
+    for (const r of personAreas) {
+      if (!sel.has(r.product)) continue;
+      const m = areasOf.get(r.id) || new Map();
+      m.set(r.area, (m.get(r.area) || 0) + (+r.commits || 0));
+      areasOf.set(r.id, m);
+    }
+    // Issue, triage and review counts: split by project when synced, else only for "everything".
+    const byLogin = new Map();
+    if (ghp.length) {
+      for (const g of ghp) {
+        if (!sel.has(g.product)) continue;
+        const k = String(g.login).toLowerCase();
+        const v = byLogin.get(k) || {issues_opened: 0, issues_commented: 0, prs_reviewed: 0};
+        v.issues_opened += +g.issues_opened || 0; v.issues_commented += +g.issues_commented || 0; v.prs_reviewed += +g.prs_reviewed || 0;
+        byLogin.set(k, v);
+      }
+    } else if (every) {
+      for (const g of gh) byLogin.set(String(g.login).toLowerCase(), {issues_opened: num(g.issues_opened), issues_commented: num(g.issues_commented), prs_reviewed: num(g.prs_reviewed)});
+    }
+    const haveGh = ghp.length > 0 || (every && gh.length > 0);
+    const NON_CODE = new Set(['Docs and planning', 'Tests and tooling']);
+    const rows = [];
+    for (const p of people) {
+      const g = agg.get(p.id);
+      if (!g || !(g.commits || g.prs || g.landed)) continue;
+      const days = [...g.days.keys()].sort();
+      let bestDay = ['', 0];
+      for (const [d, n] of g.days) if (n > bestDay[1] || (n === bestDay[1] && d > bestDay[0])) bestDay = [d, n];
+      const areaList = [...(areasOf.get(p.id) || new Map())].sort((a, b) => b[1] - a[1]);
+      const main = areaList.find(([a]) => !NON_CODE.has(a)) || areaList[0] || ['', 0];
+      const areaSum = areaList.reduce((s, [, n]) => s + n, 0);
+      const touched = all.filter((x) => g.touched.has(x));
+      const row = {
+        id: p.id, name: p.name, login: p.login || '', identity: p.identity, maintainer: p.maintainer === 'yes',
+        prs_merged: g.prs, prs_7d: g.prs_7d, commits: g.commits, kernel_commits: g.kernel, landed_for_others: g.landed, files_touched: g.files,
+        products: touched.filter((x) => x !== TL.OTHER).length, product_list: touched.join(' / '),
+        active_days: days.length, longest_streak: TL.streak(days), best_day: bestDay[1], best_day_date: bestDay[0],
+        first_day: days[0] || null, last_day: days[days.length - 1] || null,
+        main_area: main[0], main_area_share: areaSum ? Math.round((100 * main[1]) / areaSum) : 0,
+        rank_change: every ? num(p.rank_change) : null,
+      };
+      all.filter((x) => x !== TL.OTHER).forEach((x) => { row[TL.key(x)] = g.prsBy[x] || 0; });
+      const c = p.login ? byLogin.get(String(p.login).toLowerCase()) : null;
+      const known = haveGh && p.login;
+      row.issues_opened = c ? c.issues_opened : known ? 0 : null;
+      row.issues_commented = c ? c.issues_commented : known ? 0 : null;
+      row.prs_reviewed = c ? c.prs_reviewed : known ? 0 : null;
+      rows.push(row);
+    }
+    // Merged-PR rank among contributors, ties sharing a place, like the daily board.
+    let rank = 0, last = null;
+    rows.filter((r) => !r.maintainer).sort((a, b) => b.prs_merged - a.prs_merged || b.commits - a.commits)
+      .forEach((r, i) => { if (r.prs_merged !== last) { rank = i + 1; last = r.prs_merged; } r.rank = rank; });
+    rows.forEach((r) => { if (r.maintainer) r.rank = null; });
+    return rows;
   },
 });
 
 dash.calc('totals', {
   title: 'Totals',
-  description: 'Contributors, merged PRs and commits, all time and in the last 7 days.',
-  inputs: ['board'],
-  fn: (board) => {
+  description: 'Contributors, merged PRs and commits in the projects being counted, all time and in the last 7 days.',
+  inputs: ['board', 'repos'],
+  fn: (board, repos) => {
     if (!board.length) return [];
+    const {all, sel, every} = TL.selection(repos);
+    const names = all.filter((p) => sel.has(p)).map((p) => (p === 'SolidCraft' ? 'SolidCraft, SolidCore' : p === TL.OTHER ? 'other Tangency Labs repos' : p));
+    const list = every ? 'SolidCraft, SolidCore, FieldCraft, PCBCraft, CamCraft, Dutchman and cadmpeg'
+      : names.length > 1 ? names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1] : names[0];
+    const firsts = board.map((p) => p.first_day).filter(Boolean).sort();
     return [{
       people: board.length,
       prs: d3.sum(board, (p) => p.prs_merged),
       prs_7d: d3.sum(board, (p) => p.prs_7d),
       commits: d3.sum(board, (p) => p.commits),
       hundred_club: board.filter((p) => p.prs_merged >= 100).length,
+      products: list,
+      since: firsts[0] || '',
     }];
   },
 });
@@ -367,8 +483,8 @@ dash.calc('totals', {
 dash.calc('awards', {
   title: 'Title holders',
   description: 'The top 3 contributors (maintainers left out) for each title; ties broken by merged PRs.',
-  inputs: ['board', 'updated'],
-  fn: (board, meta) => {
+  inputs: ['board', 'updated', 'repos'],
+  fn: (board, meta, repos) => {
     const out = [];
     const people = board.filter((r) => !r.maintainer);
     const cutoff = meta[0] ? new Date(meta[0].generated_at) : new Date();
@@ -381,11 +497,8 @@ dash.calc('awards', {
     };
     podium('prs', 'prs_merged');
     podium('recent', 'prs_7d');
-    podium('solidcraft', 'solidcraft_prs');
     podium('kernel', 'kernel_commits');
-    podium('fieldcraft', 'fieldcraft_prs');
-    podium('pcbcraft', 'pcbcraft_prs');
-    podium('camcraft', 'camcraft_prs');
+    TL.products(repos).filter((p) => p !== TL.OTHER).forEach((p) => podium(p.toLowerCase(), TL.key(p)));
     podium('triage', 'issues_commented');
     podium('hunter', 'issues_opened');
     podium('reviews', 'prs_reviewed');
@@ -395,6 +508,29 @@ dash.calc('awards', {
     podium('rookie', 'prs_merged', {where: (r) => r.first_day >= monthAgo, detail: (r) => r.first_day});
     podium('og', 'prs_merged', {where: (r) => r.prs_merged >= 20 && r.first_day, sort: (a, b) => (a.first_day < b.first_day ? -1 : a.first_day > b.first_day ? 1 : b.prs_merged - a.prs_merged), detail: (r) => r.first_day});
     return out;
+  },
+});
+
+dash.calc('areas_view', {
+  title: 'Divisions',
+  description: 'Commits per area in the projects being counted, with the top two people in each.',
+  inputs: ['person_areas', 'people', 'repos'],
+  fn: (personAreas, people, repos) => {
+    const {sel} = TL.selection(repos);
+    const names = new Map(people.map((p) => [p.id, p.name]));
+    const byArea = new Map();
+    for (const r of personAreas) {
+      if (!sel.has(r.product)) continue;
+      const m = byArea.get(r.area) || new Map();
+      m.set(r.id, (m.get(r.id) || 0) + (+r.commits || 0));
+      byArea.set(r.area, m);
+    }
+    return [...byArea].map(([area, m]) => {
+      const list = [...m].sort((a, b) => b[1] - a[1]);
+      const total = d3.sum(list, (x) => x[1]);
+      return {area, commits: total, people: list.length, leader: names.get(list[0][0]) || '?', leader_commits: list[0][1],
+        leader_share: Math.round((100 * list[0][1]) / total), second: list[1] ? names.get(list[1][0]) || '?' : '', second_commits: list[1] ? list[1][1] : 0};
+    }).sort((a, b) => b.commits - a.commits);
   },
 });
 </script>
@@ -439,6 +575,58 @@ dash.calc('awards', {
   }
   [['h_people', 'people'], ['h_prs', 'prs'], ['t_people', 'people'], ['t_prs', 'prs'], ['t_recent', 'prs_7d'], ['t_commits', 'commits'], ['t_hundred', 'hundred_club']].forEach(([n, f]) => fig(n, 'totals', f));
   fig('h_updated', 'updated', 'generated_at', 'time');
+  dash.draw('h_products', (node) => { const d = dash.data('totals'); if (d.status === 'ok' && d.data && d.data[0]) node.textContent = d.data[0].products; });
+  dash.draw('h_since', (node) => { const d = dash.data('totals'); node.textContent = d.status === 'ok' && d.data && d.data[0] && d.data[0].since ? d3.utcFormat('%B %-d, %Y')(new Date(d.data[0].since + 'T00:00:00Z')) : '—'; });
+
+  // Project switches: which projects count. Every number on the page follows them.
+  const reposData = () => { const d = dash.data('repos'); return d.status === 'ok' ? d.data : []; };
+  const setSelection = (set) => {
+    const all = TL.products(reposData());
+    window.__tlSel = set;
+    const every = all.every((p) => set.has(p));
+    const hash = every ? '' : '#repos=' + all.filter((p) => set.has(p)).map(encodeURIComponent).join(',');
+    try { history.replaceState(null, '', location.pathname + location.search + hash); } catch (e) { /* file:// or sandboxed */ }
+    dash.recalc();
+  };
+  const switchCounts = () => {
+    const d = dash.data('activity');
+    const out = {};
+    if (d.status === 'ok') for (const a of d.data) out[a.product] = (out[a.product] || 0) + (+a.prs || 0);
+    return out;
+  };
+  dash.draw('repo_switches', (node) => {
+    const repos = reposData();
+    if (!repos.length) { node.replaceChildren(); return; }
+    const {all, sel, every} = TL.selection(repos);
+    const prs = switchCounts();
+    node.replaceChildren(el('span', 'tl-switch-k', 'Counting'));
+    all.forEach((p) => {
+      const b = el('button', 'tl-switch ' + p);
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(sel.has(p)));
+      b.title = repos.filter((r) => r.product === p).map((r) => r.slug || r.repo).join('\n');
+      b.append(document.createTextNode(p === TL.OTHER ? 'Other repos' : p), el('small', '', fmt(prs[p] || 0)));
+      b.addEventListener('click', () => {
+        const next = new Set(window.__tlSel);
+        if (next.has(p)) { if (next.size > 1) next.delete(p); } else next.add(p);
+        setSelection(next);
+      });
+      b.addEventListener('dblclick', () => setSelection(new Set([p])));
+      node.append(b);
+    });
+    const allBtn = el('button', 'tl-switch-all', 'All');
+    allBtn.setAttribute('aria-label', 'Count every project');
+    allBtn.type = 'button';
+    allBtn.disabled = every;
+    allBtn.addEventListener('click', () => setSelection(new Set(all)));
+    node.append(allBtn);
+    // Titles and table columns for projects left out are hidden.
+    document.querySelectorAll('[data-product]').forEach((e) => { e.hidden = !sel.has(e.dataset.product); });
+    if (document.querySelector('#tl-board th[data-col="' + window.__tl.sort + '"]')?.hidden) {
+      window.__tl.sort = 'prs_merged'; window.__tl.dir = 'desc';
+      document.querySelectorAll('#tl-board th[data-col]').forEach((h) => { if (h.dataset.col === 'prs_merged') h.setAttribute('aria-sort', 'descending'); else h.removeAttribute('aria-sort'); });
+    }
+  });
 
   const contributors = (rows) => rows.filter((r) => !r.maintainer).sort((a, b) => b.prs_merged - a.prs_merged || b.commits - a.commits);
 
@@ -487,7 +675,7 @@ dash.calc('awards', {
 
   // 02 Title holders.
   const unit = {
-    prs: 'PRs', recent: 'PRs', solidcraft: 'PRs', kernel: 'commits', fieldcraft: 'PRs', pcbcraft: 'PRs', camcraft: 'PRs',
+    prs: 'PRs', recent: 'PRs', solidcraft: 'PRs', kernel: 'commits', fieldcraft: 'PRs', pcbcraft: 'PRs', camcraft: 'PRs', dutchman: 'PRs', cadmpeg: 'PRs',
     triage: 'issues', hunter: 'issues', reviews: 'PRs', streak: 'days', day: 'commits', multi: 'products', rookie: 'PRs', og: 'PRs',
   };
   const detail = {
@@ -502,7 +690,7 @@ dash.calc('awards', {
       if (d.status === 'error') return failNote(node, 'this title');
       if (d.status !== 'ok' || !d.data) return;
       const rows = d.data.filter((r) => r.award === award).sort((a, b) => a.rank - b.rank);
-      if (!rows.length) { node.append(el('p', 'tl-empty', ghAward[award] ? 'Waiting on GitHub counts.' : 'Nobody yet.')); return; }
+      if (!rows.length) { node.append(el('p', 'tl-empty', ghAward[award] ? 'Nobody yet in these projects, or GitHub counts are still syncing.' : 'Nobody yet.')); return; }
       const map = pics();
       const h = rows[0];
       const holder = el('div', 'tl-holder');
@@ -533,7 +721,9 @@ dash.calc('awards', {
     if (d.status === 'error') return failNote(node, 'the maintainers');
     if (d.status !== 'ok' || !d.data) return;
     const map = pics();
-    d.data.filter((r) => r.maintainer).sort((a, b) => b.prs_merged - a.prs_merged).forEach((m) => {
+    const keepers = d.data.filter((r) => r.maintainer);
+    if (!keepers.length) node.append(el('p', 'tl-empty', 'No maintainer work in the projects being counted.'));
+    keepers.sort((a, b) => b.prs_merged - a.prs_merged).forEach((m) => {
       const card = el('div', 'tl-keeper');
       const txt = el('div');
       const facts = [fmt(m.prs_merged) + ' merged PRs', fmt(m.landed_for_others) + ' landed for others'];
@@ -547,7 +737,7 @@ dash.calc('awards', {
 
   // 04 Rankings.
   const textCols = {name: 1, first_day: 1, main_area: 1};
-  window.__tl = window.__tl || {sort: 'prs_merged', dir: 'desc', product: '', find: '', maint: false};
+  window.__tl = window.__tl || {sort: 'prs_merged', dir: 'desc', find: '', maint: false};
   const st = window.__tl;
   document.querySelectorAll('#tl-board th[data-col]').forEach((th) => {
     const b = th.querySelector('button');
@@ -563,13 +753,11 @@ dash.calc('awards', {
       dash.draw('board_rows'); dash.draw('board_count');
     });
   });
-  document.querySelectorAll('#tl-product').forEach((s) => s.addEventListener('change', () => { st.product = s.value; dash.draw('board_rows'); dash.draw('board_count'); }));
   document.querySelectorAll('#tl-find').forEach((s) => s.addEventListener('input', () => { st.find = s.value.trim().toLowerCase(); dash.draw('board_rows'); dash.draw('board_count'); }));
   document.querySelectorAll('#tl-maint').forEach((s) => s.addEventListener('change', () => { st.maint = s.checked; dash.draw('board_rows'); dash.draw('board_count'); }));
 
   function view(data) {
     let rows = data.filter((r) => st.maint || !r.maintainer);
-    if (st.product) rows = rows.filter((r) => r.product_list.split(' / ').includes(st.product));
     const col = st.sort, dir = st.dir === 'desc' ? -1 : 1;
     rows = rows.slice().sort((a, b) => {
       const va = a[col], vb = b[col];
@@ -588,11 +776,12 @@ dash.calc('awards', {
     if (st.find) rows = rows.filter((r) => String(r.name).toLowerCase().includes(st.find) || String(r.login).toLowerCase().includes(st.find));
     return {rows, all, ranks};
   }
-  const numCols = ['prs_7d', 'commits', 'solidcraft_prs', 'kernel_commits', 'fieldcraft_prs', 'pcbcraft_prs', 'camcraft_prs', 'issues_commented', 'issues_opened', 'prs_reviewed', 'longest_streak', 'active_days'];
+  const numCols = ['prs_7d', 'commits', 'solidcraft_prs', 'kernel_commits', 'fieldcraft_prs', 'pcbcraft_prs', 'camcraft_prs', 'dutchman_prs', 'cadmpeg_prs', 'issues_commented', 'issues_opened', 'prs_reviewed', 'longest_streak', 'active_days'];
+  const colProduct = {solidcraft_prs: 'SolidCraft', kernel_commits: 'SolidCraft', fieldcraft_prs: 'FieldCraft', pcbcraft_prs: 'PCBCraft', camcraft_prs: 'CamCraft', dutchman_prs: 'Dutchman', cadmpeg_prs: 'cadmpeg'};
   dash.draw('board_rows', (tb) => {
     const d = dash.data('board');
     tb.replaceChildren();
-    if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 18; td.className = 'tl-fail'; td.textContent = "Couldn't load the rankings."; return; }
+    if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 20; td.className = 'tl-fail'; td.textContent = "Couldn't load the rankings."; return; }
     if (d.status !== 'ok' || !d.data) return;
     const {rows, ranks} = view(d.data);
     const map = pics();
@@ -617,18 +806,19 @@ dash.calc('awards', {
       const bar = el('div', 'tl-bar'); bar.style.width = Math.max(1, (r.prs_merged / max) * 100) + '%'; bc.append(bar);
       numCols.forEach((c) => {
         const td = tr.insertCell(); td.className = 'num' + (c === st.sort ? ' tl-strong' : '');
+        if (colProduct[c] && !window.__tlSel.has(colProduct[c])) td.hidden = true;
         td.textContent = r[c] === null || r[c] === undefined ? '' : fmt(r[c]);
       });
       tr.insertCell().textContent = dayText(r.first_day);
       tr.insertCell().textContent = r.main_area ? r.main_area + ' · ' + r.main_area_share + '%' : '';
     });
-    if (!rows.length) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 18; td.textContent = 'No one matches.'; }
+    if (!rows.length) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 20; td.textContent = 'No one matches.'; }
   });
   dash.draw('board_count', (node) => {
     const d = dash.data('board');
     if (d.status !== 'ok' || !d.data) { node.textContent = ''; return; }
     const {rows, all} = view(d.data);
-    node.textContent = fmt(rows.length) + ' of ' + fmt(all) + (st.product ? ' in ' + st.product : '');
+    node.textContent = fmt(rows.length) + ' of ' + fmt(all);
   });
 
   // 05 Player card.
@@ -637,7 +827,7 @@ dash.calc('awards', {
     const d = dash.data('board');
     const rows = d.status === 'ok' && d.data ? d.data.slice().sort((a, b) => b.prs_merged - a.prs_merged || String(a.name).localeCompare(String(b.name))) : [];
     sel.replaceChildren(...rows.map((r) => new Option(r.name + ' (' + fmt(r.prs_merged) + ' PRs)', r.name)));
-    if (!window.__tlPerson && rows[0]) window.__tlPerson = (contributors(rows)[0] || rows[0]).name;
+    if (!rows.some((r) => r.name === window.__tlPerson)) window.__tlPerson = rows[0] ? (contributors(rows)[0] || rows[0]).name : '';
     sel.value = window.__tlPerson;
     sel.onchange = () => { window.__tlPerson = sel.value; dash.draw('person_card'); dash.draw('person_bars'); };
   });
@@ -665,11 +855,15 @@ dash.calc('awards', {
   });
   dash.draw('person_bars', (node) => {
     const d = dash.data('person_areas');
+    const b = dash.data('board');
     node.replaceChildren();
-    if (d.status === 'error') return failNote(node, 'their areas');
-    if (d.status !== 'ok' || !d.data) return;
-    const rows = d.data.filter((r) => r.name === window.__tlPerson).map((r) => ({area: r.area, n: +r.commits})).sort((a, b) => b.n - a.n);
-    if (!rows.length) { node.append(el('p', 'tl-empty', 'No commits of their own on main; their credit is for PRs or merges.')); return; }
+    if (d.status === 'error' || b.status === 'error') return failNote(node, 'their areas');
+    if (d.status !== 'ok' || !d.data || b.status !== 'ok' || !b.data) return;
+    const who = b.data.find((x) => x.name === window.__tlPerson);
+    const sums = new Map();
+    if (who) for (const r of d.data) if (r.id === who.id && window.__tlSel.has(r.product)) sums.set(r.area, (sums.get(r.area) || 0) + (+r.commits || 0));
+    const rows = [...sums].map(([area, n]) => ({area, n})).sort((a, b) => b.n - a.n);
+    if (!rows.length) { node.append(el('p', 'tl-empty', 'No commits of their own on main in these projects; their credit is for PRs or merges.')); return; }
     const max = d3.max(rows, (r) => r.n) || 1;
     rows.forEach((r) => {
       const row = el('div', 'tl-barrow');
@@ -682,7 +876,7 @@ dash.calc('awards', {
 
   // 06 Divisions.
   dash.draw('area_rows', (tb) => {
-    const d = dash.data('areas');
+    const d = dash.data('areas_view');
     tb.replaceChildren();
     if (d.status === 'error') { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 8; td.className = 'tl-fail'; td.textContent = "Couldn't load this table."; return; }
     if (d.status !== 'ok' || !d.data) return;

@@ -12,6 +12,8 @@ cd "$W"
 export GIT_LFS_SKIP_SMUDGE=1
 
 cp "$ROOT/pipeline/analyze2.py" "$ROOT/pipeline/aliases_hashed.json" "$ROOT/pipeline/gh_counts.json" .
+# Issue, triage and review counts per repo: the synced ones when available, else the starting copy.
+if [ -f state/gh_counts_by_repo.csv ]; then cp state/gh_counts_by_repo.csv .; else cp "$ROOT/pipeline/gh_counts_by_repo.csv" .; fi
 if [ -f state/aliases_learned.json ]; then cp state/aliases_learned.json .; else rm -f aliases_learned.json; fi
 
 # Rank movement is measured against the last build of the previous UTC day.
@@ -26,7 +28,7 @@ else
   cp "$ROOT/pipeline/people_prev.csv" people_prev.csv; printf '2026-11-23T01:45:29Z' > people_prev.at
 fi
 
-# name, GitHub repo, branch. Every public tangency-labs repo with history, plus CamCraft.
+# name, GitHub repo, branch. Every public tangency-labs repo with history, plus CamCraft, Dutchman and cadmpeg.
 # The solidcore repo is left out: it copies SolidCraft's kernel commits.
 REPOS=(
   "solidcraft tangency-labs/solidcraft main"
@@ -35,6 +37,8 @@ REPOS=(
   "pcbcraft-gpl tangency-labs/pcbcraft-gpl main"
   "pcbcraft-app tangency-labs/pcbcraft-app main"
   "camcraft NeoTech/Camcraft main"
+  "dutchman dutchman-cad/dutchman main"
+  "cadmpeg cadmpeg/cadmpeg main"
   "solidcore-viewer tangency-labs/solidcore-viewer main"
   "website tangency-labs/website main"
   "models tangency-labs/models main"
@@ -46,6 +50,7 @@ REPOS=(
   "solidcraft-app tangency-labs/solidcraft-app main"
   "solidcraft-app-rc tangency-labs/solidcraft-app-rc main"
 )
+: > repo_slugs.txt
 for entry in "${REPOS[@]}"; do
   read -r name slug branch <<<"$entry"
   dir="repos/$name"
@@ -57,6 +62,7 @@ for entry in "${REPOS[@]}"; do
   git -C "$dir" log "$branch" --format='%H%x1f%aN%x1f%aE%x1f%cN%x1f%cE%x1f%aI%x1f%s%x1f%cI%x1e' > "logs_$name.txt"
   git -C "$dir" log "$branch" --format='%x1e%H' --name-only --no-renames > "files_$name.txt"
   git -C "$dir" log "$branch" --format='%H %P' > "parents_$name.txt"
+  echo "$name $slug" >> repo_slugs.txt
   echo "$name: $(git -C "$dir" rev-list --count "$branch") commits"
 done
 
@@ -83,5 +89,5 @@ open('state/snap.at', 'w').write(m['generated_at'])
 open('state/snap.day', 'w').write(sys.argv[1])
 EOF
 
-cp people.csv areas.csv person_areas.csv gh_counts.csv meta.csv "$ROOT/site/data/"
+cp people.csv areas.csv person_areas.csv activity.csv repos.csv gh_counts.csv gh_counts_by_product.csv meta.csv "$ROOT/site/data/"
 echo "done: $(tail -1 meta.csv)"

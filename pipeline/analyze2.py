@@ -18,11 +18,13 @@ PRODUCT = {
     'solidcraft': 'SolidCraft', 'fieldcraft': 'FieldCraft',
     'pcbcraft': 'PCBCraft', 'pcbcraft-gpl': 'PCBCraft', 'pcbcraft-app': 'PCBCraft',
     'camcraft': 'CamCraft',  # NeoTech/Camcraft, the CAM app in the SolidCraft suite
+    'dutchman': 'Dutchman',  # dutchman-cad/dutchman, CAD format conversion
+    'cadmpeg': 'cadmpeg',  # cadmpeg/cadmpeg, the CAD transcoder Dutchman builds on
 }
 OTHER_REPOS = ['website', 'models', 'solidcore-goldens', 'design', 'leaderboard', 'solidcraft-library',
                'homebrew-tap', 'solidcraft-app', 'solidcraft-app-rc', 'solidcore-viewer']
-REPOS = ['solidcraft', 'fieldcraft', 'pcbcraft', 'pcbcraft-gpl', 'pcbcraft-app', 'camcraft'] + OTHER_REPOS
-REPO_OWNERS = {'tangency-labs', 'neotech'}  # branches inside these accounts' own repos name no person
+REPOS = ['solidcraft', 'fieldcraft', 'pcbcraft', 'pcbcraft-gpl', 'pcbcraft-app', 'camcraft', 'dutchman', 'cadmpeg'] + OTHER_REPOS
+REPO_OWNERS = {'tangency-labs', 'neotech', 'dutchman-cad', 'cadmpeg'}  # branches inside these accounts' own repos name no person
 # The solidcore repo is a mirror of SolidCraft's kernel folder (3,742 of its 3,743 commits are the
 # same commits), so it is not read again; kernel work is counted from SolidCraft's own paths.
 
@@ -152,6 +154,18 @@ def ident_or_name(name, email):
     return k, d, h
 area_people = collections.defaultdict(collections.Counter)
 login_display = {}
+# Per person, product and UTC day, so the page can count any mix of products:
+# [commits, merged PRs, merged PRs in the last 7 days, kernel commits, landed for others, files].
+activity = collections.defaultdict(lambda: [0, 0, 0, 0, 0, 0])
+person_product_areas = collections.Counter()  # (person, product, area) -> commits
+
+
+def utc_day(iso):
+    return str(datetime.datetime.fromisoformat(iso).astimezone(datetime.timezone.utc).date())
+
+
+def recent(iso):
+    return (CUTOFF - datetime.datetime.fromisoformat(iso)).days < RECENT_DAYS
 
 for repo in REPOS:
     if not os.path.exists(f'logs_{repo}.txt'):
@@ -178,12 +192,16 @@ for repo in REPOS:
             st['org_branch_prs'] = st.get('org_branch_prs', 0) + (1 if login.lower() in REPO_OWNERS else 0)
             st['prs'] += 1
             st['prs_by'][prod] += 1
-            if (CUTOFF - datetime.datetime.fromisoformat(c['landed'])).days < RECENT_DAYS:
+            a = activity[(k, prod, utc_day(c['landed']))]
+            a[1] += 1
+            if recent(c['landed']):
                 st['recent'] += 1
+                a[2] += 1
             if not is_bot(c['an'], c['ae']):
                 mk, md, mh = ident_or_name(c['an'], c['ae'])
                 if mk != k:
                     people[mk]['landed'] += 1
+                    activity[(mk, prod, utc_day(c['landed']))][4] += 1
                     people[mk]['display'][md] += 1
                     people[mk]['how'].add(mh)
             continue
@@ -205,8 +223,11 @@ for repo in REPOS:
         if squash:
             st['prs'] += 1
             st['prs_by'][prod] += 1
-            if (CUTOFF - datetime.datetime.fromisoformat(c['landed'])).days < RECENT_DAYS:
+            a = activity[(k, prod, utc_day(c['landed']))]
+            a[1] += 1
+            if recent(c['landed']):
                 st['recent'] += 1
+                a[2] += 1
             rest = c['s'][:squash.start()]
             if re.search(r'#\d+', rest):
                 st['naming_issue'] += 1
@@ -214,14 +235,21 @@ for repo in REPOS:
         st['days'][d] += 1
         iso = d.isocalendar()
         st['weeks'][f'{iso[0]}-W{iso[1]:02d}'] += 1
-        for a in areas_for(repo, fl):
-            st['areas'][a] += 1
-            area_people[a][k] += 1
+        a = activity[(k, prod, str(d))]
+        a[0] += 1
+        a[5] += len(fl)
+        for ar in areas_for(repo, fl):
+            st['areas'][ar] += 1
+            area_people[ar][k] += 1
+            person_product_areas[(k, prod, ar)] += 1
+            if ar == 'Geometry kernel (SolidCore)':
+                a[3] += 1
         # Pushed or rebased someone else's commit onto main (not GitHub's merge button).
         if c['cn'] != 'GitHub' and not is_bot(c['cn'], c['ce']) and 'noreply@github.com' != c['ce'].lower():
             ck, cd, ch = ident_or_name(c['cn'], c['ce'])
             if ck != k:
                 people[ck]['landed'] += 1
+                activity[(ck, prod, utc_day(c['landed']))][4] += 1
                 people[ck]['display'][cd] += 1
                 people[ck]['how'].add(ch)
 
@@ -254,6 +282,7 @@ for k, st in people.items():
     total_area = sum(st['areas'].values())
     products = sorted(set(list(st['prs_by']) + list(st['commits_by'])))
     rows.append(dict(
+        _key=k,
         name=display_name(st),
         login=login,
         identity='GitHub account' if login else 'Email only',
@@ -300,7 +329,11 @@ for r in rows:
     r['prev_rank'] = p if p else ''
     r['rank_change'] = (p - r['rank']) if (p and r['rank'] != '') else ''
 
-cols = list(rows[0].keys())
+# A public number for each person, used to join the files below (person keys can hold emails).
+for i, r in enumerate(rows):
+    r['id'] = i + 1
+pid = {r['_key']: r['id'] for r in rows}
+cols = ['id'] + [c for c in rows[0].keys() if c not in ('id', '_key')]
 with open('people.csv', 'w', newline='') as f:
     w = csv.writer(f, lineterminator='\n')
     w.writerow(cols)
@@ -320,12 +353,17 @@ with open('areas.csv', 'w', newline='') as f:
 
 with open('person_areas.csv', 'w', newline='') as f:
     w = csv.writer(f, lineterminator='\n')
-    w.writerow(['name', 'area', 'commits'])
-    for k, st in people.items():
-        if st['commits'] == 0:
-            continue
-        for a, n in st['areas'].most_common():
-            w.writerow([names[k].replace(',', ' '), a, n])
+    w.writerow(['id', 'product', 'area', 'commits'])
+    for (k, prod, a), n in sorted(person_product_areas.items(), key=lambda x: (pid.get(x[0][0], 0), x[0][1], -x[1])):
+        if k in pid:
+            w.writerow([pid[k], prod, a, n])
+
+with open('activity.csv', 'w', newline='') as f:
+    w = csv.writer(f, lineterminator='\n')
+    w.writerow(['id', 'product', 'day', 'commits', 'prs', 'prs_7d', 'kernel', 'landed', 'files'])
+    for (k, prod, day), v in sorted(activity.items(), key=lambda x: (pid.get(x[0][0], 0), x[0][1], x[0][2])):
+        if k in pid and any(v):
+            w.writerow([pid[k], prod, day] + [n or '' for n in v])
 
 with open('gh_counts.csv', 'w', newline='') as f:
     w = csv.writer(f, lineterminator='\n')
@@ -334,6 +372,30 @@ with open('gh_counts.csv', 'w', newline='') as f:
         l = r['login'].lower()
         if r['login'] and (l in gh_lower['issues'] or l in gh_lower['comments'] or l in gh_lower['reviews']):
             w.writerow([r['login'], gh_lower['issues'].get(l, 0), gh_lower['comments'].get(l, ''), gh_lower['reviews'].get(l, '')])
+# The repos behind each product, for the page's product switches.
+slugs = dict(l.split() for l in open('repo_slugs.txt') if l.strip()) if os.path.exists('repo_slugs.txt') else {}
+with open('repos.csv', 'w', newline='') as f:
+    w = csv.writer(f, lineterminator='\n')
+    w.writerow(['product', 'repo', 'slug'])
+    for r in REPOS:
+        if os.path.exists(f'logs_{r}.txt'):
+            w.writerow([PRODUCT.get(r, 'Other'), r, slugs.get(r, '')])
+
+# Issue, triage and review counts from GitHub's API, per repo, added up per product.
+# The solidcore repo holds SolidCraft's kernel, so its issues and reviews count for SolidCraft.
+API_PRODUCT = dict(PRODUCT, solidcore='SolidCraft')
+by_product = collections.defaultdict(lambda: [0, 0, 0])
+if os.path.exists('gh_counts_by_repo.csv'):
+    for r in csv.DictReader(open('gh_counts_by_repo.csv')):
+        v = by_product[(r['login'], API_PRODUCT.get(r['repo'].lower(), 'Other'))]
+        for i, c in enumerate(('issues_opened', 'issues_commented', 'prs_reviewed')):
+            v[i] += int(r[c] or 0)
+with open('gh_counts_by_product.csv', 'w', newline='') as f:
+    w = csv.writer(f, lineterminator='\n')
+    w.writerow(['login', 'product', 'issues_opened', 'issues_commented', 'prs_reviewed'])
+    for (login, prod), v in sorted(by_product.items(), key=lambda x: (x[0][0].lower(), x[0][1])):
+        w.writerow([login, prod] + v)
+
 json.dump({'generated_at': CUTOFF.strftime('%Y-%m-%dT%H:%M:%SZ'), 'previous_from': prev_from if prev else '', 'people': len(rows),
            'prs_merged': sum(r['prs_merged'] for r in rows), 'commits': sum(r['commits'] for r in rows),
            'repos': ', '.join(r for r in REPOS if os.path.exists(f'logs_{r}.txt'))}, open('meta.json', 'w'))
